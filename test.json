@@ -40,8 +40,8 @@
               "identificator": "card_mc_black"
             },
             "size": {
-              "width": "medium",
-              "height": "medium"
+              "width": "small",
+              "height": "small"
             },
             "margins": {
               "right": "6x"
@@ -93,8 +93,8 @@
               "identificator": "card_visa_digital"
             },
             "size": {
-              "width": "medium",
-              "height": "medium"
+              "width": "small",
+              "height": "small"
             },
             "margins": {
               "right": "6x"
