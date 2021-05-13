@@ -102,7 +102,7 @@
         },
         "bottom_text": {
           "type": "text_cell_view",
-          "text": "Отправь маме 500 рублей",
+          "text": "Отправь мне миллионов пять рублей",
           "typeface": "body3",
           "text_color": "default",
           "max_lines": 3,
