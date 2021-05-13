@@ -125,5 +125,37 @@
     ],
     "columns": 2,
     "item_width": "small"
+  },
+  "suggestions": {
+    "buttons": [
+      {
+        "title": "Отделения",
+        "action": {
+          "text": "Где ближайщие отделения?",
+          "type": "text"
+        }
+      },
+      {
+        "title": "Кредит",
+        "action": {
+          "text": "Оформить заявку на кредит",
+          "type": "text"
+        }
+      },
+      {
+        "title": "Ипотека",
+        "action": {
+          "text": "Оформить заявку на ипотеку",
+          "type": "text"
+        }
+      },
+      {
+        "title": "Банкоматы",
+        "action": {
+          "deep_link": "https://www.google.com/maps/search/банкоматы/",
+          "type": "deep_link"
+        }
+      }
+    ]
   }
 }
