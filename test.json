@@ -1,135 +1,129 @@
 {
   "card": {
-    "type": "list_card",
-    "paddings": {
-      "top": "4x",
-      "bottom": "4x"
-    },
-    "cells": [
+    "type": "grid_card",
+    "items": [
       {
-        "type": "text_cell_view",
-        "content": {
-          "text": "Мои карты",
-          "typeface": "title1",
+        "type": "greeting_grid_item",
+        "top_text": {
+          "type": "text_cell_view",
+          "text": "СОБЕСЕДНИК",
+          "typeface": "caption",
           "text_color": "default"
         },
+        "bottom_text": {
+          "type": "text_cell_view",
+          "text": "Какая высота Эвереста?",
+          "typeface": "body3",
+          "text_color": "default",
+          "max_lines": 3,
+          "margins": {
+            "top": "4x"
+          }
+        },
         "paddings": {
-          "left": "8x",
           "top": "6x",
-          "right": "8x",
+          "left": "6x",
+          "right": "6x",
           "bottom": "6x"
-        }
+        },
+        "actions": [
+          {
+            "text": "Какая высота Эвереста?"
+          }
+        ]
       },
       {
-        "type": "left_right_cell_view",
-        "divider": {
-          "style": "default",
-          "size": "d5"
+        "type": "greeting_grid_item",
+        "top_text": {
+          "type": "text_cell_view",
+          "text": "КОШЕЛЕК",
+          "typeface": "caption",
+          "text_color": "default"
         },
-        "paddings": {
-          "left": "8x",
-          "top": "8x",
-          "right": "8x",
-          "bottom": "8x"
-        },
-        "left": {
-          "type": "simple_left_view",
-          "icon": {
-            "address": {
-              "type": "local",
-              "identificator": "card_mc_black"
-            },
-            "size": {
-              "width": "small",
-              "height": "small"
-            },
-            "margins": {
-              "right": "6x"
-            }
-          },
-          "icon_vertical_gravity": "center",
-          "texts": {
-            "title": {
-              "text": "MasterCard Gold зарплатная",
-              "typeface": "body1",
-              "text_color": "default"
-            },
-            "subtitle": {
-              "text": "•• 1234",
-              "typeface": "footnote1",
-              "text_color": "secondary",
-              "margins": {
-                "top": "1x"
-              }
-            }
+        "bottom_text": {
+          "type": "text_cell_view",
+          "text": "Сколько у меня денег?",
+          "typeface": "body3",
+          "text_color": "default",
+          "max_lines": 3,
+          "margins": {
+            "top": "4x"
           }
         },
-        "right": {
-          "type": "detail_right_view",
-          "detail": {
-            "text": "1 400 000 000 ₽",
-            "typeface": "body1",
-            "text_color": "brand"
-          },
-          "margins": {
-            "left": "2x"
-          },
-          "vertical_gravity": "top"
-        }
+        "paddings": {
+          "top": "6x",
+          "left": "6x",
+          "right": "6x",
+          "bottom": "6x"
+        },
+        "actions": [
+          {
+            "text": "Сколько у меня денег?"
+          }
+        ]
       },
       {
-        "type": "left_right_cell_view",
-        "paddings": {
-          "left": "8x",
-          "top": "8x",
-          "right": "8x",
-          "bottom": "8x"
+        "type": "greeting_grid_item",
+        "top_text": {
+          "type": "text_cell_view",
+          "text": "ПОГОДА",
+          "typeface": "caption",
+          "text_color": "default"
         },
-        "left": {
-          "type": "simple_left_view",
-          "icon": {
-            "address": {
-              "type": "local",
-              "identificator": "card_visa_digital"
-            },
-            "size": {
-              "width": "small",
-              "height": "small"
-            },
-            "margins": {
-              "right": "6x"
-            }
-          },
-          "icon_vertical_gravity": "center",
-          "texts": {
-            "title": {
-              "text": "Digital Visa",
-              "typeface": "body1",
-              "text_color": "default"
-            },
-            "subtitle": {
-              "text": "•• 8019",
-              "typeface": "footnote1",
-              "text_color": "secondary",
-              "margins": {
-                "top": "1x"
-              }
-            }
+        "bottom_text": {
+          "type": "text_cell_view",
+          "text": "Какая погода вечером в Москве?",
+          "typeface": "body3",
+          "text_color": "default",
+          "max_lines": 3,
+          "margins": {
+            "top": "4x"
           }
         },
-        "right": {
-          "type": "detail_right_view",
-          "detail": {
-            "text": "-603 566 000 ₽",
-            "typeface": "body1",
-            "text_color": "warning"
-          },
+        "paddings": {
+          "top": "6x",
+          "left": "6x",
+          "right": "6x",
+          "bottom": "6x"
+        },
+        "actions": [
+          {
+            "text": "Какая погода вечером в Москве?"
+          }
+        ]
+      },
+      {
+        "type": "greeting_grid_item",
+        "top_text": {
+          "type": "text_cell_view",
+          "text": "ПЕРЕВОД",
+          "typeface": "caption",
+          "text_color": "default"
+        },
+        "bottom_text": {
+          "type": "text_cell_view",
+          "text": "Отправь маме 500 рублей",
+          "typeface": "body3",
+          "text_color": "default",
+          "max_lines": 3,
           "margins": {
-            "left": "2x"
-          },
-          "vertical_gravity": "top"
-        }
+            "top": "4x"
+          }
+        },
+        "paddings": {
+          "top": "6x",
+          "left": "6x",
+          "right": "6x",
+          "bottom": "6x"
+        },
+        "actions": [
+          {
+            "text": "Отправь маме 500 рублей"
+          }
+        ]
       }
-    ]
+    ],
+    "columns": 2,
+    "item_width": "small"
   }
 }
