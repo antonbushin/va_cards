@@ -1,4 +1,5 @@
 {
+  "type": "sdk_answer",
   "items": [
     {
       "card": {
@@ -26,7 +27,7 @@
                 "tint_color": "solid_brand"
               },
               "title": {
-                "text": "Настроить автоплатежи",
+                "text": "Автоплатежи",
                 "typeface": "body1",
                 "text_color": "default",
                 "max_lines": 1,
@@ -47,7 +48,7 @@
             "actions": [
               {
                 "type": "deep_link",
-                "deep_link": "https://www.sberbank.ru/common/img/uploaded/files/chat/smartlink/autopayment_smartlink.html"
+                "deep_link": "{% if device.platformType|lower == 'ios' %}sberbankonline://payments/create-autopayment?internal_source=audiohelper{% else %}android-app://ru.sberbankmobile/android-app/ru.sberbankmobile/payments/auto_payments?internal_source=audiohelper{% endif %}"
               }
             ]
           }
