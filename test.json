@@ -2,153 +2,54 @@
   "items": [
     {
       "card": {
-        "type": "gallery_card",
-        "items": [
+        "type": "list_card",
+        "cells": [
           {
-            "type": "media_gallery_item",
-            "image": {
-              "url": "https://festagent.com/system/tilda/tild3562-6362-4762-b036-653363663832__a01ccf32943f670ef632.jpg",
-              "size": {
-                "width": "medium",
-                "aspect_ratio": 1.42
+            "type": "left_right_cell_view",
+            "left": {
+              "type": "simple_left_view",
+              "icon": {
+                "address": {
+                  "type": "local",
+                  "identificator": "counterclock_wise"
+                },
+                "size": {
+                  "width": "medium",
+                  "height": "medium"
+                },
+                "margins": {
+                  "top": "5x",
+                  "right": "6x",
+                  "bottom": "5x",
+                  "left": "8x"
+                },
+                "tint_color": "solid_brand"
+              },
+              "title": {
+                "text": "Настроить автоплатежи",
+                "typeface": "body1",
+                "text_color": "default",
+                "max_lines": 1,
+                "margins": {
+                  "top": "9x",
+                  "bottom": "9x"
+                }
               }
             },
-            "margins": {
-              "top": "4x",
-              "left": "6x",
-              "right": "6x",
-              "bottom": "5x"
-            },
-            "bottom_text": {
-              "text": "2016, Драма/ЛГБТ",
-              "typeface": "caption",
-              "text_color": "secondary",
-              "max_lines": 1,
+            "right": {
+              "type": "disclosure_right_view",
               "margins": {
-                "top": "2x"
+                "top": "8x",
+                "right": "4x",
+                "bottom": "8x"
               }
             },
-            "top_text": {
-              "text": "Лунный свет",
-              "typeface": "footnote1",
-              "text_color": "default",
-              "max_lines": 2
-            }
-          },
-          {
-            "type": "media_gallery_item",
-            "image": {
-              "url": "https://upload.wikimedia.org/wikipedia/ru/thumb/9/93/Pulp_Fiction.jpg/211px-Pulp_Fiction.jpg",
-              "size": {
-                "width": "medium",
-                "aspect_ratio": 1.42
+            "actions": [
+              {
+                "type": "deep_link",
+                "deep_link": "https://www.sberbank.ru/common/img/uploaded/files/chat/smartlink/autopayment_smartlink.html"
               }
-            },
-            "margins": {
-              "top": "4x",
-              "left": "6x",
-              "right": "6x",
-              "bottom": "5x"
-            },
-            "bottom_text": {
-              "text": "18+ 1994 г, Криминальный фильм/Комедия",
-              "typeface": "caption",
-              "text_color": "secondary",
-              "max_lines": 1,
-              "margins": {
-                "top": "2x"
-              }
-            },
-            "top_text": {
-              "text": "Криминальное чтиво. Режисcерская версия.",
-              "typeface": "footnote1",
-              "text_color": "default",
-              "max_lines": 2
-            }
-          },
-          {
-            "type": "media_gallery_item",
-            "image": {
-              "url": "https://s1.afisha.ru/mediastorage/15/12/70b14e2a3e3c4699bfaf05361215.jpg",
-              "size": {
-                "width": "medium",
-                "aspect_ratio": 1.42
-              }
-            },
-            "margins": {
-              "top": "4x",
-              "left": "6x",
-              "right": "6x",
-              "bottom": "5x"
-            },
-            "bottom_text": {
-              "text": "2014, Научная фантастика/Приключения",
-              "typeface": "caption",
-              "text_color": "secondary",
-              "max_lines": 1,
-              "margins": {
-                "top": "2x"
-              }
-            },
-            "top_text": {
-              "text": "Интерстеллар",
-              "typeface": "footnote1",
-              "text_color": "default",
-              "max_lines": 2
-            }
-          },
-          {
-            "type": "media_gallery_item",
-            "image": {
-              "url": "https://multsforkids.ru/data/uploads/multfilmy/smeshariki1.jpg",
-              "size": {
-                "width": "medium",
-                "aspect_ratio": 1.42
-              }
-            },
-            "margins": {
-              "top": "4x",
-              "left": "6x",
-              "right": "6x",
-              "bottom": "5x"
-            },
-            "top_text": {
-              "text": "Смешарики",
-              "typeface": "footnote1",
-              "text_color": "default",
-              "max_lines": 2
-            }
-          },
-          {
-            "type": "media_gallery_item",
-            "image": {
-              "url": "https://thumbs.dfs.ivi.ru/storage31/contents/8/e/010ea0147875e28b91ef1ff01cd042.jpg",
-              "size": {
-                "width": "medium",
-                "aspect_ratio": 1.42
-              }
-            },
-            "margins": {
-              "top": "4x",
-              "left": "6x",
-              "right": "6x",
-              "bottom": "5x"
-            },
-            "bottom_text": {
-              "text": "2019 г. ‧ Комедия/Драма",
-              "typeface": "caption",
-              "text_color": "secondary",
-              "max_lines": 1,
-              "margins": {
-                "top": "2x"
-              }
-            },
-            "top_text": {
-              "text": "Однажды в Голливуде",
-              "typeface": "footnote1",
-              "text_color": "default",
-              "max_lines": 2
-            }
+            ]
           }
         ]
       }
