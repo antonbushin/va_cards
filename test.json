@@ -12,7 +12,7 @@
               "icon": {
                 "address": {
                   "type": "local",
-                  "identificator": "counterclock_wise"
+                  "identificator": "cards_carousel"
                 },
                 "size": {
                   "width": "medium",
@@ -27,7 +27,7 @@
                 "tint_color": "solid_brand"
               },
               "title": {
-                "text": "Автоплатежи",
+                "text": "Список карт",
                 "typeface": "body1",
                 "text_color": "default",
                 "max_lines": 1,
@@ -48,7 +48,7 @@
             "actions": [
               {
                 "type": "deep_link",
-                "deep_link": "{% if device.platformType|lower == 'ios' %}sberbankonline://payments/create-autopayment?internal_source=audiohelper{% else %}android-app://ru.sberbankmobile/android-app/ru.sberbankmobile/payments/auto_payments?internal_source=audiohelper{% endif %}"
+                "deep_link": "{% if device.platformType|lower == 'ios' %}sberbankonline://payments/block-card-add?internal_source=audiohelper{% else %}legacy-android-app://ru.sberbankmobile/android-app/ru.sberbankmobile/blockcard/add?internal_source=audiohelper{% endif %}"
               }
             ]
           }
