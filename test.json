@@ -54,6 +54,60 @@
           }
         ]
       }
+    },
+    {
+      "card": {
+        "type": "list_card",
+        "cells": [
+          {
+            "type": "left_right_cell_view",
+            "left": {
+              "type": "simple_left_view",
+              "icon": {
+                "address": {
+                  "type": "local",
+                  "identificator": "info"
+                },
+                "size": {
+                  "width": "medium",
+                  "height": "medium"
+                },
+                "margins": {
+                  "top": "5x",
+                  "right": "6x",
+                  "bottom": "5x",
+                  "left": "8x"
+                },
+                "tint_color": "solid_brand"
+              },
+              "title": {
+                "text": "Образец нотариальной доверенности для карт",
+                "typeface": "body1",
+                "text_color": "default",
+                "max_lines": 1,
+                "margins": {
+                  "top": "9x",
+                  "bottom": "9x"
+                }
+              }
+            },
+            "right": {
+              "type": "disclosure_right_view",
+              "margins": {
+                "top": "8x",
+                "right": "4x",
+                "bottom": "8x"
+              }
+            },
+            "actions": [
+              {
+                "type": "deep_link",
+                "deep_link": "https://www.sberbank.ru/common/img/uploaded/_new_site/person/help/doverennosti/%D0%A8%D0%B0%D0%B1%D0%BB%D0%BE%D0%BD_%D0%BD%D0%BE%D1%82%D0%B0%D1%80%D0%B8%D0%B0%D0%BB%D1%8C%D0%BD%D0%BE%D0%B8%CC%86_%D0%B4%D0%BE%D0%B2%D0%B5%D1%80%D0%B5%D0%BD%D0%BD%D0%BE%D1%81%D1%82%D0%B8_%D0%B4%D0%BB%D1%8F_%D0%BA%D0%B0%D1%80%D1%82.docx"
+              }
+            ]
+          }
+        ]
+      }
     }
   ]
 }
