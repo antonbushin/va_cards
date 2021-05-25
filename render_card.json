@@ -1,127 +1,130 @@
-"items": [
-  {
-    "bubble": {
-      "text": "Такую доверенность можно оформить у нотариуса.\nПонадобятся:\n– ваш паспорт;\n– паспортные данные доверенного лица;\n– номера счетов, на которые оформляете доверенность.",
-      "markdown": true,
-      "expand_policy": "auto_expand"
-    }
-  },
-  {
-    "card": {
-      "cells": [
-        {
-          "left": {
-            "icon": {
-              "address": {
-                "identificator": "info",
-                "type": "local"
+{
+  "type": "sdk_answer",
+  "items": [
+    {
+      "bubble": {
+        "text": "Такую доверенность можно оформить у нотариуса.\nПонадобятся:\n– ваш паспорт;\n– паспортные данные доверенного лица;\n– номера счетов, на которые оформляете доверенность.",
+        "markdown": true,
+        "expand_policy": "auto_expand"
+      }
+    },
+    {
+      "card": {
+        "cells": [
+          {
+            "left": {
+              "icon": {
+                "address": {
+                  "identificator": "info",
+                  "type": "local"
+                },
+                "size": {
+                  "width": "medium",
+                  "height": "medium"
+                },
+                "margins": {
+                  "bottom": "5x",
+                  "left": "8x",
+                  "right": "6x",
+                  "top": "5x"
+                },
+                "tint_color": "solid_brand"
               },
-              "size": {
-                "width": "medium",
-                "height": "medium"
+              "icon_vertical_gravity": "center",
+              "title": {
+                "text": "Скачать образец для вкладов",
+                "typeface": "body1",
+                "text_color": "default",
+                "margins": {
+                  "bottom": "9x",
+                  "left": "0x",
+                  "right": "0x",
+                  "top": "9x"
+                },
+                "max_lines": 1
               },
-              "margins": {
-                "bottom": "5x",
-                "left": "8x",
-                "right": "6x",
-                "top": "5x"
-              },
-              "tint_color": "solid_brand"
+              "type": "simple_left_view"
             },
-            "icon_vertical_gravity": "center",
-            "title": {
-              "text": "Скачать образец для вкладов",
-              "typeface": "body1",
-              "text_color": "default",
+            "right": {
               "margins": {
-                "bottom": "9x",
+                "bottom": "8x",
                 "left": "0x",
-                "right": "0x",
-                "top": "9x"
+                "right": "4x",
+                "top": "8x"
               },
-              "max_lines": 1
+              "type": "disclosure_right_view"
             },
-            "type": "simple_left_view"
-          },
-          "right": {
-            "margins": {
-              "bottom": "8x",
-              "left": "0x",
-              "right": "4x",
-              "top": "8x"
+            "actions": [
+              {
+                "deep_link": "https://www.sberbank.ru/ru/person/help/doverennost?tab=docs",
+                "type": "deep_link"
+              }
+            ],
+            "type": "left_right_cell_view"
+          }
+        ],
+        "can_be_disabled": false,
+        "type": "list_card"
+      }
+    },
+    {
+      "card": {
+        "cells": [
+          {
+            "left": {
+              "icon": {
+                "address": {
+                  "identificator": "info",
+                  "type": "local"
+                },
+                "size": {
+                  "width": "medium",
+                  "height": "medium"
+                },
+                "margins": {
+                  "bottom": "5x",
+                  "left": "8x",
+                  "right": "6x",
+                  "top": "5x"
+                },
+                "tint_color": "solid_brand"
+              },
+              "icon_vertical_gravity": "center",
+              "title": {
+                "text": "Скачать образец для карт",
+                "typeface": "body1",
+                "text_color": "default",
+                "margins": {
+                  "bottom": "9x",
+                  "left": "0x",
+                  "right": "0x",
+                  "top": "9x"
+                },
+                "max_lines": 1
+              },
+              "type": "simple_left_view"
             },
-            "type": "disclosure_right_view"
-          },
-          "actions": [
-            {
-              "deep_link": "https://www.sberbank.ru/ru/person/help/doverennost?tab=docs",
-              "type": "deep_link"
-            }
-          ],
-          "type": "left_right_cell_view"
-        }
-      ],
-      "can_be_disabled": false,
-      "type": "list_card"
-    }
-  },
-  {
-    "card": {
-      "cells": [
-        {
-          "left": {
-            "icon": {
-              "address": {
-                "identificator": "info",
-                "type": "local"
-              },
-              "size": {
-                "width": "medium",
-                "height": "medium"
-              },
+            "right": {
               "margins": {
-                "bottom": "5x",
-                "left": "8x",
-                "right": "6x",
-                "top": "5x"
-              },
-              "tint_color": "solid_brand"
-            },
-            "icon_vertical_gravity": "center",
-            "title": {
-              "text": "Скачать образец для карт",
-              "typeface": "body1",
-              "text_color": "default",
-              "margins": {
-                "bottom": "9x",
+                "bottom": "8x",
                 "left": "0x",
-                "right": "0x",
-                "top": "9x"
+                "right": "4x",
+                "top": "8x"
               },
-              "max_lines": 1
+              "type": "disclosure_right_view"
             },
-            "type": "simple_left_view"
-          },
-          "right": {
-            "margins": {
-              "bottom": "8x",
-              "left": "0x",
-              "right": "4x",
-              "top": "8x"
-            },
-            "type": "disclosure_right_view"
-          },
-          "actions": [
-            {
-              "deep_link": "https://www.sberbank.ru/ru/person/help/doverennost?tab=docs",
-              "type": "deep_link"
-            }
-          ],
-          "type": "left_right_cell_view"
-        }
-      ],
-      "can_be_disabled": false,
-      "type": "list_card"
+            "actions": [
+              {
+                "deep_link": "https://www.sberbank.ru/ru/person/help/doverennost?tab=docs",
+                "type": "deep_link"
+              }
+            ],
+            "type": "left_right_cell_view"
+          }
+        ],
+        "can_be_disabled": false,
+        "type": "list_card"
+      }
     }
-  }
-]
+  ]
+}
