@@ -3,7 +3,7 @@
   "items": [
     {
       "bubble": {
-        "text": "Такую доверенность можно оформить у нотариуса.\nПонадобятся:\n– ваш паспорт;\n– паспортные данные доверенного лица;\n– номера счетов, на которые оформляете доверенность.",
+        "text": "Вот, посмотрите",
         "markdown": true,
         "expand_policy": "auto_expand"
       }
@@ -12,10 +12,25 @@
       "card": {
         "cells": [
           {
+            "content": {
+              "text": "Карты",
+              "typeface": "title1",
+              "text_color": "default",
+              "max_lines": 1
+            },
+            "paddings": {
+              "bottom": "6x",
+              "left": "8x",
+              "right": "8x",
+              "top": "6x"
+            },
+            "type": "text_cell_view"
+          },
+          {
             "left": {
               "icon": {
                 "address": {
-                  "identificator": "info",
+                  "identificator": "card_maestro_null",
                   "type": "local"
                 },
                 "size": {
@@ -23,46 +38,347 @@
                   "height": "medium"
                 },
                 "margins": {
-                  "bottom": "5x",
-                  "left": "8x",
+                  "bottom": "0x",
+                  "left": "0x",
                   "right": "6x",
-                  "top": "5x"
+                  "top": "0x"
+                }
+              },
+              "texts": {
+                "title": {
+                  "text": "Maestro",
+                  "typeface": "body1",
+                  "text_color": "default",
+                  "max_lines": 1
                 },
-                "tint_color": "solid_brand"
+                "subtitle": {
+                  "text": "•• 2332 • доп",
+                  "typeface": "footnote1",
+                  "text_color": "secondary",
+                  "margins": {
+                    "bottom": "0x",
+                    "left": "0x",
+                    "right": "0x",
+                    "top": "1x"
+                  },
+                  "max_lines": 1
+                }
               },
               "icon_vertical_gravity": "center",
-              "title": {
-                "text": "Скачать образец для вкладов",
-                "typeface": "body1",
-                "text_color": "default",
-                "margins": {
-                  "bottom": "9x",
-                  "left": "0x",
-                  "right": "0x",
-                  "top": "9x"
-                },
-                "max_lines": 1
-              },
               "type": "simple_left_view"
             },
             "right": {
-              "margins": {
-                "bottom": "8x",
-                "left": "0x",
-                "right": "4x",
-                "top": "8x"
+              "detail": {
+                "text": "5 000 ₽",
+                "typeface": "body1",
+                "text_color": "brand",
+                "max_lines": 1
               },
-              "type": "disclosure_right_view"
+              "margins": {
+                "bottom": "0x",
+                "left": "2x",
+                "right": "0x",
+                "top": "0x"
+              },
+              "vertical_gravity": "top",
+              "detail_position": "top",
+              "type": "detail_right_view"
             },
-            "actions": [
-              {
-                "deep_link": "https://www.sberbank.ru/ru/person/help/doverennost?tab=docs",
-                "type": "deep_link"
-              }
-            ],
+            "divider": {
+              "style": "default",
+              "size": "d5"
+            },
+            "paddings": {
+              "bottom": "8x",
+              "left": "8x",
+              "right": "8x",
+              "top": "8x"
+            },
+            "type": "left_right_cell_view"
+          },
+          {
+            "left": {
+              "icon": {
+                "address": {
+                  "identificator": "card_mc_null",
+                  "type": "local"
+                },
+                "size": {
+                  "width": "medium",
+                  "height": "medium"
+                },
+                "margins": {
+                  "bottom": "0x",
+                  "left": "0x",
+                  "right": "6x",
+                  "top": "0x"
+                }
+              },
+              "texts": {
+                "title": {
+                  "text": "MasterCard Mass MSK",
+                  "typeface": "body1",
+                  "text_color": "default",
+                  "max_lines": 1
+                },
+                "subtitle": {
+                  "text": "•• 9955 • доп",
+                  "typeface": "footnote1",
+                  "text_color": "secondary",
+                  "margins": {
+                    "bottom": "0x",
+                    "left": "0x",
+                    "right": "0x",
+                    "top": "1x"
+                  },
+                  "max_lines": 1
+                }
+              },
+              "icon_vertical_gravity": "center",
+              "type": "simple_left_view"
+            },
+            "right": {
+              "detail": {
+                "text": "1 000 ₽",
+                "typeface": "body1",
+                "text_color": "brand",
+                "max_lines": 1
+              },
+              "margins": {
+                "bottom": "0x",
+                "left": "2x",
+                "right": "0x",
+                "top": "0x"
+              },
+              "vertical_gravity": "top",
+              "detail_position": "top",
+              "type": "detail_right_view"
+            },
+            "divider": {
+              "style": "default",
+              "size": "d5"
+            },
+            "paddings": {
+              "bottom": "8x",
+              "left": "8x",
+              "right": "8x",
+              "top": "8x"
+            },
+            "type": "left_right_cell_view"
+          },
+          {
+            "left": {
+              "icon": {
+                "address": {
+                  "identificator": "card_visa_null",
+                  "type": "local"
+                },
+                "size": {
+                  "width": "medium",
+                  "height": "medium"
+                },
+                "margins": {
+                  "bottom": "0x",
+                  "left": "0x",
+                  "right": "6x",
+                  "top": "0x"
+                }
+              },
+              "texts": {
+                "title": {
+                  "text": "Visa Classic",
+                  "typeface": "body1",
+                  "text_color": "default",
+                  "max_lines": 1
+                },
+                "subtitle": {
+                  "text": "•• 1598 • доп",
+                  "typeface": "footnote1",
+                  "text_color": "secondary",
+                  "margins": {
+                    "bottom": "0x",
+                    "left": "0x",
+                    "right": "0x",
+                    "top": "1x"
+                  },
+                  "max_lines": 1
+                }
+              },
+              "icon_vertical_gravity": "center",
+              "type": "simple_left_view"
+            },
+            "right": {
+              "detail": {
+                "text": "100 000 ₽",
+                "typeface": "body1",
+                "text_color": "brand",
+                "max_lines": 1
+              },
+              "margins": {
+                "bottom": "0x",
+                "left": "2x",
+                "right": "0x",
+                "top": "0x"
+              },
+              "vertical_gravity": "top",
+              "detail_position": "top",
+              "type": "detail_right_view"
+            },
+            "divider": {
+              "style": "default",
+              "size": "d5"
+            },
+            "paddings": {
+              "bottom": "8x",
+              "left": "8x",
+              "right": "8x",
+              "top": "8x"
+            },
+            "type": "left_right_cell_view"
+          },
+          {
+            "left": {
+              "icon": {
+                "address": {
+                  "identificator": "card_mc_null",
+                  "type": "local"
+                },
+                "size": {
+                  "width": "medium",
+                  "height": "medium"
+                },
+                "margins": {
+                  "bottom": "0x",
+                  "left": "0x",
+                  "right": "6x",
+                  "top": "0x"
+                }
+              },
+              "texts": {
+                "title": {
+                  "text": "MasterCard Mass",
+                  "typeface": "body1",
+                  "text_color": "default",
+                  "max_lines": 1
+                },
+                "subtitle": {
+                  "text": "•• 1230 • доп",
+                  "typeface": "footnote1",
+                  "text_color": "secondary",
+                  "margins": {
+                    "bottom": "0x",
+                    "left": "0x",
+                    "right": "0x",
+                    "top": "1x"
+                  },
+                  "max_lines": 1
+                }
+              },
+              "icon_vertical_gravity": "center",
+              "type": "simple_left_view"
+            },
+            "right": {
+              "detail": {
+                "text": "40 000 ₽",
+                "typeface": "body1",
+                "text_color": "brand",
+                "max_lines": 1
+              },
+              "margins": {
+                "bottom": "0x",
+                "left": "2x",
+                "right": "0x",
+                "top": "0x"
+              },
+              "vertical_gravity": "top",
+              "detail_position": "top",
+              "type": "detail_right_view"
+            },
+            "divider": {
+              "style": "default",
+              "size": "d5"
+            },
+            "paddings": {
+              "bottom": "8x",
+              "left": "8x",
+              "right": "8x",
+              "top": "8x"
+            },
+            "type": "left_right_cell_view"
+          },
+          {
+            "left": {
+              "icon": {
+                "address": {
+                  "identificator": "card_mir_null",
+                  "type": "local"
+                },
+                "size": {
+                  "width": "medium",
+                  "height": "medium"
+                },
+                "margins": {
+                  "bottom": "0x",
+                  "left": "0x",
+                  "right": "6x",
+                  "top": "0x"
+                }
+              },
+              "texts": {
+                "title": {
+                  "text": "MIR",
+                  "typeface": "body1",
+                  "text_color": "default",
+                  "max_lines": 1
+                },
+                "subtitle": {
+                  "text": "•• 8454 • доп",
+                  "typeface": "footnote1",
+                  "text_color": "secondary",
+                  "margins": {
+                    "bottom": "0x",
+                    "left": "0x",
+                    "right": "0x",
+                    "top": "1x"
+                  },
+                  "max_lines": 1
+                }
+              },
+              "icon_vertical_gravity": "center",
+              "type": "simple_left_view"
+            },
+            "right": {
+              "detail": {
+                "text": "135 000 ₽",
+                "typeface": "body1",
+                "text_color": "brand",
+                "max_lines": 1
+              },
+              "margins": {
+                "bottom": "0x",
+                "left": "2x",
+                "right": "0x",
+                "top": "0x"
+              },
+              "vertical_gravity": "top",
+              "detail_position": "top",
+              "type": "detail_right_view"
+            },
+            "paddings": {
+              "bottom": "8x",
+              "left": "8x",
+              "right": "8x",
+              "top": "8x"
+            },
             "type": "left_right_cell_view"
           }
         ],
+        "paddings": {
+          "bottom": "4x",
+          "left": "0x",
+          "right": "0x",
+          "top": "4x"
+        },
         "can_be_disabled": false,
         "type": "list_card"
       }
@@ -71,57 +387,51 @@
       "card": {
         "cells": [
           {
-            "left": {
-              "icon": {
-                "address": {
-                  "identificator": "info",
-                  "type": "local"
-                },
-                "size": {
-                  "width": "medium",
-                  "height": "medium"
-                },
-                "margins": {
-                  "bottom": "5x",
-                  "left": "8x",
-                  "right": "6x",
-                  "top": "5x"
-                },
-                "tint_color": "solid_brand"
-              },
-              "icon_vertical_gravity": "center",
-              "title": {
-                "text": "Скачать образец для карт",
-                "typeface": "body1",
-                "text_color": "default",
-                "margins": {
-                  "bottom": "9x",
-                  "left": "0x",
-                  "right": "0x",
-                  "top": "9x"
-                },
-                "max_lines": 1
-              },
-              "type": "simple_left_view"
+            "content": {
+              "text": "Всего доступных средств",
+              "typeface": "headline3",
+              "text_color": "default",
+              "max_lines": 1
             },
-            "right": {
-              "margins": {
-                "bottom": "8x",
-                "left": "0x",
-                "right": "4x",
-                "top": "8x"
-              },
-              "type": "disclosure_right_view"
+            "type": "text_cell_view"
+          },
+          {
+            "content": {
+              "text": "5 карт",
+              "typeface": "footnote1",
+              "text_color": "secondary",
+              "max_lines": 1
             },
-            "actions": [
-              {
-                "deep_link": "https://www.sberbank.ru/ru/person/help/doverennost?tab=docs",
-                "type": "deep_link"
-              }
-            ],
-            "type": "left_right_cell_view"
+            "paddings": {
+              "bottom": "0x",
+              "left": "0x",
+              "right": "0x",
+              "top": "4x"
+            },
+            "type": "text_cell_view"
+          },
+          {
+            "content": {
+              "text": "281 000 ₽",
+              "typeface": "headline1",
+              "text_color": "default",
+              "max_lines": 1
+            },
+            "paddings": {
+              "bottom": "0x",
+              "left": "0x",
+              "right": "0x",
+              "top": "12x"
+            },
+            "type": "text_cell_view"
           }
         ],
+        "paddings": {
+          "bottom": "10x",
+          "left": "8x",
+          "right": "8x",
+          "top": "10x"
+        },
         "can_be_disabled": false,
         "type": "list_card"
       }
