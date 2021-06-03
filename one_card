@@ -1,0 +1,113 @@
+
+{
+  "type": "sdk_answer",
+  "items": [
+    {
+      "bubble": {
+        "text": "Одна карта",
+        "markdown": true,
+        "expand_policy": "auto_expand"
+      }
+    },
+    {
+      "card": {
+        "cells": [
+          {
+            "content": {
+              "text": "Maestro",
+              "typeface": "headline3",
+              "text_color": "default",
+              "margins": {
+                "bottom": "0x",
+                "left": "4x",
+                "right": "0x",
+                "top": "0x"
+              },
+              "max_lines": 0
+            },
+            "paddings": {
+              "bottom": "0x",
+              "left": "8x",
+              "right": "8x",
+              "top": "6x"
+            },
+            "type": "text_cell_view"
+          },
+          {
+            "content": {
+              "text": "•• 3 32 до 07.07.2000",
+              "typeface": "footnote1",
+              "text_color": "secondary",
+              "margins": {
+                "bottom": "0x",
+                "left": "4x",
+                "right": "0x",
+                "top": "0x"
+              },
+              "max_lines": 1
+            },
+            "paddings": {
+              "bottom": "0x",
+              "left": "8x",
+              "right": "8x",
+              "top": "1x"
+            },
+            "type": "text_cell_view"
+          },
+          {
+            "left": {
+              "icon": {
+                "address": {
+                  "identificator": "safe",
+                  "type": "local"
+                },
+                "size": {
+                  "width": "medium",
+                  "height": "medium"
+                },
+                "margins": {
+                  "bottom": "0x",
+                  "left": "0x",
+                  "right": "6x",
+                  "top": "1x"
+                },
+                "tint_color": "solid_brand"
+              },
+              "texts": {
+                "title": {
+                  "text": "5 000 ₽",
+                  "typeface": "headline1",
+                  "text_color": "default",
+                  "margins": {
+                    "bottom": "0x",
+                    "left": "0x",
+                    "right": "0x",
+                    "top": "1x"
+                  },
+                  "max_lines": 1
+                }
+              },
+              "icon_vertical_gravity": "center",
+              "type": "simple_left_view"
+            },
+            "paddings": {
+              "bottom": "0x",
+              "left": "8x",
+              "right": "8x",
+              "top": "4x"
+            },
+            "type": "left_right_cell_view"
+          }
+        ],
+        "paddings": {
+          "bottom": "4x",
+          "left": "0x",
+          "right": "0x",
+          "top": "4x"
+        },
+        "can_be_disabled": false,
+        "type": "list_card"
+      }
+    }
+  ]
+}
