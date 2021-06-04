@@ -19,10 +19,10 @@
               "max_lines": 1
             },
             "paddings": {
-              "bottom": "0x",
+              "bottom": "8x",
               "left": "8x",
               "right": "8x",
-              "top": "0x"
+              "top": "12x"
             },
             "type": "text_cell_view"
           },
@@ -34,10 +34,10 @@
               "max_lines": 1
             },
             "paddings": {
-              "bottom": "0x",
-              "left": "0x",
-              "right": "0x",
-              "top": "4x"
+              "bottom": "12x",
+              "left": "8x",
+              "right": "8x",
+              "top": "0x"
             },
             "type": "text_cell_view"
           },
