@@ -3,20 +3,39 @@
   "items": [
     {
       "bubble": {
-        "text": "Прошу",
+        "text": "Смотрите",
         "markdown": true,
         "expand_policy": "auto_expand"
       }
     },
     {
       "card": {
+        "type": "list_card",
+        "paddings": {
+          "top": "4x",
+          "bottom": "4x"
+        },
         "cells": [
           {
-            "content": {
-              "text": "279 000 ₽",
-              "typeface": "headline1",
-              "text_color": "default",
-              "max_lines": 1
+            "texts": {
+              "title": {
+                "text": "279 000 ₽",
+                "typeface": "headline1",
+                "text_color": "default",
+                "max_lines": 1
+              },
+              "subtitle": {
+                "text": "Всего доступных средств в кошельке",
+                "typeface": "footnote1",
+                "text_color": "secondary",
+                "margins": {
+                  "bottom": "0x",
+                  "left": "0x",
+                  "right": "0x",
+                  "top": "1x"
+                },
+                "max_lines": 1
+              }
             },
             "paddings": {
               "bottom": "0x",
@@ -376,15 +395,7 @@
             },
             "type": "left_right_cell_view"
           }
-        ],
-        "paddings": {
-          "bottom": "4x",
-          "left": "0x",
-          "right": "0x",
-          "top": "4x"
-        },
-        "can_be_disabled": false,
-        "type": "list_card"
+        ]
       }
     }
   ]
