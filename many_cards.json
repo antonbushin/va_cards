@@ -12,6 +12,36 @@
       "card": {
         "cells": [
           {
+            "content": {
+              "text": "279 000 ₽",
+              "typeface": "headline1",
+              "text_color": "default",
+              "max_lines": 1
+            },
+            "paddings": {
+              "bottom": "0x",
+              "left": "8x",
+              "right": "8x",
+              "top": "0x"
+            },
+            "type": "text_cell_view"
+          },
+          {
+            "content": {
+              "text": "Всего доступных средств в кошельке",
+              "typeface": "footnote1",
+              "text_color": "secondary",
+              "max_lines": 1
+            },
+            "paddings": {
+              "bottom": "0x",
+              "left": "0x",
+              "right": "0x",
+              "top": "4x"
+            },
+            "type": "text_cell_view"
+          },
+          {
             "left": {
               "icon": {
                 "address": {
@@ -361,7 +391,15 @@
             },
             "type": "left_right_cell_view"
           }
-        ]
+        ],
+        "paddings": {
+          "bottom": "4x",
+          "left": "0x",
+          "right": "0x",
+          "top": "4x"
+        },
+        "can_be_disabled": false,
+        "type": "list_card"
       }
     }
   ]
