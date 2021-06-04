@@ -12,31 +12,19 @@
       "card": {
         "cells": [
           {
-            "left": {
-              "texts": {
-                "title": {
-                  "text": "281000.0",
-                  "typeface": "headline1",
-                  "text_color": "default",
-                  "margins": {
-                    "bottom": "0x",
-                    "left": "0x",
-                    "right": "0x",
-                    "top": "4x"
-                  },
-                  "max_lines": 1
-                }
-              },
-              "icon_vertical_gravity": "center",
-              "type": "simple_left_view"
+            "content": {
+              "text": "281 000 ₽",
+              "typeface": "headline1",
+              "text_color": "default",
+              "max_lines": 1
             },
             "paddings": {
               "bottom": "0x",
-              "left": "8x",
-              "right": "8x",
-              "top": "0x"
+              "left": "0x",
+              "right": "0x",
+              "top": "12x"
             },
-            "type": "left_right_cell_view"
+            "type": "text_cell_view"
           },
           {
             "left": {
