@@ -3,7 +3,7 @@
   "items": [
     {
       "bubble": {
-        "text": "Вот, посмотрите",
+        "text": "Смотрите",
         "markdown": true,
         "expand_policy": "auto_expand"
       }
@@ -13,7 +13,7 @@
         "cells": [
           {
             "content": {
-              "text": "7 099 794,76 ₽",
+              "text": "7 099 794,75 ₽",
               "typeface": "headline3",
               "text_color": "primary",
               "max_lines": 1
@@ -45,7 +45,7 @@
             "left": {
               "icon": {
                 "address": {
-                  "identificator": "card_maestro_null",
+                  "identificator": "card_mc_null",
                   "type": "local"
                 },
                 "size": {
@@ -115,7 +115,7 @@
             "left": {
               "icon": {
                 "address": {
-                  "identificator": "card_maestro_null",
+                  "identificator": "card_mc_null",
                   "type": "local"
                 },
                 "size": {
@@ -185,7 +185,7 @@
             "left": {
               "icon": {
                 "address": {
-                  "identificator": "card_maestro_null",
+                  "identificator": "card_mc_null",
                   "type": "local"
                 },
                 "size": {
@@ -255,7 +255,7 @@
             "left": {
               "icon": {
                 "address": {
-                  "identificator": "card_maestro_null",
+                  "identificator": "card_visa_null",
                   "type": "local"
                 },
                 "size": {
@@ -325,7 +325,7 @@
             "left": {
               "icon": {
                 "address": {
-                  "identificator": "card_maestro_null",
+                  "identificator": "card_visa_null",
                   "type": "local"
                 },
                 "size": {
@@ -395,7 +395,7 @@
             "left": {
               "icon": {
                 "address": {
-                  "identificator": "card_maestro_null",
+                  "identificator": "card_visa_null",
                   "type": "local"
                 },
                 "size": {
@@ -465,7 +465,7 @@
             "left": {
               "icon": {
                 "address": {
-                  "identificator": "card_maestro_null",
+                  "identificator": "card_visa_null",
                   "type": "local"
                 },
                 "size": {
