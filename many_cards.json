@@ -10,11 +10,6 @@
     },
     {
       "card": {
-        "type": "list_card",
-        "paddings": {
-          "top": "4x",
-          "bottom": "4x"
-        },
         "cells": [
           {
             "texts": {
@@ -28,22 +23,11 @@
                 "text": "Всего доступных средств в кошельке",
                 "typeface": "footnote1",
                 "text_color": "secondary",
-                "margins": {
-                  "bottom": "0x",
-                  "left": "0x",
-                  "right": "0x",
-                  "top": "1x"
-                },
                 "max_lines": 1
               }
             },
-            "paddings": {
-              "bottom": "0x",
-              "left": "8x",
-              "right": "8x",
-              "top": "0x"
-            },
-            "type": "text_cell_view"
+            "icon_vertical_gravity": "center",
+            "type": "simple_left_view"
           },
           {
             "left": {
