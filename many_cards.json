@@ -67,7 +67,7 @@
                   "max_lines": 1
                 },
                 "subtitle": {
-                  "text": "•• 9230 ",
+                  "text": "•• 9230 • мультивалютная",
                   "typeface": "footnote1",
                   "text_color": "secondary",
                   "margins": {
@@ -137,7 +137,7 @@
                   "max_lines": 1
                 },
                 "subtitle": {
-                  "text": "•• 6287 ",
+                  "text": "•• 6287 • доп",
                   "typeface": "footnote1",
                   "text_color": "secondary",
                   "margins": {
@@ -207,7 +207,7 @@
                   "max_lines": 1
                 },
                 "subtitle": {
-                  "text": "•• 8047 ",
+                  "text": "•• 8047 • мультивалютная",
                   "typeface": "footnote1",
                   "text_color": "secondary",
                   "margins": {
@@ -277,7 +277,7 @@
                   "max_lines": 1
                 },
                 "subtitle": {
-                  "text": "•• 9472 ",
+                  "text": "•• 9472 • кред",
                   "typeface": "footnote1",
                   "text_color": "secondary",
                   "margins": {
@@ -347,7 +347,7 @@
                   "max_lines": 1
                 },
                 "subtitle": {
-                  "text": "•• 6074 ",
+                  "text": "•• 6074 • зп • мульти",
                   "typeface": "footnote1",
                   "text_color": "secondary",
                   "margins": {
@@ -417,7 +417,7 @@
                   "max_lines": 1
                 },
                 "subtitle": {
-                  "text": "•• 1599  • кред",
+                  "text": "•• 1599 • кред",
                   "typeface": "footnote1",
                   "text_color": "secondary",
                   "margins": {
@@ -487,7 +487,7 @@
                   "max_lines": 1
                 },
                 "subtitle": {
-                  "text": "•• 7229 ",
+                  "text": "•• 7229",
                   "typeface": "footnote1",
                   "text_color": "secondary",
                   "margins": {
