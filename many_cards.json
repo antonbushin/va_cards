@@ -3,7 +3,7 @@
   "items": [
     {
       "bubble": {
-        "text": "Смотрите",
+        "text": "Готово",
         "markdown": true,
         "expand_policy": "auto_expand"
       }
@@ -13,7 +13,7 @@
         "cells": [
           {
             "content": {
-              "text": "281000.0",
+              "text": "279000.0",
               "typeface": "headline1",
               "text_color": "default",
               "max_lines": 1
@@ -139,9 +139,9 @@
             },
             "right": {
               "detail": {
-                "text": "1 000 ₽",
+                "text": "-1 000 ₽",
                 "typeface": "body1",
-                "text_color": "brand",
+                "text_color": "secondary",
                 "max_lines": 1
               },
               "margins": {
