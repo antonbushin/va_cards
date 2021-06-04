@@ -34,8 +34,8 @@
               "max_lines": 1
             },
             "paddings": {
-              "bottom": "0x",
-              "left": "0x",
+              "bottom": "8x",
+              "left": "8x",
               "right": "0x",
               "top": "4x"
             },
