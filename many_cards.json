@@ -3,7 +3,7 @@
   "items": [
     {
       "bubble": {
-        "text": "Смотрите",
+        "text": "Вот, посмотрите",
         "markdown": true,
         "expand_policy": "auto_expand"
       }
@@ -13,7 +13,7 @@
         "cells": [
           {
             "content": {
-              "text": "279 000 ₽",
+              "text": "7 099 794,75 ₽",
               "typeface": "headline1",
               "text_color": "default",
               "max_lines": 1
@@ -34,8 +34,8 @@
               "max_lines": 1
             },
             "paddings": {
-              "bottom": "8x",
-              "left": "8x",
+              "bottom": "0x",
+              "left": "0x",
               "right": "0x",
               "top": "4x"
             },
@@ -61,13 +61,13 @@
               },
               "texts": {
                 "title": {
-                  "text": "Maestro",
+                  "text": "MasterCard Сберкарта Travel",
                   "typeface": "body1",
                   "text_color": "default",
                   "max_lines": 1
                 },
                 "subtitle": {
-                  "text": "•• 2332 • доп",
+                  "text": "•• 9230 ",
                   "typeface": "footnote1",
                   "text_color": "secondary",
                   "margins": {
@@ -84,7 +84,7 @@
             },
             "right": {
               "detail": {
-                "text": "5 000 ₽",
+                "text": "0 $",
                 "typeface": "body1",
                 "text_color": "brand",
                 "max_lines": 1
@@ -131,13 +131,13 @@
               },
               "texts": {
                 "title": {
-                  "text": "MasterCard Mass MSK",
+                  "text": "МИР Классическая Plus",
                   "typeface": "body1",
                   "text_color": "default",
                   "max_lines": 1
                 },
                 "subtitle": {
-                  "text": "•• 9955 • доп",
+                  "text": "•• 6287 ",
                   "typeface": "footnote1",
                   "text_color": "secondary",
                   "margins": {
@@ -154,7 +154,77 @@
             },
             "right": {
               "detail": {
-                "text": "-1 000 ₽",
+                "text": "456 ₽",
+                "typeface": "body1",
+                "text_color": "brand",
+                "max_lines": 1
+              },
+              "margins": {
+                "bottom": "0x",
+                "left": "2x",
+                "right": "0x",
+                "top": "0x"
+              },
+              "vertical_gravity": "top",
+              "detail_position": "top",
+              "type": "detail_right_view"
+            },
+            "divider": {
+              "style": "default",
+              "size": "d5"
+            },
+            "paddings": {
+              "bottom": "8x",
+              "left": "8x",
+              "right": "8x",
+              "top": "8x"
+            },
+            "type": "left_right_cell_view"
+          },
+          {
+            "left": {
+              "icon": {
+                "address": {
+                  "identificator": "card_maestro_null",
+                  "type": "local"
+                },
+                "size": {
+                  "width": "medium",
+                  "height": "medium"
+                },
+                "margins": {
+                  "bottom": "0x",
+                  "left": "0x",
+                  "right": "6x",
+                  "top": "0x"
+                }
+              },
+              "texts": {
+                "title": {
+                  "text": "MasterCard Platinum Plus",
+                  "typeface": "body1",
+                  "text_color": "default",
+                  "max_lines": 1
+                },
+                "subtitle": {
+                  "text": "•• 8047 ",
+                  "typeface": "footnote1",
+                  "text_color": "secondary",
+                  "margins": {
+                    "bottom": "0x",
+                    "left": "0x",
+                    "right": "0x",
+                    "top": "1x"
+                  },
+                  "max_lines": 1
+                }
+              },
+              "icon_vertical_gravity": "center",
+              "type": "simple_left_view"
+            },
+            "right": {
+              "detail": {
+                "text": "-40 ₽",
                 "typeface": "body1",
                 "text_color": "secondary",
                 "max_lines": 1
@@ -207,7 +277,7 @@
                   "max_lines": 1
                 },
                 "subtitle": {
-                  "text": "•• 1598 • доп",
+                  "text": "•• 9472 ",
                   "typeface": "footnote1",
                   "text_color": "secondary",
                   "margins": {
@@ -224,7 +294,7 @@
             },
             "right": {
               "detail": {
-                "text": "100 000 ₽",
+                "text": "44 861,94 €",
                 "typeface": "body1",
                 "text_color": "brand",
                 "max_lines": 1
@@ -271,13 +341,13 @@
               },
               "texts": {
                 "title": {
-                  "text": "MasterCard Mass",
+                  "text": "Visa Classic",
                   "typeface": "body1",
                   "text_color": "default",
                   "max_lines": 1
                 },
                 "subtitle": {
-                  "text": "•• 1230 • доп",
+                  "text": "•• 6074 ",
                   "typeface": "footnote1",
                   "text_color": "secondary",
                   "margins": {
@@ -294,7 +364,7 @@
             },
             "right": {
               "detail": {
-                "text": "40 000 ₽",
+                "text": "45 034,53 $",
                 "typeface": "body1",
                 "text_color": "brand",
                 "max_lines": 1
@@ -341,13 +411,13 @@
               },
               "texts": {
                 "title": {
-                  "text": "MIR",
+                  "text": "Visa Classic",
                   "typeface": "body1",
                   "text_color": "default",
                   "max_lines": 1
                 },
                 "subtitle": {
-                  "text": "•• 8454 • доп",
+                  "text": "•• 1599  • кред",
                   "typeface": "footnote1",
                   "text_color": "secondary",
                   "margins": {
@@ -364,7 +434,77 @@
             },
             "right": {
               "detail": {
-                "text": "135 000 ₽",
+                "text": "489 991,12 ₽",
+                "typeface": "body1",
+                "text_color": "brand",
+                "max_lines": 1
+              },
+              "margins": {
+                "bottom": "0x",
+                "left": "2x",
+                "right": "0x",
+                "top": "0x"
+              },
+              "vertical_gravity": "top",
+              "detail_position": "top",
+              "type": "detail_right_view"
+            },
+            "divider": {
+              "style": "default",
+              "size": "d5"
+            },
+            "paddings": {
+              "bottom": "8x",
+              "left": "8x",
+              "right": "8x",
+              "top": "8x"
+            },
+            "type": "left_right_cell_view"
+          },
+          {
+            "left": {
+              "icon": {
+                "address": {
+                  "identificator": "card_maestro_null",
+                  "type": "local"
+                },
+                "size": {
+                  "width": "medium",
+                  "height": "medium"
+                },
+                "margins": {
+                  "bottom": "0x",
+                  "left": "0x",
+                  "right": "6x",
+                  "top": "0x"
+                }
+              },
+              "texts": {
+                "title": {
+                  "text": "Visa Classic",
+                  "typeface": "body1",
+                  "text_color": "default",
+                  "max_lines": 1
+                },
+                "subtitle": {
+                  "text": "•• 7229 ",
+                  "typeface": "footnote1",
+                  "text_color": "secondary",
+                  "margins": {
+                    "bottom": "0x",
+                    "left": "0x",
+                    "right": "0x",
+                    "top": "1x"
+                  },
+                  "max_lines": 1
+                }
+              },
+              "icon_vertical_gravity": "center",
+              "type": "simple_left_view"
+            },
+            "right": {
+              "detail": {
+                "text": "6 474 393,16 ₽",
                 "typeface": "body1",
                 "text_color": "brand",
                 "max_lines": 1
