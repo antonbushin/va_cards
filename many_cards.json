@@ -14,8 +14,8 @@
           {
             "content": {
               "text": "7 099 794,75 ₽",
-              "typeface": "headline1",
-              "text_color": "default",
+              "typeface": "headline3",
+              "text_color": "primary",
               "max_lines": 1
             },
             "paddings": {
