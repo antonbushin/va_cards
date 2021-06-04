@@ -3,7 +3,7 @@
   "items": [
     {
       "bubble": {
-        "text": "Смотрите",
+        "text": "Вот, посмотрите",
         "markdown": true,
         "expand_policy": "auto_expand"
       }
@@ -115,7 +115,7 @@
             "left": {
               "icon": {
                 "address": {
-                  "identificator": "card_mc_null",
+                  "identificator": "card_ghost",
                   "type": "local"
                 },
                 "size": {
