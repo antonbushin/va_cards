@@ -3,7 +3,7 @@
   "items": [
     {
       "bubble": {
-        "text": "Вот, посмотрите",
+        "text": "Прошу",
         "markdown": true,
         "expand_policy": "auto_expand"
       }
@@ -52,7 +52,7 @@
                   "max_lines": 1
                 },
                 "subtitle": {
-                  "text": "•• 3 32 • доп",
+                  "text": "•• 2332 • доп",
                   "typeface": "footnote1",
                   "text_color": "secondary",
                   "margins": {
