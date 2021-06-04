@@ -12,22 +12,34 @@
       "card": {
         "cells": [
           {
-            "texts": {
-              "title": {
-                "text": "279 000 ₽",
-                "typeface": "headline1",
-                "text_color": "default",
-                "max_lines": 1
-              },
-              "subtitle": {
-                "text": "Всего доступных средств в кошельке",
-                "typeface": "footnote1",
-                "text_color": "secondary",
-                "max_lines": 1
-              }
+            "content": {
+              "text": "279 000 ₽",
+              "typeface": "headline1",
+              "text_color": "default",
+              "max_lines": 1
             },
-            "icon_vertical_gravity": "center",
-            "type": "simple_left_view"
+            "paddings": {
+              "bottom": "0x",
+              "left": "8x",
+              "right": "8x",
+              "top": "0x"
+            },
+            "type": "text_cell_view"
+          },
+          {
+            "content": {
+              "text": "Всего доступных средств в кошельке",
+              "typeface": "footnote1",
+              "text_color": "secondary",
+              "max_lines": 1
+            },
+            "paddings": {
+              "bottom": "0x",
+              "left": "0x",
+              "right": "0x",
+              "top": "4x"
+            },
+            "type": "text_cell_view"
           },
           {
             "left": {
