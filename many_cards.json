@@ -13,7 +13,7 @@
         "cells": [
           {
             "content": {
-              "text": "7 099 794,75 ₽",
+              "text": "Кошелёк ₽",
               "typeface": "headline3",
               "text_color": "primary",
               "max_lines": 1
@@ -67,7 +67,7 @@
                   "max_lines": 1
                 },
                 "subtitle": {
-                  "text": "•• 9230 • мультивалютная",
+                  "text": "•• 9230 • зп • мульти",
                   "typeface": "footnote1",
                   "text_color": "secondary",
                   "margins": {
