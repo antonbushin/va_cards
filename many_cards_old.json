@@ -3,7 +3,7 @@
   "items": [
     {
       "bubble": {
-        "text": "Вот, посмотрите",
+        "text": "Смотрите",
         "markdown": true,
         "expand_policy": "auto_expand"
       }
@@ -13,16 +13,46 @@
         "cells": [
           {
             "content": {
-              "text": "Карты",
-              "typeface": "title1",
-              "text_color": "default",
+              "text": "146 000 ₽",
+              "typeface": "headline3",
+              "text_color": "primary",
               "max_lines": 1
             },
             "paddings": {
-              "bottom": "6x",
+              "bottom": "8x",
               "left": "8x",
               "right": "8x",
-              "top": "6x"
+              "top": "12x"
+            },
+            "type": "text_cell_view"
+          },
+          {
+            "content": {
+              "text": "Всего доступных средств в кошельке... cards: 5, c2o: [], result: 5",
+              "typeface": "footnote1",
+              "text_color": "secondary",
+              "max_lines": 1
+            },
+            "paddings": {
+              "bottom": "12x",
+              "left": "8x",
+              "right": "8x",
+              "top": "0x"
+            },
+            "type": "text_cell_view"
+          },
+          {
+            "content": {
+              "text": "1: 5, 2: 5",
+              "typeface": "footnote1",
+              "text_color": "secondary",
+              "max_lines": 1
+            },
+            "paddings": {
+              "bottom": "12x",
+              "left": "8x",
+              "right": "8x",
+              "top": "0x"
             },
             "type": "text_cell_view"
           },
@@ -349,9 +379,9 @@
             },
             "right": {
               "detail": {
-                "text": "135 000 ₽",
+                "text": "-135 000 ₽",
                 "typeface": "body1",
-                "text_color": "brand",
+                "text_color": "secondary",
                 "max_lines": 1
               },
               "margins": {
@@ -363,6 +393,10 @@
               "vertical_gravity": "top",
               "detail_position": "top",
               "type": "detail_right_view"
+            },
+            "divider": {
+              "style": "default",
+              "size": "d5"
             },
             "paddings": {
               "bottom": "8x",
@@ -378,59 +412,6 @@
           "left": "0x",
           "right": "0x",
           "top": "4x"
-        },
-        "can_be_disabled": false,
-        "type": "list_card"
-      }
-    },
-    {
-      "card": {
-        "cells": [
-          {
-            "content": {
-              "text": "Всего доступных средств",
-              "typeface": "headline3",
-              "text_color": "default",
-              "max_lines": 1
-            },
-            "type": "text_cell_view"
-          },
-          {
-            "content": {
-              "text": "5 карт",
-              "typeface": "footnote1",
-              "text_color": "secondary",
-              "max_lines": 1
-            },
-            "paddings": {
-              "bottom": "0x",
-              "left": "0x",
-              "right": "0x",
-              "top": "4x"
-            },
-            "type": "text_cell_view"
-          },
-          {
-            "content": {
-              "text": "281 000 ₽",
-              "typeface": "headline1",
-              "text_color": "default",
-              "max_lines": 1
-            },
-            "paddings": {
-              "bottom": "0x",
-              "left": "0x",
-              "right": "0x",
-              "top": "12x"
-            },
-            "type": "text_cell_view"
-          }
-        ],
-        "paddings": {
-          "bottom": "10x",
-          "left": "8x",
-          "right": "8x",
-          "top": "10x"
         },
         "can_be_disabled": false,
         "type": "list_card"
