@@ -18,12 +18,6 @@
               "text_color": "primary",
               "max_lines": 1
             },
-            "paddings": {
-              "bottom": "8x",
-              "left": "8x",
-              "right": "8x",
-              "top": "12x"
-            },
             "type": "text_cell_view"
           },
           {
@@ -34,10 +28,10 @@
               "max_lines": 0
             },
             "paddings": {
-              "bottom": "12x",
-              "left": "8x",
-              "right": "8x",
-              "top": "0x"
+              "bottom": "0x",
+              "left": "0x",
+              "right": "0x",
+              "top": "4x"
             },
             "type": "text_cell_view"
           },
@@ -599,10 +593,10 @@
           }
         ],
         "paddings": {
-          "bottom": "4x",
-          "left": "0x",
-          "right": "0x",
-          "top": "4x"
+          "bottom": "10x",
+          "left": "8x",
+          "right": "8x",
+          "top": "10x"
         },
         "can_be_disabled": false,
         "type": "list_card"
