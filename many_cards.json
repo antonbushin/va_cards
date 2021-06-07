@@ -3,7 +3,7 @@
   "items": [
     {
       "bubble": {
-        "text": "Вот, посмотрите",
+        "text": "Прошу",
         "markdown": true,
         "expand_policy": "auto_expand"
       }
@@ -13,7 +13,7 @@
         "cells": [
           {
             "content": {
-              "text": "Кошелёк ₽",
+              "text": "Кошелёк",
               "typeface": "headline3",
               "text_color": "primary",
               "max_lines": 1
@@ -28,7 +28,7 @@
           },
           {
             "content": {
-              "text": "Всего доступных средств в кошельке",
+              "text": "Всего доступных средств в кошельке... cards: 8, c2o: [6], result: 7",
               "typeface": "footnote1",
               "text_color": "secondary",
               "max_lines": 1
@@ -40,6 +40,91 @@
               "top": "0x"
             },
             "type": "text_cell_view"
+          },
+          {
+            "content": {
+              "text": "1: 8, 2: 8",
+              "typeface": "footnote1",
+              "text_color": "secondary",
+              "max_lines": 1
+            },
+            "paddings": {
+              "bottom": "12x",
+              "left": "8x",
+              "right": "8x",
+              "top": "0x"
+            },
+            "type": "text_cell_view"
+          },
+          {
+            "left": {
+              "icon": {
+                "address": {
+                  "identificator": "card_mc_null",
+                  "type": "local"
+                },
+                "size": {
+                  "width": "medium",
+                  "height": "medium"
+                },
+                "margins": {
+                  "bottom": "0x",
+                  "left": "0x",
+                  "right": "6x",
+                  "top": "0x"
+                }
+              },
+              "texts": {
+                "title": {
+                  "text": "MasterCard Mass MSK",
+                  "typeface": "body1",
+                  "text_color": "default",
+                  "max_lines": 1
+                },
+                "subtitle": {
+                  "text": "•• 9966 • доп",
+                  "typeface": "footnote1",
+                  "text_color": "secondary",
+                  "margins": {
+                    "bottom": "0x",
+                    "left": "0x",
+                    "right": "0x",
+                    "top": "1x"
+                  },
+                  "max_lines": 1
+                }
+              },
+              "icon_vertical_gravity": "center",
+              "type": "simple_left_view"
+            },
+            "right": {
+              "detail": {
+                "text": "1 000 ₽",
+                "typeface": "body1",
+                "text_color": "brand",
+                "max_lines": 1
+              },
+              "margins": {
+                "bottom": "0x",
+                "left": "2x",
+                "right": "0x",
+                "top": "0x"
+              },
+              "vertical_gravity": "top",
+              "detail_position": "top",
+              "type": "detail_right_view"
+            },
+            "divider": {
+              "style": "default",
+              "size": "d5"
+            },
+            "paddings": {
+              "bottom": "8x",
+              "left": "8x",
+              "right": "8x",
+              "top": "8x"
+            },
+            "type": "left_right_cell_view"
           },
           {
             "left": {
@@ -347,7 +432,7 @@
                   "max_lines": 1
                 },
                 "subtitle": {
-                  "text": "•• 6074 • зп • мульти",
+                  "text": "•• 6074 • зарплатная",
                   "typeface": "footnote1",
                   "text_color": "secondary",
                   "margins": {
