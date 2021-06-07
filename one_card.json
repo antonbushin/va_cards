@@ -28,28 +28,22 @@
               "bottom": "0x",
               "left": "8x",
               "right": "8x",
-              "top": "6x"
+              "top": "10x"
             },
             "type": "text_cell_view"
           },
           {
             "content": {
-              "text": "•• 3 32 до 07.07.2000",
+              "text": "•• 2332 • доп",
               "typeface": "footnote1",
               "text_color": "secondary",
-              "margins": {
-                "bottom": "0x",
-                "left": "4x",
-                "right": "0x",
-                "top": "0x"
-              },
-              "max_lines": 1
+              "max_lines": 0
             },
             "paddings": {
-              "bottom": "0x",
+              "bottom": "6x",
               "left": "8x",
               "right": "8x",
-              "top": "1x"
+              "top": "4x"
             },
             "type": "text_cell_view"
           },
@@ -57,7 +51,7 @@
             "left": {
               "icon": {
                 "address": {
-                  "identificator": "safe",
+                  "identificator": "card_maestro_null",
                   "type": "local"
                 },
                 "size": {
