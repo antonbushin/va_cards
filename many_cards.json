@@ -28,10 +28,10 @@
           },
           {
             "content": {
-              "text": "Всего доступных средств в кошельке... cards: 8, c2o: [6], result: 7",
+              "text": "Всего доступных средств в кошельке...",
               "typeface": "footnote1",
               "text_color": "secondary",
-              "max_lines": 1
+              "max_lines": 0
             },
             "paddings": {
               "bottom": "12x",
@@ -39,7 +39,9 @@
               "right": "8x",
               "top": "0x"
             },
-            "type": "text_cell_view"
+            "type": "text_cell_view",
+            "show": false,
+            "hide": true
           },
           {
             "content": {
