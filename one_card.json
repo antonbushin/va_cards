@@ -13,7 +13,7 @@
         "cells": [
           {
             "content": {
-              "text": "Maestro",
+              "text": "MasterCard Сберкарта Travel",
               "typeface": "headline3",
               "text_color": "default",
               "margins": {
@@ -34,7 +34,7 @@
           },
           {
             "content": {
-              "text": "•• 2332 • доп",
+              "text": "•• 9230 • зп • мульти",
               "typeface": "footnote1",
               "text_color": "secondary",
               "max_lines": 0
@@ -51,7 +51,7 @@
             "left": {
               "icon": {
                 "address": {
-                  "identificator": "card_maestro_null",
+                  "identificator": "card_mc_null",
                   "type": "local"
                 },
                 "size": {
@@ -68,7 +68,7 @@
               },
               "texts": {
                 "title": {
-                  "text": "5 000 ₽",
+                  "text": "0 $",
                   "typeface": "headline1",
                   "text_color": "default",
                   "margins": {
