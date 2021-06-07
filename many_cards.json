@@ -3,7 +3,7 @@
   "items": [
     {
       "bubble": {
-        "text": "Прошу",
+        "text": "Смотрите",
         "markdown": true,
         "expand_policy": "auto_expand"
       }
@@ -18,6 +18,12 @@
               "text_color": "primary",
               "max_lines": 1
             },
+            "paddings": {
+              "bottom": "0x",
+              "left": "8x",
+              "right": "8x",
+              "top": "0x"
+            },
             "type": "text_cell_view"
           },
           {
@@ -29,9 +35,9 @@
             },
             "paddings": {
               "bottom": "0x",
-              "left": "0x",
-              "right": "0x",
-              "top": "4x"
+              "left": "8x",
+              "right": "8x",
+              "top": "0x"
             },
             "type": "text_cell_view"
           },
@@ -99,8 +105,8 @@
             },
             "paddings": {
               "bottom": "8x",
-              "left": "0x",
-              "right": "0x",
+              "left": "8x",
+              "right": "8x",
               "top": "8x"
             },
             "type": "left_right_cell_view"
@@ -169,8 +175,8 @@
             },
             "paddings": {
               "bottom": "8x",
-              "left": "0x",
-              "right": "0x",
+              "left": "8x",
+              "right": "8x",
               "top": "8x"
             },
             "type": "left_right_cell_view"
@@ -239,8 +245,8 @@
             },
             "paddings": {
               "bottom": "8x",
-              "left": "0x",
-              "right": "0x",
+              "left": "8x",
+              "right": "8x",
               "top": "8x"
             },
             "type": "left_right_cell_view"
@@ -309,8 +315,8 @@
             },
             "paddings": {
               "bottom": "8x",
-              "left": "0x",
-              "right": "0x",
+              "left": "8x",
+              "right": "8x",
               "top": "8x"
             },
             "type": "left_right_cell_view"
@@ -379,8 +385,8 @@
             },
             "paddings": {
               "bottom": "8x",
-              "left": "0x",
-              "right": "0x",
+              "left": "8x",
+              "right": "8x",
               "top": "8x"
             },
             "type": "left_right_cell_view"
@@ -449,8 +455,8 @@
             },
             "paddings": {
               "bottom": "8x",
-              "left": "0x",
-              "right": "0x",
+              "left": "8x",
+              "right": "8x",
               "top": "8x"
             },
             "type": "left_right_cell_view"
@@ -519,8 +525,8 @@
             },
             "paddings": {
               "bottom": "8x",
-              "left": "0x",
-              "right": "0x",
+              "left": "8x",
+              "right": "8x",
               "top": "8x"
             },
             "type": "left_right_cell_view"
@@ -585,8 +591,8 @@
             },
             "paddings": {
               "bottom": "8x",
-              "left": "0x",
-              "right": "0x",
+              "left": "8x",
+              "right": "8x",
               "top": "8x"
             },
             "type": "left_right_cell_view"
