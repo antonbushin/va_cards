@@ -39,8 +39,8 @@
             },
             "paddings": {
               "bottom": "6x",
-              "left": "8x",
-              "right": "8x",
+              "left": "0x",
+              "right": "0x",
               "top": "6x"
             },
             "type": "left_right_cell_view"
@@ -76,8 +76,8 @@
             },
             "paddings": {
               "bottom": "6x",
-              "left": "8x",
-              "right": "8x",
+              "left": "0x",
+              "right": "0x",
               "top": "6x"
             },
             "type": "left_right_cell_view"
