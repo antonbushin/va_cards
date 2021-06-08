@@ -84,32 +84,5 @@
         ]
       }
     }
-  ],
-  "auto_listening": true,
-  "finished": true,
-  "historyData": {
-    "events": [
-      {
-        "no": 1,
-        "scenarioName": "card_balance",
-        "scenarioVersion": null,
-        "results": "success",
-        "eventType": "scenarioStart",
-        "eventContent": {
-          "context_id": "E3hrXnwBTeadFeTADE-ITQ"
-        }
-      },
-      {
-        "no": 2,
-        "scenarioName": "card_balance",
-        "scenarioVersion": null,
-        "results": "success",
-        "eventType": "scenarioEnd",
-        "eventContent": {
-          "context_id": "E3hrXnwBTeadFeTADE-ITQ"
-        }
-      }
-    ],
-    "projectName": "Тестовый навык в каталоге"
-  }
+  ]
 }
