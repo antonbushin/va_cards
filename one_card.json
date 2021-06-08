@@ -16,19 +16,13 @@
               "text": "Maestro",
               "typeface": "headline3",
               "text_color": "default",
-              "margins": {
-                "bottom": "0x",
-                "left": "4x",
-                "right": "0x",
-                "top": "0x"
-              },
-              "max_lines": 0
+              "max_lines": 1
             },
             "paddings": {
               "bottom": "0x",
               "left": "8x",
               "right": "8x",
-              "top": "10x"
+              "top": "0x"
             },
             "type": "text_cell_view"
           },
@@ -37,10 +31,10 @@
               "text": "•• 2332 • доп",
               "typeface": "footnote1",
               "text_color": "secondary",
-              "max_lines": 0
+              "max_lines": 1
             },
             "paddings": {
-              "bottom": "6x",
+              "bottom": "0x",
               "left": "8x",
               "right": "8x",
               "top": "4x"
@@ -70,12 +64,6 @@
                   "text": "5 000 ₽",
                   "typeface": "headline1",
                   "text_color": "default",
-                  "margins": {
-                    "bottom": "0x",
-                    "left": "0x",
-                    "right": "0x",
-                    "top": "1x"
-                  },
                   "max_lines": 1
                 }
               },
@@ -83,19 +71,19 @@
               "type": "simple_left_view"
             },
             "paddings": {
-              "bottom": "4x",
+              "bottom": "0x",
               "left": "8x",
               "right": "8x",
-              "top": "4x"
+              "top": "13x"
             },
             "type": "left_right_cell_view"
           }
         ],
         "paddings": {
-          "bottom": "4x",
+          "bottom": "11x",
           "left": "0x",
           "right": "0x",
-          "top": "4x"
+          "top": "10x"
         },
         "can_be_disabled": false,
         "type": "list_card"
