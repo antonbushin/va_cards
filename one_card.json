@@ -47,6 +47,12 @@
           },
           {
             "left": {
+              "paddings": {
+                "bottom": "7x",
+                "left": "7x",
+                "right": "7x",
+                "top": "7x"
+              },
               "icon": {
                 "address": {
                   "identificator": "card_maestro_null",
