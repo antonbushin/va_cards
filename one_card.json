@@ -25,6 +25,12 @@
                   "text": "•• 2332 • доп",
                   "typeface": "footnote1",
                   "text_color": "secondary",
+                  "margins": {
+                    "bottom": "0x",
+                    "left": "0x",
+                    "right": "0x",
+                    "top": "4x"
+                  },
                   "max_lines": 1
                 }
               },
