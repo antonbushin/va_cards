@@ -47,39 +47,6 @@
                 "bottom": "6x"
               }
             }
-          },
-          {
-            "left": {
-              "icon": {
-                "address": {
-                  "identificator": "card_maestro_null",
-                  "type": "local"
-                },
-                "size": {
-                  "width": "medium",
-                  "height": "medium"
-                },
-                "margins": {
-                  "right": "6x"
-                }
-              },
-              "icon_vertical_gravity": "center",
-              "texts": {
-                "title": {
-                  "text": "5 123,89 ₽",
-                  "typeface": "headline1",
-                  "text_color": "default"
-                }
-              },
-              "type": "simple_left_view"
-            },
-            "type": "left_right_cell_view",
-            "paddings": {
-              "left": "0x",
-              "right": "0x",
-              "top": "7x",
-              "bottom": "7x"
-            }
           }
         ]
       }
