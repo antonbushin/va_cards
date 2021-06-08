@@ -10,36 +10,42 @@
     },
     {
       "card": {
+        "type": "list_card",
+        "paddings": {
+          "top": "4x",
+          "bottom": "4x",
+          "left": "8x",
+          "right": "8x"
+        },
         "cells": [
           {
-            "content": {
-              "text": "Maestro",
-              "typeface": "headline3",
-              "text_color": "default",
-              "max_lines": 1
-            },
-            "paddings": {
-              "bottom": "0x",
-              "left": "8x",
-              "right": "8x",
-              "top": "10x"
-            },
-            "type": "text_cell_view"
-          },
-          {
-            "content": {
-              "text": "•• 2332 • доп",
-              "typeface": "footnote1",
-              "text_color": "secondary",
-              "max_lines": 1
-            },
-            "paddings": {
-              "bottom": "0x",
-              "left": "8x",
-              "right": "8x",
-              "top": "4x"
-            },
-            "type": "text_cell_view"
+            "left": {
+              "texts": {
+                "title": {
+                  "text": "Maestro",
+                  "typeface": "headline3",
+                  "text_color": "default",
+                  "max_lines": 1
+                },
+                "subtitle": {
+                  "text": "•• 2332 • доп",
+                  "typeface": "footnote1",
+                  "text_color": "secondary",
+                  "margins": {
+                    "bottom": "0x",
+                    "left": "0x",
+                    "right": "0x",
+                    "top": "1x"
+                  },
+                  "max_lines": 1
+                }
+              },
+              "type": "simple_left_view",
+              "paddings": {
+                "top": "6x",
+                "bottom": "6x"
+              }
+            }
           },
           {
             "left": {
@@ -53,40 +59,28 @@
                   "height": "medium"
                 },
                 "margins": {
-                  "bottom": "0x",
-                  "left": "0x",
-                  "right": "6x",
-                  "top": "0x"
+                  "right": "6x"
                 }
               },
+              "icon_vertical_gravity": "center",
               "texts": {
                 "title": {
                   "text": "5 123,89 ₽",
                   "typeface": "headline1",
-                  "text_color": "default",
-                  "max_lines": 1
+                  "text_color": "default"
                 }
               },
-              "icon_vertical_gravity": "center",
               "type": "simple_left_view"
             },
+            "type": "left_right_cell_view",
             "paddings": {
-              "bottom": "11x",
-              "left": "8x",
-              "right": "8x",
-              "top": "13x"
-            },
-            "type": "left_right_cell_view"
+              "left": "0x",
+              "right": "0x",
+              "top": "7x",
+              "bottom": "7x"
+            }
           }
-        ],
-        "paddings": {
-          "bottom": "11x",
-          "left": "0x",
-          "right": "0x",
-          "top": "4x"
-        },
-        "can_be_disabled": false,
-        "type": "list_card"
+        ]
       }
     }
   ]
