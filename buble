@@ -62,6 +62,12 @@
                 "type": "deep_link"
               }
             ],
+            "paddings": {
+              "bottom": "6x",
+              "left": "12x",
+              "right": "8x",
+              "top": "6x"
+            },
             "type": "left_right_cell_view"
           }
         ],
