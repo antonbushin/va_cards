@@ -32,11 +32,11 @@
               },
               "icon_vertical_gravity": "center",
               "title": {
-                "text": "Пополнить с любых карт и счетов",
+                "text": "Пополнить",
                 "typeface": "body1",
                 "text_color": "default",
                 "margins": {
-                  "bottom": "9x",
+                  "bottom": "0x",
                   "left": "0x",
                   "right": "0x",
                   "top": "9x"
