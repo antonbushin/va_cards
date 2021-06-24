@@ -3,7 +3,7 @@
   "items": [
     {
       "bubble": {
-        "text": "Вот ссылка на пополнение.",
+        "text": "Пожалуйста",
         "markdown": true,
         "expand_policy": "auto_expand"
       }
@@ -12,10 +12,25 @@
       "card": {
         "cells": [
           {
+            "content": {
+              "text": "Карты",
+              "typeface": "title1",
+              "text_color": "default",
+              "max_lines": 1
+            },
+            "paddings": {
+              "bottom": "6x",
+              "left": "8x",
+              "right": "8x",
+              "top": "6x"
+            },
+            "type": "text_cell_view"
+          },
+          {
             "left": {
               "icon": {
                 "address": {
-                  "identificator": "circle_plus",
+                  "identificator": "card_ghost",
                   "type": "local"
                 },
                 "size": {
@@ -25,20 +40,19 @@
                 "margins": {
                   "bottom": "0x",
                   "left": "0x",
-                  "right": "8x",
+                  "right": "6x",
                   "top": "0x"
-                },
-                "tint_color": "solid_brand"
+                }
               },
               "texts": {
                 "title": {
-                  "text": "Пополнить",
+                  "text": "Кредитная СберКарта",
                   "typeface": "body1",
                   "text_color": "default",
                   "max_lines": 1
                 },
                 "subtitle": {
-                  "text": "с любых карт и счетов",
+                  "text": "∙∙ 1976 ∙ кред",
                   "typeface": "footnote1",
                   "text_color": "secondary",
                   "margins": {
@@ -54,23 +68,160 @@
               "type": "simple_left_view"
             },
             "right": {
-              "type": "disclosure_right_view"
+              "detail": {
+                "text": "2 000 ₽",
+                "typeface": "body1",
+                "text_color": "brand",
+                "max_lines": 1
+              },
+              "margins": {
+                "bottom": "0x",
+                "left": "2x",
+                "right": "0x",
+                "top": "0x"
+              },
+              "vertical_gravity": "top",
+              "detail_position": "top",
+              "type": "detail_right_view"
             },
-            "actions": [
-              {
-                "deep_link": "sberbankonline://payments/internal-payment?internal_source=audiohelper_balance",
-                "type": "deep_link"
-              }
-            ],
+            "divider": {
+              "style": "default",
+              "size": "d5"
+            },
             "paddings": {
-              "bottom": "6x",
-              "left": "12x",
+              "bottom": "8x",
+              "left": "8x",
               "right": "8x",
-              "top": "6x"
+              "top": "8x"
+            },
+            "type": "left_right_cell_view"
+          },
+          {
+            "left": {
+              "icon": {
+                "address": {
+                  "identificator": "card_mc_null",
+                  "type": "local"
+                },
+                "size": {
+                  "width": "medium",
+                  "height": "medium"
+                },
+                "margins": {
+                  "bottom": "0x",
+                  "left": "0x",
+                  "right": "6x",
+                  "top": "0x"
+                }
+              },
+              "texts": {
+                "title": {
+                  "text": "MasterCard Сберкарта Travel",
+                  "typeface": "body1",
+                  "text_color": "default",
+                  "max_lines": 1
+                },
+                "subtitle": {
+                  "text": "∙∙ 7216",
+                  "typeface": "footnote1",
+                  "text_color": "secondary",
+                  "margins": {
+                    "bottom": "0x",
+                    "left": "0x",
+                    "right": "0x",
+                    "top": "1x"
+                  },
+                  "max_lines": 1
+                }
+              },
+              "icon_vertical_gravity": "center",
+              "type": "simple_left_view"
+            },
+            "right": {
+              "detail": {
+                "text": "7 400 ₽",
+                "typeface": "body1",
+                "text_color": "brand",
+                "max_lines": 1
+              },
+              "margins": {
+                "bottom": "0x",
+                "left": "2x",
+                "right": "0x",
+                "top": "0x"
+              },
+              "vertical_gravity": "top",
+              "detail_position": "top",
+              "type": "detail_right_view"
+            },
+            "paddings": {
+              "bottom": "8x",
+              "left": "8x",
+              "right": "8x",
+              "top": "8x"
             },
             "type": "left_right_cell_view"
           }
         ],
+        "paddings": {
+          "bottom": "4x",
+          "left": "0x",
+          "right": "0x",
+          "top": "4x"
+        },
+        "can_be_disabled": false,
+        "type": "list_card"
+      }
+    },
+    {
+      "card": {
+        "cells": [
+          {
+            "content": {
+              "text": "Всего доступных средств",
+              "typeface": "headline3",
+              "text_color": "default",
+              "max_lines": 1
+            },
+            "type": "text_cell_view"
+          },
+          {
+            "content": {
+              "text": "2 карты",
+              "typeface": "footnote1",
+              "text_color": "secondary",
+              "max_lines": 1
+            },
+            "paddings": {
+              "bottom": "0x",
+              "left": "0x",
+              "right": "0x",
+              "top": "4x"
+            },
+            "type": "text_cell_view"
+          },
+          {
+            "content": {
+              "text": "9 400 ₽",
+              "typeface": "headline1",
+              "text_color": "default",
+              "max_lines": 1
+            },
+            "paddings": {
+              "bottom": "0x",
+              "left": "0x",
+              "right": "0x",
+              "top": "12x"
+            },
+            "type": "text_cell_view"
+          }
+        ],
+        "paddings": {
+          "bottom": "10x",
+          "left": "8x",
+          "right": "8x",
+          "top": "10x"
+        },
         "can_be_disabled": false,
         "type": "list_card"
       }
