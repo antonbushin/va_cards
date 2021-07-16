@@ -84,10 +84,6 @@
               "detail_position": "top",
               "type": "detail_right_view"
             },
-            "divider": {
-              "style": "default",
-              "size": "d5"
-            },
             "paddings": {
               "bottom": "8x",
               "left": "0x",
