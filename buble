@@ -9,6 +9,18 @@
               "typeface": "headline3",
               "text_color": "default",
               "max_lines": 1
+            },
+            "subtitle": {
+              "text": "йцукен",
+              "typeface": "footnote1",
+              "text_color": "secondary",
+              "margins": {
+                "bottom": "0x",
+                "left": "0x",
+                "right": "0x",
+                "top": "0x"
+              },
+              "max_lines": 1
             }
           },
           "icon_vertical_gravity": "center",
@@ -26,7 +38,7 @@
         "left": {
           "icon": {
             "address": {
-              "identificator": "card_visa_null",
+              "identificator": "card_mc_null",
               "type": "local"
             },
             "size": {
@@ -42,13 +54,13 @@
           },
           "texts": {
             "title": {
-              "text": "P",
+              "text": "MasterCard Mass MSK",
               "typeface": "body1",
               "text_color": "default",
               "max_lines": 1
             },
             "subtitle": {
-              "text": "•• 0310",
+              "text": "•• 9966 • доп",
               "typeface": "footnote1",
               "text_color": "secondary",
               "margins": {
@@ -65,7 +77,7 @@
         },
         "right": {
           "detail": {
-            "text": "0 ₽",
+            "text": "1 000 ₽",
             "typeface": "body1",
             "text_color": "brand",
             "max_lines": 1
@@ -106,13 +118,13 @@
           },
           "texts": {
             "title": {
-              "text": "I",
+              "text": "MasterCard Сберкарта Travel",
               "typeface": "body1",
               "text_color": "default",
               "max_lines": 1
             },
             "subtitle": {
-              "text": "•• 1005",
+              "text": "•• 9230 • зп • мульти",
               "typeface": "footnote1",
               "text_color": "secondary",
               "margins": {
@@ -129,7 +141,7 @@
         },
         "right": {
           "detail": {
-            "text": "0 ₽",
+            "text": "0 $",
             "typeface": "body1",
             "text_color": "brand",
             "max_lines": 1
@@ -154,7 +166,7 @@
         "left": {
           "icon": {
             "address": {
-              "identificator": "card_visa_null",
+              "identificator": "card_ghost",
               "type": "local"
             },
             "size": {
@@ -170,13 +182,13 @@
           },
           "texts": {
             "title": {
-              "text": "I",
+              "text": "МИР Классическая Plus",
               "typeface": "body1",
               "text_color": "default",
               "max_lines": 1
             },
             "subtitle": {
-              "text": "•• 5766",
+              "text": "•• 6287 • доп",
               "typeface": "footnote1",
               "text_color": "secondary",
               "margins": {
@@ -193,391 +205,7 @@
         },
         "right": {
           "detail": {
-            "text": "4 614 059,86 ₽",
-            "typeface": "body1",
-            "text_color": "brand",
-            "max_lines": 1
-          },
-          "vertical_gravity": "top",
-          "detail_position": "top",
-          "type": "detail_right_view"
-        },
-        "divider": {
-          "style": "default",
-          "size": "d5"
-        },
-        "paddings": {
-          "bottom": "8x",
-          "left": "0x",
-          "right": "0x",
-          "top": "8x"
-        },
-        "type": "left_right_cell_view"
-      },
-      {
-        "left": {
-          "icon": {
-            "address": {
-              "identificator": "card_visa_null",
-              "type": "local"
-            },
-            "size": {
-              "width": "medium",
-              "height": "medium"
-            },
-            "margins": {
-              "bottom": "0x",
-              "left": "0x",
-              "right": "8x",
-              "top": "0x"
-            }
-          },
-          "texts": {
-            "title": {
-              "text": "IA",
-              "typeface": "body1",
-              "text_color": "default",
-              "max_lines": 1
-            },
-            "subtitle": {
-              "text": "•• 9130 • доп",
-              "typeface": "footnote1",
-              "text_color": "secondary",
-              "margins": {
-                "bottom": "0x",
-                "left": "0x",
-                "right": "0x",
-                "top": "1x"
-              },
-              "max_lines": 1
-            }
-          },
-          "icon_vertical_gravity": "center",
-          "type": "simple_left_view"
-        },
-        "right": {
-          "detail": {
-            "text": "4 614 059,86 ₽",
-            "typeface": "body1",
-            "text_color": "brand",
-            "max_lines": 1
-          },
-          "vertical_gravity": "top",
-          "detail_position": "top",
-          "type": "detail_right_view"
-        },
-        "divider": {
-          "style": "default",
-          "size": "d5"
-        },
-        "paddings": {
-          "bottom": "8x",
-          "left": "0x",
-          "right": "0x",
-          "top": "8x"
-        },
-        "type": "left_right_cell_view"
-      },
-      {
-        "left": {
-          "icon": {
-            "address": {
-              "identificator": "card_visa_digital",
-              "type": "local"
-            },
-            "size": {
-              "width": "medium",
-              "height": "medium"
-            },
-            "margins": {
-              "bottom": "0x",
-              "left": "0x",
-              "right": "8x",
-              "top": "0x"
-            }
-          },
-          "texts": {
-            "title": {
-              "text": "F",
-              "typeface": "body1",
-              "text_color": "default",
-              "max_lines": 1
-            },
-            "subtitle": {
-              "text": "•• 1898",
-              "typeface": "footnote1",
-              "text_color": "secondary",
-              "margins": {
-                "bottom": "0x",
-                "left": "0x",
-                "right": "0x",
-                "top": "1x"
-              },
-              "max_lines": 1
-            }
-          },
-          "icon_vertical_gravity": "center",
-          "type": "simple_left_view"
-        },
-        "right": {
-          "detail": {
-            "text": "209 992 ₽",
-            "typeface": "body1",
-            "text_color": "brand",
-            "max_lines": 1
-          },
-          "vertical_gravity": "top",
-          "detail_position": "top",
-          "type": "detail_right_view"
-        },
-        "divider": {
-          "style": "default",
-          "size": "d5"
-        },
-        "paddings": {
-          "bottom": "8x",
-          "left": "0x",
-          "right": "0x",
-          "top": "8x"
-        },
-        "type": "left_right_cell_view"
-      },
-      {
-        "left": {
-          "icon": {
-            "address": {
-              "identificator": "card_visa_null",
-              "type": "local"
-            },
-            "size": {
-              "width": "medium",
-              "height": "medium"
-            },
-            "margins": {
-              "bottom": "0x",
-              "left": "0x",
-              "right": "8x",
-              "top": "0x"
-            }
-          },
-          "texts": {
-            "title": {
-              "text": "I",
-              "typeface": "body1",
-              "text_color": "default",
-              "max_lines": 1
-            },
-            "subtitle": {
-              "text": "•• 6369",
-              "typeface": "footnote1",
-              "text_color": "secondary",
-              "margins": {
-                "bottom": "0x",
-                "left": "0x",
-                "right": "0x",
-                "top": "1x"
-              },
-              "max_lines": 1
-            }
-          },
-          "icon_vertical_gravity": "center",
-          "type": "simple_left_view"
-        },
-        "right": {
-          "detail": {
-            "text": "48 130 ₽",
-            "typeface": "body1",
-            "text_color": "brand",
-            "max_lines": 1
-          },
-          "vertical_gravity": "top",
-          "detail_position": "top",
-          "type": "detail_right_view"
-        },
-        "divider": {
-          "style": "default",
-          "size": "d5"
-        },
-        "paddings": {
-          "bottom": "8x",
-          "left": "0x",
-          "right": "0x",
-          "top": "8x"
-        },
-        "type": "left_right_cell_view"
-      },
-      {
-        "left": {
-          "icon": {
-            "address": {
-              "identificator": "card_visa_null",
-              "type": "local"
-            },
-            "size": {
-              "width": "medium",
-              "height": "medium"
-            },
-            "margins": {
-              "bottom": "0x",
-              "left": "0x",
-              "right": "8x",
-              "top": "0x"
-            }
-          },
-          "texts": {
-            "title": {
-              "text": "I",
-              "typeface": "body1",
-              "text_color": "default",
-              "max_lines": 1
-            },
-            "subtitle": {
-              "text": "•• 1781",
-              "typeface": "footnote1",
-              "text_color": "secondary",
-              "margins": {
-                "bottom": "0x",
-                "left": "0x",
-                "right": "0x",
-                "top": "1x"
-              },
-              "max_lines": 1
-            }
-          },
-          "icon_vertical_gravity": "center",
-          "type": "simple_left_view"
-        },
-        "right": {
-          "detail": {
-            "text": "6 798,91 $",
-            "typeface": "body1",
-            "text_color": "brand",
-            "max_lines": 1
-          },
-          "vertical_gravity": "top",
-          "detail_position": "top",
-          "type": "detail_right_view"
-        },
-        "divider": {
-          "style": "default",
-          "size": "d5"
-        },
-        "paddings": {
-          "bottom": "8x",
-          "left": "0x",
-          "right": "0x",
-          "top": "8x"
-        },
-        "type": "left_right_cell_view"
-      },
-      {
-        "left": {
-          "icon": {
-            "address": {
-              "identificator": "card_mir_null",
-              "type": "local"
-            },
-            "size": {
-              "width": "medium",
-              "height": "medium"
-            },
-            "margins": {
-              "bottom": "0x",
-              "left": "0x",
-              "right": "8x",
-              "top": "0x"
-            }
-          },
-          "texts": {
-            "title": {
-              "text": "Z",
-              "typeface": "body1",
-              "text_color": "default",
-              "max_lines": 1
-            },
-            "subtitle": {
-              "text": "•• 7601 • зарплатная",
-              "typeface": "footnote1",
-              "text_color": "secondary",
-              "margins": {
-                "bottom": "0x",
-                "left": "0x",
-                "right": "0x",
-                "top": "1x"
-              },
-              "max_lines": 1
-            }
-          },
-          "icon_vertical_gravity": "center",
-          "type": "simple_left_view"
-        },
-        "right": {
-          "detail": {
-            "text": "7 900 ₽",
-            "typeface": "body1",
-            "text_color": "brand",
-            "max_lines": 1
-          },
-          "vertical_gravity": "top",
-          "detail_position": "top",
-          "type": "detail_right_view"
-        },
-        "divider": {
-          "style": "default",
-          "size": "d5"
-        },
-        "paddings": {
-          "bottom": "8x",
-          "left": "0x",
-          "right": "0x",
-          "top": "8x"
-        },
-        "type": "left_right_cell_view"
-      },
-      {
-        "left": {
-          "icon": {
-            "address": {
-              "identificator": "card_mir_null",
-              "type": "local"
-            },
-            "size": {
-              "width": "medium",
-              "height": "medium"
-            },
-            "margins": {
-              "bottom": "0x",
-              "left": "0x",
-              "right": "8x",
-              "top": "0x"
-            }
-          },
-          "texts": {
-            "title": {
-              "text": "Z",
-              "typeface": "body1",
-              "text_color": "default",
-              "max_lines": 1
-            },
-            "subtitle": {
-              "text": "•• 0983 • зарплатная",
-              "typeface": "footnote1",
-              "text_color": "secondary",
-              "margins": {
-                "bottom": "0x",
-                "left": "0x",
-                "right": "0x",
-                "top": "1x"
-              },
-              "max_lines": 1
-            }
-          },
-          "icon_vertical_gravity": "center",
-          "type": "simple_left_view"
-        },
-        "right": {
-          "detail": {
-            "text": "0 ₽",
+            "text": "456 ₽",
             "typeface": "body1",
             "text_color": "brand",
             "max_lines": 1
@@ -618,13 +246,13 @@
           },
           "texts": {
             "title": {
-              "text": "I",
+              "text": "MasterCard Platinum Plus",
               "typeface": "body1",
               "text_color": "default",
               "max_lines": 1
             },
             "subtitle": {
-              "text": "•• 5371",
+              "text": "•• 8047 • мультивалютная",
               "typeface": "footnote1",
               "text_color": "secondary",
               "margins": {
@@ -641,7 +269,7 @@
         },
         "right": {
           "detail": {
-            "text": "-15 €",
+            "text": "-40 ₽",
             "typeface": "body1",
             "text_color": "secondary",
             "max_lines": 1
@@ -666,7 +294,7 @@
         "left": {
           "icon": {
             "address": {
-              "identificator": "card_mc_gold",
+              "identificator": "card_visa_null",
               "type": "local"
             },
             "size": {
@@ -682,13 +310,13 @@
           },
           "texts": {
             "title": {
-              "text": "IA",
+              "text": "Visa Classic",
               "typeface": "body1",
               "text_color": "default",
               "max_lines": 1
             },
             "subtitle": {
-              "text": "•• 7710 • доп",
+              "text": "•• 9472 • кред",
               "typeface": "footnote1",
               "text_color": "secondary",
               "margins": {
@@ -705,7 +333,199 @@
         },
         "right": {
           "detail": {
-            "text": "3 167 049,48 ₽",
+            "text": "44 861,94 €",
+            "typeface": "body1",
+            "text_color": "brand",
+            "max_lines": 1
+          },
+          "vertical_gravity": "top",
+          "detail_position": "top",
+          "type": "detail_right_view"
+        },
+        "divider": {
+          "style": "default",
+          "size": "d5"
+        },
+        "paddings": {
+          "bottom": "8x",
+          "left": "0x",
+          "right": "0x",
+          "top": "8x"
+        },
+        "type": "left_right_cell_view"
+      },
+      {
+        "left": {
+          "icon": {
+            "address": {
+              "identificator": "card_visa_null",
+              "type": "local"
+            },
+            "size": {
+              "width": "medium",
+              "height": "medium"
+            },
+            "margins": {
+              "bottom": "0x",
+              "left": "0x",
+              "right": "8x",
+              "top": "0x"
+            }
+          },
+          "texts": {
+            "title": {
+              "text": "Visa Classic",
+              "typeface": "body1",
+              "text_color": "default",
+              "max_lines": 1
+            },
+            "subtitle": {
+              "text": "•• 6074 • зарплатная",
+              "typeface": "footnote1",
+              "text_color": "secondary",
+              "margins": {
+                "bottom": "0x",
+                "left": "0x",
+                "right": "0x",
+                "top": "1x"
+              },
+              "max_lines": 1
+            }
+          },
+          "icon_vertical_gravity": "center",
+          "type": "simple_left_view"
+        },
+        "right": {
+          "detail": {
+            "text": "45 034,53 $",
+            "typeface": "body1",
+            "text_color": "brand",
+            "max_lines": 1
+          },
+          "vertical_gravity": "top",
+          "detail_position": "top",
+          "type": "detail_right_view"
+        },
+        "divider": {
+          "style": "default",
+          "size": "d5"
+        },
+        "paddings": {
+          "bottom": "8x",
+          "left": "0x",
+          "right": "0x",
+          "top": "8x"
+        },
+        "type": "left_right_cell_view"
+      },
+      {
+        "left": {
+          "icon": {
+            "address": {
+              "identificator": "card_visa_null",
+              "type": "local"
+            },
+            "size": {
+              "width": "medium",
+              "height": "medium"
+            },
+            "margins": {
+              "bottom": "0x",
+              "left": "0x",
+              "right": "8x",
+              "top": "0x"
+            }
+          },
+          "texts": {
+            "title": {
+              "text": "Visa Classic",
+              "typeface": "body1",
+              "text_color": "default",
+              "max_lines": 1
+            },
+            "subtitle": {
+              "text": "•• 7229",
+              "typeface": "footnote1",
+              "text_color": "secondary",
+              "margins": {
+                "bottom": "0x",
+                "left": "0x",
+                "right": "0x",
+                "top": "1x"
+              },
+              "max_lines": 1
+            }
+          },
+          "icon_vertical_gravity": "center",
+          "type": "simple_left_view"
+        },
+        "right": {
+          "detail": {
+            "text": "6 474 393,16 ₽",
+            "typeface": "body1",
+            "text_color": "brand",
+            "max_lines": 1
+          },
+          "vertical_gravity": "top",
+          "detail_position": "top",
+          "type": "detail_right_view"
+        },
+        "divider": {
+          "style": "default",
+          "size": "d5"
+        },
+        "paddings": {
+          "bottom": "8x",
+          "left": "0x",
+          "right": "0x",
+          "top": "8x"
+        },
+        "type": "left_right_cell_view"
+      },
+      {
+        "left": {
+          "icon": {
+            "address": {
+              "identificator": "card_mc_null",
+              "type": "local"
+            },
+            "size": {
+              "width": "medium",
+              "height": "medium"
+            },
+            "margins": {
+              "bottom": "0x",
+              "left": "0x",
+              "right": "8x",
+              "top": "0x"
+            }
+          },
+          "texts": {
+            "title": {
+              "text": "MasterCard Mass",
+              "typeface": "body1",
+              "text_color": "default",
+              "max_lines": 1
+            },
+            "subtitle": {
+              "text": "•• 9721",
+              "typeface": "footnote1",
+              "text_color": "secondary",
+              "margins": {
+                "bottom": "0x",
+                "left": "0x",
+                "right": "0x",
+                "top": "1x"
+              },
+              "max_lines": 1
+            }
+          },
+          "icon_vertical_gravity": "center",
+          "type": "simple_left_view"
+        },
+        "right": {
+          "detail": {
+            "text": "45 098 ₽",
             "typeface": "body1",
             "text_color": "brand",
             "max_lines": 1
