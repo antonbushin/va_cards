@@ -4,7 +4,7 @@
   "items": [
     {
       "bubble": {
-        "text": "Смотрите",
+        "text": "Вот, посмотрите",
         "markdown": true,
         "expand_policy": "auto_expand"
       }
@@ -49,8 +49,8 @@
             "left": {
               "icon": {
                 "address": {
-                  "identificator": "https://cdn.sberdevices.ru/VA/icons/mc_36_transaction_account_ruble.png",
-                  "type": "local"
+                  "url": "https://cdn.sberdevices.ru/VA/icons/mc_36_transaction_account_ruble.png",
+                  "type": "url"
                 },
                 "size": {
                   "width": "medium",
