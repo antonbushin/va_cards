@@ -177,8 +177,8 @@
             "left": {
               "icon": {
                 "address": {
-                  "identificator": "card_mc_null",
-                  "type": "local"
+                  "url": "https://cdn.sberdevices.ru/VA/icons/cards/mc_36_mastercard_big_bonus_credit-2x.png",
+                  "type": "url"
                 },
                 "size": {
                   "width": "medium",
