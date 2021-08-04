@@ -113,8 +113,8 @@
             "left": {
               "icon": {
                 "address": {
-                  "identificator": "mc_36_amex_premium-2x",
-                  "type": "local"
+                  "url": "https://cdn.sberdevices.ru/VA/icons/cards/mc_36_amex_premium-2x.png",
+                  "type": "url"
                 },
                 "size": {
                   "width": "medium",
