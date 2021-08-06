@@ -1,5 +1,5 @@
 {
-  "type": "sdk_answer",  
+  "type": "sdk_answer",
   "items": [
     {
       "bubble": {
@@ -13,30 +13,9 @@
         "cells": [
           {
             "left": {
-              "texts": {
-                "title": {
-                  "text": "Кошелёк",
-                  "typeface": "headline3",
-                  "text_color": "default",
-                  "max_lines": 1
-                }
-              },
-              "icon_vertical_gravity": "center",
-              "type": "simple_left_view"
-            },
-            "paddings": {
-              "bottom": "6x",
-              "left": "0x",
-              "right": "0x",
-              "top": "6x"
-            },
-            "type": "left_right_cell_view"
-          },
-          {
-            "left": {
               "icon": {
                 "address": {
-                  "url": "https://cdn.sberdevices.ru/VA/icons/mc_36_transaction_account_ruble.png",
+                  "url": "https://cdn.sberdevices.ru/VA/icons/cards/mc_36_visa_classic_credit.png",
                   "type": "url"
                 },
                 "size": {
@@ -52,47 +31,14 @@
               },
               "texts": {
                 "title": {
-                  "text": "Платёжный счёт",
+                  "text": "mc_36_visa_classic_credit",
                   "typeface": "body1",
                   "text_color": "default",
-                  "max_lines": 1
-                },
-                "subtitle": {
-                  "text": "•• ",
-                  "typeface": "footnote1",
-                  "text_color": "secondary",
-                  "margins": {
-                    "bottom": "0x",
-                    "left": "0x",
-                    "right": "0x",
-                    "top": "1x"
-                  },
                   "max_lines": 1
                 }
               },
               "icon_vertical_gravity": "center",
               "type": "simple_left_view"
-            },
-            "right": {
-              "detail": {
-                "text": "20 ₽",
-                "typeface": "body1",
-                "text_color": "brand",
-                "max_lines": 1
-              },
-              "vertical_gravity": "top",
-              "detail_position": "top",
-              "type": "detail_right_view"
-            },
-            "divider": {
-              "style": "default",
-              "size": "d5"
-            },
-            "paddings": {
-              "bottom": "8x",
-              "left": "0x",
-              "right": "0x",
-              "top": "8x"
             },
             "type": "left_right_cell_view"
           },
@@ -100,7 +46,7 @@
             "left": {
               "icon": {
                 "address": {
-                  "url": "https://cdn.sberdevices.ru/VA/icons/cards/mc_36_mastercard.png",
+                  "url": "https://cdn.sberdevices.ru/VA/icons/cards/mc_36_visa.png",
                   "type": "url"
                 },
                 "size": {
@@ -116,47 +62,14 @@
               },
               "texts": {
                 "title": {
-                  "text": "P",
+                  "text": "mc_36_visa",
                   "typeface": "body1",
                   "text_color": "default",
-                  "max_lines": 1
-                },
-                "subtitle": {
-                  "text": "•• 3298 • мультивалютная",
-                  "typeface": "footnote1",
-                  "text_color": "secondary",
-                  "margins": {
-                    "bottom": "0x",
-                    "left": "0x",
-                    "right": "0x",
-                    "top": "1x"
-                  },
                   "max_lines": 1
                 }
               },
               "icon_vertical_gravity": "center",
               "type": "simple_left_view"
-            },
-            "right": {
-              "detail": {
-                "text": "-44 ₽",
-                "typeface": "body1",
-                "text_color": "secondary",
-                "max_lines": 1
-              },
-              "vertical_gravity": "top",
-              "detail_position": "top",
-              "type": "detail_right_view"
-            },
-            "divider": {
-              "style": "default",
-              "size": "d5"
-            },
-            "paddings": {
-              "bottom": "8x",
-              "left": "0x",
-              "right": "0x",
-              "top": "8x"
             },
             "type": "left_right_cell_view"
           },
@@ -164,7 +77,7 @@
             "left": {
               "icon": {
                 "address": {
-                  "url": "https://cdn.sberdevices.ru/VA/icons/cards/mc_36_mastercard_sbercard_level_1.png",
+                  "url": "https://cdn.sberdevices.ru/VA/icons/cards/mc_36_visa_business_credit.png",
                   "type": "url"
                 },
                 "size": {
@@ -180,47 +93,14 @@
               },
               "texts": {
                 "title": {
-                  "text": "P",
+                  "text": "mc_36_visa_business_credit",
                   "typeface": "body1",
                   "text_color": "default",
-                  "max_lines": 1
-                },
-                "subtitle": {
-                  "text": "•• 7646 • доп",
-                  "typeface": "footnote1",
-                  "text_color": "secondary",
-                  "margins": {
-                    "bottom": "0x",
-                    "left": "0x",
-                    "right": "0x",
-                    "top": "1x"
-                  },
                   "max_lines": 1
                 }
               },
               "icon_vertical_gravity": "center",
               "type": "simple_left_view"
-            },
-            "right": {
-              "detail": {
-                "text": "-450 ₽",
-                "typeface": "body1",
-                "text_color": "secondary",
-                "max_lines": 1
-              },
-              "vertical_gravity": "top",
-              "detail_position": "top",
-              "type": "detail_right_view"
-            },
-            "divider": {
-              "style": "default",
-              "size": "d5"
-            },
-            "paddings": {
-              "bottom": "8x",
-              "left": "0x",
-              "right": "0x",
-              "top": "8x"
             },
             "type": "left_right_cell_view"
           },
@@ -228,7 +108,7 @@
             "left": {
               "icon": {
                 "address": {
-                  "url": "https://cdn.sberdevices.ru/VA/icons/cards/mc_36_visa_infinite.png",
+                  "url": "https://cdn.sberdevices.ru/VA/icons/cards/mc_36_visa_business.png",
                   "type": "url"
                 },
                 "size": {
@@ -244,47 +124,14 @@
               },
               "texts": {
                 "title": {
-                  "text": "P",
+                  "text": "mc_36_visa_business",
                   "typeface": "body1",
                   "text_color": "default",
-                  "max_lines": 1
-                },
-                "subtitle": {
-                  "text": "•• 8863",
-                  "typeface": "footnote1",
-                  "text_color": "secondary",
-                  "margins": {
-                    "bottom": "0x",
-                    "left": "0x",
-                    "right": "0x",
-                    "top": "1x"
-                  },
                   "max_lines": 1
                 }
               },
               "icon_vertical_gravity": "center",
               "type": "simple_left_view"
-            },
-            "right": {
-              "detail": {
-                "text": "-200 ₽",
-                "typeface": "body1",
-                "text_color": "secondary",
-                "max_lines": 1
-              },
-              "vertical_gravity": "top",
-              "detail_position": "top",
-              "type": "detail_right_view"
-            },
-            "divider": {
-              "style": "default",
-              "size": "d5"
-            },
-            "paddings": {
-              "bottom": "8x",
-              "left": "0x",
-              "right": "0x",
-              "top": "8x"
             },
             "type": "left_right_cell_view"
           },
@@ -292,7 +139,7 @@
             "left": {
               "icon": {
                 "address": {
-                  "url": "https://cdn.sberdevices.ru/VA/icons/cards/mc_36_mastercard_sbercard_level_1.png",
+                  "url": "https://cdn.sberdevices.ru/VA/icons/cards/mc_36_visa_gold_credit.png",
                   "type": "url"
                 },
                 "size": {
@@ -308,47 +155,14 @@
               },
               "texts": {
                 "title": {
-                  "text": "P",
+                  "text": "mc_36_visa_gold_credit",
                   "typeface": "body1",
                   "text_color": "default",
-                  "max_lines": 1
-                },
-                "subtitle": {
-                  "text": "•• 3439 • мультивалютная",
-                  "typeface": "footnote1",
-                  "text_color": "secondary",
-                  "margins": {
-                    "bottom": "0x",
-                    "left": "0x",
-                    "right": "0x",
-                    "top": "1x"
-                  },
                   "max_lines": 1
                 }
               },
               "icon_vertical_gravity": "center",
               "type": "simple_left_view"
-            },
-            "right": {
-              "detail": {
-                "text": "0 €",
-                "typeface": "body1",
-                "text_color": "brand",
-                "max_lines": 1
-              },
-              "vertical_gravity": "top",
-              "detail_position": "top",
-              "type": "detail_right_view"
-            },
-            "divider": {
-              "style": "default",
-              "size": "d5"
-            },
-            "paddings": {
-              "bottom": "8x",
-              "left": "0x",
-              "right": "0x",
-              "top": "8x"
             },
             "type": "left_right_cell_view"
           },
@@ -356,7 +170,7 @@
             "left": {
               "icon": {
                 "address": {
-                  "url": "https://cdn.sberdevices.ru/VA/icons/cards/mc_36_mastercard_sbercard_level_1.png",
+                  "url": "https://cdn.sberdevices.ru/VA/icons/cards/mc_36_visa_gold.png",
                   "type": "url"
                 },
                 "size": {
@@ -372,47 +186,14 @@
               },
               "texts": {
                 "title": {
-                  "text": "P",
+                  "text": "mc_36_visa_gold",
                   "typeface": "body1",
                   "text_color": "default",
-                  "max_lines": 1
-                },
-                "subtitle": {
-                  "text": "•• 1045 • мультивалютная",
-                  "typeface": "footnote1",
-                  "text_color": "secondary",
-                  "margins": {
-                    "bottom": "0x",
-                    "left": "0x",
-                    "right": "0x",
-                    "top": "1x"
-                  },
                   "max_lines": 1
                 }
               },
               "icon_vertical_gravity": "center",
               "type": "simple_left_view"
-            },
-            "right": {
-              "detail": {
-                "text": "175 ₽",
-                "typeface": "body1",
-                "text_color": "brand",
-                "max_lines": 1
-              },
-              "vertical_gravity": "top",
-              "detail_position": "top",
-              "type": "detail_right_view"
-            },
-            "divider": {
-              "style": "default",
-              "size": "d5"
-            },
-            "paddings": {
-              "bottom": "8x",
-              "left": "0x",
-              "right": "0x",
-              "top": "8x"
             },
             "type": "left_right_cell_view"
           },
@@ -420,7 +201,7 @@
             "left": {
               "icon": {
                 "address": {
-                  "url": "https://cdn.sberdevices.ru/VA/icons/cards/mc_36_mastercard_sbercard_level_1.png",
+                  "url": "https://cdn.sberdevices.ru/VA/icons/cards/mc_36_mastercard_classic_credit.png",
                   "type": "url"
                 },
                 "size": {
@@ -436,175 +217,14 @@
               },
               "texts": {
                 "title": {
-                  "text": "P",
+                  "text": "mc_36_mastercard_classic_credit",
                   "typeface": "body1",
                   "text_color": "default",
-                  "max_lines": 1
-                },
-                "subtitle": {
-                  "text": "•• 2167 • мультивалютная",
-                  "typeface": "footnote1",
-                  "text_color": "secondary",
-                  "margins": {
-                    "bottom": "0x",
-                    "left": "0x",
-                    "right": "0x",
-                    "top": "1x"
-                  },
                   "max_lines": 1
                 }
               },
               "icon_vertical_gravity": "center",
               "type": "simple_left_view"
-            },
-            "right": {
-              "detail": {
-                "text": "0 €",
-                "typeface": "body1",
-                "text_color": "brand",
-                "max_lines": 1
-              },
-              "vertical_gravity": "top",
-              "detail_position": "top",
-              "type": "detail_right_view"
-            },
-            "divider": {
-              "style": "default",
-              "size": "d5"
-            },
-            "paddings": {
-              "bottom": "8x",
-              "left": "0x",
-              "right": "0x",
-              "top": "8x"
-            },
-            "type": "left_right_cell_view"
-          },
-          {
-            "left": {
-              "icon": {
-                "address": {
-                  "url": "https://cdn.sberdevices.ru/VA/icons/cards/mc_36_mastercard_sbercard_level_1.png",
-                  "type": "url"
-                },
-                "size": {
-                  "width": "medium",
-                  "height": "medium"
-                },
-                "margins": {
-                  "bottom": "0x",
-                  "left": "0x",
-                  "right": "8x",
-                  "top": "0x"
-                }
-              },
-              "texts": {
-                "title": {
-                  "text": "P",
-                  "typeface": "body1",
-                  "text_color": "default",
-                  "max_lines": 1
-                },
-                "subtitle": {
-                  "text": "•• 1037 • мультивалютная",
-                  "typeface": "footnote1",
-                  "text_color": "secondary",
-                  "margins": {
-                    "bottom": "0x",
-                    "left": "0x",
-                    "right": "0x",
-                    "top": "1x"
-                  },
-                  "max_lines": 1
-                }
-              },
-              "icon_vertical_gravity": "center",
-              "type": "simple_left_view"
-            },
-            "right": {
-              "detail": {
-                "text": "2 €",
-                "typeface": "body1",
-                "text_color": "brand",
-                "max_lines": 1
-              },
-              "vertical_gravity": "top",
-              "detail_position": "top",
-              "type": "detail_right_view"
-            },
-            "divider": {
-              "style": "default",
-              "size": "d5"
-            },
-            "paddings": {
-              "bottom": "8x",
-              "left": "0x",
-              "right": "0x",
-              "top": "8x"
-            },
-            "type": "left_right_cell_view"
-          },
-          {
-            "left": {
-              "icon": {
-                "address": {
-                  "url": "https://cdn.sberdevices.ru/VA/icons/cards/mc_36_mastercard_sbercard_level_1.png",
-                  "type": "url"
-                },
-                "size": {
-                  "width": "medium",
-                  "height": "medium"
-                },
-                "margins": {
-                  "bottom": "0x",
-                  "left": "0x",
-                  "right": "8x",
-                  "top": "0x"
-                }
-              },
-              "texts": {
-                "title": {
-                  "text": "P",
-                  "typeface": "body1",
-                  "text_color": "default",
-                  "max_lines": 1
-                },
-                "subtitle": {
-                  "text": "•• 0806",
-                  "typeface": "footnote1",
-                  "text_color": "secondary",
-                  "margins": {
-                    "bottom": "0x",
-                    "left": "0x",
-                    "right": "0x",
-                    "top": "1x"
-                  },
-                  "max_lines": 1
-                }
-              },
-              "icon_vertical_gravity": "center",
-              "type": "simple_left_view"
-            },
-            "right": {
-              "detail": {
-                "text": "0 ₽",
-                "typeface": "body1",
-                "text_color": "brand",
-                "max_lines": 1
-              },
-              "vertical_gravity": "top",
-              "detail_position": "top",
-              "type": "detail_right_view"
-            },
-            "divider": {
-              "style": "default",
-              "size": "d5"
-            },
-            "paddings": {
-              "bottom": "8x",
-              "left": "0x",
-              "right": "0x",
-              "top": "8x"
             },
             "type": "left_right_cell_view"
           },
@@ -628,47 +248,14 @@
               },
               "texts": {
                 "title": {
-                  "text": "I",
+                  "text": "mc_36_mastercard",
                   "typeface": "body1",
                   "text_color": "default",
-                  "max_lines": 1
-                },
-                "subtitle": {
-                  "text": "•• 3547",
-                  "typeface": "footnote1",
-                  "text_color": "secondary",
-                  "margins": {
-                    "bottom": "0x",
-                    "left": "0x",
-                    "right": "0x",
-                    "top": "1x"
-                  },
                   "max_lines": 1
                 }
               },
               "icon_vertical_gravity": "center",
               "type": "simple_left_view"
-            },
-            "right": {
-              "detail": {
-                "text": "39 000 ₽",
-                "typeface": "body1",
-                "text_color": "brand",
-                "max_lines": 1
-              },
-              "vertical_gravity": "top",
-              "detail_position": "top",
-              "type": "detail_right_view"
-            },
-            "divider": {
-              "style": "default",
-              "size": "d5"
-            },
-            "paddings": {
-              "bottom": "8x",
-              "left": "0x",
-              "right": "0x",
-              "top": "8x"
             },
             "type": "left_right_cell_view"
           },
@@ -676,7 +263,7 @@
             "left": {
               "icon": {
                 "address": {
-                  "url": "https://cdn.sberdevices.ru/VA/icons/cards/mc_36_mastercard.png",
+                  "url": "https://cdn.sberdevices.ru/VA/icons/cards/mc_36_mastercard_business_credit.png",
                   "type": "url"
                 },
                 "size": {
@@ -692,47 +279,169 @@
               },
               "texts": {
                 "title": {
-                  "text": "IA",
+                  "text": "mc_36_mastercard_business_credit",
                   "typeface": "body1",
                   "text_color": "default",
-                  "max_lines": 1
-                },
-                "subtitle": {
-                  "text": "•• 3514 • доп",
-                  "typeface": "footnote1",
-                  "text_color": "secondary",
-                  "margins": {
-                    "bottom": "0x",
-                    "left": "0x",
-                    "right": "0x",
-                    "top": "1x"
-                  },
                   "max_lines": 1
                 }
               },
               "icon_vertical_gravity": "center",
               "type": "simple_left_view"
             },
-            "right": {
-              "detail": {
-                "text": "39 000 ₽",
-                "typeface": "body1",
-                "text_color": "brand",
-                "max_lines": 1
+            "type": "left_right_cell_view"
+          },
+          {
+            "left": {
+              "icon": {
+                "address": {
+                  "url": "https://cdn.sberdevices.ru/VA/icons/cards/mc_36_mastercard_business.png",
+                  "type": "url"
+                },
+                "size": {
+                  "width": "medium",
+                  "height": "medium"
+                },
+                "margins": {
+                  "bottom": "0x",
+                  "left": "0x",
+                  "right": "8x",
+                  "top": "0x"
+                }
               },
-              "vertical_gravity": "top",
-              "detail_position": "top",
-              "type": "detail_right_view"
+              "texts": {
+                "title": {
+                  "text": "mc_36_mastercard_business",
+                  "typeface": "body1",
+                  "text_color": "default",
+                  "max_lines": 1
+                }
+              },
+              "icon_vertical_gravity": "center",
+              "type": "simple_left_view"
             },
-            "divider": {
-              "style": "default",
-              "size": "d5"
+            "type": "left_right_cell_view"
+          },
+          {
+            "left": {
+              "icon": {
+                "address": {
+                  "url": "https://cdn.sberdevices.ru/VA/icons/cards/mc_36_mastercard_gold_credit.png",
+                  "type": "url"
+                },
+                "size": {
+                  "width": "medium",
+                  "height": "medium"
+                },
+                "margins": {
+                  "bottom": "0x",
+                  "left": "0x",
+                  "right": "8x",
+                  "top": "0x"
+                }
+              },
+              "texts": {
+                "title": {
+                  "text": "mc_36_mastercard_gold_credit",
+                  "typeface": "body1",
+                  "text_color": "default",
+                  "max_lines": 1
+                }
+              },
+              "icon_vertical_gravity": "center",
+              "type": "simple_left_view"
             },
-            "paddings": {
-              "bottom": "8x",
-              "left": "0x",
-              "right": "0x",
-              "top": "8x"
+            "type": "left_right_cell_view"
+          },
+          {
+            "left": {
+              "icon": {
+                "address": {
+                  "url": "https://cdn.sberdevices.ru/VA/icons/cards/mc_36_mastercard_gold.png",
+                  "type": "url"
+                },
+                "size": {
+                  "width": "medium",
+                  "height": "medium"
+                },
+                "margins": {
+                  "bottom": "0x",
+                  "left": "0x",
+                  "right": "8x",
+                  "top": "0x"
+                }
+              },
+              "texts": {
+                "title": {
+                  "text": "mc_36_mastercard_gold",
+                  "typeface": "body1",
+                  "text_color": "default",
+                  "max_lines": 1
+                }
+              },
+              "icon_vertical_gravity": "center",
+              "type": "simple_left_view"
+            },
+            "type": "left_right_cell_view"
+          },
+          {
+            "left": {
+              "icon": {
+                "address": {
+                  "url": "https://cdn.sberdevices.ru/VA/icons/cards/mc_36_maestro_classic.png",
+                  "type": "url"
+                },
+                "size": {
+                  "width": "medium",
+                  "height": "medium"
+                },
+                "margins": {
+                  "bottom": "0x",
+                  "left": "0x",
+                  "right": "8x",
+                  "top": "0x"
+                }
+              },
+              "texts": {
+                "title": {
+                  "text": "mc_36_maestro_classic",
+                  "typeface": "body1",
+                  "text_color": "default",
+                  "max_lines": 1
+                }
+              },
+              "icon_vertical_gravity": "center",
+              "type": "simple_left_view"
+            },
+            "type": "left_right_cell_view"
+          },
+          {
+            "left": {
+              "icon": {
+                "address": {
+                  "url": "https://cdn.sberdevices.ru/VA/icons/cards/mc_36_visa_electron.png",
+                  "type": "url"
+                },
+                "size": {
+                  "width": "medium",
+                  "height": "medium"
+                },
+                "margins": {
+                  "bottom": "0x",
+                  "left": "0x",
+                  "right": "8x",
+                  "top": "0x"
+                }
+              },
+              "texts": {
+                "title": {
+                  "text": "mc_36_visa_electron",
+                  "typeface": "body1",
+                  "text_color": "default",
+                  "max_lines": 1
+                }
+              },
+              "icon_vertical_gravity": "center",
+              "type": "simple_left_view"
             },
             "type": "left_right_cell_view"
           },
@@ -756,47 +465,76 @@
               },
               "texts": {
                 "title": {
-                  "text": "I",
+                  "text": "mc_36_visa_platinum",
                   "typeface": "body1",
                   "text_color": "default",
-                  "max_lines": 1
-                },
-                "subtitle": {
-                  "text": "•• 3557",
-                  "typeface": "footnote1",
-                  "text_color": "secondary",
-                  "margins": {
-                    "bottom": "0x",
-                    "left": "0x",
-                    "right": "0x",
-                    "top": "1x"
-                  },
                   "max_lines": 1
                 }
               },
               "icon_vertical_gravity": "center",
               "type": "simple_left_view"
             },
-            "right": {
-              "detail": {
-                "text": "250 000 ₽",
-                "typeface": "body1",
-                "text_color": "brand",
-                "max_lines": 1
+            "type": "left_right_cell_view"
+          },
+          {
+            "left": {
+              "icon": {
+                "address": {
+                  "url": "https://cdn.sberdevices.ru/VA/icons/cards/mc_36_mastercard_platinum.png",
+                  "type": "url"
+                },
+                "size": {
+                  "width": "medium",
+                  "height": "medium"
+                },
+                "margins": {
+                  "bottom": "0x",
+                  "left": "0x",
+                  "right": "8x",
+                  "top": "0x"
+                }
               },
-              "vertical_gravity": "top",
-              "detail_position": "top",
-              "type": "detail_right_view"
+              "texts": {
+                "title": {
+                  "text": "mc_36_mastercard_platinum",
+                  "typeface": "body1",
+                  "text_color": "default",
+                  "max_lines": 1
+                }
+              },
+              "icon_vertical_gravity": "center",
+              "type": "simple_left_view"
             },
-            "divider": {
-              "style": "default",
-              "size": "d5"
-            },
-            "paddings": {
-              "bottom": "8x",
-              "left": "0x",
-              "right": "0x",
-              "top": "8x"
+            "type": "left_right_cell_view"
+          },
+          {
+            "left": {
+              "icon": {
+                "address": {
+                  "url": "https://cdn.sberdevices.ru/VA/icons/cards/mc_36_visa_big_bonus_credit.png",
+                  "type": "url"
+                },
+                "size": {
+                  "width": "medium",
+                  "height": "medium"
+                },
+                "margins": {
+                  "bottom": "0x",
+                  "left": "0x",
+                  "right": "8x",
+                  "top": "0x"
+                }
+              },
+              "texts": {
+                "title": {
+                  "text": "mc_36_visa_big_bonus_credit",
+                  "typeface": "body1",
+                  "text_color": "default",
+                  "max_lines": 1
+                }
+              },
+              "icon_vertical_gravity": "center",
+              "type": "simple_left_view"
             },
             "type": "left_right_cell_view"
           },
@@ -820,47 +558,14 @@
               },
               "texts": {
                 "title": {
-                  "text": "I",
+                  "text": "mc_36_mastercard",
                   "typeface": "body1",
                   "text_color": "default",
-                  "max_lines": 1
-                },
-                "subtitle": {
-                  "text": "•• 9814",
-                  "typeface": "footnote1",
-                  "text_color": "secondary",
-                  "margins": {
-                    "bottom": "0x",
-                    "left": "0x",
-                    "right": "0x",
-                    "top": "1x"
-                  },
                   "max_lines": 1
                 }
               },
               "icon_vertical_gravity": "center",
               "type": "simple_left_view"
-            },
-            "right": {
-              "detail": {
-                "text": "300 000 ₽",
-                "typeface": "body1",
-                "text_color": "brand",
-                "max_lines": 1
-              },
-              "vertical_gravity": "top",
-              "detail_position": "top",
-              "type": "detail_right_view"
-            },
-            "divider": {
-              "style": "default",
-              "size": "d5"
-            },
-            "paddings": {
-              "bottom": "8x",
-              "left": "0x",
-              "right": "0x",
-              "top": "8x"
             },
             "type": "left_right_cell_view"
           },
@@ -868,7 +573,7 @@
             "left": {
               "icon": {
                 "address": {
-                  "url": "https://cdn.sberdevices.ru/VA/icons/cards/mc_36_mastercard_sbercard_level_1.png",
+                  "url": "https://cdn.sberdevices.ru/VA/icons/cards/mc_36_pro100_standart.png",
                   "type": "url"
                 },
                 "size": {
@@ -884,47 +589,14 @@
               },
               "texts": {
                 "title": {
-                  "text": "P",
+                  "text": "mc_36_pro100_standart",
                   "typeface": "body1",
                   "text_color": "default",
-                  "max_lines": 1
-                },
-                "subtitle": {
-                  "text": "•• 4387 • мультивалютная",
-                  "typeface": "footnote1",
-                  "text_color": "secondary",
-                  "margins": {
-                    "bottom": "0x",
-                    "left": "0x",
-                    "right": "0x",
-                    "top": "1x"
-                  },
                   "max_lines": 1
                 }
               },
               "icon_vertical_gravity": "center",
               "type": "simple_left_view"
-            },
-            "right": {
-              "detail": {
-                "text": "0 €",
-                "typeface": "body1",
-                "text_color": "brand",
-                "max_lines": 1
-              },
-              "vertical_gravity": "top",
-              "detail_position": "top",
-              "type": "detail_right_view"
-            },
-            "divider": {
-              "style": "default",
-              "size": "d5"
-            },
-            "paddings": {
-              "bottom": "8x",
-              "left": "0x",
-              "right": "0x",
-              "top": "8x"
             },
             "type": "left_right_cell_view"
           },
@@ -932,7 +604,7 @@
             "left": {
               "icon": {
                 "address": {
-                  "url": "https://cdn.sberdevices.ru/VA/icons/cards/mc_36_mastercard_sbercard_level_1.png",
+                  "url": "https://cdn.sberdevices.ru/VA/icons/cards/mc_36_pro100_standart.png",
                   "type": "url"
                 },
                 "size": {
@@ -948,47 +620,1533 @@
               },
               "texts": {
                 "title": {
-                  "text": "P",
+                  "text": "mc_36_pro100_standart",
                   "typeface": "body1",
                   "text_color": "default",
-                  "max_lines": 1
-                },
-                "subtitle": {
-                  "text": "•• 1060 • мультивалютная",
-                  "typeface": "footnote1",
-                  "text_color": "secondary",
-                  "margins": {
-                    "bottom": "0x",
-                    "left": "0x",
-                    "right": "0x",
-                    "top": "1x"
-                  },
                   "max_lines": 1
                 }
               },
               "icon_vertical_gravity": "center",
               "type": "simple_left_view"
             },
-            "right": {
-              "detail": {
-                "text": "0 ₽",
-                "typeface": "body1",
-                "text_color": "brand",
-                "max_lines": 1
+            "type": "left_right_cell_view"
+          },
+          {
+            "left": {
+              "icon": {
+                "address": {
+                  "url": "https://cdn.sberdevices.ru/VA/icons/cards/mc_36_pro100_standart.png",
+                  "type": "url"
+                },
+                "size": {
+                  "width": "medium",
+                  "height": "medium"
+                },
+                "margins": {
+                  "bottom": "0x",
+                  "left": "0x",
+                  "right": "8x",
+                  "top": "0x"
+                }
               },
-              "vertical_gravity": "top",
-              "detail_position": "top",
-              "type": "detail_right_view"
+              "texts": {
+                "title": {
+                  "text": "mc_36_pro100_standart",
+                  "typeface": "body1",
+                  "text_color": "default",
+                  "max_lines": 1
+                }
+              },
+              "icon_vertical_gravity": "center",
+              "type": "simple_left_view"
             },
-            "divider": {
-              "style": "default",
-              "size": "d5"
+            "type": "left_right_cell_view"
+          },
+          {
+            "left": {
+              "icon": {
+                "address": {
+                  "url": "https://cdn.sberdevices.ru/VA/icons/cards/mc_36_pro100_standart.png",
+                  "type": "url"
+                },
+                "size": {
+                  "width": "medium",
+                  "height": "medium"
+                },
+                "margins": {
+                  "bottom": "0x",
+                  "left": "0x",
+                  "right": "8x",
+                  "top": "0x"
+                }
+              },
+              "texts": {
+                "title": {
+                  "text": "mc_36_pro100_standart",
+                  "typeface": "body1",
+                  "text_color": "default",
+                  "max_lines": 1
+                }
+              },
+              "icon_vertical_gravity": "center",
+              "type": "simple_left_view"
             },
-            "paddings": {
-              "bottom": "8x",
-              "left": "0x",
-              "right": "0x",
-              "top": "8x"
+            "type": "left_right_cell_view"
+          },
+          {
+            "left": {
+              "icon": {
+                "address": {
+                  "url": "https://cdn.sberdevices.ru/VA/icons/cards/mc_36_pro100_standart.png",
+                  "type": "url"
+                },
+                "size": {
+                  "width": "medium",
+                  "height": "medium"
+                },
+                "margins": {
+                  "bottom": "0x",
+                  "left": "0x",
+                  "right": "8x",
+                  "top": "0x"
+                }
+              },
+              "texts": {
+                "title": {
+                  "text": "mc_36_pro100_standart",
+                  "typeface": "body1",
+                  "text_color": "default",
+                  "max_lines": 1
+                }
+              },
+              "icon_vertical_gravity": "center",
+              "type": "simple_left_view"
+            },
+            "type": "left_right_cell_view"
+          },
+          {
+            "left": {
+              "icon": {
+                "address": {
+                  "url": "https://cdn.sberdevices.ru/VA/icons/cards/mc_36_visa_digital.png",
+                  "type": "url"
+                },
+                "size": {
+                  "width": "medium",
+                  "height": "medium"
+                },
+                "margins": {
+                  "bottom": "0x",
+                  "left": "0x",
+                  "right": "8x",
+                  "top": "0x"
+                }
+              },
+              "texts": {
+                "title": {
+                  "text": "mc_36_visa_digital",
+                  "typeface": "body1",
+                  "text_color": "default",
+                  "max_lines": 1
+                }
+              },
+              "icon_vertical_gravity": "center",
+              "type": "simple_left_view"
+            },
+            "type": "left_right_cell_view"
+          },
+          {
+            "left": {
+              "icon": {
+                "address": {
+                  "url": "https://cdn.sberdevices.ru/VA/icons/cards/mc_36_mastercard_digital.png",
+                  "type": "url"
+                },
+                "size": {
+                  "width": "medium",
+                  "height": "medium"
+                },
+                "margins": {
+                  "bottom": "0x",
+                  "left": "0x",
+                  "right": "8x",
+                  "top": "0x"
+                }
+              },
+              "texts": {
+                "title": {
+                  "text": "mc_36_mastercard_digital",
+                  "typeface": "body1",
+                  "text_color": "default",
+                  "max_lines": 1
+                }
+              },
+              "icon_vertical_gravity": "center",
+              "type": "simple_left_view"
+            },
+            "type": "left_right_cell_view"
+          },
+          {
+            "left": {
+              "icon": {
+                "address": {
+                  "url": "https://cdn.sberdevices.ru/VA/icons/cards/mc_36_visa_electron.png",
+                  "type": "url"
+                },
+                "size": {
+                  "width": "medium",
+                  "height": "medium"
+                },
+                "margins": {
+                  "bottom": "0x",
+                  "left": "0x",
+                  "right": "8x",
+                  "top": "0x"
+                }
+              },
+              "texts": {
+                "title": {
+                  "text": "mc_36_visa_electron",
+                  "typeface": "body1",
+                  "text_color": "default",
+                  "max_lines": 1
+                }
+              },
+              "icon_vertical_gravity": "center",
+              "type": "simple_left_view"
+            },
+            "type": "left_right_cell_view"
+          },
+          {
+            "left": {
+              "icon": {
+                "address": {
+                  "url": "https://cdn.sberdevices.ru/VA/icons/cards/mc_36_maestro_classic.png",
+                  "type": "url"
+                },
+                "size": {
+                  "width": "medium",
+                  "height": "medium"
+                },
+                "margins": {
+                  "bottom": "0x",
+                  "left": "0x",
+                  "right": "8x",
+                  "top": "0x"
+                }
+              },
+              "texts": {
+                "title": {
+                  "text": "mc_36_maestro_classic",
+                  "typeface": "body1",
+                  "text_color": "default",
+                  "max_lines": 1
+                }
+              },
+              "icon_vertical_gravity": "center",
+              "type": "simple_left_view"
+            },
+            "type": "left_right_cell_view"
+          },
+          {
+            "left": {
+              "icon": {
+                "address": {
+                  "url": "https://cdn.sberdevices.ru/VA/icons/cards/mc_36_amex_black.png",
+                  "type": "url"
+                },
+                "size": {
+                  "width": "medium",
+                  "height": "medium"
+                },
+                "margins": {
+                  "bottom": "0x",
+                  "left": "0x",
+                  "right": "8x",
+                  "top": "0x"
+                }
+              },
+              "texts": {
+                "title": {
+                  "text": "mc_36_amex_black",
+                  "typeface": "body1",
+                  "text_color": "default",
+                  "max_lines": 1
+                }
+              },
+              "icon_vertical_gravity": "center",
+              "type": "simple_left_view"
+            },
+            "type": "left_right_cell_view"
+          },
+          {
+            "left": {
+              "icon": {
+                "address": {
+                  "url": "https://cdn.sberdevices.ru/VA/icons/cards/mc_36_amex_credit.png",
+                  "type": "url"
+                },
+                "size": {
+                  "width": "medium",
+                  "height": "medium"
+                },
+                "margins": {
+                  "bottom": "0x",
+                  "left": "0x",
+                  "right": "8x",
+                  "top": "0x"
+                }
+              },
+              "texts": {
+                "title": {
+                  "text": "mc_36_amex_credit",
+                  "typeface": "body1",
+                  "text_color": "default",
+                  "max_lines": 1
+                }
+              },
+              "icon_vertical_gravity": "center",
+              "type": "simple_left_view"
+            },
+            "type": "left_right_cell_view"
+          },
+          {
+            "left": {
+              "icon": {
+                "address": {
+                  "url": "https://cdn.sberdevices.ru/VA/icons/cards/mc_36_amex_credit.png",
+                  "type": "url"
+                },
+                "size": {
+                  "width": "medium",
+                  "height": "medium"
+                },
+                "margins": {
+                  "bottom": "0x",
+                  "left": "0x",
+                  "right": "8x",
+                  "top": "0x"
+                }
+              },
+              "texts": {
+                "title": {
+                  "text": "mc_36_amex_credit",
+                  "typeface": "body1",
+                  "text_color": "default",
+                  "max_lines": 1
+                }
+              },
+              "icon_vertical_gravity": "center",
+              "type": "simple_left_view"
+            },
+            "type": "left_right_cell_view"
+          },
+          {
+            "left": {
+              "icon": {
+                "address": {
+                  "url": "https://cdn.sberdevices.ru/VA/icons/cards/mc_36_amex_premium.png",
+                  "type": "url"
+                },
+                "size": {
+                  "width": "medium",
+                  "height": "medium"
+                },
+                "margins": {
+                  "bottom": "0x",
+                  "left": "0x",
+                  "right": "8x",
+                  "top": "0x"
+                }
+              },
+              "texts": {
+                "title": {
+                  "text": "mc_36_amex_premium",
+                  "typeface": "body1",
+                  "text_color": "default",
+                  "max_lines": 1
+                }
+              },
+              "icon_vertical_gravity": "center",
+              "type": "simple_left_view"
+            },
+            "type": "left_right_cell_view"
+          },
+          {
+            "left": {
+              "icon": {
+                "address": {
+                  "url": "https://cdn.sberdevices.ru/VA/icons/cards/mc_36_pro100_standart.png",
+                  "type": "url"
+                },
+                "size": {
+                  "width": "medium",
+                  "height": "medium"
+                },
+                "margins": {
+                  "bottom": "0x",
+                  "left": "0x",
+                  "right": "8x",
+                  "top": "0x"
+                }
+              },
+              "texts": {
+                "title": {
+                  "text": "mc_36_pro100_standart",
+                  "typeface": "body1",
+                  "text_color": "default",
+                  "max_lines": 1
+                }
+              },
+              "icon_vertical_gravity": "center",
+              "type": "simple_left_view"
+            },
+            "type": "left_right_cell_view"
+          },
+          {
+            "left": {
+              "icon": {
+                "address": {
+                  "url": "https://cdn.sberdevices.ru/VA/icons/cards/mc_36_mastercard.png",
+                  "type": "url"
+                },
+                "size": {
+                  "width": "medium",
+                  "height": "medium"
+                },
+                "margins": {
+                  "bottom": "0x",
+                  "left": "0x",
+                  "right": "8x",
+                  "top": "0x"
+                }
+              },
+              "texts": {
+                "title": {
+                  "text": "mc_36_mastercard",
+                  "typeface": "body1",
+                  "text_color": "default",
+                  "max_lines": 1
+                }
+              },
+              "icon_vertical_gravity": "center",
+              "type": "simple_left_view"
+            },
+            "type": "left_right_cell_view"
+          },
+          {
+            "left": {
+              "icon": {
+                "address": {
+                  "url": "https://cdn.sberdevices.ru/VA/icons/cards/mc_36_mastercard_black_edition.png",
+                  "type": "url"
+                },
+                "size": {
+                  "width": "medium",
+                  "height": "medium"
+                },
+                "margins": {
+                  "bottom": "0x",
+                  "left": "0x",
+                  "right": "8x",
+                  "top": "0x"
+                }
+              },
+              "texts": {
+                "title": {
+                  "text": "mc_36_mastercard_black_edition",
+                  "typeface": "body1",
+                  "text_color": "default",
+                  "max_lines": 1
+                }
+              },
+              "icon_vertical_gravity": "center",
+              "type": "simple_left_view"
+            },
+            "type": "left_right_cell_view"
+          },
+          {
+            "left": {
+              "icon": {
+                "address": {
+                  "url": "https://cdn.sberdevices.ru/VA/icons/cards/mc_36_visa_premium.png",
+                  "type": "url"
+                },
+                "size": {
+                  "width": "medium",
+                  "height": "medium"
+                },
+                "margins": {
+                  "bottom": "0x",
+                  "left": "0x",
+                  "right": "8x",
+                  "top": "0x"
+                }
+              },
+              "texts": {
+                "title": {
+                  "text": "mc_36_visa_premium",
+                  "typeface": "body1",
+                  "text_color": "default",
+                  "max_lines": 1
+                }
+              },
+              "icon_vertical_gravity": "center",
+              "type": "simple_left_view"
+            },
+            "type": "left_right_cell_view"
+          },
+          {
+            "left": {
+              "icon": {
+                "address": {
+                  "url": "https://cdn.sberdevices.ru/VA/icons/cards/mc_36_mastercard_black_edition.png",
+                  "type": "url"
+                },
+                "size": {
+                  "width": "medium",
+                  "height": "medium"
+                },
+                "margins": {
+                  "bottom": "0x",
+                  "left": "0x",
+                  "right": "8x",
+                  "top": "0x"
+                }
+              },
+              "texts": {
+                "title": {
+                  "text": "mc_36_mastercard_black_edition",
+                  "typeface": "body1",
+                  "text_color": "default",
+                  "max_lines": 1
+                }
+              },
+              "icon_vertical_gravity": "center",
+              "type": "simple_left_view"
+            },
+            "type": "left_right_cell_view"
+          },
+          {
+            "left": {
+              "icon": {
+                "address": {
+                  "url": "https://cdn.sberdevices.ru/VA/icons/cards/mc_36_visa.png",
+                  "type": "url"
+                },
+                "size": {
+                  "width": "medium",
+                  "height": "medium"
+                },
+                "margins": {
+                  "bottom": "0x",
+                  "left": "0x",
+                  "right": "8x",
+                  "top": "0x"
+                }
+              },
+              "texts": {
+                "title": {
+                  "text": "mc_36_visa",
+                  "typeface": "body1",
+                  "text_color": "default",
+                  "max_lines": 1
+                }
+              },
+              "icon_vertical_gravity": "center",
+              "type": "simple_left_view"
+            },
+            "type": "left_right_cell_view"
+          },
+          {
+            "left": {
+              "icon": {
+                "address": {
+                  "url": "https://cdn.sberdevices.ru/VA/icons/cards/mc_36_visa_infinity_sbercard.png",
+                  "type": "url"
+                },
+                "size": {
+                  "width": "medium",
+                  "height": "medium"
+                },
+                "margins": {
+                  "bottom": "0x",
+                  "left": "0x",
+                  "right": "8x",
+                  "top": "0x"
+                }
+              },
+              "texts": {
+                "title": {
+                  "text": "mc_36_visa_infinity_sbercard",
+                  "typeface": "body1",
+                  "text_color": "default",
+                  "max_lines": 1
+                }
+              },
+              "icon_vertical_gravity": "center",
+              "type": "simple_left_view"
+            },
+            "type": "left_right_cell_view"
+          },
+          {
+            "left": {
+              "icon": {
+                "address": {
+                  "url": "https://cdn.sberdevices.ru/VA/icons/cards/mc_36_visa_digital_credit.png",
+                  "type": "url"
+                },
+                "size": {
+                  "width": "medium",
+                  "height": "medium"
+                },
+                "margins": {
+                  "bottom": "0x",
+                  "left": "0x",
+                  "right": "8x",
+                  "top": "0x"
+                }
+              },
+              "texts": {
+                "title": {
+                  "text": "mc_36_visa_digital_credit",
+                  "typeface": "body1",
+                  "text_color": "default",
+                  "max_lines": 1
+                }
+              },
+              "icon_vertical_gravity": "center",
+              "type": "simple_left_view"
+            },
+            "type": "left_right_cell_view"
+          },
+          {
+            "left": {
+              "icon": {
+                "address": {
+                  "url": "https://cdn.sberdevices.ru/VA/icons/cards/mc_36_mastercard_welite_sbercard.png",
+                  "type": "url"
+                },
+                "size": {
+                  "width": "medium",
+                  "height": "medium"
+                },
+                "margins": {
+                  "bottom": "0x",
+                  "left": "0x",
+                  "right": "8x",
+                  "top": "0x"
+                }
+              },
+              "texts": {
+                "title": {
+                  "text": "mc_36_mastercard_welite_sbercard",
+                  "typeface": "body1",
+                  "text_color": "default",
+                  "max_lines": 1
+                }
+              },
+              "icon_vertical_gravity": "center",
+              "type": "simple_left_view"
+            },
+            "type": "left_right_cell_view"
+          },
+          {
+            "left": {
+              "icon": {
+                "address": {
+                  "url": "https://cdn.sberdevices.ru/VA/icons/cards/mc_36_visa.png",
+                  "type": "url"
+                },
+                "size": {
+                  "width": "medium",
+                  "height": "medium"
+                },
+                "margins": {
+                  "bottom": "0x",
+                  "left": "0x",
+                  "right": "8x",
+                  "top": "0x"
+                }
+              },
+              "texts": {
+                "title": {
+                  "text": "mc_36_visa",
+                  "typeface": "body1",
+                  "text_color": "default",
+                  "max_lines": 1
+                }
+              },
+              "icon_vertical_gravity": "center",
+              "type": "simple_left_view"
+            },
+            "type": "left_right_cell_view"
+          },
+          {
+            "left": {
+              "icon": {
+                "address": {
+                  "url": "https://cdn.sberdevices.ru/VA/icons/cards/mc_36_mastercard.png",
+                  "type": "url"
+                },
+                "size": {
+                  "width": "medium",
+                  "height": "medium"
+                },
+                "margins": {
+                  "bottom": "0x",
+                  "left": "0x",
+                  "right": "8x",
+                  "top": "0x"
+                }
+              },
+              "texts": {
+                "title": {
+                  "text": "mc_36_mastercard",
+                  "typeface": "body1",
+                  "text_color": "default",
+                  "max_lines": 1
+                }
+              },
+              "icon_vertical_gravity": "center",
+              "type": "simple_left_view"
+            },
+            "type": "left_right_cell_view"
+          },
+          {
+            "left": {
+              "icon": {
+                "address": {
+                  "url": "https://cdn.sberdevices.ru/VA/icons/cards/mc_36_visa_momentum_credit.png",
+                  "type": "url"
+                },
+                "size": {
+                  "width": "medium",
+                  "height": "medium"
+                },
+                "margins": {
+                  "bottom": "0x",
+                  "left": "0x",
+                  "right": "8x",
+                  "top": "0x"
+                }
+              },
+              "texts": {
+                "title": {
+                  "text": "mc_36_visa_momentum_credit",
+                  "typeface": "body1",
+                  "text_color": "default",
+                  "max_lines": 1
+                }
+              },
+              "icon_vertical_gravity": "center",
+              "type": "simple_left_view"
+            },
+            "type": "left_right_cell_view"
+          },
+          {
+            "left": {
+              "icon": {
+                "address": {
+                  "url": "https://cdn.sberdevices.ru/VA/icons/cards/mc_36_visa_momentum.png",
+                  "type": "url"
+                },
+                "size": {
+                  "width": "medium",
+                  "height": "medium"
+                },
+                "margins": {
+                  "bottom": "0x",
+                  "left": "0x",
+                  "right": "8x",
+                  "top": "0x"
+                }
+              },
+              "texts": {
+                "title": {
+                  "text": "mc_36_visa_momentum",
+                  "typeface": "body1",
+                  "text_color": "default",
+                  "max_lines": 1
+                }
+              },
+              "icon_vertical_gravity": "center",
+              "type": "simple_left_view"
+            },
+            "type": "left_right_cell_view"
+          },
+          {
+            "left": {
+              "icon": {
+                "address": {
+                  "url": "https://cdn.sberdevices.ru/VA/icons/cards/mc_36_mastercard_momentum_credit.png",
+                  "type": "url"
+                },
+                "size": {
+                  "width": "medium",
+                  "height": "medium"
+                },
+                "margins": {
+                  "bottom": "0x",
+                  "left": "0x",
+                  "right": "8x",
+                  "top": "0x"
+                }
+              },
+              "texts": {
+                "title": {
+                  "text": "mc_36_mastercard_momentum_credit",
+                  "typeface": "body1",
+                  "text_color": "default",
+                  "max_lines": 1
+                }
+              },
+              "icon_vertical_gravity": "center",
+              "type": "simple_left_view"
+            },
+            "type": "left_right_cell_view"
+          },
+          {
+            "left": {
+              "icon": {
+                "address": {
+                  "url": "https://cdn.sberdevices.ru/VA/icons/cards/mc_36_mastercard_momentum.png",
+                  "type": "url"
+                },
+                "size": {
+                  "width": "medium",
+                  "height": "medium"
+                },
+                "margins": {
+                  "bottom": "0x",
+                  "left": "0x",
+                  "right": "8x",
+                  "top": "0x"
+                }
+              },
+              "texts": {
+                "title": {
+                  "text": "mc_36_mastercard_momentum",
+                  "typeface": "body1",
+                  "text_color": "default",
+                  "max_lines": 1
+                }
+              },
+              "icon_vertical_gravity": "center",
+              "type": "simple_left_view"
+            },
+            "type": "left_right_cell_view"
+          },
+          {
+            "left": {
+              "icon": {
+                "address": {
+                  "url": "https://cdn.sberdevices.ru/VA/icons/cards/mc_36_visa_premium.png",
+                  "type": "url"
+                },
+                "size": {
+                  "width": "medium",
+                  "height": "medium"
+                },
+                "margins": {
+                  "bottom": "0x",
+                  "left": "0x",
+                  "right": "8x",
+                  "top": "0x"
+                }
+              },
+              "texts": {
+                "title": {
+                  "text": "mc_36_visa_premium",
+                  "typeface": "body1",
+                  "text_color": "default",
+                  "max_lines": 1
+                }
+              },
+              "icon_vertical_gravity": "center",
+              "type": "simple_left_view"
+            },
+            "type": "left_right_cell_view"
+          },
+          {
+            "left": {
+              "icon": {
+                "address": {
+                  "url": "https://cdn.sberdevices.ru/VA/icons/cards/mc_36_mastercard.png",
+                  "type": "url"
+                },
+                "size": {
+                  "width": "medium",
+                  "height": "medium"
+                },
+                "margins": {
+                  "bottom": "0x",
+                  "left": "0x",
+                  "right": "8x",
+                  "top": "0x"
+                }
+              },
+              "texts": {
+                "title": {
+                  "text": "mc_36_mastercard",
+                  "typeface": "body1",
+                  "text_color": "default",
+                  "max_lines": 1
+                }
+              },
+              "icon_vertical_gravity": "center",
+              "type": "simple_left_view"
+            },
+            "type": "left_right_cell_view"
+          },
+          {
+            "left": {
+              "icon": {
+                "address": {
+                  "url": "https://cdn.sberdevices.ru/VA/icons/cards/mc_36_mastercard_momentum.png",
+                  "type": "url"
+                },
+                "size": {
+                  "width": "medium",
+                  "height": "medium"
+                },
+                "margins": {
+                  "bottom": "0x",
+                  "left": "0x",
+                  "right": "8x",
+                  "top": "0x"
+                }
+              },
+              "texts": {
+                "title": {
+                  "text": "mc_36_mastercard_momentum",
+                  "typeface": "body1",
+                  "text_color": "default",
+                  "max_lines": 1
+                }
+              },
+              "icon_vertical_gravity": "center",
+              "type": "simple_left_view"
+            },
+            "type": "left_right_cell_view"
+          },
+          {
+            "left": {
+              "icon": {
+                "address": {
+                  "url": "https://cdn.sberdevices.ru/VA/icons/cards/mc_36_mir.png",
+                  "type": "url"
+                },
+                "size": {
+                  "width": "medium",
+                  "height": "medium"
+                },
+                "margins": {
+                  "bottom": "0x",
+                  "left": "0x",
+                  "right": "8x",
+                  "top": "0x"
+                }
+              },
+              "texts": {
+                "title": {
+                  "text": "mc_36_mir",
+                  "typeface": "body1",
+                  "text_color": "default",
+                  "max_lines": 1
+                }
+              },
+              "icon_vertical_gravity": "center",
+              "type": "simple_left_view"
+            },
+            "type": "left_right_cell_view"
+          },
+          {
+            "left": {
+              "icon": {
+                "address": {
+                  "url": "https://cdn.sberdevices.ru/VA/icons/cards/mc_36_mir_social.png",
+                  "type": "url"
+                },
+                "size": {
+                  "width": "medium",
+                  "height": "medium"
+                },
+                "margins": {
+                  "bottom": "0x",
+                  "left": "0x",
+                  "right": "8x",
+                  "top": "0x"
+                }
+              },
+              "texts": {
+                "title": {
+                  "text": "mc_36_mir_social",
+                  "typeface": "body1",
+                  "text_color": "default",
+                  "max_lines": 1
+                }
+              },
+              "icon_vertical_gravity": "center",
+              "type": "simple_left_view"
+            },
+            "type": "left_right_cell_view"
+          },
+          {
+            "left": {
+              "icon": {
+                "address": {
+                  "url": "https://cdn.sberdevices.ru/VA/icons/cards/mc_36_mir_gold.png",
+                  "type": "url"
+                },
+                "size": {
+                  "width": "medium",
+                  "height": "medium"
+                },
+                "margins": {
+                  "bottom": "0x",
+                  "left": "0x",
+                  "right": "8x",
+                  "top": "0x"
+                }
+              },
+              "texts": {
+                "title": {
+                  "text": "mc_36_mir_gold",
+                  "typeface": "body1",
+                  "text_color": "default",
+                  "max_lines": 1
+                }
+              },
+              "icon_vertical_gravity": "center",
+              "type": "simple_left_view"
+            },
+            "type": "left_right_cell_view"
+          },
+          {
+            "left": {
+              "icon": {
+                "address": {
+                  "url": "https://cdn.sberdevices.ru/VA/icons/cards/mc_36_mir_platinum.png",
+                  "type": "url"
+                },
+                "size": {
+                  "width": "medium",
+                  "height": "medium"
+                },
+                "margins": {
+                  "bottom": "0x",
+                  "left": "0x",
+                  "right": "8x",
+                  "top": "0x"
+                }
+              },
+              "texts": {
+                "title": {
+                  "text": "mc_36_mir_platinum",
+                  "typeface": "body1",
+                  "text_color": "default",
+                  "max_lines": 1
+                }
+              },
+              "icon_vertical_gravity": "center",
+              "type": "simple_left_view"
+            },
+            "type": "left_right_cell_view"
+          },
+          {
+            "left": {
+              "icon": {
+                "address": {
+                  "url": "https://cdn.sberdevices.ru/VA/icons/cards/mc_36_mir_platinum.png",
+                  "type": "url"
+                },
+                "size": {
+                  "width": "medium",
+                  "height": "medium"
+                },
+                "margins": {
+                  "bottom": "0x",
+                  "left": "0x",
+                  "right": "8x",
+                  "top": "0x"
+                }
+              },
+              "texts": {
+                "title": {
+                  "text": "mc_36_mir_platinum",
+                  "typeface": "body1",
+                  "text_color": "default",
+                  "max_lines": 1
+                }
+              },
+              "icon_vertical_gravity": "center",
+              "type": "simple_left_view"
+            },
+            "type": "left_right_cell_view"
+          },
+          {
+            "left": {
+              "icon": {
+                "address": {
+                  "url": "https://cdn.sberdevices.ru/VA/icons/cards/mc_36_visa_digital_business.png",
+                  "type": "url"
+                },
+                "size": {
+                  "width": "medium",
+                  "height": "medium"
+                },
+                "margins": {
+                  "bottom": "0x",
+                  "left": "0x",
+                  "right": "8x",
+                  "top": "0x"
+                }
+              },
+              "texts": {
+                "title": {
+                  "text": "mc_36_visa_digital_business",
+                  "typeface": "body1",
+                  "text_color": "default",
+                  "max_lines": 1
+                }
+              },
+              "icon_vertical_gravity": "center",
+              "type": "simple_left_view"
+            },
+            "type": "left_right_cell_view"
+          },
+          {
+            "left": {
+              "icon": {
+                "address": {
+                  "url": "https://cdn.sberdevices.ru/VA/icons/cards/mc_36_mastercard_digital_business.png",
+                  "type": "url"
+                },
+                "size": {
+                  "width": "medium",
+                  "height": "medium"
+                },
+                "margins": {
+                  "bottom": "0x",
+                  "left": "0x",
+                  "right": "8x",
+                  "top": "0x"
+                }
+              },
+              "texts": {
+                "title": {
+                  "text": "mc_36_mastercard_digital_business",
+                  "typeface": "body1",
+                  "text_color": "default",
+                  "max_lines": 1
+                }
+              },
+              "icon_vertical_gravity": "center",
+              "type": "simple_left_view"
+            },
+            "type": "left_right_cell_view"
+          },
+          {
+            "left": {
+              "icon": {
+                "address": {
+                  "url": "https://cdn.sberdevices.ru/VA/icons/cards/mc_36_visa_digital.png",
+                  "type": "url"
+                },
+                "size": {
+                  "width": "medium",
+                  "height": "medium"
+                },
+                "margins": {
+                  "bottom": "0x",
+                  "left": "0x",
+                  "right": "8x",
+                  "top": "0x"
+                }
+              },
+              "texts": {
+                "title": {
+                  "text": "mc_36_visa_digital",
+                  "typeface": "body1",
+                  "text_color": "default",
+                  "max_lines": 1
+                }
+              },
+              "icon_vertical_gravity": "center",
+              "type": "simple_left_view"
+            },
+            "type": "left_right_cell_view"
+          },
+          {
+            "left": {
+              "icon": {
+                "address": {
+                  "url": "https://cdn.sberdevices.ru/VA/icons/cards/mc_36_mir_momentum.png",
+                  "type": "url"
+                },
+                "size": {
+                  "width": "medium",
+                  "height": "medium"
+                },
+                "margins": {
+                  "bottom": "0x",
+                  "left": "0x",
+                  "right": "8x",
+                  "top": "0x"
+                }
+              },
+              "texts": {
+                "title": {
+                  "text": "mc_36_mir_momentum",
+                  "typeface": "body1",
+                  "text_color": "default",
+                  "max_lines": 1
+                }
+              },
+              "icon_vertical_gravity": "center",
+              "type": "simple_left_view"
+            },
+            "type": "left_right_cell_view"
+          },
+          {
+            "left": {
+              "icon": {
+                "address": {
+                  "url": "https://cdn.sberdevices.ru/VA/icons/cards/mc_36_visa_platinum_business.png",
+                  "type": "url"
+                },
+                "size": {
+                  "width": "medium",
+                  "height": "medium"
+                },
+                "margins": {
+                  "bottom": "0x",
+                  "left": "0x",
+                  "right": "8x",
+                  "top": "0x"
+                }
+              },
+              "texts": {
+                "title": {
+                  "text": "mc_36_visa_platinum_business",
+                  "typeface": "body1",
+                  "text_color": "default",
+                  "max_lines": 1
+                }
+              },
+              "icon_vertical_gravity": "center",
+              "type": "simple_left_view"
+            },
+            "type": "left_right_cell_view"
+          },
+          {
+            "left": {
+              "icon": {
+                "address": {
+                  "url": "https://cdn.sberdevices.ru/VA/icons/cards/mc_36_mastercard_preferred_business.png",
+                  "type": "url"
+                },
+                "size": {
+                  "width": "medium",
+                  "height": "medium"
+                },
+                "margins": {
+                  "bottom": "0x",
+                  "left": "0x",
+                  "right": "8x",
+                  "top": "0x"
+                }
+              },
+              "texts": {
+                "title": {
+                  "text": "mc_36_mastercard_preferred_business",
+                  "typeface": "body1",
+                  "text_color": "default",
+                  "max_lines": 1
+                }
+              },
+              "icon_vertical_gravity": "center",
+              "type": "simple_left_view"
+            },
+            "type": "left_right_cell_view"
+          },
+          {
+            "left": {
+              "icon": {
+                "address": {
+                  "url": "https://cdn.sberdevices.ru/VA/icons/cards/mc_36_visa_momentum_business.png",
+                  "type": "url"
+                },
+                "size": {
+                  "width": "medium",
+                  "height": "medium"
+                },
+                "margins": {
+                  "bottom": "0x",
+                  "left": "0x",
+                  "right": "8x",
+                  "top": "0x"
+                }
+              },
+              "texts": {
+                "title": {
+                  "text": "mc_36_visa_momentum_business",
+                  "typeface": "body1",
+                  "text_color": "default",
+                  "max_lines": 1
+                }
+              },
+              "icon_vertical_gravity": "center",
+              "type": "simple_left_view"
+            },
+            "type": "left_right_cell_view"
+          },
+          {
+            "left": {
+              "icon": {
+                "address": {
+                  "url": "https://cdn.sberdevices.ru/VA/icons/cards/mc_36_mastercard_momentum_business.png",
+                  "type": "url"
+                },
+                "size": {
+                  "width": "medium",
+                  "height": "medium"
+                },
+                "margins": {
+                  "bottom": "0x",
+                  "left": "0x",
+                  "right": "8x",
+                  "top": "0x"
+                }
+              },
+              "texts": {
+                "title": {
+                  "text": "mc_36_mastercard_momentum_business",
+                  "typeface": "body1",
+                  "text_color": "default",
+                  "max_lines": 1
+                }
+              },
+              "icon_vertical_gravity": "center",
+              "type": "simple_left_view"
+            },
+            "type": "left_right_cell_view"
+          },
+          {
+            "left": {
+              "icon": {
+                "address": {
+                  "url": "https://cdn.sberdevices.ru/VA/icons/cards/mc_36_mastercard_platinum.png",
+                  "type": "url"
+                },
+                "size": {
+                  "width": "medium",
+                  "height": "medium"
+                },
+                "margins": {
+                  "bottom": "0x",
+                  "left": "0x",
+                  "right": "8x",
+                  "top": "0x"
+                }
+              },
+              "texts": {
+                "title": {
+                  "text": "mc_36_mastercard_platinum",
+                  "typeface": "body1",
+                  "text_color": "default",
+                  "max_lines": 1
+                }
+              },
+              "icon_vertical_gravity": "center",
+              "type": "simple_left_view"
+            },
+            "type": "left_right_cell_view"
+          },
+          {
+            "left": {
+              "icon": {
+                "address": {
+                  "url": "https://cdn.sberdevices.ru/VA/icons/cards/mc_36_visa_momentum_business_credit.png",
+                  "type": "url"
+                },
+                "size": {
+                  "width": "medium",
+                  "height": "medium"
+                },
+                "margins": {
+                  "bottom": "0x",
+                  "left": "0x",
+                  "right": "8x",
+                  "top": "0x"
+                }
+              },
+              "texts": {
+                "title": {
+                  "text": "mc_36_visa_momentum_business_credit",
+                  "typeface": "body1",
+                  "text_color": "default",
+                  "max_lines": 1
+                }
+              },
+              "icon_vertical_gravity": "center",
+              "type": "simple_left_view"
+            },
+            "type": "left_right_cell_view"
+          },
+          {
+            "left": {
+              "icon": {
+                "address": {
+                  "url": "https://cdn.sberdevices.ru/VA/icons/cards/mc_36_mastercard_momentum_business_credit.png",
+                  "type": "url"
+                },
+                "size": {
+                  "width": "medium",
+                  "height": "medium"
+                },
+                "margins": {
+                  "bottom": "0x",
+                  "left": "0x",
+                  "right": "8x",
+                  "top": "0x"
+                }
+              },
+              "texts": {
+                "title": {
+                  "text": "mc_36_mastercard_momentum_business_credit",
+                  "typeface": "body1",
+                  "text_color": "default",
+                  "max_lines": 1
+                }
+              },
+              "icon_vertical_gravity": "center",
+              "type": "simple_left_view"
+            },
+            "type": "left_right_cell_view"
+          },
+          {
+            "left": {
+              "icon": {
+                "address": {
+                  "url": "https://cdn.sberdevices.ru/VA/icons/cards/mc_36_mastercard_gold.png",
+                  "type": "url"
+                },
+                "size": {
+                  "width": "medium",
+                  "height": "medium"
+                },
+                "margins": {
+                  "bottom": "0x",
+                  "left": "0x",
+                  "right": "8x",
+                  "top": "0x"
+                }
+              },
+              "texts": {
+                "title": {
+                  "text": "mc_36_mastercard_gold",
+                  "typeface": "body1",
+                  "text_color": "default",
+                  "max_lines": 1
+                }
+              },
+              "icon_vertical_gravity": "center",
+              "type": "simple_left_view"
+            },
+            "type": "left_right_cell_view"
+          },
+          {
+            "left": {
+              "icon": {
+                "address": {
+                  "url": "https://cdn.sberdevices.ru/VA/icons/cards/mc_36_mir_business.png",
+                  "type": "url"
+                },
+                "size": {
+                  "width": "medium",
+                  "height": "medium"
+                },
+                "margins": {
+                  "bottom": "0x",
+                  "left": "0x",
+                  "right": "8x",
+                  "top": "0x"
+                }
+              },
+              "texts": {
+                "title": {
+                  "text": "mc_36_mir_business",
+                  "typeface": "body1",
+                  "text_color": "default",
+                  "max_lines": 1
+                }
+              },
+              "icon_vertical_gravity": "center",
+              "type": "simple_left_view"
+            },
+            "type": "left_right_cell_view"
+          },
+          {
+            "left": {
+              "icon": {
+                "address": {
+                  "url": "https://cdn.sberdevices.ru/VA/icons/cards/mc_36_mastercard_travel_level_1.png",
+                  "type": "url"
+                },
+                "size": {
+                  "width": "medium",
+                  "height": "medium"
+                },
+                "margins": {
+                  "bottom": "0x",
+                  "left": "0x",
+                  "right": "8x",
+                  "top": "0x"
+                }
+              },
+              "texts": {
+                "title": {
+                  "text": "mc_36_mastercard_travel_level_1",
+                  "typeface": "body1",
+                  "text_color": "default",
+                  "max_lines": 1
+                }
+              },
+              "icon_vertical_gravity": "center",
+              "type": "simple_left_view"
+            },
+            "type": "left_right_cell_view"
+          },
+          {
+            "left": {
+              "icon": {
+                "address": {
+                  "url": "https://cdn.sberdevices.ru/VA/icons/cards/mc_36_mastercard_digital_credit.png",
+                  "type": "url"
+                },
+                "size": {
+                  "width": "medium",
+                  "height": "medium"
+                },
+                "margins": {
+                  "bottom": "0x",
+                  "left": "0x",
+                  "right": "8x",
+                  "top": "0x"
+                }
+              },
+              "texts": {
+                "title": {
+                  "text": "mc_36_mastercard_digital_credit",
+                  "typeface": "body1",
+                  "text_color": "default",
+                  "max_lines": 1
+                }
+              },
+              "icon_vertical_gravity": "center",
+              "type": "simple_left_view"
             },
             "type": "left_right_cell_view"
           },
@@ -1012,47 +2170,45 @@
               },
               "texts": {
                 "title": {
-                  "text": "P",
+                  "text": "mc_36_visa_infinite",
                   "typeface": "body1",
                   "text_color": "default",
-                  "max_lines": 1
-                },
-                "subtitle": {
-                  "text": "•• 8665 • мультивалютная",
-                  "typeface": "footnote1",
-                  "text_color": "secondary",
-                  "margins": {
-                    "bottom": "0x",
-                    "left": "0x",
-                    "right": "0x",
-                    "top": "1x"
-                  },
                   "max_lines": 1
                 }
               },
               "icon_vertical_gravity": "center",
               "type": "simple_left_view"
             },
-            "right": {
-              "detail": {
-                "text": "0 ₽",
-                "typeface": "body1",
-                "text_color": "brand",
-                "max_lines": 1
+            "type": "left_right_cell_view"
+          },
+          {
+            "left": {
+              "icon": {
+                "address": {
+                  "url": "https://cdn.sberdevices.ru/VA/icons/cards/mc_36_mir.png",
+                  "type": "url"
+                },
+                "size": {
+                  "width": "medium",
+                  "height": "medium"
+                },
+                "margins": {
+                  "bottom": "0x",
+                  "left": "0x",
+                  "right": "8x",
+                  "top": "0x"
+                }
               },
-              "vertical_gravity": "top",
-              "detail_position": "top",
-              "type": "detail_right_view"
-            },
-            "divider": {
-              "style": "default",
-              "size": "d5"
-            },
-            "paddings": {
-              "bottom": "8x",
-              "left": "0x",
-              "right": "0x",
-              "top": "8x"
+              "texts": {
+                "title": {
+                  "text": "mc_36_mir",
+                  "typeface": "body1",
+                  "text_color": "default",
+                  "max_lines": 1
+                }
+              },
+              "icon_vertical_gravity": "center",
+              "type": "simple_left_view"
             },
             "type": "left_right_cell_view"
           },
@@ -1076,47 +2232,14 @@
               },
               "texts": {
                 "title": {
-                  "text": "P",
+                  "text": "mc_36_mastercard_sbercard_level_1",
                   "typeface": "body1",
                   "text_color": "default",
-                  "max_lines": 1
-                },
-                "subtitle": {
-                  "text": "•• 1052 • мультивалютная",
-                  "typeface": "footnote1",
-                  "text_color": "secondary",
-                  "margins": {
-                    "bottom": "0x",
-                    "left": "0x",
-                    "right": "0x",
-                    "top": "1x"
-                  },
                   "max_lines": 1
                 }
               },
               "icon_vertical_gravity": "center",
               "type": "simple_left_view"
-            },
-            "right": {
-              "detail": {
-                "text": "4 367 ₽",
-                "typeface": "body1",
-                "text_color": "brand",
-                "max_lines": 1
-              },
-              "vertical_gravity": "top",
-              "detail_position": "top",
-              "type": "detail_right_view"
-            },
-            "divider": {
-              "style": "default",
-              "size": "d5"
-            },
-            "paddings": {
-              "bottom": "8x",
-              "left": "0x",
-              "right": "0x",
-              "top": "8x"
             },
             "type": "left_right_cell_view"
           },
@@ -1124,7 +2247,7 @@
             "left": {
               "icon": {
                 "address": {
-                  "url": "https://cdn.sberdevices.ru/VA/icons/cards/mc_36_mastercard_sbercard_level_1.png",
+                  "url": "https://cdn.sberdevices.ru/VA/icons/cards/mc_36_default.png",
                   "type": "url"
                 },
                 "size": {
@@ -1140,107 +2263,14 @@
               },
               "texts": {
                 "title": {
-                  "text": "P",
+                  "text": "mc_36_default",
                   "typeface": "body1",
                   "text_color": "default",
-                  "max_lines": 1
-                },
-                "subtitle": {
-                  "text": "•• 4379 • мультивалютная",
-                  "typeface": "footnote1",
-                  "text_color": "secondary",
-                  "margins": {
-                    "bottom": "0x",
-                    "left": "0x",
-                    "right": "0x",
-                    "top": "1x"
-                  },
                   "max_lines": 1
                 }
               },
               "icon_vertical_gravity": "center",
               "type": "simple_left_view"
-            },
-            "right": {
-              "detail": {
-                "text": "0 $",
-                "typeface": "body1",
-                "text_color": "brand",
-                "max_lines": 1
-              },
-              "vertical_gravity": "top",
-              "detail_position": "top",
-              "type": "detail_right_view"
-            },
-            "divider": {
-              "style": "default",
-              "size": "d5"
-            },
-            "paddings": {
-              "bottom": "8x",
-              "left": "0x",
-              "right": "0x",
-              "top": "8x"
-            },
-            "type": "left_right_cell_view"
-          },
-          {
-            "left": {
-              "icon": {
-                "address": {
-                  "url": "https://cdn.sberdevices.ru/VA/icons/cards/mc_36_mastercard_sbercard_level_1.png",
-                  "type": "url"
-                },
-                "size": {
-                  "width": "medium",
-                  "height": "medium"
-                },
-                "margins": {
-                  "bottom": "0x",
-                  "left": "0x",
-                  "right": "8x",
-                  "top": "0x"
-                }
-              },
-              "texts": {
-                "title": {
-                  "text": "P",
-                  "typeface": "body1",
-                  "text_color": "default",
-                  "max_lines": 1
-                },
-                "subtitle": {
-                  "text": "•• 1078 • мультивалютная",
-                  "typeface": "footnote1",
-                  "text_color": "secondary",
-                  "margins": {
-                    "bottom": "0x",
-                    "left": "0x",
-                    "right": "0x",
-                    "top": "1x"
-                  },
-                  "max_lines": 1
-                }
-              },
-              "icon_vertical_gravity": "center",
-              "type": "simple_left_view"
-            },
-            "right": {
-              "detail": {
-                "text": "0 €",
-                "typeface": "body1",
-                "text_color": "brand",
-                "max_lines": 1
-              },
-              "vertical_gravity": "top",
-              "detail_position": "top",
-              "type": "detail_right_view"
-            },
-            "paddings": {
-              "bottom": "8x",
-              "left": "0x",
-              "right": "0x",
-              "top": "8x"
             },
             "type": "left_right_cell_view"
           }
@@ -1256,4 +2286,4 @@
       }
     }
   ]
-  }
+}
