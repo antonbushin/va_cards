@@ -759,7 +759,7 @@
             "left": {
               "icon": {
                 "address": {
-                  "url": "https://cdn.sberdevices.ru/VA/icons/cards/mc_36_mastercard_digital.png",
+                  "url": "https://cdn.sberdevices.ru/VA/icons/cards/mc_36_mastercard_digital_business.png",
                   "type": "url"
                 },
                 "size": {
@@ -775,7 +775,7 @@
               },
               "texts": {
                 "title": {
-                  "text": "mc_36_mastercard_digital",
+                  "text": "mc_36_mastercard_digital_business",
                   "typeface": "body1",
                   "text_color": "default",
                   "max_lines": 1
@@ -2154,7 +2154,7 @@
             "left": {
               "icon": {
                 "address": {
-                  "url": "https://cdn.sberdevices.ru/VA/icons/cards/mc_36_visa_infinite.png",
+                  "url": "https://cdn.sberdevices.ru/VA/icons/cards/mc_36_visa_infinite_pb.png",
                   "type": "url"
                 },
                 "size": {
@@ -2170,7 +2170,7 @@
               },
               "texts": {
                 "title": {
-                  "text": "mc_36_visa_infinite",
+                  "text": "mc_36_visa_infinite_pb",
                   "typeface": "body1",
                   "text_color": "default",
                   "max_lines": 1
