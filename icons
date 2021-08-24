@@ -15,6 +15,100 @@
             "left": {
               "icon": {
                 "address": {
+                  "url": "https://va-res.online.sberbank.ru/VA/icons/mc_36_transaction_account_USD.png",
+                  "type": "url"
+                },
+                "size": {
+                  "width": "medium",
+                  "height": "medium"
+                },
+                "margins": {
+                  "bottom": "0x",
+                  "left": "0x",
+                  "right": "8x",
+                  "top": "0x"
+                }
+              },
+              "texts": {
+                "title": {
+                  "text": "mc_36_transaction_account_USD",
+                  "typeface": "body1",
+                  "text_color": "default",
+                  "max_lines": 1
+                }
+              },
+              "icon_vertical_gravity": "center",
+              "type": "simple_left_view"
+            },
+            "type": "left_right_cell_view"
+          },
+          {
+            "left": {
+              "icon": {
+                "address": {
+                  "url": "https://va-res.online.sberbank.ru/VA/icons/mc_36_transaction_account_RUB.png",
+                  "type": "url"
+                },
+                "size": {
+                  "width": "medium",
+                  "height": "medium"
+                },
+                "margins": {
+                  "bottom": "0x",
+                  "left": "0x",
+                  "right": "8x",
+                  "top": "0x"
+                }
+              },
+              "texts": {
+                "title": {
+                  "text": "mc_36_transaction_account_RUB",
+                  "typeface": "body1",
+                  "text_color": "default",
+                  "max_lines": 1
+                }
+              },
+              "icon_vertical_gravity": "center",
+              "type": "simple_left_view"
+            },
+            "type": "left_right_cell_view"
+          },
+          {
+            "left": {
+              "icon": {
+                "address": {
+                  "url": "https://va-res.online.sberbank.ru/VA/icons/mc_36_transaction_account_EUR.png",
+                  "type": "url"
+                },
+                "size": {
+                  "width": "medium",
+                  "height": "medium"
+                },
+                "margins": {
+                  "bottom": "0x",
+                  "left": "0x",
+                  "right": "8x",
+                  "top": "0x"
+                }
+              },
+              "texts": {
+                "title": {
+                  "text": "mc_36_transaction_account_EUR",
+                  "typeface": "body1",
+                  "text_color": "default",
+                  "max_lines": 1
+                }
+              },
+              "icon_vertical_gravity": "center",
+              "type": "simple_left_view"
+            },
+            "type": "left_right_cell_view"
+          },
+
+          {
+            "left": {
+              "icon": {
+                "address": {
                   "url": "https://va-res.online.sberbank.ru/VA/icons/cards/mc_36_visa_travel_level_2.png",
                   "type": "url"
                 },
