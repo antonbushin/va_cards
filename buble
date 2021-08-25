@@ -36,7 +36,7 @@
             "left": {
               "icon": {
                 "address": {
-                  "url": "https://cdn.sberdevices.ru/VA/icons/mc_36_transaction_account_ruble.png",
+                  "url": "https://va-res.online.sberbank.ru/VA/icons/mc_36_transaction_account_ruble.png",
                   "type": "url"
                 },
                 "size": {
@@ -85,7 +85,7 @@
               "type": "detail_right_view"
             },
             "divider": {
-              "style": "default",
+              "style": "read_only",
               "size": "d5"
             },
             "paddings": {
@@ -100,7 +100,7 @@
             "left": {
               "icon": {
                 "address": {
-                  "url": "https://cdn.sberdevices.ru/VA/icons/cards/mc_36_mastercard.png",
+                  "url": "https://va-res.online.sberbank.ru/VA/icons/cards/mc_36_mastercard.png",
                   "type": "url"
                 },
                 "size": {
@@ -149,7 +149,7 @@
               "type": "detail_right_view"
             },
             "divider": {
-              "style": "default",
+              "style": "read_only",
               "size": "d5"
             },
             "paddings": {
@@ -164,7 +164,7 @@
             "left": {
               "icon": {
                 "address": {
-                  "url": "https://cdn.sberdevices.ru/VA/icons/cards/mc_36_mastercard_sbercard_level_1.png",
+                  "url": "https://va-res.online.sberbank.ru/VA/icons/cards/mc_36_mastercard_sbercard_level_1.png",
                   "type": "url"
                 },
                 "size": {
@@ -213,7 +213,7 @@
               "type": "detail_right_view"
             },
             "divider": {
-              "style": "default",
+              "style": "read_only",
               "size": "d5"
             },
             "paddings": {
@@ -228,7 +228,7 @@
             "left": {
               "icon": {
                 "address": {
-                  "url": "https://cdn.sberdevices.ru/VA/icons/cards/mc_36_visa_infinite_pb.png",
+                  "url": "https://va-res.online.sberbank.ru/VA/icons/cards/mc_36_visa_infinite_pb.png",
                   "type": "url"
                 },
                 "size": {
@@ -277,7 +277,7 @@
               "type": "detail_right_view"
             },
             "divider": {
-              "style": "default",
+              "style": "read_only",
               "size": "d5"
             },
             "paddings": {
@@ -292,7 +292,7 @@
             "left": {
               "icon": {
                 "address": {
-                  "url": "https://cdn.sberdevices.ru/VA/icons/cards/mc_36_mastercard_sbercard_level_1.png",
+                  "url": "https://va-res.online.sberbank.ru/VA/icons/cards/mc_36_mastercard_sbercard_level_1.png",
                   "type": "url"
                 },
                 "size": {
@@ -341,7 +341,7 @@
               "type": "detail_right_view"
             },
             "divider": {
-              "style": "default",
+              "style": "read_only",
               "size": "d5"
             },
             "paddings": {
@@ -356,7 +356,7 @@
             "left": {
               "icon": {
                 "address": {
-                  "url": "https://cdn.sberdevices.ru/VA/icons/cards/mc_36_mastercard_sbercard_level_1.png",
+                  "url": "https://va-res.online.sberbank.ru/VA/icons/cards/mc_36_mastercard_sbercard_level_1.png",
                   "type": "url"
                 },
                 "size": {
@@ -405,7 +405,7 @@
               "type": "detail_right_view"
             },
             "divider": {
-              "style": "default",
+              "style": "read_only",
               "size": "d5"
             },
             "paddings": {
@@ -420,7 +420,7 @@
             "left": {
               "icon": {
                 "address": {
-                  "url": "https://cdn.sberdevices.ru/VA/icons/cards/mc_36_mastercard_sbercard_level_1.png",
+                  "url": "https://va-res.online.sberbank.ru/VA/icons/cards/mc_36_mastercard_sbercard_level_1.png",
                   "type": "url"
                 },
                 "size": {
@@ -469,7 +469,7 @@
               "type": "detail_right_view"
             },
             "divider": {
-              "style": "default",
+              "style": "read_only",
               "size": "d5"
             },
             "paddings": {
@@ -484,7 +484,7 @@
             "left": {
               "icon": {
                 "address": {
-                  "url": "https://cdn.sberdevices.ru/VA/icons/cards/mc_36_mastercard_sbercard_level_1.png",
+                  "url": "https://va-res.online.sberbank.ru/VA/icons/cards/mc_36_mastercard_sbercard_level_1.png",
                   "type": "url"
                 },
                 "size": {
@@ -533,7 +533,7 @@
               "type": "detail_right_view"
             },
             "divider": {
-              "style": "default",
+              "style": "read_only",
               "size": "d5"
             },
             "paddings": {
@@ -548,7 +548,7 @@
             "left": {
               "icon": {
                 "address": {
-                  "url": "https://cdn.sberdevices.ru/VA/icons/cards/mc_36_mastercard_sbercard_level_1.png",
+                  "url": "https://va-res.online.sberbank.ru/VA/icons/cards/mc_36_mastercard_sbercard_level_1.png",
                   "type": "url"
                 },
                 "size": {
@@ -597,7 +597,7 @@
               "type": "detail_right_view"
             },
             "divider": {
-              "style": "default",
+              "style": "read_only",
               "size": "d5"
             },
             "paddings": {
@@ -612,7 +612,7 @@
             "left": {
               "icon": {
                 "address": {
-                  "url": "https://cdn.sberdevices.ru/VA/icons/cards/mc_36_mastercard.png",
+                  "url": "https://va-res.online.sberbank.ru/VA/icons/cards/mc_36_mastercard.png",
                   "type": "url"
                 },
                 "size": {
@@ -661,7 +661,7 @@
               "type": "detail_right_view"
             },
             "divider": {
-              "style": "default",
+              "style": "read_only",
               "size": "d5"
             },
             "paddings": {
@@ -676,7 +676,7 @@
             "left": {
               "icon": {
                 "address": {
-                  "url": "https://cdn.sberdevices.ru/VA/icons/cards/mc_36_mastercard.png",
+                  "url": "https://va-res.online.sberbank.ru/VA/icons/cards/mc_36_mastercard.png",
                   "type": "url"
                 },
                 "size": {
@@ -725,7 +725,7 @@
               "type": "detail_right_view"
             },
             "divider": {
-              "style": "default",
+              "style": "read_only",
               "size": "d5"
             },
             "paddings": {
@@ -740,7 +740,7 @@
             "left": {
               "icon": {
                 "address": {
-                  "url": "https://cdn.sberdevices.ru/VA/icons/cards/mc_36_visa_platinum.png",
+                  "url": "https://va-res.online.sberbank.ru/VA/icons/cards/mc_36_visa_platinum.png",
                   "type": "url"
                 },
                 "size": {
@@ -789,7 +789,7 @@
               "type": "detail_right_view"
             },
             "divider": {
-              "style": "default",
+              "style": "read_only",
               "size": "d5"
             },
             "paddings": {
@@ -804,7 +804,7 @@
             "left": {
               "icon": {
                 "address": {
-                  "url": "https://cdn.sberdevices.ru/VA/icons/cards/mc_36_mastercard.png",
+                  "url": "https://va-res.online.sberbank.ru/VA/icons/cards/mc_36_mastercard.png",
                   "type": "url"
                 },
                 "size": {
@@ -853,7 +853,7 @@
               "type": "detail_right_view"
             },
             "divider": {
-              "style": "default",
+              "style": "read_only",
               "size": "d5"
             },
             "paddings": {
@@ -868,7 +868,7 @@
             "left": {
               "icon": {
                 "address": {
-                  "url": "https://cdn.sberdevices.ru/VA/icons/cards/mc_36_mastercard_sbercard_level_1.png",
+                  "url": "https://va-res.online.sberbank.ru/VA/icons/cards/mc_36_mastercard_sbercard_level_1.png",
                   "type": "url"
                 },
                 "size": {
@@ -917,7 +917,7 @@
               "type": "detail_right_view"
             },
             "divider": {
-              "style": "default",
+              "style": "read_only",
               "size": "d5"
             },
             "paddings": {
@@ -932,7 +932,7 @@
             "left": {
               "icon": {
                 "address": {
-                  "url": "https://cdn.sberdevices.ru/VA/icons/cards/mc_36_mastercard_sbercard_level_1.png",
+                  "url": "https://va-res.online.sberbank.ru/VA/icons/cards/mc_36_mastercard_sbercard_level_1.png",
                   "type": "url"
                 },
                 "size": {
@@ -981,7 +981,7 @@
               "type": "detail_right_view"
             },
             "divider": {
-              "style": "default",
+              "style": "read_only",
               "size": "d5"
             },
             "paddings": {
@@ -996,7 +996,7 @@
             "left": {
               "icon": {
                 "address": {
-                  "url": "https://cdn.sberdevices.ru/VA/icons/cards/mc_36_visa_infinite_pb.png",
+                  "url": "https://va-res.online.sberbank.ru/VA/icons/cards/mc_36_visa_infinite_pb.png",
                   "type": "url"
                 },
                 "size": {
@@ -1045,7 +1045,7 @@
               "type": "detail_right_view"
             },
             "divider": {
-              "style": "default",
+              "style": "read_only",
               "size": "d5"
             },
             "paddings": {
@@ -1060,7 +1060,7 @@
             "left": {
               "icon": {
                 "address": {
-                  "url": "https://cdn.sberdevices.ru/VA/icons/cards/mc_36_mastercard_sbercard_level_1.png",
+                  "url": "https://va-res.online.sberbank.ru/VA/icons/cards/mc_36_mastercard_sbercard_level_1.png",
                   "type": "url"
                 },
                 "size": {
@@ -1109,7 +1109,7 @@
               "type": "detail_right_view"
             },
             "divider": {
-              "style": "default",
+              "style": "read_only",
               "size": "d5"
             },
             "paddings": {
@@ -1124,7 +1124,7 @@
             "left": {
               "icon": {
                 "address": {
-                  "url": "https://cdn.sberdevices.ru/VA/icons/cards/mc_36_mastercard_sbercard_level_1.png",
+                  "url": "https://va-res.online.sberbank.ru/VA/icons/cards/mc_36_mastercard_sbercard_level_1.png",
                   "type": "url"
                 },
                 "size": {
@@ -1173,7 +1173,7 @@
               "type": "detail_right_view"
             },
             "divider": {
-              "style": "default",
+              "style": "read_only",
               "size": "d5"
             },
             "paddings": {
@@ -1188,7 +1188,7 @@
             "left": {
               "icon": {
                 "address": {
-                  "url": "https://cdn.sberdevices.ru/VA/icons/cards/mc_36_mastercard_sbercard_level_1.png",
+                  "url": "https://va-res.online.sberbank.ru/VA/icons/cards/mc_36_mastercard_sbercard_level_1.png",
                   "type": "url"
                 },
                 "size": {
