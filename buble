@@ -9,211 +9,60 @@
       }
     },
     {
-      "card": {
-        "cells": [
-          {
-            "left": {
-              "texts": {
-                "title": {
-                  "text": "Блокировка карты",
-                  "typeface": "headline3",
-                  "text_color": "default",
-                  "max_lines": 1
-                }
-              },
-              "icon_vertical_gravity": "center",
-              "type": "simple_left_view"
-            },
-            "paddings": {
-              "bottom": "6x",
-              "left": "0x",
-              "right": "0x",
-              "top": "6x"
-            },
-            "type": "left_right_cell_view"
+    "card": {
+      "type": "list_card",
+      "background_image": {
+        "url": "https://content.sberdevices.ru/smartmarket-smide-prod/97310/97311/oNjH02yHqiPn3kQl.jpg",
+        "hash": "0af7741991985e2b530c8f62135c3eea"
+      },
+      "paddings": {
+        "top": "8x",
+        "bottom": "8x",
+        "left": "8x",
+        "right": "8x"
+      },
+      "cells": [
+        {
+          "type": "left_right_cell_view",
+          "paddings": {
+            "left": "0x",
+            "top": "0x",
+            "right": "0x",
+            "bottom": "16x"
           },
-          {
-            "left": {
-              "icon": {
-                "address": {
-                  "url": "https://va-res.online.sberbank.ru/VA/icons/cards/mc_36_visa.png",
-                  "type": "url"
-                },
-                "size": {
-                  "width": "medium",
-                  "height": "medium"
-                },
-                "margins": {
-                  "bottom": "0x",
-                  "left": "0x",
-                  "right": "8x",
-                  "top": "0x"
-                }
-              },
-              "texts": {
-                "title": {
-                  "text": "Visa Classic",
-                  "typeface": "body1",
-                  "text_color": "default",
-                  "max_lines": 1
-                },
-                "subtitle": {
-                  "text": "•• 3132",
-                  "typeface": "footnote1",
-                  "text_color": "secondary",
-                  "margins": {
-                    "bottom": "0x",
-                    "left": "0x",
-                    "right": "0x",
-                    "top": "1x"
-                  },
-                  "max_lines": 1
-                }
-              },
-              "icon_vertical_gravity": "center",
-              "type": "simple_left_view"
-            },
-            "right": {
-              "detail": {
-                "text": "15 644 560,76 $",
-                "typeface": "body1",
-                "text_color": "brand",
-                "margins": {
-                  "bottom": "0x",
-                  "left": "8x",
-                  "right": "0x",
-                  "top": "0x"
-                },
-                "max_lines": 1
-              },
-              "vertical_gravity": "top",
-              "detail_position": "top",
-              "type": "detail_right_view"
-            },
-            "divider": {
-              "style": "read_only",
-              "size": "d5"
-            },
-            "paddings": {
-              "bottom": "8x",
-              "left": "0x",
-              "right": "0x",
-              "top": "8x"
-            },
-            "type": "left_right_cell_view"
-          },
-          {
-            "left": {
-              "icon": {
-                "address": {
-                  "identificator": "round_speech_bubble_question",
-                  "type": "local"
-                },
-                "size": {
-                  "width": "medium",
-                  "height": "medium"
-                },
-                "margins": {
-                  "bottom": "0x",
-                  "left": "0x",
-                  "right": "8x",
-                  "top": "0x"
-                }
-              },
-              "texts": {
-                "title": {
-                  "text": "Украли или потеря",
-                  "typeface": "footnote1",
-                  "text_color": "secondary",
-                  "max_lines": 1
-                },
-                "subtitle": {
-                  "text": "Почему блокируете карту?",
-                  "typeface": "body1",
-                  "text_color": "default",
-                  "margins": {
-                    "bottom": "0x",
-                    "left": "0x",
-                    "right": "0x",
-                    "top": "1x"
-                  },
-                  "max_lines": 1
-                }
-              },
-              "icon_vertical_gravity": "center",
-              "type": "simple_left_view"
-            },
-            "divider": {
-              "style": "read_only",
-              "size": "d5"
-            },
-            "paddings": {
-              "bottom": "8x",
-              "left": "0x",
-              "right": "0x",
-              "top": "8x"
-            },
-            "type": "left_right_cell_view"
-          },
-          {
-            "left": {
-              "icon": {
-                "address": {
-                  "identificator": "round_speech_bubble_question",
-                  "type": "local"
-                },
-                "size": {
-                  "width": "medium",
-                  "height": "medium"
-                },
-                "margins": {
-                  "bottom": "0x",
-                  "left": "0x",
-                  "right": "8x",
-                  "top": "0x"
-                }
-              },
-              "texts": {
-                "title": {
-                  "text": "ПИН-код, Паспорт",
-                  "typeface": "footnote1",
-                  "text_color": "secondary",
-                  "max_lines": 1
-                },
-                "subtitle": {
-                  "text": "Что утеряно с картой?",
-                  "typeface": "body1",
-                  "text_color": "default",
-                  "margins": {
-                    "bottom": "0x",
-                    "left": "0x",
-                    "right": "0x",
-                    "top": "1x"
-                  },
-                  "max_lines": 1
-                }
-              },
-              "icon_vertical_gravity": "center",
-              "type": "simple_left_view"
-            },
-            "paddings": {
-              "bottom": "8x",
-              "left": "0x",
-              "right": "0x",
-              "top": "8x"
-            },
-            "type": "left_right_cell_view"
+          "left": {
+            "type": "simple_left_view",
+            "texts": {
+              "title": {
+                "text": "Карта заблокирована",
+                "typeface": "headline3",
+                "text_color": "default",
+                "max_lines": 2
+              }
+            }
           }
-        ],
-        "paddings": {
-          "bottom": "4x",
-          "left": "8x",
-          "right": "8x",
-          "top": "4x"
         },
-        "can_be_disabled": false,
-        "type": "list_card"
-      }
+        {
+          "type": "left_right_cell_view",
+          "paddings": {
+            "left": "0x",
+            "top": "0x",
+            "right": "0x",
+            "bottom": "0x"
+          },
+          "left": {
+            "type": "simple_left_view",
+            "texts": {
+              "title": {
+                "text": "VISA Classic •• 9390",
+                "typeface": "footnote1",
+                "text_color": "default"
+              }
+            }
+          }
+        }
+      ]
     }
+  }
   ]
 }
