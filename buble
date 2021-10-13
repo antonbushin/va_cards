@@ -2,83 +2,14 @@
   "type": "sdk_answer",
   "items": [
     {
-      "bubble": {
-        "text": "Какая неприятная ситуация. Пропала только карта или что-то вместе с ней?",
-        "markdown": true,
-        "expand_policy": "auto_expand"
-      }
-    },
-    {
-    "card": {
-      "type": "list_card",
-      "background_image": {
-        "url": "https://content.sberdevices.ru/smartmarket-smide-prod/97310/97311/oNjH02yHqiPn3kQl.jpg",
-        "hash": "0af7741991985e2b530c8f62135c3eea"
-      },
-      "paddings": {
-        "top": "8x",
-        "bottom": "8x",
-        "left": "8x",
-        "right": "8x"
-      },
-      "cells": [
-        {
-          "type": "left_right_cell_view",
-          "paddings": {
-            "left": "0x",
-            "top": "0x",
-            "right": "0x",
-            "bottom": "16x"
-          },
-          "left": {
-            "type": "simple_left_view",
-            "texts": {
-              "title": {
-                "text": "Карта заблокирована",
-                "typeface": "headline3",
-                "text_color": "default",
-                "max_lines": 2
-              }
-            }
-          }
-        },
-        {
-          "type": "left_right_cell_view",
-          "paddings": {
-            "left": "0x",
-            "top": "0x",
-            "right": "0x",
-            "bottom": "0x"
-          },
-          "left": {
-            "type": "simple_left_view",
-            "texts": {
-              "title": {
-                "text": "VISA Classic •• 9390",
-                "typeface": "footnote1",
-                "text_color": "default"
-              }
-            }
-          }
-        }
-      ]
-    }
-  },
-  {
-    "card": {
-      "type": "p2p_transfer_result",
-      "title": "Перевод выполнен",
-      "addressee": "йцукен",
-      "transfer_amount": "321 ₽",
-      "icon_url": "https://sberbank.ru/transfer_success.png",
-      "style": "success",
-      "action_button": {
-        "text": "ПОДРОБНЕЕ",
-        "action": {
-          "deep_link": true
-        }
+      "card": {
+        "type": "p2p_transfer_result",
+        "title": "Перевод выполнен",
+        "addressee": "addressee",
+        "transfer_amount": "transfer_amount",
+        "icon_url": "https://sberbank.ru/transfer_success.png",
+        "style": "success"
       }
     }
-  }
   ]
 }
