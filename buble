@@ -8,7 +8,7 @@
         "addressee": "",
         "transfer_amount": "Mir Gold •• 9759",
         "icon_url": "https://sberbank.ru/transfer_success.png",
-        "style": "success"
+        "style": "blocked"
       }
     },
     {
