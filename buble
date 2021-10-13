@@ -5,29 +5,21 @@
       "card": {
         "type": "p2p_transfer_result",
         "title": "Карта\nзаблокирована",
-        "addressee": "addressee",
-        "transfer_amount": "transfer_amount",
+        "transfer_amount": "Mir Gold •• 9759",
         "icon_url": "https://sberbank.ru/transfer_success.png",
         "style": "success"
       }
     },
     {
       "bubble": {
-        "text": "Можешь перевыпустить её сейчас с новым номером и ПИН-кодом, чтобы продолжить пользоваться",
+        "text": "Чтобы снять оставшиеся деньги — обратитесь в офис банка или перевыпустите карту с новым номером и ПИН-кодом",
         "markdown": true,
         "expand_policy": "auto_expand"
       }
     },
     {
       "bubble": {
-        "text": "Оставшиеся на карте деньги забирай в офисе банка",
-        "markdown": true,
-        "expand_policy": "auto_expand"
-      }
-    },
-    {
-      "bubble": {
-        "text": "При заблокированной карте нельзя оплатить такси или подписку на онлайн-сервисы",
+        "text": "При заблокированной карте оплата такси или подписок на онлайн-сервисы недоступна",
         "markdown": true,
         "expand_policy": "auto_expand"
       }
