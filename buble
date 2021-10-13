@@ -4,11 +4,32 @@
     {
       "card": {
         "type": "p2p_transfer_result",
-        "title": "Перевод выполнен",
+        "title": "Карта\nзаблокирована",
         "addressee": "addressee",
         "transfer_amount": "transfer_amount",
         "icon_url": "https://sberbank.ru/transfer_success.png",
         "style": "success"
+      }
+    },
+    {
+      "bubble": {
+        "text": "Можешь перевыпустить её сейчас с новым номером и ПИН-кодом, чтобы продолжить пользоваться",
+        "markdown": true,
+        "expand_policy": "auto_expand"
+      }
+    },
+    {
+      "bubble": {
+        "text": "Оставшиеся на карте деньги забирай в офисе банка",
+        "markdown": true,
+        "expand_policy": "auto_expand"
+      }
+    },
+    {
+      "bubble": {
+        "text": "При заблокированной карте нельзя оплатить такси или подписку на онлайн-сервисы",
+        "markdown": true,
+        "expand_policy": "auto_expand"
       }
     }
   ]
