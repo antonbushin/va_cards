@@ -164,12 +164,6 @@
       }
     }
   ],
-  "auto_listening": true,
-  "finished": false,
-  "historyData": {
-    "events": [],
-    "projectName": "Тестовый навык в каталоге"
-  },
   "suggestions": {
     "buttons": [
       {
