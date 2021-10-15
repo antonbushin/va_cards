@@ -1,0 +1,244 @@
+{
+  "type": "sdk_answer",
+  "items": [
+    {
+      "bubble": {
+        "text": "Готово. Если всё верно — заблокируйте карту",
+        "markdown": true,
+        "expand_policy": "auto_expand"
+      }
+    },
+    {
+      "card": {
+        "cells": [
+          {
+            "left": {
+              "texts": {
+                "title": {
+                  "text": "Блокировка карты",
+                  "typeface": "headline3",
+                  "text_color": "default",
+                  "max_lines": 1
+                }
+              },
+              "icon_vertical_gravity": "center",
+              "type": "simple_left_view"
+            },
+            "type": "left_right_cell_view"
+          },
+          {
+            "left": {
+              "icon": {
+                "address": {
+                  "url": "https://va-res.online.sberbank.ru/VA/icons/cards/mc_36_visa_infinite_pb.png",
+                  "type": "url"
+                },
+                "size": {
+                  "width": "medium",
+                  "height": "medium"
+                },
+                "margins": {
+                  "bottom": "0x",
+                  "left": "0x",
+                  "right": "8x",
+                  "top": "0x"
+                }
+              },
+              "texts": {
+                "title": {
+                  "text": "P",
+                  "typeface": "body1",
+                  "text_color": "default",
+                  "max_lines": 1
+                },
+                "subtitle": {
+                  "text": "•• 1722",
+                  "typeface": "footnote1",
+                  "text_color": "secondary",
+                  "margins": {
+                    "bottom": "0x",
+                    "left": "0x",
+                    "right": "0x",
+                    "top": "1x"
+                  },
+                  "max_lines": 1
+                }
+              },
+              "icon_vertical_gravity": "center",
+              "type": "simple_left_view"
+            },
+            "right": {
+              "detail": {
+                "text": "20 ₽",
+                "typeface": "body1",
+                "text_color": "brand",
+                "margins": {
+                  "bottom": "0x",
+                  "left": "8x",
+                  "right": "0x",
+                  "top": "0x"
+                },
+                "max_lines": 1
+              },
+              "vertical_gravity": "top",
+              "detail_position": "top",
+              "type": "detail_right_view"
+            },
+            "divider": {
+              "style": "read_only",
+              "size": "d5"
+            },
+            "paddings": {
+              "bottom": "6x",
+              "left": "0x",
+              "right": "0x",
+              "top": "12x"
+            },
+            "type": "left_right_cell_view"
+          },
+          {
+            "left": {
+              "icon": {
+                "address": {
+                  "identificator": "round_speech_bubble_question",
+                  "type": "local"
+                },
+                "size": {
+                  "width": "medium",
+                  "height": "medium"
+                },
+                "margins": {
+                  "bottom": "0x",
+                  "left": "0x",
+                  "right": "8x",
+                  "top": "0x"
+                }
+              },
+              "texts": {
+                "title": {
+                  "text": "Почему блокируете карту?",
+                  "typeface": "footnote1",
+                  "text_color": "secondary",
+                  "max_lines": 1
+                },
+                "subtitle": {
+                  "text": "Украли или потеря",
+                  "typeface": "body1",
+                  "text_color": "default",
+                  "margins": {
+                    "bottom": "0x",
+                    "left": "0x",
+                    "right": "0x",
+                    "top": "1x"
+                  },
+                  "max_lines": 1
+                }
+              },
+              "icon_vertical_gravity": "center",
+              "type": "simple_left_view"
+            },
+            "divider": {
+              "style": "read_only",
+              "size": "d5"
+            },
+            "paddings": {
+              "bottom": "6x",
+              "left": "0x",
+              "right": "0x",
+              "top": "12x"
+            },
+            "type": "left_right_cell_view"
+          },
+          {
+            "left": {
+              "icon": {
+                "address": {
+                  "identificator": "round_speech_bubble_question",
+                  "type": "local"
+                },
+                "size": {
+                  "width": "medium",
+                  "height": "medium"
+                },
+                "margins": {
+                  "bottom": "0x",
+                  "left": "0x",
+                  "right": "8x",
+                  "top": "0x"
+                }
+              },
+              "texts": {
+                "title": {
+                  "text": "Что утеряно с картой?",
+                  "typeface": "footnote1",
+                  "text_color": "secondary",
+                  "max_lines": 1
+                },
+                "subtitle": {
+                  "text": "ПИН-код, Паспорт",
+                  "typeface": "body1",
+                  "text_color": "default",
+                  "margins": {
+                    "bottom": "0x",
+                    "left": "0x",
+                    "right": "0x",
+                    "top": "1x"
+                  },
+                  "max_lines": 1
+                }
+              },
+              "icon_vertical_gravity": "center",
+              "type": "simple_left_view"
+            },
+            "divider": {
+              "style": "read_only",
+              "size": "d5"
+            },
+            "paddings": {
+              "bottom": "6x",
+              "left": "0x",
+              "right": "0x",
+              "top": "12x"
+            },
+            "type": "left_right_cell_view"
+          },
+          {
+            "content": {
+              "text": "Заблокировать",
+              "actions": [
+                {
+                  "text": "Заблокировать",
+                  "type": "text"
+                }
+              ],
+              "typeface": "button1",
+              "style": "default",
+              "type": "accept",
+              "margins": {
+                "bottom": "6x",
+                "left": "0x",
+                "right": "0x",
+                "top": "6x"
+              }
+            },
+            "paddings": {
+              "bottom": "0x",
+              "left": "0x",
+              "right": "0x",
+              "top": "6x"
+            },
+            "type": "button_cell_view"
+          }
+        ],
+        "paddings": {
+          "bottom": "8x",
+          "left": "8x",
+          "right": "8x",
+          "top": "8x"
+        },
+        "can_be_disabled": false,
+        "type": "list_card"
+      }
+    }
+  ]
+}
