@@ -1,0 +1,167 @@
+{
+  "type": "sdk_answer",
+  "items": [
+    {
+      "bubble": {
+        "text": "Почему блокируете карту?",
+        "markdown": true,
+        "expand_policy": "auto_expand"
+      }
+    },
+    {
+      "card": {
+        "cells": [
+          {
+            "left": {
+              "icon_vertical_gravity": "center",
+              "title": {
+                "text": "Украли или потерялась",
+                "typeface": "body1",
+                "text_color": "default",
+                "margins": {
+                  "bottom": "9x",
+                  "left": "0x",
+                  "right": "0x",
+                  "top": "9x"
+                },
+                "max_lines": 2
+              },
+              "type": "simple_left_view"
+            },
+            "divider": {
+              "style": "default",
+              "size": "d5"
+            },
+            "actions": [
+              {
+                "text": "lost",
+                "type": "text"
+              }
+            ],
+            "type": "left_right_cell_view"
+          },
+          {
+            "left": {
+              "icon_vertical_gravity": "center",
+              "title": {
+                "text": "Подозреваю мошенничество",
+                "typeface": "body1",
+                "text_color": "default",
+                "margins": {
+                  "bottom": "9x",
+                  "left": "0x",
+                  "right": "0x",
+                  "top": "9x"
+                },
+                "max_lines": 2
+              },
+              "type": "simple_left_view"
+            },
+            "divider": {
+              "style": "default",
+              "size": "d5"
+            },
+            "actions": [
+              {
+                "text": "fraud",
+                "type": "text"
+              }
+            ],
+            "type": "left_right_cell_view"
+          },
+          {
+            "left": {
+              "icon_vertical_gravity": "center",
+              "title": {
+                "text": "Её захватил банкомат",
+                "typeface": "body1",
+                "text_color": "default",
+                "margins": {
+                  "bottom": "9x",
+                  "left": "0x",
+                  "right": "0x",
+                  "top": "9x"
+                },
+                "max_lines": 2
+              },
+              "type": "simple_left_view"
+            },
+            "divider": {
+              "style": "default",
+              "size": "d5"
+            },
+            "actions": [
+              {
+                "text": "capture",
+                "type": "text"
+              }
+            ],
+            "type": "left_right_cell_view"
+          },
+          {
+            "left": {
+              "icon_vertical_gravity": "center",
+              "title": {
+                "text": "Я так хочу",
+                "typeface": "body1",
+                "text_color": "default",
+                "margins": {
+                  "bottom": "9x",
+                  "left": "0x",
+                  "right": "0x",
+                  "top": "9x"
+                },
+                "max_lines": 2
+              },
+              "type": "simple_left_view"
+            },
+            "divider": {
+              "style": "default",
+              "size": "d5"
+            },
+            "actions": [
+              {
+                "text": "client",
+                "type": "text"
+              }
+            ],
+            "type": "left_right_cell_view"
+          },
+          {
+            "left": {
+              "icon_vertical_gravity": "center",
+              "title": {
+                "text": "Не пользуюсь, закройте её",
+                "typeface": "body1",
+                "text_color": "default",
+                "margins": {
+                  "bottom": "9x",
+                  "left": "0x",
+                  "right": "0x",
+                  "top": "9x"
+                },
+                "max_lines": 2
+              },
+              "type": "simple_left_view"
+            },
+            "actions": [
+              {
+                "text": "close",
+                "type": "text"
+              }
+            ],
+            "type": "left_right_cell_view"
+          }
+        ],
+        "paddings": {
+          "bottom": "4x",
+          "left": "8x",
+          "right": "8x",
+          "top": "4x"
+        },
+        "can_be_disabled": false,
+        "type": "list_card"
+      }
+    }
+  ]
+}
