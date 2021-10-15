@@ -42,7 +42,8 @@
                   "left": "0x",
                   "right": "8x",
                   "top": "0x"
-                }
+                },
+                "tint_color": "solid_brand"
               },
               "texts": {
                 "title": {
