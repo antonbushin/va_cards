@@ -1,0 +1,1606 @@
+{
+  "type": "sdk_answer",
+  "items": [
+    {
+      "bubble": {
+        "text": "Вот, посмотрите",
+        "markdown": true,
+        "expand_policy": "auto_expand"
+      }
+    },
+    {
+      "card": {
+        "cells": [
+          {
+            "left": {
+              "texts": {
+                "title": {
+                  "text": "Карты",
+                  "typeface": "headline3",
+                  "text_color": "default",
+                  "max_lines": 1
+                }
+              },
+              "icon_vertical_gravity": "center",
+              "type": "simple_left_view"
+            },
+            "paddings": {
+              "bottom": "6x",
+              "left": "0x",
+              "right": "0x",
+              "top": "6x"
+            },
+            "type": "left_right_cell_view"
+          },
+          {
+            "left": {
+              "icon": {
+                "address": {
+                  "url": "https://va-res.online.sberbank.ru/VA/icons/cards/mc_36_mastercard.png",
+                  "type": "url"
+                },
+                "size": {
+                  "width": "medium",
+                  "height": "medium"
+                },
+                "margins": {
+                  "bottom": "0x",
+                  "left": "0x",
+                  "right": "8x",
+                  "top": "0x"
+                }
+              },
+              "texts": {
+                "title": {
+                  "text": "P",
+                  "typeface": "body1",
+                  "text_color": "default",
+                  "max_lines": 1
+                },
+                "subtitle": {
+                  "text": "•• 3298 • мультивалютная",
+                  "typeface": "footnote1",
+                  "text_color": "secondary",
+                  "margins": {
+                    "bottom": "0x",
+                    "left": "0x",
+                    "right": "0x",
+                    "top": "1x"
+                  },
+                  "max_lines": 1
+                }
+              },
+              "icon_vertical_gravity": "center",
+              "type": "simple_left_view"
+            },
+            "right": {
+              "detail": {
+                "text": "-44 ₽",
+                "typeface": "body1",
+                "text_color": "secondary",
+                "margins": {
+                  "bottom": "0x",
+                  "left": "8x",
+                  "right": "0x",
+                  "top": "0x"
+                },
+                "max_lines": 1
+              },
+              "vertical_gravity": "top",
+              "detail_position": "top",
+              "type": "detail_right_view"
+            },
+            "divider": {
+              "style": "default",
+              "size": "d5"
+            },
+            "actions": [
+              {
+                "text": "418262",
+                "type": "text"
+              }
+            ],
+            "paddings": {
+              "bottom": "8x",
+              "left": "0x",
+              "right": "0x",
+              "top": "8x"
+            },
+            "type": "left_right_cell_view"
+          },
+          {
+            "left": {
+              "icon": {
+                "address": {
+                  "url": "https://va-res.online.sberbank.ru/VA/icons/cards/mc_36_mastercard_sbercard_level_1.png",
+                  "type": "url"
+                },
+                "size": {
+                  "width": "medium",
+                  "height": "medium"
+                },
+                "margins": {
+                  "bottom": "0x",
+                  "left": "0x",
+                  "right": "8x",
+                  "top": "0x"
+                }
+              },
+              "texts": {
+                "title": {
+                  "text": "P",
+                  "typeface": "body1",
+                  "text_color": "default",
+                  "max_lines": 1
+                },
+                "subtitle": {
+                  "text": "•• 7646 • доп",
+                  "typeface": "footnote1",
+                  "text_color": "secondary",
+                  "margins": {
+                    "bottom": "0x",
+                    "left": "0x",
+                    "right": "0x",
+                    "top": "1x"
+                  },
+                  "max_lines": 1
+                }
+              },
+              "icon_vertical_gravity": "center",
+              "type": "simple_left_view"
+            },
+            "right": {
+              "detail": {
+                "text": "-450 ₽",
+                "typeface": "body1",
+                "text_color": "secondary",
+                "margins": {
+                  "bottom": "0x",
+                  "left": "8x",
+                  "right": "0x",
+                  "top": "0x"
+                },
+                "max_lines": 1
+              },
+              "vertical_gravity": "top",
+              "detail_position": "top",
+              "type": "detail_right_view"
+            },
+            "divider": {
+              "style": "default",
+              "size": "d5"
+            },
+            "actions": [
+              {
+                "text": "418263",
+                "type": "text"
+              }
+            ],
+            "paddings": {
+              "bottom": "8x",
+              "left": "0x",
+              "right": "0x",
+              "top": "8x"
+            },
+            "type": "left_right_cell_view"
+          },
+          {
+            "left": {
+              "icon": {
+                "address": {
+                  "url": "https://va-res.online.sberbank.ru/VA/icons/cards/mc_36_visa_infinite_pb.png",
+                  "type": "url"
+                },
+                "size": {
+                  "width": "medium",
+                  "height": "medium"
+                },
+                "margins": {
+                  "bottom": "0x",
+                  "left": "0x",
+                  "right": "8x",
+                  "top": "0x"
+                }
+              },
+              "texts": {
+                "title": {
+                  "text": "P",
+                  "typeface": "body1",
+                  "text_color": "default",
+                  "max_lines": 1
+                },
+                "subtitle": {
+                  "text": "•• 8863",
+                  "typeface": "footnote1",
+                  "text_color": "secondary",
+                  "margins": {
+                    "bottom": "0x",
+                    "left": "0x",
+                    "right": "0x",
+                    "top": "1x"
+                  },
+                  "max_lines": 1
+                }
+              },
+              "icon_vertical_gravity": "center",
+              "type": "simple_left_view"
+            },
+            "right": {
+              "detail": {
+                "text": "-200 ₽",
+                "typeface": "body1",
+                "text_color": "secondary",
+                "margins": {
+                  "bottom": "0x",
+                  "left": "8x",
+                  "right": "0x",
+                  "top": "0x"
+                },
+                "max_lines": 1
+              },
+              "vertical_gravity": "top",
+              "detail_position": "top",
+              "type": "detail_right_view"
+            },
+            "divider": {
+              "style": "default",
+              "size": "d5"
+            },
+            "actions": [
+              {
+                "text": "418264",
+                "type": "text"
+              }
+            ],
+            "paddings": {
+              "bottom": "8x",
+              "left": "0x",
+              "right": "0x",
+              "top": "8x"
+            },
+            "type": "left_right_cell_view"
+          },
+          {
+            "left": {
+              "icon": {
+                "address": {
+                  "url": "https://va-res.online.sberbank.ru/VA/icons/cards/mc_36_mastercard_sbercard_level_1.png",
+                  "type": "url"
+                },
+                "size": {
+                  "width": "medium",
+                  "height": "medium"
+                },
+                "margins": {
+                  "bottom": "0x",
+                  "left": "0x",
+                  "right": "8x",
+                  "top": "0x"
+                }
+              },
+              "texts": {
+                "title": {
+                  "text": "P",
+                  "typeface": "body1",
+                  "text_color": "default",
+                  "max_lines": 1
+                },
+                "subtitle": {
+                  "text": "•• 3439 • мультивалютная",
+                  "typeface": "footnote1",
+                  "text_color": "secondary",
+                  "margins": {
+                    "bottom": "0x",
+                    "left": "0x",
+                    "right": "0x",
+                    "top": "1x"
+                  },
+                  "max_lines": 1
+                }
+              },
+              "icon_vertical_gravity": "center",
+              "type": "simple_left_view"
+            },
+            "right": {
+              "detail": {
+                "text": "0 €",
+                "typeface": "body1",
+                "text_color": "brand",
+                "margins": {
+                  "bottom": "0x",
+                  "left": "8x",
+                  "right": "0x",
+                  "top": "0x"
+                },
+                "max_lines": 1
+              },
+              "vertical_gravity": "top",
+              "detail_position": "top",
+              "type": "detail_right_view"
+            },
+            "divider": {
+              "style": "default",
+              "size": "d5"
+            },
+            "actions": [
+              {
+                "text": "418265",
+                "type": "text"
+              }
+            ],
+            "paddings": {
+              "bottom": "8x",
+              "left": "0x",
+              "right": "0x",
+              "top": "8x"
+            },
+            "type": "left_right_cell_view"
+          },
+          {
+            "left": {
+              "icon": {
+                "address": {
+                  "url": "https://va-res.online.sberbank.ru/VA/icons/cards/mc_36_mastercard_sbercard_level_1.png",
+                  "type": "url"
+                },
+                "size": {
+                  "width": "medium",
+                  "height": "medium"
+                },
+                "margins": {
+                  "bottom": "0x",
+                  "left": "0x",
+                  "right": "8x",
+                  "top": "0x"
+                }
+              },
+              "texts": {
+                "title": {
+                  "text": "P",
+                  "typeface": "body1",
+                  "text_color": "default",
+                  "max_lines": 1
+                },
+                "subtitle": {
+                  "text": "•• 1045 • мультивалютная",
+                  "typeface": "footnote1",
+                  "text_color": "secondary",
+                  "margins": {
+                    "bottom": "0x",
+                    "left": "0x",
+                    "right": "0x",
+                    "top": "1x"
+                  },
+                  "max_lines": 1
+                }
+              },
+              "icon_vertical_gravity": "center",
+              "type": "simple_left_view"
+            },
+            "right": {
+              "detail": {
+                "text": "175 ₽",
+                "typeface": "body1",
+                "text_color": "brand",
+                "margins": {
+                  "bottom": "0x",
+                  "left": "8x",
+                  "right": "0x",
+                  "top": "0x"
+                },
+                "max_lines": 1
+              },
+              "vertical_gravity": "top",
+              "detail_position": "top",
+              "type": "detail_right_view"
+            },
+            "divider": {
+              "style": "default",
+              "size": "d5"
+            },
+            "actions": [
+              {
+                "text": "418266",
+                "type": "text"
+              }
+            ],
+            "paddings": {
+              "bottom": "8x",
+              "left": "0x",
+              "right": "0x",
+              "top": "8x"
+            },
+            "type": "left_right_cell_view"
+          },
+          {
+            "left": {
+              "icon": {
+                "address": {
+                  "url": "https://va-res.online.sberbank.ru/VA/icons/cards/mc_36_mastercard_sbercard_level_1.png",
+                  "type": "url"
+                },
+                "size": {
+                  "width": "medium",
+                  "height": "medium"
+                },
+                "margins": {
+                  "bottom": "0x",
+                  "left": "0x",
+                  "right": "8x",
+                  "top": "0x"
+                }
+              },
+              "texts": {
+                "title": {
+                  "text": "P",
+                  "typeface": "body1",
+                  "text_color": "default",
+                  "max_lines": 1
+                },
+                "subtitle": {
+                  "text": "•• 2167 • мультивалютная",
+                  "typeface": "footnote1",
+                  "text_color": "secondary",
+                  "margins": {
+                    "bottom": "0x",
+                    "left": "0x",
+                    "right": "0x",
+                    "top": "1x"
+                  },
+                  "max_lines": 1
+                }
+              },
+              "icon_vertical_gravity": "center",
+              "type": "simple_left_view"
+            },
+            "right": {
+              "detail": {
+                "text": "0 €",
+                "typeface": "body1",
+                "text_color": "brand",
+                "margins": {
+                  "bottom": "0x",
+                  "left": "8x",
+                  "right": "0x",
+                  "top": "0x"
+                },
+                "max_lines": 1
+              },
+              "vertical_gravity": "top",
+              "detail_position": "top",
+              "type": "detail_right_view"
+            },
+            "divider": {
+              "style": "default",
+              "size": "d5"
+            },
+            "actions": [
+              {
+                "text": "418267",
+                "type": "text"
+              }
+            ],
+            "paddings": {
+              "bottom": "8x",
+              "left": "0x",
+              "right": "0x",
+              "top": "8x"
+            },
+            "type": "left_right_cell_view"
+          },
+          {
+            "left": {
+              "icon": {
+                "address": {
+                  "url": "https://va-res.online.sberbank.ru/VA/icons/cards/mc_36_mastercard_sbercard_level_1.png",
+                  "type": "url"
+                },
+                "size": {
+                  "width": "medium",
+                  "height": "medium"
+                },
+                "margins": {
+                  "bottom": "0x",
+                  "left": "0x",
+                  "right": "8x",
+                  "top": "0x"
+                }
+              },
+              "texts": {
+                "title": {
+                  "text": "P",
+                  "typeface": "body1",
+                  "text_color": "default",
+                  "max_lines": 1
+                },
+                "subtitle": {
+                  "text": "•• 2295",
+                  "typeface": "footnote1",
+                  "text_color": "secondary",
+                  "margins": {
+                    "bottom": "0x",
+                    "left": "0x",
+                    "right": "0x",
+                    "top": "1x"
+                  },
+                  "max_lines": 1
+                },
+                "caption": {
+                  "text": "Привязана к счету •• 6808",
+                  "typeface": "caption",
+                  "text_color": "secondary",
+                  "max_lines": 1
+                }
+              },
+              "icon_vertical_gravity": "center",
+              "type": "simple_left_view"
+            },
+            "divider": {
+              "style": "default",
+              "size": "d5"
+            },
+            "actions": [
+              {
+                "text": "418268",
+                "type": "text"
+              }
+            ],
+            "paddings": {
+              "bottom": "8x",
+              "left": "0x",
+              "right": "0x",
+              "top": "8x"
+            },
+            "type": "left_right_cell_view"
+          },
+          {
+            "left": {
+              "icon": {
+                "address": {
+                  "url": "https://va-res.online.sberbank.ru/VA/icons/cards/mc_36_mastercard_sbercard_level_1.png",
+                  "type": "url"
+                },
+                "size": {
+                  "width": "medium",
+                  "height": "medium"
+                },
+                "margins": {
+                  "bottom": "0x",
+                  "left": "0x",
+                  "right": "8x",
+                  "top": "0x"
+                }
+              },
+              "texts": {
+                "title": {
+                  "text": "P",
+                  "typeface": "body1",
+                  "text_color": "default",
+                  "max_lines": 1
+                },
+                "subtitle": {
+                  "text": "•• 1037 • мультивалютная",
+                  "typeface": "footnote1",
+                  "text_color": "secondary",
+                  "margins": {
+                    "bottom": "0x",
+                    "left": "0x",
+                    "right": "0x",
+                    "top": "1x"
+                  },
+                  "max_lines": 1
+                }
+              },
+              "icon_vertical_gravity": "center",
+              "type": "simple_left_view"
+            },
+            "right": {
+              "detail": {
+                "text": "2 €",
+                "typeface": "body1",
+                "text_color": "brand",
+                "margins": {
+                  "bottom": "0x",
+                  "left": "8x",
+                  "right": "0x",
+                  "top": "0x"
+                },
+                "max_lines": 1
+              },
+              "vertical_gravity": "top",
+              "detail_position": "top",
+              "type": "detail_right_view"
+            },
+            "divider": {
+              "style": "default",
+              "size": "d5"
+            },
+            "actions": [
+              {
+                "text": "418269",
+                "type": "text"
+              }
+            ],
+            "paddings": {
+              "bottom": "8x",
+              "left": "0x",
+              "right": "0x",
+              "top": "8x"
+            },
+            "type": "left_right_cell_view"
+          },
+          {
+            "left": {
+              "icon": {
+                "address": {
+                  "url": "https://va-res.online.sberbank.ru/VA/icons/cards/mc_36_mastercard_sbercard_level_1.png",
+                  "type": "url"
+                },
+                "size": {
+                  "width": "medium",
+                  "height": "medium"
+                },
+                "margins": {
+                  "bottom": "0x",
+                  "left": "0x",
+                  "right": "8x",
+                  "top": "0x"
+                }
+              },
+              "texts": {
+                "title": {
+                  "text": "P",
+                  "typeface": "body1",
+                  "text_color": "default",
+                  "max_lines": 1
+                },
+                "subtitle": {
+                  "text": "•• 0806",
+                  "typeface": "footnote1",
+                  "text_color": "secondary",
+                  "margins": {
+                    "bottom": "0x",
+                    "left": "0x",
+                    "right": "0x",
+                    "top": "1x"
+                  },
+                  "max_lines": 1
+                }
+              },
+              "icon_vertical_gravity": "center",
+              "type": "simple_left_view"
+            },
+            "right": {
+              "detail": {
+                "text": "0 ₽",
+                "typeface": "body1",
+                "text_color": "brand",
+                "margins": {
+                  "bottom": "0x",
+                  "left": "8x",
+                  "right": "0x",
+                  "top": "0x"
+                },
+                "max_lines": 1
+              },
+              "vertical_gravity": "top",
+              "detail_position": "top",
+              "type": "detail_right_view"
+            },
+            "divider": {
+              "style": "default",
+              "size": "d5"
+            },
+            "actions": [
+              {
+                "text": "422772",
+                "type": "text"
+              }
+            ],
+            "paddings": {
+              "bottom": "8x",
+              "left": "0x",
+              "right": "0x",
+              "top": "8x"
+            },
+            "type": "left_right_cell_view"
+          },
+          {
+            "left": {
+              "icon": {
+                "address": {
+                  "url": "https://va-res.online.sberbank.ru/VA/icons/cards/mc_36_mastercard.png",
+                  "type": "url"
+                },
+                "size": {
+                  "width": "medium",
+                  "height": "medium"
+                },
+                "margins": {
+                  "bottom": "0x",
+                  "left": "0x",
+                  "right": "8x",
+                  "top": "0x"
+                }
+              },
+              "texts": {
+                "title": {
+                  "text": "I",
+                  "typeface": "body1",
+                  "text_color": "default",
+                  "max_lines": 1
+                },
+                "subtitle": {
+                  "text": "•• 3547",
+                  "typeface": "footnote1",
+                  "text_color": "secondary",
+                  "margins": {
+                    "bottom": "0x",
+                    "left": "0x",
+                    "right": "0x",
+                    "top": "1x"
+                  },
+                  "max_lines": 1
+                }
+              },
+              "icon_vertical_gravity": "center",
+              "type": "simple_left_view"
+            },
+            "right": {
+              "detail": {
+                "text": "39 000 ₽",
+                "typeface": "body1",
+                "text_color": "brand",
+                "margins": {
+                  "bottom": "0x",
+                  "left": "8x",
+                  "right": "0x",
+                  "top": "0x"
+                },
+                "max_lines": 1
+              },
+              "vertical_gravity": "top",
+              "detail_position": "top",
+              "type": "detail_right_view"
+            },
+            "divider": {
+              "style": "default",
+              "size": "d5"
+            },
+            "actions": [
+              {
+                "text": "408736",
+                "type": "text"
+              }
+            ],
+            "paddings": {
+              "bottom": "8x",
+              "left": "0x",
+              "right": "0x",
+              "top": "8x"
+            },
+            "type": "left_right_cell_view"
+          },
+          {
+            "left": {
+              "icon": {
+                "address": {
+                  "url": "https://va-res.online.sberbank.ru/VA/icons/cards/mc_36_mastercard.png",
+                  "type": "url"
+                },
+                "size": {
+                  "width": "medium",
+                  "height": "medium"
+                },
+                "margins": {
+                  "bottom": "0x",
+                  "left": "0x",
+                  "right": "8x",
+                  "top": "0x"
+                }
+              },
+              "texts": {
+                "title": {
+                  "text": "IA",
+                  "typeface": "body1",
+                  "text_color": "default",
+                  "max_lines": 1
+                },
+                "subtitle": {
+                  "text": "•• 3514 • доп",
+                  "typeface": "footnote1",
+                  "text_color": "secondary",
+                  "margins": {
+                    "bottom": "0x",
+                    "left": "0x",
+                    "right": "0x",
+                    "top": "1x"
+                  },
+                  "max_lines": 1
+                }
+              },
+              "icon_vertical_gravity": "center",
+              "type": "simple_left_view"
+            },
+            "right": {
+              "detail": {
+                "text": "39 000 ₽",
+                "typeface": "body1",
+                "text_color": "brand",
+                "margins": {
+                  "bottom": "0x",
+                  "left": "8x",
+                  "right": "0x",
+                  "top": "0x"
+                },
+                "max_lines": 1
+              },
+              "vertical_gravity": "top",
+              "detail_position": "top",
+              "type": "detail_right_view"
+            },
+            "divider": {
+              "style": "default",
+              "size": "d5"
+            },
+            "actions": [
+              {
+                "text": "408737",
+                "type": "text"
+              }
+            ],
+            "paddings": {
+              "bottom": "8x",
+              "left": "0x",
+              "right": "0x",
+              "top": "8x"
+            },
+            "type": "left_right_cell_view"
+          },
+          {
+            "left": {
+              "icon": {
+                "address": {
+                  "url": "https://va-res.online.sberbank.ru/VA/icons/cards/mc_36_visa_platinum.png",
+                  "type": "url"
+                },
+                "size": {
+                  "width": "medium",
+                  "height": "medium"
+                },
+                "margins": {
+                  "bottom": "0x",
+                  "left": "0x",
+                  "right": "8x",
+                  "top": "0x"
+                }
+              },
+              "texts": {
+                "title": {
+                  "text": "I",
+                  "typeface": "body1",
+                  "text_color": "default",
+                  "max_lines": 1
+                },
+                "subtitle": {
+                  "text": "•• 3557",
+                  "typeface": "footnote1",
+                  "text_color": "secondary",
+                  "margins": {
+                    "bottom": "0x",
+                    "left": "0x",
+                    "right": "0x",
+                    "top": "1x"
+                  },
+                  "max_lines": 1
+                }
+              },
+              "icon_vertical_gravity": "center",
+              "type": "simple_left_view"
+            },
+            "right": {
+              "detail": {
+                "text": "250 000 ₽",
+                "typeface": "body1",
+                "text_color": "brand",
+                "margins": {
+                  "bottom": "0x",
+                  "left": "8x",
+                  "right": "0x",
+                  "top": "0x"
+                },
+                "max_lines": 1
+              },
+              "vertical_gravity": "top",
+              "detail_position": "top",
+              "type": "detail_right_view"
+            },
+            "divider": {
+              "style": "default",
+              "size": "d5"
+            },
+            "actions": [
+              {
+                "text": "393633",
+                "type": "text"
+              }
+            ],
+            "paddings": {
+              "bottom": "8x",
+              "left": "0x",
+              "right": "0x",
+              "top": "8x"
+            },
+            "type": "left_right_cell_view"
+          },
+          {
+            "left": {
+              "icon": {
+                "address": {
+                  "url": "https://va-res.online.sberbank.ru/VA/icons/cards/mc_36_mastercard.png",
+                  "type": "url"
+                },
+                "size": {
+                  "width": "medium",
+                  "height": "medium"
+                },
+                "margins": {
+                  "bottom": "0x",
+                  "left": "0x",
+                  "right": "8x",
+                  "top": "0x"
+                }
+              },
+              "texts": {
+                "title": {
+                  "text": "I",
+                  "typeface": "body1",
+                  "text_color": "default",
+                  "max_lines": 1
+                },
+                "subtitle": {
+                  "text": "•• 9814",
+                  "typeface": "footnote1",
+                  "text_color": "secondary",
+                  "margins": {
+                    "bottom": "0x",
+                    "left": "0x",
+                    "right": "0x",
+                    "top": "1x"
+                  },
+                  "max_lines": 1
+                }
+              },
+              "icon_vertical_gravity": "center",
+              "type": "simple_left_view"
+            },
+            "right": {
+              "detail": {
+                "text": "300 000 ₽",
+                "typeface": "body1",
+                "text_color": "brand",
+                "margins": {
+                  "bottom": "0x",
+                  "left": "8x",
+                  "right": "0x",
+                  "top": "0x"
+                },
+                "max_lines": 1
+              },
+              "vertical_gravity": "top",
+              "detail_position": "top",
+              "type": "detail_right_view"
+            },
+            "divider": {
+              "style": "default",
+              "size": "d5"
+            },
+            "actions": [
+              {
+                "text": "393634",
+                "type": "text"
+              }
+            ],
+            "paddings": {
+              "bottom": "8x",
+              "left": "0x",
+              "right": "0x",
+              "top": "8x"
+            },
+            "type": "left_right_cell_view"
+          },
+          {
+            "left": {
+              "icon": {
+                "address": {
+                  "url": "https://va-res.online.sberbank.ru/VA/icons/cards/mc_36_mastercard_sbercard_level_1.png",
+                  "type": "url"
+                },
+                "size": {
+                  "width": "medium",
+                  "height": "medium"
+                },
+                "margins": {
+                  "bottom": "0x",
+                  "left": "0x",
+                  "right": "8x",
+                  "top": "0x"
+                }
+              },
+              "texts": {
+                "title": {
+                  "text": "P",
+                  "typeface": "body1",
+                  "text_color": "default",
+                  "max_lines": 1
+                },
+                "subtitle": {
+                  "text": "•• 4387 • мультивалютная",
+                  "typeface": "footnote1",
+                  "text_color": "secondary",
+                  "margins": {
+                    "bottom": "0x",
+                    "left": "0x",
+                    "right": "0x",
+                    "top": "1x"
+                  },
+                  "max_lines": 1
+                }
+              },
+              "icon_vertical_gravity": "center",
+              "type": "simple_left_view"
+            },
+            "right": {
+              "detail": {
+                "text": "0 €",
+                "typeface": "body1",
+                "text_color": "brand",
+                "margins": {
+                  "bottom": "0x",
+                  "left": "8x",
+                  "right": "0x",
+                  "top": "0x"
+                },
+                "max_lines": 1
+              },
+              "vertical_gravity": "top",
+              "detail_position": "top",
+              "type": "detail_right_view"
+            },
+            "divider": {
+              "style": "default",
+              "size": "d5"
+            },
+            "actions": [
+              {
+                "text": "418253",
+                "type": "text"
+              }
+            ],
+            "paddings": {
+              "bottom": "8x",
+              "left": "0x",
+              "right": "0x",
+              "top": "8x"
+            },
+            "type": "left_right_cell_view"
+          },
+          {
+            "left": {
+              "icon": {
+                "address": {
+                  "url": "https://va-res.online.sberbank.ru/VA/icons/cards/mc_36_mastercard_sbercard_level_1.png",
+                  "type": "url"
+                },
+                "size": {
+                  "width": "medium",
+                  "height": "medium"
+                },
+                "margins": {
+                  "bottom": "0x",
+                  "left": "0x",
+                  "right": "8x",
+                  "top": "0x"
+                }
+              },
+              "texts": {
+                "title": {
+                  "text": "P",
+                  "typeface": "body1",
+                  "text_color": "default",
+                  "max_lines": 1
+                },
+                "subtitle": {
+                  "text": "•• 1060 • мультивалютная",
+                  "typeface": "footnote1",
+                  "text_color": "secondary",
+                  "margins": {
+                    "bottom": "0x",
+                    "left": "0x",
+                    "right": "0x",
+                    "top": "1x"
+                  },
+                  "max_lines": 1
+                }
+              },
+              "icon_vertical_gravity": "center",
+              "type": "simple_left_view"
+            },
+            "right": {
+              "detail": {
+                "text": "0 ₽",
+                "typeface": "body1",
+                "text_color": "brand",
+                "margins": {
+                  "bottom": "0x",
+                  "left": "8x",
+                  "right": "0x",
+                  "top": "0x"
+                },
+                "max_lines": 1
+              },
+              "vertical_gravity": "top",
+              "detail_position": "top",
+              "type": "detail_right_view"
+            },
+            "divider": {
+              "style": "default",
+              "size": "d5"
+            },
+            "actions": [
+              {
+                "text": "418254",
+                "type": "text"
+              }
+            ],
+            "paddings": {
+              "bottom": "8x",
+              "left": "0x",
+              "right": "0x",
+              "top": "8x"
+            },
+            "type": "left_right_cell_view"
+          },
+          {
+            "left": {
+              "icon": {
+                "address": {
+                  "url": "https://va-res.online.sberbank.ru/VA/icons/cards/mc_36_visa_infinite_pb.png",
+                  "type": "url"
+                },
+                "size": {
+                  "width": "medium",
+                  "height": "medium"
+                },
+                "margins": {
+                  "bottom": "0x",
+                  "left": "0x",
+                  "right": "8x",
+                  "top": "0x"
+                }
+              },
+              "texts": {
+                "title": {
+                  "text": "P",
+                  "typeface": "body1",
+                  "text_color": "default",
+                  "max_lines": 1
+                },
+                "subtitle": {
+                  "text": "•• 8665 • мультивалютная",
+                  "typeface": "footnote1",
+                  "text_color": "secondary",
+                  "margins": {
+                    "bottom": "0x",
+                    "left": "0x",
+                    "right": "0x",
+                    "top": "1x"
+                  },
+                  "max_lines": 1
+                }
+              },
+              "icon_vertical_gravity": "center",
+              "type": "simple_left_view"
+            },
+            "right": {
+              "detail": {
+                "text": "0 ₽",
+                "typeface": "body1",
+                "text_color": "brand",
+                "margins": {
+                  "bottom": "0x",
+                  "left": "8x",
+                  "right": "0x",
+                  "top": "0x"
+                },
+                "max_lines": 1
+              },
+              "vertical_gravity": "top",
+              "detail_position": "top",
+              "type": "detail_right_view"
+            },
+            "divider": {
+              "style": "default",
+              "size": "d5"
+            },
+            "actions": [
+              {
+                "text": "418257",
+                "type": "text"
+              }
+            ],
+            "paddings": {
+              "bottom": "8x",
+              "left": "0x",
+              "right": "0x",
+              "top": "8x"
+            },
+            "type": "left_right_cell_view"
+          },
+          {
+            "left": {
+              "icon": {
+                "address": {
+                  "url": "https://va-res.online.sberbank.ru/VA/icons/cards/mc_36_visa_infinite_pb.png",
+                  "type": "url"
+                },
+                "size": {
+                  "width": "medium",
+                  "height": "medium"
+                },
+                "margins": {
+                  "bottom": "0x",
+                  "left": "0x",
+                  "right": "8x",
+                  "top": "0x"
+                }
+              },
+              "texts": {
+                "title": {
+                  "text": "P",
+                  "typeface": "body1",
+                  "text_color": "default",
+                  "max_lines": 1
+                },
+                "subtitle": {
+                  "text": "•• 1839",
+                  "typeface": "footnote1",
+                  "text_color": "secondary",
+                  "margins": {
+                    "bottom": "0x",
+                    "left": "0x",
+                    "right": "0x",
+                    "top": "1x"
+                  },
+                  "max_lines": 1
+                },
+                "caption": {
+                  "text": "Привязана к счету •• 6808",
+                  "typeface": "caption",
+                  "text_color": "secondary",
+                  "max_lines": 1
+                }
+              },
+              "icon_vertical_gravity": "center",
+              "type": "simple_left_view"
+            },
+            "divider": {
+              "style": "default",
+              "size": "d5"
+            },
+            "actions": [
+              {
+                "text": "418255",
+                "type": "text"
+              }
+            ],
+            "paddings": {
+              "bottom": "8x",
+              "left": "0x",
+              "right": "0x",
+              "top": "8x"
+            },
+            "type": "left_right_cell_view"
+          },
+          {
+            "left": {
+              "icon": {
+                "address": {
+                  "url": "https://va-res.online.sberbank.ru/VA/icons/cards/mc_36_mastercard_sbercard_level_1.png",
+                  "type": "url"
+                },
+                "size": {
+                  "width": "medium",
+                  "height": "medium"
+                },
+                "margins": {
+                  "bottom": "0x",
+                  "left": "0x",
+                  "right": "8x",
+                  "top": "0x"
+                }
+              },
+              "texts": {
+                "title": {
+                  "text": "P",
+                  "typeface": "body1",
+                  "text_color": "default",
+                  "max_lines": 1
+                },
+                "subtitle": {
+                  "text": "•• 1052 • мультивалютная",
+                  "typeface": "footnote1",
+                  "text_color": "secondary",
+                  "margins": {
+                    "bottom": "0x",
+                    "left": "0x",
+                    "right": "0x",
+                    "top": "1x"
+                  },
+                  "max_lines": 1
+                }
+              },
+              "icon_vertical_gravity": "center",
+              "type": "simple_left_view"
+            },
+            "right": {
+              "detail": {
+                "text": "4 367 ₽",
+                "typeface": "body1",
+                "text_color": "brand",
+                "margins": {
+                  "bottom": "0x",
+                  "left": "8x",
+                  "right": "0x",
+                  "top": "0x"
+                },
+                "max_lines": 1
+              },
+              "vertical_gravity": "top",
+              "detail_position": "top",
+              "type": "detail_right_view"
+            },
+            "divider": {
+              "style": "default",
+              "size": "d5"
+            },
+            "actions": [
+              {
+                "text": "418256",
+                "type": "text"
+              }
+            ],
+            "paddings": {
+              "bottom": "8x",
+              "left": "0x",
+              "right": "0x",
+              "top": "8x"
+            },
+            "type": "left_right_cell_view"
+          },
+          {
+            "left": {
+              "icon": {
+                "address": {
+                  "url": "https://va-res.online.sberbank.ru/VA/icons/cards/mc_36_mastercard_sbercard_level_1.png",
+                  "type": "url"
+                },
+                "size": {
+                  "width": "medium",
+                  "height": "medium"
+                },
+                "margins": {
+                  "bottom": "0x",
+                  "left": "0x",
+                  "right": "8x",
+                  "top": "0x"
+                }
+              },
+              "texts": {
+                "title": {
+                  "text": "P",
+                  "typeface": "body1",
+                  "text_color": "default",
+                  "max_lines": 1
+                },
+                "subtitle": {
+                  "text": "•• 4379 • мультивалютная",
+                  "typeface": "footnote1",
+                  "text_color": "secondary",
+                  "margins": {
+                    "bottom": "0x",
+                    "left": "0x",
+                    "right": "0x",
+                    "top": "1x"
+                  },
+                  "max_lines": 1
+                }
+              },
+              "icon_vertical_gravity": "center",
+              "type": "simple_left_view"
+            },
+            "right": {
+              "detail": {
+                "text": "0 $",
+                "typeface": "body1",
+                "text_color": "brand",
+                "margins": {
+                  "bottom": "0x",
+                  "left": "8x",
+                  "right": "0x",
+                  "top": "0x"
+                },
+                "max_lines": 1
+              },
+              "vertical_gravity": "top",
+              "detail_position": "top",
+              "type": "detail_right_view"
+            },
+            "divider": {
+              "style": "default",
+              "size": "d5"
+            },
+            "actions": [
+              {
+                "text": "418259",
+                "type": "text"
+              }
+            ],
+            "paddings": {
+              "bottom": "8x",
+              "left": "0x",
+              "right": "0x",
+              "top": "8x"
+            },
+            "type": "left_right_cell_view"
+          },
+          {
+            "left": {
+              "icon": {
+                "address": {
+                  "url": "https://va-res.online.sberbank.ru/VA/icons/cards/mc_36_mastercard_sbercard_level_1.png",
+                  "type": "url"
+                },
+                "size": {
+                  "width": "medium",
+                  "height": "medium"
+                },
+                "margins": {
+                  "bottom": "0x",
+                  "left": "0x",
+                  "right": "8x",
+                  "top": "0x"
+                }
+              },
+              "texts": {
+                "title": {
+                  "text": "P",
+                  "typeface": "body1",
+                  "text_color": "default",
+                  "max_lines": 1
+                },
+                "subtitle": {
+                  "text": "•• 1078 • мультивалютная",
+                  "typeface": "footnote1",
+                  "text_color": "secondary",
+                  "margins": {
+                    "bottom": "0x",
+                    "left": "0x",
+                    "right": "0x",
+                    "top": "1x"
+                  },
+                  "max_lines": 1
+                }
+              },
+              "icon_vertical_gravity": "center",
+              "type": "simple_left_view"
+            },
+            "right": {
+              "detail": {
+                "text": "0 €",
+                "typeface": "body1",
+                "text_color": "brand",
+                "margins": {
+                  "bottom": "0x",
+                  "left": "8x",
+                  "right": "0x",
+                  "top": "0x"
+                },
+                "max_lines": 1
+              },
+              "vertical_gravity": "top",
+              "detail_position": "top",
+              "type": "detail_right_view"
+            },
+            "divider": {
+              "style": "default",
+              "size": "d5"
+            },
+            "actions": [
+              {
+                "text": "418260",
+                "type": "text"
+              }
+            ],
+            "paddings": {
+              "bottom": "8x",
+              "left": "0x",
+              "right": "0x",
+              "top": "8x"
+            },
+            "type": "left_right_cell_view"
+          },
+          {
+            "left": {
+              "icon": {
+                "address": {
+                  "url": "https://va-res.online.sberbank.ru/VA/icons/cards/mc_36_visa_infinite_pb.png",
+                  "type": "url"
+                },
+                "size": {
+                  "width": "medium",
+                  "height": "medium"
+                },
+                "margins": {
+                  "bottom": "0x",
+                  "left": "0x",
+                  "right": "8x",
+                  "top": "0x"
+                }
+              },
+              "texts": {
+                "title": {
+                  "text": "P",
+                  "typeface": "body1",
+                  "text_color": "default",
+                  "max_lines": 1
+                },
+                "subtitle": {
+                  "text": "•• 1722",
+                  "typeface": "footnote1",
+                  "text_color": "secondary",
+                  "margins": {
+                    "bottom": "0x",
+                    "left": "0x",
+                    "right": "0x",
+                    "top": "1x"
+                  },
+                  "max_lines": 1
+                },
+                "caption": {
+                  "text": "Привязана к счету •• 6808",
+                  "typeface": "caption",
+                  "text_color": "secondary",
+                  "max_lines": 1
+                }
+              },
+              "icon_vertical_gravity": "center",
+              "type": "simple_left_view"
+            },
+            "actions": [
+              {
+                "text": "418261",
+                "type": "text"
+              }
+            ],
+            "paddings": {
+              "bottom": "8x",
+              "left": "0x",
+              "right": "0x",
+              "top": "8x"
+            },
+            "type": "left_right_cell_view"
+          }
+        ],
+        "paddings": {
+          "bottom": "4x",
+          "left": "8x",
+          "right": "8x",
+          "top": "4x"
+        },
+        "can_be_disabled": false,
+        "type": "list_card"
+      }
+    }
+  ]
+}
