@@ -4,10 +4,11 @@
     {
       "card": {
         "type": "p2p_transfer_result",
-        "title": "Карта\nне заблокирована",
+        "title": "Карта\nзаблокирована",
         "transfer_amount": " ",
         "addressee": "Mir Gold •• 9759",
-        "style": "failure"
+        "icon_url": "https://sberbank.ru/transfer_success.png",
+        "style": "success"
       }
     },
     {
