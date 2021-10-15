@@ -30,7 +30,7 @@
             "left": {
               "icon": {
                 "address": {
-                  "url": "https://va-res.online.sberbank.ru/VA/icons/cards/mc_36_visa_infinite_pb.png",
+                  "url": "https://va-res.online.sberbank.ru/VA/icons/cards/mc_36_mastercard_sbercard_level_1.png",
                   "type": "url"
                 },
                 "size": {
@@ -47,13 +47,13 @@
               },
               "texts": {
                 "title": {
-                  "text": "P",
+                  "text": "MasterCard Сберкарта Travel",
                   "typeface": "body1",
                   "text_color": "default",
                   "max_lines": 1
                 },
                 "subtitle": {
-                  "text": "•• 1722",
+                  "text": "•• 4798 • мультивалютная",
                   "typeface": "footnote1",
                   "text_color": "secondary",
                   "margins": {
@@ -70,7 +70,7 @@
             },
             "right": {
               "detail": {
-                "text": "20 ₽",
+                "text": "0 €",
                 "typeface": "body1",
                 "text_color": "brand",
                 "margins": {
@@ -114,7 +114,7 @@
                   "right": "8x",
                   "top": "0x"
                 },
-                "tint_color": "liquid_60"
+                "tint_color": "solid_brand"
               },
               "texts": {
                 "title": {
@@ -167,7 +167,8 @@
                   "left": "0x",
                   "right": "8x",
                   "top": "0x"
-                }
+                },
+                "tint_color": "solid_brand"
               },
               "texts": {
                 "title": {
