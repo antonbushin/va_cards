@@ -113,7 +113,8 @@
                   "left": "0x",
                   "right": "8x",
                   "top": "0x"
-                }
+                },
+                "tint_color": "liquid_60"
               },
               "texts": {
                 "title": {
