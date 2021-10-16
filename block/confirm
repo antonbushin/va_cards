@@ -101,7 +101,7 @@
             "left": {
               "icon": {
                 "address": {
-                  "identificator": "round_speech_bubble_question",
+                  "identificator": "info",
                   "type": "local"
                 },
                 "size": {
@@ -131,7 +131,7 @@
                     "bottom": "0x",
                     "left": "0x",
                     "right": "0x",
-                    "top": "1x"
+                    "top": "3x"
                   },
                   "max_lines": 1
                 }
@@ -185,7 +185,7 @@
                     "bottom": "0x",
                     "left": "0x",
                     "right": "0x",
-                    "top": "1x"
+                    "top": "3x"
                   },
                   "max_lines": 1
                 }
