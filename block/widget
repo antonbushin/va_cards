@@ -3,7 +3,7 @@
   "items": [
     {
       "bubble": {
-        "text": "Смотри",
+        "text": "Готово",
         "markdown": true,
         "expand_policy": "auto_expand"
       }
@@ -74,6 +74,12 @@
                   "text": "Привязана к счету •• 6808",
                   "typeface": "caption",
                   "text_color": "secondary",
+                  "margins": {
+                    "bottom": "0x",
+                    "left": "0x",
+                    "right": "0x",
+                    "top": "2x"
+                  },
                   "max_lines": 1
                 }
               },
@@ -140,6 +146,12 @@
                   "text": "Привязана к счету •• 6808",
                   "typeface": "caption",
                   "text_color": "secondary",
+                  "margins": {
+                    "bottom": "0x",
+                    "left": "0x",
+                    "right": "0x",
+                    "top": "2x"
+                  },
                   "max_lines": 1
                 }
               },
@@ -206,6 +218,12 @@
                   "text": "Привязана к счету •• 6808",
                   "typeface": "caption",
                   "text_color": "secondary",
+                  "margins": {
+                    "bottom": "0x",
+                    "left": "0x",
+                    "right": "0x",
+                    "top": "2x"
+                  },
                   "max_lines": 1
                 }
               },
