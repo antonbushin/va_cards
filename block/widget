@@ -3,7 +3,7 @@
   "items": [
     {
       "bubble": {
-        "text": "Готово",
+        "text": "Секундочку... Какую карту хочешь заблокировать?",
         "markdown": true,
         "expand_policy": "auto_expand"
       }
