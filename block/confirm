@@ -43,7 +43,7 @@
                   "right": "8x",
                   "top": "0x"
                 },
-                "tint_color": "solid_brand"
+                "tint_color": "solid_white"
               },
               "texts": {
                 "title": {
@@ -114,7 +114,7 @@
                   "right": "8x",
                   "top": "0x"
                 },
-                "tint_color": "solid_brand"
+                "tint_color": "solid_white"
               },
               "texts": {
                 "title": {
