@@ -1,0 +1,91 @@
+{
+  "type": "sdk_answer",
+  "items": [
+    {
+      "card": {
+        "type": "list_card",
+        "paddings": {
+          "left": "8x",
+          "right": "8x",
+          "top": "12x",
+          "bottom": "8x"
+        },
+        "cells": [
+          {
+            "type": "image_cell_view",
+            "content": {
+              "url": "https://stat.online.sberbank.ru/EFS/cards.debit/digital_sbk_mc.png",
+              "size": {
+                "width": "resizable",
+                "aspect_ratio": 0.54
+              },
+              "scale_mode": "scale_aspect_fill"
+            }
+          },
+          {
+            "type": "left_right_cell_view",
+            "left": {
+              "type": "simple_left_view",
+              "texts": {
+                "title": {
+                  "text": "Цифровая СберКарта",
+                  "typeface": "headline3",
+                  "text_color": "default",
+                  "margins": {
+                    "top": "1x"
+                  }
+                },
+                "subtitle": {
+                  "text": "бесплатно",
+                  "typeface": "footnote1",
+                  "text_color": "secondary",
+                  "margins": {
+                    "top": "4x"
+                  }
+                },
+                "caption": {
+                  "text": "Если делать покупки на 5 000 ₽\nили хранить 20 000 ₽ в месяц",
+                  "typeface": "caption",
+                  "text_color": "default",
+                  "margins": {
+                    "top": "6x",
+                    "bottom": "8x"
+                  }
+                }
+              },
+              "icon_vertical_gravity": "center"
+            },
+            "paddings": {
+              "left": "0x",
+              "right": "0x",
+              "top": "16x",
+              "bottom": "0x"
+            }
+          },
+          {
+            "type": "button_cell_view",
+            "content": {
+              "text": "Перейти к оформлению",
+              "typeface": "button1",
+              "style": "default",
+              "type": "accept",
+              "actions": [
+                {
+                  "type": "text",
+                  "text": "Перейти к оформлению"
+                }
+              ],
+              "margins": {
+                "top": "6x",
+                "bottom": "6x"
+              }
+            },
+            "paddings": {
+              "top": "6x"
+            }
+          }
+        ]
+      }
+    }
+  ]
+}
