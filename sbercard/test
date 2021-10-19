@@ -1,0 +1,82 @@
+{
+  "type": "sdk_answer",
+  "items": [
+    {
+      "card": {
+        "type": "gallery_card",
+        "items": [
+          {
+            "type": "media_gallery_item",
+            "image": {
+              "url": "https://yt3.ggpht.com/a/AGF-l7-cztDIngTGqfbwNuFE_-g84vU1NFFOdU-Xjg=s900-c-k-c0xffffffff-no-rj-mo",
+              "size": {
+                "width": "medium",
+                "aspect_ratio": 1
+              }
+            }
+          },
+          {
+            "type": "media_gallery_item",
+            "image": {
+              "url": "https://yt3.ggpht.com/a/AATXAJyH2wq9-FWHursXsTmZd64he1RvEc7ZwJcSCw=s900-c-k-c0xffffffff-no-rj-mo",
+              "size": {
+                "width": "medium",
+                "aspect_ratio": 1
+              }
+            }
+          },
+          {
+            "type": "media_gallery_item",
+            "image": {
+              "url": "https://img2.postila.io/storage/10656000/10654227/408867e270d9e99ddfb95f438142def2.jpg",
+              "size": {
+                "width": "medium",
+                "aspect_ratio": 1
+              }
+            }
+          },
+          {
+            "type": "media_gallery_item",
+            "image": {
+              "url": "https://yt3.ggpht.com/a/AGF-l7-H_9liBDSueqm3kWmgnW37UigTXjjKxMBE8w=s900-c-k-c0xffffffff-no-rj-mo",
+              "size": {
+                "width": "medium",
+                "aspect_ratio": 1
+              }
+            }
+          },
+          {
+            "type": "media_gallery_item",
+            "image": {
+              "url": "https://avatars.mds.yandex.net/get-pdb/2973841/56875d8c-9a38-43bc-9730-f1c798d2b04f/s1200?webp=false",
+              "size": {
+                "width": "medium",
+                "aspect_ratio": 1
+              }
+            }
+          },
+          {
+            "type": "media_gallery_item",
+            "image": {
+              "url": "https://i.obozrevatel.com/gallery/2013/7/11/236239.jpg",
+              "size": {
+                "width": "medium",
+                "aspect_ratio": 1
+              }
+            }
+          },
+          {
+            "type": "media_gallery_item",
+            "image": {
+              "url": "https://yt3.ggpht.com/a/AATXAJybKtMhS4oMj03zT4BU3jHNpGH-utEBsPLAeg=s900-c-k-c0xffffffff-no-rj-mo",
+              "size": {
+                "width": "medium",
+                "aspect_ratio": 1
+              }
+            }
+          }
+        ]
+      }
+    }
+  ]
+}
