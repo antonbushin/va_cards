@@ -3,6 +3,23 @@
   "items": [
     {
       "card": {
+        "type": "gallery_card",
+        "items": [
+          {
+            "type": "media_gallery_item",
+            "image": {
+              "url": "https://stat.online.sberbank.ru/EFS/cards.debit/digital_sbk_mc.png",
+              "size": {
+                "width": "large",
+                "aspect_ratio": 0.54
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "card": {
         "type": "list_card",
         "paddings": {
           "left": "8x",
@@ -59,7 +76,7 @@
               "type": "simple_left_view",
               "texts": {
                 "title": {
-                  "text": "Если делать поgупки на 5 000 ₽\nили хранить 20 000 ₽ в месяц",
+                  "text": "Если делать покупки на 5 000 ₽\nили хранить 20 000 ₽ в месяц",
                   "typeface": "footnote1",
                   "text_color": "default",
                   "margins": {
@@ -69,6 +86,12 @@
                 }
               },
               "icon_vertical_gravity": "center"
+            },
+            "paddings": {
+              "left": "0x",
+              "right": "0x",
+              "top": "16x",
+              "bottom": "0x"
             }
           },
           {
