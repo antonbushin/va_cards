@@ -1,0 +1,29 @@
+{
+  "type": "sdk_answer",
+  "items": [
+    {
+      "card": {
+        "type": "p2p_transfer_result",
+        "title": "Карта\nзаблокирована",
+        "transfer_amount": " ",
+        "addressee": "VISA Classic •• 9390",
+        "icon_url": "https://sberbank.ru/transfer_success.png",
+        "style": "failure"
+      }
+    },
+    {
+      "bubble": {
+        "text": "Чтобы снять оставшиеся деньги — обратитесь в офис банка или перевыпустите карту с новым номером и ПИН-кодом",
+        "markdown": true,
+        "expand_policy": "auto_expand"
+      }
+    },
+    {
+      "bubble": {
+        "text": "При заблокированной карте оплата такси или подписок на онлайн-сервисы недоступна",
+        "markdown": true,
+        "expand_policy": "auto_expand"
+      }
+    }
+  ]
+}
