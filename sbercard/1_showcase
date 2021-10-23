@@ -3,29 +3,9 @@
   "items": [
     {
       "card": {
-        "type": "gallery_card",
-        "items": [
-          {
-            "type": "media_gallery_item",
-            "image": {
-              "url": "https://stat.online.sberbank.ru/EFS/cards.debit/digital_sbk_mc.png",
-              "size": {
-                "width": "large",
-                "aspect_ratio": 0.54
-              }
-            }
-          }
-        ]
-      }
-    },
-    {
-      "card": {
         "type": "list_card",
         "paddings": {
-          "left": "8x",
-          "right": "8x",
-          "top": "12x",
-          "bottom": "8x"
+          "bottom": "12x"
         },
         "cells": [
           {
@@ -64,8 +44,8 @@
               "icon_vertical_gravity": "center"
             },
             "paddings": {
-              "left": "0x",
-              "right": "0x",
+              "left": "8x",
+              "right": "8x",
               "top": "16x",
               "bottom": "0x"
             }
@@ -88,8 +68,8 @@
               "icon_vertical_gravity": "center"
             },
             "paddings": {
-              "left": "0x",
-              "right": "0x",
+              "left": "8x",
+              "right": "8x",
               "top": "16x",
               "bottom": "0x"
             }
@@ -113,7 +93,10 @@
               }
             },
             "paddings": {
-              "top": "6x"
+              "left": "8x",
+              "right": "8x",
+              "top": "6x",
+              "bottom": "0x"
             }
           }
         ]
