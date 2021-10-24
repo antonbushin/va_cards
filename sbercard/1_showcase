@@ -58,17 +58,20 @@
                 "title": {
                   "text": "Если делать покупки на 5 000 ₽\nили хранить 20 000 ₽ в месяц",
                   "typeface": "footnote1",
-                  "text_color": "default"
+                  "text_color": "default",
+                  "max_lines": 3
                 },
                 "subtitle": {
                   "text": "Если делать покупки на 5 000 ₽\nили хранить 20 000 ₽ в месяц",
                   "typeface": "footnote1",
-                  "text_color": "default"
+                  "text_color": "default",
+                  "max_lines": 3
                 },
                 "caption": {
                   "text": "Если делать покупки на 5 000 ₽\nили хранить 20 000 ₽ в месяц",
                   "typeface": "footnote1",
-                  "text_color": "default"
+                  "text_color": "default",
+                  "max_lines": 3
                 }
               },
               "icon_vertical_gravity": "center"
