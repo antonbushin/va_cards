@@ -2,89 +2,114 @@
   "type": "sdk_answer",
   "items": [
     {
+      "bubble": {
+        "text": "Цифровая Сберкарта",
+        "markdown": true,
+        "expand_policy": "auto_expand"
+      }
+    },
+    {
       "card": {
-        "type": "list_card",
-        "paddings": {
-          "bottom": "8x"
-        },
         "cells": [
           {
-            "type": "image_cell_view",
             "content": {
               "url": "https://stat.online.sberbank.ru/EFS/cards.debit/digital_sbk_mc.png",
+              "scale_mode": "scale_aspect_fill",
+              "height": 192,
               "size": {
                 "width": "resizable",
                 "aspect_ratio": 0.6
-              },
-              "scale_mode": "scale_aspect_fill"
-            }
+              }
+            },
+            "type": "image_cell_view"
           },
           {
-            "type": "left_right_cell_view",
             "left": {
-              "type": "simple_left_view",
               "texts": {
                 "title": {
                   "text": "Цифровая СберКарта",
                   "typeface": "headline3",
                   "text_color": "default",
                   "margins": {
+                    "bottom": "0x",
+                    "left": "0x",
+                    "right": "0x",
                     "top": "1x"
-                  }
+                  },
+                  "max_lines": 1
                 },
                 "subtitle": {
                   "text": "бесплатно",
                   "typeface": "footnote1",
                   "text_color": "secondary",
                   "margins": {
+                    "bottom": "0x",
+                    "left": "0x",
+                    "right": "0x",
                     "top": "4x"
-                  }
+                  },
+                  "max_lines": 1
                 },
                 "caption": {
                   "text": "Если делать покупки на 5 000 ₽\nили хранить 20 000 ₽ в месяц",
                   "typeface": "footnote1",
                   "text_color": "default",
                   "margins": {
+                    "bottom": "0x",
+                    "left": "0x",
+                    "right": "0x",
                     "top": "6x"
                   },
                   "max_lines": 3
                 }
               },
-              "icon_vertical_gravity": "center"
+              "icon_vertical_gravity": "center",
+              "type": "simple_left_view"
             },
             "paddings": {
+              "bottom": "0x",
               "left": "8x",
               "right": "8x",
-              "top": "16x",
-              "bottom": "0x"
-            }
+              "top": "16x"
+            },
+            "type": "left_right_cell_view"
           },
           {
-            "type": "button_cell_view",
             "content": {
               "text": "Перейти к оформлению",
+              "actions": [
+                {
+                  "text": "Перейти к оформлению",
+                  "type": "text"
+                }
+              ],
               "typeface": "button1",
               "style": "default",
               "type": "accept",
-              "actions": [
-                {
-                  "type": "text",
-                  "text": "Перейти к оформлению"
-                }
-              ],
               "margins": {
-                "top": "8x",
-                "bottom": "8x"
+                "bottom": "8x",
+                "left": "0x",
+                "right": "0x",
+                "top": "8x"
               }
             },
             "paddings": {
-              "left": "8x",
-              "right": "8x",
-              "top": "8x",
-              "bottom": "0x"
-            }
+              "bottom": "0x",
+              "left": "6x",
+              "right": "6x",
+              "top": "8x"
+            },
+            "type": "button_cell_view"
           }
-        ]
+        ],
+        "paddings": {
+          "bottom": "8x",
+          "left": "0x",
+          "right": "0x",
+          "top": "0x"
+        },
+        "can_be_disabled": false,
+        "type": "list_card"
       }
     }
   ]
