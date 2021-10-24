@@ -44,6 +44,9 @@
                   "text": "Если делать покупки на 5 000 ₽\nили хранить 20 000 ₽ в месяц",
                   "typeface": "footnote1",
                   "text_color": "default",
+                  "margins": {
+                    "top": "6x"
+                  },
                   "max_lines": 3
                 }
               },
@@ -53,39 +56,6 @@
               "left": "8x",
               "right": "8x",
               "top": "16x",
-              "bottom": "0x"
-            }
-          },
-          {
-            "type": "left_right_cell_view",
-            "left": {
-              "type": "simple_left_view",
-              "texts": {
-                "title": {
-                  "text": "Если делать покупки на 5 000 ₽\nили хранить 20 000 ₽ в месяц",
-                  "typeface": "footnote1",
-                  "text_color": "default",
-                  "max_lines": 3
-                },
-                "subtitle": {
-                  "text": "Если делать покупки на 5 000 ₽\nили хранить 20 000 ₽ в месяц",
-                  "typeface": "footnote1",
-                  "text_color": "default",
-                  "max_lines": 3
-                },
-                "caption": {
-                  "text": "Если делать покупки на 5 000 ₽\nили хранить 20 000 ₽ в месяц",
-                  "typeface": "footnote1",
-                  "text_color": "default",
-                  "max_lines": 3
-                }
-              },
-              "icon_vertical_gravity": "center"
-            },
-            "paddings": {
-              "left": "8x",
-              "right": "8x",
-              "top": "6x",
               "bottom": "0x"
             }
           },
