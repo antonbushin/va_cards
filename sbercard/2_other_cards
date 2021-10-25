@@ -1,0 +1,61 @@
+{
+  "type": "sdk_answer",
+  "items": [
+    {
+      "bubble": {
+        "text": "Остальные карты можно посмотреть здесь. Переходите по ссылке и выбирайте.",
+        "markdown": true
+      }
+    },
+    {
+      "card": {
+        "type": "list_card",
+        "paddings": {
+          "left": "8x",
+          "right": "8x"
+        },
+        "cells": [
+          {
+            "type": "left_right_cell_view",
+            "left": {
+              "type": "simple_left_view",
+              "icon": {
+                "address": {
+                  "type": "local",
+                  "identificator": "cards_carousel"
+                },
+                "size": {
+                  "width": "medium",
+                  "height": "medium"
+                },
+                "margins": {
+                  "right": "6x"
+                },
+                "tint_color": "solid_brand"
+              },
+              "title": {
+                "text": "Все карты",
+                "typeface": "body1",
+                "text_color": "default",
+                "max_lines": 1,
+                "margins": {
+                  "top": "9x",
+                  "bottom": "9x"
+                }
+              }
+            },
+            "right": {
+              "type": "disclosure_right_view"
+            },
+            "actions": [
+              {
+                "type": "deep_link",
+                "deep_link": "sberbankonline://mdcard/mdcardrequest?internal_source=audiohelper677_e2e"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}
