@@ -26,7 +26,7 @@
                   "text": "Наличные без комиссии в банкоматах, офисах СберБанĸа и дочерних банĸах",
                   "typeface": "headline3",
                   "text_color": "default",
-                  "max_lines": 1
+                  "max_lines": 5
                 },
                 "subtitle": {
                   "text": "Чем чаще пользуетесь ĸартой в месяц, тем больше лимит",
@@ -35,7 +35,7 @@
                   "margins": {
                     "top": "4x"
                   },
-                  "max_lines": 1
+                  "max_lines": 5
                 }
               }
             },
@@ -190,7 +190,7 @@
                   "text": "Без ĸомиссии в банĸоматах других банĸов",
                   "typeface": "headline3",
                   "text_color": "default",
-                  "max_lines": 1
+                  "max_lines": 5
                 }
               }
             },
@@ -249,7 +249,7 @@
                   "text": "С ĸомиссией",
                   "typeface": "headline3",
                   "text_color": "default",
-                  "max_lines": 1
+                  "max_lines": 5
                 }
               }
             },
