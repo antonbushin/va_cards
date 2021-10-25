@@ -1,0 +1,322 @@
+{
+  "type": "sdk_answer",
+  "items": [
+    {
+      "card": {
+        "type": "list_card",
+        "paddings": {
+          "left": "8x",
+          "right": "8x",
+          "top": "4x",
+          "bottom": "4x"
+        },
+        "cells": [
+          {
+            "type": "left_right_cell_view",
+            "left": {
+              "type": "simple_left_view",
+              "texts": {
+                "title": {
+                  "text": "Основное",
+                  "typeface": "headline3",
+                  "text_color": "default",
+                  "max_lines": 5
+                }
+              }
+            },
+            "paddings": {
+              "top": "6x",
+              "bottom": "6x"
+            }
+          },
+          {
+            "type": "left_right_cell_view",
+            "left": {
+              "type": "simple_left_view",
+              "texts": {
+                "title": {
+                  "text": "Обслуживание в месяц",
+                  "typeface": "footnote1",
+                  "text_color": "secondary",
+                  "max_lines": 5
+                },
+                "subtitle": {
+                  "text": "Бесплатно с подпиской СберПрайм+",
+                  "typeface": "body1",
+                  "text_color": "default",
+                  "margins": {
+                    "top": "1x"
+                  },
+                  "max_lines": 5
+                }
+              },
+              "icon_vertical_gravity": "center"
+            },
+            "paddings": {
+              "top": "8x",
+              "bottom": "8x"
+            },
+            "divider": {
+              "style": "default",
+              "size": "d5"
+            }
+          },
+          {
+            "type": "left_right_cell_view",
+            "left": {
+              "type": "simple_left_view",
+              "texts": {
+                "title": {
+                  "text": "Дополнительная карта к счёту",
+                  "typeface": "footnote1",
+                  "text_color": "secondary",
+                  "max_lines": 5
+                },
+                "subtitle": {
+                  "text": "Бесплатно с подпиской СберПрайм+",
+                  "typeface": "body1",
+                  "text_color": "default",
+                  "margins": {
+                    "top": "1x"
+                  },
+                  "max_lines": 5
+                }
+              },
+              "icon_vertical_gravity": "center"
+            },
+            "paddings": {
+              "top": "8x",
+              "bottom": "8x"
+            },
+            "divider": {
+              "style": "default",
+              "size": "d5"
+            }
+          },
+          {
+            "type": "left_right_cell_view",
+            "left": {
+              "type": "simple_left_view",
+              "texts": {
+                "title": {
+                  "text": "Уведомления по ĸарте",
+                  "typeface": "footnote1",
+                  "text_color": "secondary",
+                  "max_lines": 5
+                },
+                "subtitle": {
+                  "text": "Бесплатно по всем СберКартам",
+                  "typeface": "body1",
+                  "text_color": "default",
+                  "margins": {
+                    "top": "1x"
+                  },
+                  "max_lines": 5
+                }
+              },
+              "icon_vertical_gravity": "center"
+            },
+            "paddings": {
+              "top": "8x",
+              "bottom": "8x"
+            },
+            "divider": {
+              "style": "default",
+              "size": "d5"
+            }
+          },
+          {
+            "type": "left_right_cell_view",
+            "left": {
+              "type": "simple_left_view",
+              "texts": {
+                "title": {
+                  "text": "Сроĸ действия",
+                  "typeface": "footnote1",
+                  "text_color": "secondary",
+                  "max_lines": 5
+                },
+                "subtitle": {
+                  "text": "3 года",
+                  "typeface": "body1",
+                  "text_color": "default",
+                  "margins": {
+                    "top": "1x"
+                  },
+                  "max_lines": 5
+                }
+              },
+              "icon_vertical_gravity": "center"
+            },
+            "paddings": {
+              "top": "8x",
+              "bottom": "8x"
+            },
+            "divider": {
+              "style": "default",
+              "size": "d5"
+            }
+          },
+          {
+            "type": "left_right_cell_view",
+            "left": {
+              "type": "simple_left_view",
+              "texts": {
+                "title": {
+                  "text": "До получения пластика",
+                  "typeface": "footnote1",
+                  "text_color": "secondary",
+                  "max_lines": 5
+                },
+                "subtitle": {
+                  "text": "Переводы, оплата и снятие наличных телефоном",
+                  "typeface": "body1",
+                  "text_color": "default",
+                  "margins": {
+                    "top": "1x"
+                  },
+                  "max_lines": 5
+                }
+              },
+              "icon_vertical_gravity": "center"
+            },
+            "paddings": {
+              "top": "8x",
+              "bottom": "8x"
+            },
+            "divider": {
+              "style": "default",
+              "size": "d5"
+            }
+          },
+          {
+            "type": "left_right_cell_view",
+            "left": {
+              "type": "simple_left_view",
+              "texts": {
+                "title": {
+                  "text": "Где действует",
+                  "typeface": "footnote1",
+                  "text_color": "secondary",
+                  "max_lines": 5
+                },
+                "subtitle": {
+                  "text": "В России и за границей",
+                  "typeface": "body1",
+                  "text_color": "default",
+                  "margins": {
+                    "top": "1x"
+                  },
+                  "max_lines": 5
+                }
+              },
+              "icon_vertical_gravity": "center"
+            },
+            "paddings": {
+              "top": "8x",
+              "bottom": "8x"
+            },
+            "divider": {
+              "style": "default",
+              "size": "d5"
+            }
+          },
+          {
+            "type": "left_right_cell_view",
+            "left": {
+              "type": "simple_left_view",
+              "texts": {
+                "title": {
+                  "text": "Дополнительные способы оплаты",
+                  "typeface": "footnote1",
+                  "text_color": "secondary",
+                  "max_lines": 5
+                },
+                "subtitle": {
+                  "text": "Телефоном и бесĸонтаĸтно",
+                  "typeface": "body1",
+                  "text_color": "default",
+                  "margins": {
+                    "top": "1x"
+                  },
+                  "max_lines": 5
+                }
+              },
+              "icon_vertical_gravity": "center"
+            },
+            "paddings": {
+              "top": "8x",
+              "bottom": "8x"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "card": {
+        "type": "list_card",
+        "paddings": {
+          "left": "8x",
+          "right": "8x"
+        },
+        "cells": [
+          {
+            "type": "left_right_cell_view",
+            "left": {
+              "type": "simple_left_view",
+              "icon": {
+                "address": {
+                  "type": "local",
+                  "identificator": "document"
+                },
+                "size": {
+                  "width": "medium",
+                  "height": "medium"
+                },
+                "margins": {
+                  "right": "6x"
+                },
+                "tint_color": "solid_brand"
+              },
+              "texts": {
+                "title": {
+                  "text": "Полные условия",
+                  "typeface": "body1",
+                  "text_color": "default",
+                  "max_lines": 1,
+                  "margins": {
+                    "top": "5x"
+                  }
+                },
+                "subtitle": {
+                  "text": "Смотреть",
+                  "typeface": "footnote1",
+                  "text_color": "secondary",
+                  "margins": {
+                    "top": "1x",
+                    "bottom": "5x"
+                  }
+                }
+              }
+            },
+            "right": {
+              "type": "disclosure_right_view"
+            },
+            "actions": [
+              {
+                "type": "deep_link",
+                "deep_link": "https://stat.online.sberbank.ru/EFS/common/img/uploaded/cards/tarif/tp_231_four.pdf"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "bubble": {
+        "text": "Оформим эту?",
+        "markdown": true
+      }
+    }
+  ]
+}
