@@ -15,6 +15,71 @@
             "type": "left_right_cell_view",
             "left": {
               "type": "simple_left_view",
+              "icon": {
+                "address": {
+                  "type": "url",
+                  "url": "https://va-res.online.sberbank.ru/VA/icons/cards/mc_36_mastercard_black_edition.png"
+                },
+                "size": {
+                  "width": "medium",
+                  "height": "medium"
+                },
+                "margins": {
+                  "right": "8x"
+                },
+                "tint_color": "solid_brand"
+              },
+              "texts": {
+                "title": {
+                  "text": "MasterCard World Black Edition",
+                  "typeface": "body1",
+                  "text_color": "default",
+                  "max_lines": 2
+                },
+                "subtitle": {
+                  "text": "•• 2100 • кред",
+                  "typeface": "footnote1",
+                  "text_color": "secondary",
+                  "margins": {
+                    "top": "1x"
+                  }
+                }
+              },
+              "icon_vertical_gravity": "center"
+            },
+            "right": {
+              "type": "detail_right_view",
+              "detail": {
+                "text": "277 000 ₽",
+                "typeface": "body1",
+                "text_color": "brand",
+                "max_lines": 1,
+                "margins": {
+                  "left": "8x"
+                }
+              },
+              "vertical_gravity": "top",
+              "detail_position": "top"
+            },
+            "paddings": {
+              "top": "8x",
+              "bottom": "8x"
+            },
+            "divider": {
+              "style": "default",
+              "size": "d5"
+            },
+            "actions": [
+              {
+                "type": "text",
+                "text": "MasterCard World Black Edition 2100"
+              }
+            ]
+          },
+          {
+            "type": "left_right_cell_view",
+            "left": {
+              "type": "simple_left_view",
               "texts": {
                 "title": {
                   "text": "Карты",
@@ -51,7 +116,8 @@
                 "title": {
                   "text": "Visa Classic",
                   "typeface": "body1",
-                  "text_color": "default"
+                  "text_color": "default",
+                  "max_lines": 2
                 },
                 "subtitle": {
                   "text": "•• 7083",
@@ -109,7 +175,8 @@
                 "title": {
                   "text": "Visa Classic",
                   "typeface": "body1",
-                  "text_color": "default"
+                  "text_color": "default",
+                  "max_lines": 2
                 },
                 "subtitle": {
                   "text": "•• 9478 • зарплатная",
@@ -167,7 +234,8 @@
                 "title": {
                   "text": "MasterCard Сберкарта Travel",
                   "typeface": "body1",
-                  "text_color": "default"
+                  "text_color": "default",
+                  "max_lines": 2
                 },
                 "subtitle": {
                   "text": "•• 4806 • мультивалютная",
@@ -210,70 +278,6 @@
               "icon": {
                 "address": {
                   "type": "url",
-                  "url": "https://va-res.online.sberbank.ru/VA/icons/cards/mc_36_mastercard_black_edition.png"
-                },
-                "size": {
-                  "width": "medium",
-                  "height": "medium"
-                },
-                "margins": {
-                  "right": "8x"
-                },
-                "tint_color": "solid_brand"
-              },
-              "texts": {
-                "title": {
-                  "text": "MasterCard World Black Edition",
-                  "typeface": "body1",
-                  "text_color": "default"
-                },
-                "subtitle": {
-                  "text": "•• 2100 • кред",
-                  "typeface": "footnote1",
-                  "text_color": "secondary",
-                  "margins": {
-                    "top": "1x"
-                  }
-                }
-              },
-              "icon_vertical_gravity": "center"
-            },
-            "right": {
-              "type": "detail_right_view",
-              "detail": {
-                "text": "277 000 ₽",
-                "typeface": "body1",
-                "text_color": "brand",
-                "max_lines": 1,
-                "margins": {
-                  "left": "8x"
-                }
-              },
-              "vertical_gravity": "top",
-              "detail_position": "top"
-            },
-            "paddings": {
-              "top": "8x",
-              "bottom": "8x"
-            },
-            "divider": {
-              "style": "default",
-              "size": "d5"
-            },
-            "actions": [
-              {
-                "type": "text",
-                "text": "MasterCard World Black Edition 2100"
-              }
-            ]
-          },
-          {
-            "type": "left_right_cell_view",
-            "left": {
-              "type": "simple_left_view",
-              "icon": {
-                "address": {
-                  "type": "url",
                   "url": "https://va-res.online.sberbank.ru/VA/icons/cards/mc_36_visa.png"
                 },
                 "size": {
@@ -289,7 +293,8 @@
                 "title": {
                   "text": "Visa Classic",
                   "typeface": "body1",
-                  "text_color": "default"
+                  "text_color": "default",
+                  "max_lines": 2
                 },
                 "subtitle": {
                   "text": "•• 3389",
@@ -353,7 +358,8 @@
                 "title": {
                   "text": "Visa Classic",
                   "typeface": "body1",
-                  "text_color": "default"
+                  "text_color": "default",
+                  "max_lines": 2
                 },
                 "subtitle": {
                   "text": "•• 3132",
@@ -417,7 +423,8 @@
                 "title": {
                   "text": "MasterCard Сберкарта Travel",
                   "typeface": "body1",
-                  "text_color": "default"
+                  "text_color": "default",
+                  "max_lines": 2
                 },
                 "subtitle": {
                   "text": "•• 4772 • мультивалютная",
@@ -481,7 +488,8 @@
                 "title": {
                   "text": "MasterCard Сберкарта",
                   "typeface": "body1",
-                  "text_color": "default"
+                  "text_color": "default",
+                  "max_lines": 2
                 },
                 "subtitle": {
                   "text": "•• 9714",
@@ -545,7 +553,8 @@
                 "title": {
                   "text": "MasterCard Сберкарта Travel",
                   "typeface": "body1",
-                  "text_color": "default"
+                  "text_color": "default",
+                  "max_lines": 2
                 },
                 "subtitle": {
                   "text": "•• 4780 • мультивалютная",
@@ -609,7 +618,8 @@
                 "title": {
                   "text": "MasterCard Сберкарта Travel",
                   "typeface": "body1",
-                  "text_color": "default"
+                  "text_color": "default",
+                  "max_lines": 2
                 },
                 "subtitle": {
                   "text": "•• 4798 • мультивалютная",
