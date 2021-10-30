@@ -1,76 +1,446 @@
 {
-    "card": {
+  "type": "sdk_answer",
+  "items": [
+    {
+      "card": {
         "type": "list_card",
         "cells": [
-            {
-                "type": "text_cell_view",
-                "content": {
-                    "text": "200 гонконгских долларов 🇭🇰",
-                    "typeface": "headline3",
-                    "text_color": "default",
-                    "max_lines": 0
-                },
-                "paddings": {
-                    "left": "8x",
-                    "top": "10x",
-                    "right": "8x"
+          {
+            "type": "left_right_cell_view",
+            "left": {
+              "type": "simple_left_view",
+              "texts": {
+                "title": {
+                  "text": "Статус карточных навыков:",
+                  "typeface": "title1",
+                  "text_color": "default",
+                  "max_lines": 2
                 }
+              }
             },
-            {
-                "type": "text_cell_view",
-                "content": {
-                    "text": "1 663 ₽",
-                    "typeface": "headline1",
-                    "text_color": "default",
-                    "max_lines": 0
-                },
-                "paddings": {
-                    "left": "8x",
-                    "top": "9x",
-                    "right": "8x"
-                }
-            },
-            {
-                "type": "text_cell_view",
-                "content": {
-                    "text": "При покупке от 500 до 1 000 HKD\n100 HKD = 6,36 RUB\nСберБанк Онлайн сейчас",
-                    "typeface": "footnote1",
-                    "text_color": "secondary",
-                    "max_lines": 0
-                },
-                "paddings": {
-                    "left": "8x",
-                    "top": "10x",
-                    "right": "8x"
-                }
-            },
-            {
-                "type": "button_cell_view",
-                "content": {
-                    "text": "Купить",
-                    "typeface": "button1",
-                    "style": "default",
-                    "type": "accept",
-                    "actions": [
-                        {
-                            "type": "text",
-                            "text": "Купить"
-                        }
-                    ],
-                    "margins": {
-                        "left": "10x",
-                        "top": "5x",
-                        "right": "10x",
-                        "bottom": "5x"
-                    }
-                },
-                "paddings": {
-                    "left": "6x",
-                    "top": "12x",
-                    "right": "6x",
-                    "bottom": "8x"
-                }
+            "paddings": {
+              "top": "6x",
+              "bottom": "6x"
             }
-        ]
+          },
+          {
+            "type": "left_right_cell_view",
+            "left": {
+              "type": "simple_left_view",
+              "icon": {
+                "address": {
+                  "type": "local",
+                  "identificator": "document"
+                },
+                "size": {
+                  "width": "medium",
+                  "height": "medium"
+                },
+                "margins": {
+                  "right": "8x"
+                },
+                "tint_color": "solid_white"
+              },
+              "texts": {
+                "title": {
+                  "text": "Версия сборки",
+                  "typeface": "footnote1",
+                  "text_color": "secondary",
+                  "max_lines": 1
+                },
+                "subtitle": {
+                  "text": "UNKNOWN",
+                  "typeface": "body1",
+                  "text_color": "default",
+                  "margins": {
+                    "top": "1x"
+                  },
+                  "max_lines": 2
+                }
+              },
+              "icon_vertical_gravity": "center"
+            },
+            "paddings": {
+              "top": "8x",
+              "bottom": "8x"
+            },
+            "divider": {
+              "style": "default",
+              "size": "d5"
+            }
+          },
+          {
+            "type": "left_right_cell_view",
+            "left": {
+              "type": "simple_left_view",
+              "icon": {
+                "address": {
+                  "type": "local",
+                  "identificator": "clock"
+                },
+                "size": {
+                  "width": "medium",
+                  "height": "medium"
+                },
+                "margins": {
+                  "right": "8x"
+                },
+                "tint_color": "solid_white"
+              },
+              "texts": {
+                "title": {
+                  "text": "Сборка запущена",
+                  "typeface": "footnote1",
+                  "text_color": "secondary",
+                  "max_lines": 1
+                },
+                "subtitle": {
+                  "text": "30.10.2021 10:34:39",
+                  "typeface": "body1",
+                  "text_color": "default",
+                  "margins": {
+                    "top": "1x"
+                  },
+                  "max_lines": 2
+                }
+              },
+              "icon_vertical_gravity": "center"
+            },
+            "paddings": {
+              "top": "8x",
+              "bottom": "8x"
+            },
+            "divider": {
+              "style": "default",
+              "size": "d5"
+            }
+          },
+          {
+            "type": "left_right_cell_view",
+            "left": {
+              "type": "simple_left_view",
+              "icon": {
+                "address": {
+                  "type": "local",
+                  "identificator": "document"
+                },
+                "size": {
+                  "width": "medium",
+                  "height": "medium"
+                },
+                "margins": {
+                  "right": "8x"
+                },
+                "tint_color": "solid_white"
+              },
+              "texts": {
+                "title": {
+                  "text": "Версия skillflow",
+                  "typeface": "footnote1",
+                  "text_color": "secondary",
+                  "max_lines": 1
+                },
+                "subtitle": {
+                  "text": "0.10.79",
+                  "typeface": "body1",
+                  "text_color": "default",
+                  "margins": {
+                    "top": "1x"
+                  },
+                  "max_lines": 2
+                }
+              },
+              "icon_vertical_gravity": "center"
+            },
+            "paddings": {
+              "top": "8x",
+              "bottom": "8x"
+            },
+            "divider": {
+              "style": "default",
+              "size": "d5"
+            }
+          },
+          {
+            "type": "left_right_cell_view",
+            "left": {
+              "type": "simple_left_view",
+              "icon": {
+                "address": {
+                  "type": "local",
+                  "identificator": "box"
+                },
+                "size": {
+                  "width": "medium",
+                  "height": "medium"
+                },
+                "margins": {
+                  "right": "8x"
+                },
+                "tint_color": "solid_white"
+              },
+              "texts": {
+                "title": {
+                  "text": "Окружение",
+                  "typeface": "footnote1",
+                  "text_color": "secondary",
+                  "max_lines": 1
+                },
+                "subtitle": {
+                  "text": "prod",
+                  "typeface": "body1",
+                  "text_color": "default",
+                  "margins": {
+                    "top": "1x"
+                  },
+                  "max_lines": 2
+                }
+              },
+              "icon_vertical_gravity": "center"
+            },
+            "paddings": {
+              "top": "8x",
+              "bottom": "8x"
+            },
+            "divider": {
+              "style": "default",
+              "size": "d5"
+            }
+          },
+          {
+            "type": "left_right_cell_view",
+            "left": {
+              "type": "simple_left_view",
+              "icon": {
+                "address": {
+                  "type": "local",
+                  "identificator": "mobile"
+                },
+                "size": {
+                  "width": "medium",
+                  "height": "medium"
+                },
+                "margins": {
+                  "right": "8x"
+                },
+                "tint_color": "solid_white"
+              },
+              "texts": {
+                "title": {
+                  "text": "IOS",
+                  "typeface": "footnote1",
+                  "text_color": "secondary",
+                  "max_lines": 1
+                },
+                "subtitle": {
+                  "text": "12.1",
+                  "typeface": "body1",
+                  "text_color": "default",
+                  "margins": {
+                    "top": "1x"
+                  },
+                  "max_lines": 2
+                }
+              },
+              "icon_vertical_gravity": "center"
+            },
+            "paddings": {
+              "top": "8x",
+              "bottom": "8x"
+            },
+            "divider": {
+              "style": "default",
+              "size": "d5"
+            }
+          },
+          {
+            "type": "left_right_cell_view",
+            "left": {
+              "type": "simple_left_view",
+              "icon": {
+                "address": {
+                  "type": "local",
+                  "identificator": "mobile"
+                },
+                "size": {
+                  "width": "medium",
+                  "height": "medium"
+                },
+                "margins": {
+                  "right": "8x"
+                },
+                "tint_color": "solid_white"
+              },
+              "texts": {
+                "title": {
+                  "text": "SBOL",
+                  "typeface": "footnote1",
+                  "text_color": "secondary",
+                  "max_lines": 1
+                },
+                "subtitle": {
+                  "text": "11.8",
+                  "typeface": "body1",
+                  "text_color": "default",
+                  "margins": {
+                    "top": "1x"
+                  },
+                  "max_lines": 2
+                }
+              },
+              "icon_vertical_gravity": "center"
+            },
+            "paddings": {
+              "top": "8x",
+              "bottom": "8x"
+            },
+            "divider": {
+              "style": "default",
+              "size": "d5"
+            }
+          },
+          {
+            "type": "left_right_cell_view",
+            "left": {
+              "type": "simple_left_view",
+              "icon": {
+                "address": {
+                  "type": "local",
+                  "identificator": "user"
+                },
+                "size": {
+                  "width": "medium",
+                  "height": "medium"
+                },
+                "margins": {
+                  "right": "8x"
+                },
+                "tint_color": "solid_white"
+              },
+              "texts": {
+                "title": {
+                  "text": "Персонаж",
+                  "typeface": "footnote1",
+                  "text_color": "secondary",
+                  "max_lines": 1
+                },
+                "subtitle": {
+                  "text": "sber",
+                  "typeface": "body1",
+                  "text_color": "default",
+                  "margins": {
+                    "top": "1x"
+                  },
+                  "max_lines": 2
+                }
+              },
+              "icon_vertical_gravity": "center"
+            },
+            "paddings": {
+              "top": "8x",
+              "bottom": "8x"
+            },
+            "divider": {
+              "style": "default",
+              "size": "d5"
+            }
+          },
+          {
+            "type": "left_right_cell_view",
+            "left": {
+              "type": "simple_left_view",
+              "icon": {
+                "address": {
+                  "type": "local",
+                  "identificator": "globe"
+                },
+                "size": {
+                  "width": "medium",
+                  "height": "medium"
+                },
+                "margins": {
+                  "right": "8x"
+                },
+                "tint_color": "solid_white"
+              },
+              "texts": {
+                "title": {
+                  "text": "sessionId",
+                  "typeface": "footnote1",
+                  "text_color": "secondary",
+                  "max_lines": 1
+                },
+                "subtitle": {
+                  "text": "86024848-c12b-4056-b58b-93c69b412314",
+                  "typeface": "body1",
+                  "text_color": "default",
+                  "margins": {
+                    "top": "1x"
+                  },
+                  "max_lines": 2
+                }
+              },
+              "icon_vertical_gravity": "center"
+            },
+            "paddings": {
+              "top": "8x",
+              "bottom": "8x"
+            },
+            "divider": {
+              "style": "default",
+              "size": "d5"
+            }
+          },
+          {
+            "type": "left_right_cell_view",
+            "left": {
+              "type": "simple_left_view",
+              "icon": {
+                "address": {
+                  "type": "local",
+                  "identificator": "fingerprint"
+                },
+                "size": {
+                  "width": "medium",
+                  "height": "medium"
+                },
+                "margins": {
+                  "right": "8x"
+                },
+                "tint_color": "solid_white"
+              },
+              "texts": {
+                "title": {
+                  "text": "uid",
+                  "typeface": "footnote1",
+                  "text_color": "secondary",
+                  "max_lines": 1
+                },
+                "subtitle": {
+                  "text": "local_testing_1",
+                  "typeface": "body1",
+                  "text_color": "default",
+                  "margins": {
+                    "top": "1x"
+                  },
+                  "max_lines": 2
+                }
+              },
+              "icon_vertical_gravity": "center"
+            },
+            "paddings": {
+              "top": "8x",
+              "bottom": "8x"
+            }
+          }
+        ],
+        "paddings": {
+          "left": "8x",
+          "right": "8x",
+          "top": "4x",
+          "bottom": "4x"
+        }
+      }
     }
+  ]
 }
