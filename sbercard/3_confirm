@@ -1,0 +1,321 @@
+{
+  "type": "sdk_answer",
+  "items": [
+    {
+      "bubble": {
+        "text": "Проверьте данные, если вы согласны с условиями, скажите \"Соглашаюсь и оформить\". Для ознакомления с документами, скажите \"Посмотреть\"",
+        "markdown": true,
+        "expand_policy": "auto_expand"
+      }
+    },
+    {
+      "card": {
+        "cells": [
+          {
+            "left": {
+              "texts": {
+                "title": {
+                  "text": "Цифровая СберКарта",
+                  "typeface": "headline3",
+                  "text_color": "default",
+                  "max_lines": 5
+                }
+              },
+              "icon_vertical_gravity": "center",
+              "type": "simple_left_view"
+            },
+            "paddings": {
+              "bottom": "6x",
+              "left": "0x",
+              "right": "0x",
+              "top": "6x"
+            },
+            "type": "left_right_cell_view"
+          },
+          {
+            "left": {
+              "icon": {
+                "address": {
+                  "identificator": "digital_banknotes",
+                  "type": "local"
+                },
+                "size": {
+                  "width": "medium",
+                  "height": "medium"
+                },
+                "margins": {
+                  "bottom": "0x",
+                  "left": "0x",
+                  "right": "8x",
+                  "top": "0x"
+                },
+                "tint_color": "solid_white"
+              },
+              "texts": {
+                "title": {
+                  "text": "Валюта",
+                  "typeface": "footnote1",
+                  "text_color": "secondary",
+                  "max_lines": 2
+                },
+                "subtitle": {
+                  "text": "Российский рубль",
+                  "typeface": "body1",
+                  "text_color": "default",
+                  "margins": {
+                    "bottom": "0x",
+                    "left": "0x",
+                    "right": "0x",
+                    "top": "1x"
+                  },
+                  "max_lines": 2
+                }
+              },
+              "icon_vertical_gravity": "center",
+              "type": "simple_left_view"
+            },
+            "divider": {
+              "style": "read_only",
+              "size": "d5"
+            },
+            "paddings": {
+              "bottom": "8x",
+              "left": "0x",
+              "right": "0x",
+              "top": "8x"
+            },
+            "type": "left_right_cell_view"
+          },
+          {
+            "left": {
+              "icon": {
+                "address": {
+                  "identificator": "globe",
+                  "type": "local"
+                },
+                "size": {
+                  "width": "medium",
+                  "height": "medium"
+                },
+                "margins": {
+                  "bottom": "0x",
+                  "left": "0x",
+                  "right": "8x",
+                  "top": "0x"
+                },
+                "tint_color": "solid_white"
+              },
+              "texts": {
+                "title": {
+                  "text": "Все страны налогового резиденства",
+                  "typeface": "footnote1",
+                  "text_color": "secondary",
+                  "max_lines": 2
+                },
+                "subtitle": {
+                  "text": "Россия",
+                  "typeface": "body1",
+                  "text_color": "default",
+                  "margins": {
+                    "bottom": "0x",
+                    "left": "0x",
+                    "right": "0x",
+                    "top": "2x"
+                  },
+                  "max_lines": 2
+                }
+              },
+              "icon_vertical_gravity": "center",
+              "type": "simple_left_view"
+            },
+            "divider": {
+              "style": "read_only",
+              "size": "d5"
+            },
+            "paddings": {
+              "bottom": "8x",
+              "left": "0x",
+              "right": "0x",
+              "top": "8x"
+            },
+            "type": "left_right_cell_view"
+          }
+        ],
+        "paddings": {
+          "bottom": "4x",
+          "left": "8x",
+          "right": "8x",
+          "top": "4x"
+        },
+        "can_be_disabled": false,
+        "type": "list_card"
+      }
+    },
+    {
+      "card": {
+        "cells": [
+          {
+            "left": {
+              "icon": {
+                "address": {
+                  "url": "https://va-res.online.sberbank.ru/VA/icons/mc_36_transaction_account_RUB.png",
+                  "type": "url"
+                },
+                "size": {
+                  "width": "medium",
+                  "height": "medium"
+                },
+                "margins": {
+                  "bottom": "0x",
+                  "left": "0x",
+                  "right": "8x",
+                  "top": "0x"
+                },
+                "tint_color": "solid_brand"
+              },
+              "texts": {
+                "title": {
+                  "text": "Счёт карты",
+                  "typeface": "footnote1",
+                  "text_color": "secondary",
+                  "max_lines": 2
+                },
+                "subtitle": {
+                  "text": "Открыть новый",
+                  "typeface": "body1",
+                  "text_color": "default",
+                  "margins": {
+                    "bottom": "0x",
+                    "left": "0x",
+                    "right": "0x",
+                    "top": "2x"
+                  },
+                  "max_lines": 2
+                }
+              },
+              "icon_vertical_gravity": "center",
+              "type": "simple_left_view"
+            },
+            "divider": {
+              "style": "default",
+              "size": "d5"
+            },
+            "paddings": {
+              "bottom": "6x",
+              "left": "0x",
+              "right": "0x",
+              "top": "6x"
+            },
+            "type": "left_right_cell_view"
+          },
+          {
+            "left": {
+              "icon": {
+                "address": {
+                  "identificator": "card_mc_null",
+                  "type": "local"
+                },
+                "size": {
+                  "width": "medium",
+                  "height": "medium"
+                },
+                "margins": {
+                  "bottom": "0x",
+                  "left": "0x",
+                  "right": "8x",
+                  "top": "0x"
+                },
+                "tint_color": "solid_white"
+              },
+              "texts": {
+                "title": {
+                  "text": "Платёжная система",
+                  "typeface": "footnote1",
+                  "text_color": "secondary",
+                  "max_lines": 2
+                },
+                "subtitle": {
+                  "text": "MasterCard",
+                  "typeface": "body1",
+                  "text_color": "default",
+                  "margins": {
+                    "bottom": "0x",
+                    "left": "0x",
+                    "right": "0x",
+                    "top": "2x"
+                  },
+                  "max_lines": 2
+                }
+              },
+              "icon_vertical_gravity": "center",
+              "type": "simple_left_view"
+            },
+            "paddings": {
+              "bottom": "8x",
+              "left": "0x",
+              "right": "0x",
+              "top": "8x"
+            },
+            "type": "left_right_cell_view"
+          },
+          {
+            "left": {
+              "texts": {
+                "title": {
+                  "text": "Я соглашаюсь с условиями и подписываю документы по операции для получения дебетовой карты",
+                  "typeface": "footnote1",
+                  "text_color": "secondary",
+                  "max_lines": 5
+                }
+              },
+              "icon_vertical_gravity": "center",
+              "type": "simple_left_view"
+            },
+            "paddings": {
+              "bottom": "8x",
+              "left": "0x",
+              "right": "0x",
+              "top": "8x"
+            },
+            "type": "left_right_cell_view"
+          },
+          {
+            "content": {
+              "text": "Согласиться и оформить",
+              "actions": [
+                {
+                  "text": "Перейти к оформлению",
+                  "type": "text"
+                }
+              ],
+              "typeface": "button1",
+              "style": "default",
+              "type": "accept",
+              "margins": {
+                "bottom": "8x",
+                "left": "0x",
+                "right": "0x",
+                "top": "8x"
+              }
+            },
+            "paddings": {
+              "bottom": "0x",
+              "left": "0x",
+              "right": "0x",
+              "top": "8x"
+            },
+            "type": "button_cell_view"
+          }
+        ],
+        "paddings": {
+          "bottom": "4x",
+          "left": "8x",
+          "right": "8x",
+          "top": "4x"
+        },
+        "can_be_disabled": false,
+        "type": "list_card"
+      }
+    }
+  ]
+}
