@@ -3,16 +3,24 @@
   "items": [
     {
       "bubble": {
-        "text": "Проверьте данные, если вы согласны с условиями, скажите \"Соглашаюсь и оформить\". Для ознакомления с документами, скажите \"Посмотреть\"",
-        "markdown": true,
-        "expand_policy": "auto_expand"
+        "text": "Проверьте данные, если вы согласны с условиями, скажите 'Соглашаюсь и оформить'. Для ознакомления с документами, скажите 'Посмотреть'",
+        "markdown": true
       }
     },
     {
       "card": {
+        "type": "list_card",
+        "paddings": {
+          "left": "8x",
+          "right": "8x",
+          "top": "4x",
+          "bottom": "4x"
+        },
         "cells": [
           {
+            "type": "left_right_cell_view",
             "left": {
+              "type": "simple_left_view",
               "texts": {
                 "title": {
                   "text": "Цифровая СберКарта",
@@ -20,34 +28,28 @@
                   "text_color": "default",
                   "max_lines": 5
                 }
-              },
-              "icon_vertical_gravity": "center",
-              "type": "simple_left_view"
+              }
             },
             "paddings": {
-              "bottom": "6x",
-              "left": "0x",
-              "right": "0x",
-              "top": "6x"
-            },
-            "type": "left_right_cell_view"
+              "top": "6x",
+              "bottom": "6x"
+            }
           },
           {
+            "type": "left_right_cell_view",
             "left": {
+              "type": "simple_left_view",
               "icon": {
                 "address": {
-                  "identificator": "digital_banknotes",
-                  "type": "local"
+                  "type": "local",
+                  "identificator": "digital_banknotes"
                 },
                 "size": {
                   "width": "medium",
                   "height": "medium"
                 },
                 "margins": {
-                  "bottom": "0x",
-                  "left": "0x",
-                  "right": "8x",
-                  "top": "0x"
+                  "right": "8x"
                 },
                 "tint_color": "solid_white"
               },
@@ -63,45 +65,51 @@
                   "typeface": "body1",
                   "text_color": "default",
                   "margins": {
-                    "bottom": "0x",
-                    "left": "0x",
-                    "right": "0x",
                     "top": "1x"
                   },
                   "max_lines": 2
                 }
               },
-              "icon_vertical_gravity": "center",
-              "type": "simple_left_view"
+              "icon_vertical_gravity": "center"
+            },
+            "right": {
+              "type": "disclosure_right_view",
+              "margins": {
+                "top": "8x",
+                "right": "4x",
+                "bottom": "8x"
+              }
+            },
+            "paddings": {
+              "top": "8x",
+              "bottom": "8x"
             },
             "divider": {
               "style": "read_only",
               "size": "d5"
             },
-            "paddings": {
-              "bottom": "8x",
-              "left": "0x",
-              "right": "0x",
-              "top": "8x"
-            },
-            "type": "left_right_cell_view"
+            "actions": [
+              {
+                "type": "text",
+                "text": "Валюта"
+              }
+            ]
           },
           {
+            "type": "left_right_cell_view",
             "left": {
+              "type": "simple_left_view",
               "icon": {
                 "address": {
-                  "identificator": "globe",
-                  "type": "local"
+                  "type": "local",
+                  "identificator": "globe"
                 },
                 "size": {
                   "width": "medium",
                   "height": "medium"
                 },
                 "margins": {
-                  "bottom": "0x",
-                  "left": "0x",
-                  "right": "8x",
-                  "top": "0x"
+                  "right": "8x"
                 },
                 "tint_color": "solid_white"
               },
@@ -117,59 +125,64 @@
                   "typeface": "body1",
                   "text_color": "default",
                   "margins": {
-                    "bottom": "0x",
-                    "left": "0x",
-                    "right": "0x",
                     "top": "2x"
                   },
                   "max_lines": 2
                 }
               },
-              "icon_vertical_gravity": "center",
-              "type": "simple_left_view"
+              "icon_vertical_gravity": "center"
+            },
+            "right": {
+              "type": "disclosure_right_view",
+              "margins": {
+                "top": "8x",
+                "right": "4x",
+                "bottom": "8x"
+              }
+            },
+            "paddings": {
+              "top": "8x",
+              "bottom": "8x"
             },
             "divider": {
               "style": "read_only",
               "size": "d5"
             },
-            "paddings": {
-              "bottom": "8x",
-              "left": "0x",
-              "right": "0x",
-              "top": "8x"
-            },
-            "type": "left_right_cell_view"
+            "actions": [
+              {
+                "type": "text",
+                "text": "Резиденство"
+              }
+            ]
           }
-        ],
-        "paddings": {
-          "bottom": "4x",
-          "left": "8x",
-          "right": "8x",
-          "top": "4x"
-        },
-        "can_be_disabled": false,
-        "type": "list_card"
+        ]
       }
     },
     {
       "card": {
+        "type": "list_card",
+        "paddings": {
+          "left": "8x",
+          "right": "8x",
+          "top": "4x",
+          "bottom": "4x"
+        },
         "cells": [
           {
+            "type": "left_right_cell_view",
             "left": {
+              "type": "simple_left_view",
               "icon": {
                 "address": {
-                  "url": "https://va-res.online.sberbank.ru/VA/icons/mc_36_transaction_account_RUB.png",
-                  "type": "url"
+                  "type": "url",
+                  "url": "https://va-res.online.sberbank.ru/VA/icons/mc_36_transaction_account_RUB.png"
                 },
                 "size": {
                   "width": "medium",
                   "height": "medium"
                 },
                 "margins": {
-                  "bottom": "0x",
-                  "left": "0x",
-                  "right": "8x",
-                  "top": "0x"
+                  "right": "8x"
                 },
                 "tint_color": "solid_brand"
               },
@@ -185,45 +198,50 @@
                   "typeface": "body1",
                   "text_color": "default",
                   "margins": {
-                    "bottom": "0x",
-                    "left": "0x",
-                    "right": "0x",
                     "top": "2x"
                   },
                   "max_lines": 2
                 }
-              },
-              "icon_vertical_gravity": "center",
-              "type": "simple_left_view"
+              }
+            },
+            "right": {
+              "type": "disclosure_right_view",
+              "margins": {
+                "top": "8x",
+                "right": "4x",
+                "bottom": "8x"
+              }
+            },
+            "paddings": {
+              "top": "6x",
+              "bottom": "6x"
             },
             "divider": {
               "style": "default",
               "size": "d5"
             },
-            "paddings": {
-              "bottom": "6x",
-              "left": "0x",
-              "right": "0x",
-              "top": "6x"
-            },
-            "type": "left_right_cell_view"
+            "actions": [
+              {
+                "type": "text",
+                "text": "Платёжный счёт"
+              }
+            ]
           },
           {
+            "type": "left_right_cell_view",
             "left": {
+              "type": "simple_left_view",
               "icon": {
                 "address": {
-                  "identificator": "card_mc_null",
-                  "type": "local"
+                  "type": "local",
+                  "identificator": "card_mc_null"
                 },
                 "size": {
                   "width": "medium",
                   "height": "medium"
                 },
                 "margins": {
-                  "bottom": "0x",
-                  "left": "0x",
-                  "right": "8x",
-                  "top": "0x"
+                  "right": "8x"
                 },
                 "tint_color": "solid_white"
               },
@@ -239,27 +257,36 @@
                   "typeface": "body1",
                   "text_color": "default",
                   "margins": {
-                    "bottom": "0x",
-                    "left": "0x",
-                    "right": "0x",
                     "top": "2x"
                   },
                   "max_lines": 2
                 }
               },
-              "icon_vertical_gravity": "center",
-              "type": "simple_left_view"
+              "icon_vertical_gravity": "center"
+            },
+            "right": {
+              "type": "disclosure_right_view",
+              "margins": {
+                "top": "8x",
+                "right": "4x",
+                "bottom": "8x"
+              }
             },
             "paddings": {
-              "bottom": "8x",
-              "left": "0x",
-              "right": "0x",
-              "top": "8x"
+              "top": "8x",
+              "bottom": "8x"
             },
-            "type": "left_right_cell_view"
+            "actions": [
+              {
+                "type": "text",
+                "text": "Платёжная система"
+              }
+            ]
           },
           {
+            "type": "left_right_cell_view",
             "left": {
+              "type": "simple_left_view",
               "texts": {
                 "title": {
                   "text": "Я соглашаюсь с условиями и подписываю документы по операции для получения дебетовой карты",
@@ -268,53 +295,39 @@
                   "max_lines": 5
                 }
               },
-              "icon_vertical_gravity": "center",
-              "type": "simple_left_view"
+              "icon_vertical_gravity": "center"
             },
             "paddings": {
-              "bottom": "8x",
-              "left": "0x",
-              "right": "0x",
-              "top": "8x"
-            },
-            "type": "left_right_cell_view"
+              "top": "8x",
+              "bottom": "8x"
+            }
           },
           {
+            "type": "button_cell_view",
             "content": {
               "text": "Согласиться и оформить",
-              "actions": [
-                {
-                  "text": "Перейти к оформлению",
-                  "type": "text"
-                }
-              ],
               "typeface": "button1",
               "style": "default",
               "type": "accept",
+              "actions": [
+                {
+                  "type": "text",
+                  "text": "Согласиться и оформить"
+                }
+              ],
               "margins": {
-                "bottom": "8x",
-                "left": "0x",
-                "right": "0x",
-                "top": "8x"
+                "top": "8x",
+                "bottom": "8x"
               }
             },
             "paddings": {
-              "bottom": "0x",
               "left": "0x",
               "right": "0x",
-              "top": "8x"
-            },
-            "type": "button_cell_view"
+              "top": "8x",
+              "bottom": "0x"
+            }
           }
-        ],
-        "paddings": {
-          "bottom": "4x",
-          "left": "8x",
-          "right": "8x",
-          "top": "4x"
-        },
-        "can_be_disabled": false,
-        "type": "list_card"
+        ]
       }
     }
   ]
