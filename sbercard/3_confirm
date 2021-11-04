@@ -194,7 +194,7 @@
                   "max_lines": 2
                 },
                 "subtitle": {
-                  "text": "Платёжный счёт •• 0384",
+                  "text": "Платёжный счёт •• 9016",
                   "typeface": "body1",
                   "text_color": "default",
                   "margins": {
@@ -234,7 +234,7 @@
               "icon": {
                 "address": {
                   "type": "local",
-                  "identificator": "card_mc_null"
+                  "identificator": "card_visa_null"
                 },
                 "size": {
                   "width": "medium",
@@ -253,7 +253,7 @@
                   "max_lines": 2
                 },
                 "subtitle": {
-                  "text": "MasterCard",
+                  "text": "Visa",
                   "typeface": "body1",
                   "text_color": "default",
                   "margins": {
