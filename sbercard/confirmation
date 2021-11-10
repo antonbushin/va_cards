@@ -175,7 +175,7 @@
               "icon": {
                 "address": {
                   "type": "url",
-                  "url": "https://va-res.online.sberbank.ru/VA/icons/mc_36_transaction_account_RUB.png"
+                  "url": "https://va-res.online.sberbank.ru/VA/icons/mc_36_transaction_account_ruble.png"
                 },
                 "size": {
                   "width": "medium",
