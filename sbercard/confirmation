@@ -3,7 +3,7 @@
   "items": [
     {
       "bubble": {
-        "text": "Проверьте данные, если вы согласны с условиями, скажите 'Соглашаюсь и оформить'. Для ознакомления с документами, скажите 'Посмотреть'",
+        "text": "Проверьте данные, если вы согласны с условиями, скажите \"Соглашаюсь оформить\". Для ознакомления с документами, скажите \"Посмотреть\"",
         "markdown": true
       }
     },
@@ -121,7 +121,7 @@
                   "max_lines": 2
                 },
                 "subtitle": {
-                  "text": "Россия",
+                  "text": "Только Россия",
                   "typeface": "body1",
                   "text_color": "default",
                   "margins": {
@@ -194,13 +194,14 @@
                   "max_lines": 2
                 },
                 "subtitle": {
-                  "text": "Платёжный счёт •• 9016",
+                  "text": "Открыть новый",
                   "typeface": "body1",
                   "text_color": "default",
                   "margins": {
                     "top": "2x"
                   },
-                  "max_lines": 2
+                  "max_lines": 2,
+                  "markdown": true
                 }
               }
             },
@@ -223,7 +224,7 @@
             "actions": [
               {
                 "type": "text",
-                "text": "Платёжный счёт"
+                "text": "Изменить счёт"
               }
             ]
           },
@@ -233,8 +234,8 @@
               "type": "simple_left_view",
               "icon": {
                 "address": {
-                  "type": "local",
-                  "identificator": "card_visa_null"
+                  "type": "url",
+                  "url": "https://va-res.online.sberbank.ru/VA/icons/cards/mc_36_mastercard_logo.png"
                 },
                 "size": {
                   "width": "medium",
@@ -253,7 +254,7 @@
                   "max_lines": 2
                 },
                 "subtitle": {
-                  "text": "Visa",
+                  "text": "MasterCard",
                   "typeface": "body1",
                   "text_color": "default",
                   "margins": {
@@ -279,7 +280,7 @@
             "actions": [
               {
                 "type": "text",
-                "text": "Платёжная система"
+                "text": "Изменить платёжную систему"
               }
             ]
           },
