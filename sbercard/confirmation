@@ -86,7 +86,7 @@
             },
             "divider": {
               "style": "read_only",
-              "size": "d5"
+              "size": "d1"
             },
             "actions": [
               {
@@ -146,7 +146,7 @@
             },
             "divider": {
               "style": "read_only",
-              "size": "d5"
+              "size": "d1"
             },
             "actions": [
               {
@@ -194,7 +194,7 @@
                   "max_lines": 2
                 },
                 "subtitle": {
-                  "text": "Открыть новый",
+                  "text": "Платёжный счёт •• 0182",
                   "typeface": "body1",
                   "text_color": "default",
                   "margins": {
@@ -219,7 +219,7 @@
             },
             "divider": {
               "style": "default",
-              "size": "d5"
+              "size": "d1"
             },
             "actions": [
               {
@@ -235,7 +235,7 @@
               "icon": {
                 "address": {
                   "type": "url",
-                  "url": "https://va-res.online.sberbank.ru/VA/icons/cards/mc_36_mastercard_logo.png"
+                  "url": "https://va-res.online.sberbank.ru/VA/icons/cards/mc_36_visa_logo.png"
                 },
                 "size": {
                   "width": "medium",
@@ -254,7 +254,7 @@
                   "max_lines": 2
                 },
                 "subtitle": {
-                  "text": "MasterCard",
+                  "text": "Visa",
                   "typeface": "body1",
                   "text_color": "default",
                   "margins": {
