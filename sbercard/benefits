@@ -24,7 +24,7 @@
               "icon": {
                 "address": {
                   "type": "url",
-                  "url": "https://stat.online.sberbank.ru/EFS/cards.debit/mobshowcase/icons/ios_ic_36_taxi.png"
+                  "url": "https://stat.online.sberbank.ru/EFS/cards.debit/mobshowcase/icons/ios_ic_36_spasibo.png"
                 },
                 "size": {
                   "width": "medium",
@@ -37,13 +37,13 @@
               },
               "texts": {
                 "title": {
-                  "text": "10% в Ситимобил и на АЗС",
+                  "text": "?13 000 бонусов",
                   "typeface": "body1",
                   "text_color": "default",
                   "max_lines": 0
                 },
                 "subtitle": {
-                  "text": "5% в других такси начислим бонусами",
+                  "text": "Можете накопить за год при покупках от 30 000 ? в месяц",
                   "typeface": "footnote1",
                   "text_color": "secondary",
                   "margins": {
@@ -60,7 +60,7 @@
             },
             "divider": {
               "style": "default",
-              "size": "d5"
+              "size": "d1"
             }
           },
           {
@@ -70,7 +70,7 @@
               "icon": {
                 "address": {
                   "type": "url",
-                  "url": "https://stat.online.sberbank.ru/EFS/cards.debit/mobshowcase/icons/ios_ic_36_basket.png"
+                  "url": "https://stat.online.sberbank.ru/EFS/cards.debit/mobshowcase/icons/ios_ic_36_star_light.png"
                 },
                 "size": {
                   "width": "medium",
@@ -83,13 +83,13 @@
               },
               "texts": {
                 "title": {
-                  "text": "5% в ресторанах и СберМаркете",
+                  "text": "Обслуживание 0  ?",
                   "typeface": "body1",
                   "text_color": "default",
                   "max_lines": 0
                 },
                 "subtitle": {
-                  "text": "Начислим бонусами",
+                  "text": "При покупках от 5 000 ? в месяц",
                   "typeface": "footnote1",
                   "text_color": "secondary",
                   "margins": {
@@ -106,7 +106,7 @@
             },
             "divider": {
               "style": "default",
-              "size": "d5"
+              "size": "d1"
             }
           },
           {
@@ -116,7 +116,7 @@
               "icon": {
                 "address": {
                   "type": "url",
-                  "url": "https://stat.online.sberbank.ru/EFS/cards.debit/mobshowcase/icons/ios_ic_36_arrows_forward_back.png"
+                  "url": "https://stat.online.sberbank.ru/EFS/cards.debit/mobshowcase/icons/ios_ic_36_gift.png"
                 },
                 "size": {
                   "width": "medium",
@@ -129,13 +129,13 @@
               },
               "texts": {
                 "title": {
-                  "text": "Переводы без ограничений",
+                  "text": "До следующего месяца",
                   "typeface": "body1",
                   "text_color": "default",
                   "max_lines": 0
                 },
                 "subtitle": {
-                  "text": "На карты СберБанка",
+                  "text": "Обслуживание 0 ? и 5% бонусами в ресторанах",
                   "typeface": "footnote1",
                   "text_color": "secondary",
                   "margins": {
@@ -149,175 +149,6 @@
             "paddings": {
               "top": "8x",
               "bottom": "8x"
-            },
-            "divider": {
-              "style": "default",
-              "size": "d5"
-            }
-          },
-          {
-            "type": "left_right_cell_view",
-            "left": {
-              "type": "simple_left_view",
-              "icon": {
-                "address": {
-                  "type": "url",
-                  "url": "https://stat.online.sberbank.ru/EFS/cards.debit/mobshowcase/icons/ios_ic_36_atm_banknote.png"
-                },
-                "size": {
-                  "width": "medium",
-                  "height": "medium"
-                },
-                "margins": {
-                  "right": "8x"
-                },
-                "tint_color": "solid_brand"
-              },
-              "texts": {
-                "title": {
-                  "text": "Наличные без комиссии",
-                  "typeface": "body1",
-                  "text_color": "default",
-                  "max_lines": 0
-                },
-                "subtitle": {
-                  "text": "В банкоматах по всему миру",
-                  "typeface": "footnote1",
-                  "text_color": "secondary",
-                  "margins": {
-                    "top": "1x"
-                  },
-                  "max_lines": 0
-                }
-              },
-              "icon_vertical_gravity": "center"
-            },
-            "paddings": {
-              "top": "8x",
-              "bottom": "8x"
-            },
-            "divider": {
-              "style": "default",
-              "size": "d5"
-            }
-          },
-          {
-            "type": "left_right_cell_view",
-            "left": {
-              "type": "simple_left_view",
-              "icon": {
-                "address": {
-                  "type": "url",
-                  "url": "https://stat.online.sberbank.ru/EFS/cards.debit/mobshowcase/icons/ios_ic_36_bell.png"
-                },
-                "size": {
-                  "width": "medium",
-                  "height": "medium"
-                },
-                "margins": {
-                  "right": "8x"
-                },
-                "tint_color": "solid_brand"
-              },
-              "texts": {
-                "title": {
-                  "text": "Бесплатные уведомления по карте",
-                  "typeface": "body1",
-                  "text_color": "default",
-                  "max_lines": 0
-                },
-                "subtitle": {
-                  "text": "Вместо 60 ? в месяц",
-                  "typeface": "footnote1",
-                  "text_color": "secondary",
-                  "margins": {
-                    "top": "1x"
-                  },
-                  "max_lines": 0
-                }
-              },
-              "icon_vertical_gravity": "center"
-            },
-            "paddings": {
-              "top": "8x",
-              "bottom": "8x"
-            }
-          }
-        ]
-      }
-    },
-    {
-      "card": {
-        "type": "gallery_card",
-        "items": [
-          {
-            "type": "media_gallery_item",
-            "image": {
-              "url": "https://stat.online.sberbank.ru/EFS/cards.debit/mobshowcase/icons/ios_sbercardprime_1.png",
-              "size": {
-                "width": "medium",
-                "aspect_ratio": 1
-              }
-            }
-          },
-          {
-            "type": "media_gallery_item",
-            "image": {
-              "url": "https://stat.online.sberbank.ru/EFS/cards.debit/mobshowcase/icons/ios_sbercardprime_2.png",
-              "size": {
-                "width": "medium",
-                "aspect_ratio": 1
-              }
-            }
-          },
-          {
-            "type": "media_gallery_item",
-            "image": {
-              "url": "https://stat.online.sberbank.ru/EFS/cards.debit/mobshowcase/icons/ios_sbercardprime_3.png",
-              "size": {
-                "width": "medium",
-                "aspect_ratio": 1
-              }
-            }
-          },
-          {
-            "type": "media_gallery_item",
-            "image": {
-              "url": "https://stat.online.sberbank.ru/EFS/cards.debit/mobshowcase/icons/ios_sbercardprime_4.png",
-              "size": {
-                "width": "medium",
-                "aspect_ratio": 1
-              }
-            }
-          },
-          {
-            "type": "media_gallery_item",
-            "image": {
-              "url": "https://stat.online.sberbank.ru/EFS/cards.debit/mobshowcase/icons/ios_sbercardprime_5.png",
-              "size": {
-                "width": "medium",
-                "aspect_ratio": 1
-              }
-            }
-          },
-          {
-            "type": "media_gallery_item",
-            "image": {
-              "url": "https://stat.online.sberbank.ru/EFS/cards.debit/mobshowcase/icons/ios_sbercardprime_6.png",
-              "size": {
-                "width": "medium",
-                "aspect_ratio": 1
-              }
-            }
-          },
-          {
-            "type": "media_gallery_item",
-            "image": {
-              "url": "https://stat.online.sberbank.ru/EFS/cards.debit/mobshowcase/icons/ios_sbercardprime_7.png",
-              "size": {
-                "width": "medium",
-                "aspect_ratio": 1
-              }
             }
           }
         ]
