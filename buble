@@ -4,25 +4,17 @@
     {
       "card": {
         "type": "p2p_transfer_result",
-        "title": "Карта\nзаблокирована",
+        "title": "Операция отклонена",
         "transfer_amount": " ",
-        "addressee": "Mir Gold •• 9759",
-        "icon_url": "https://sberbank.ru/transfer_success.png",
-        "style": "success"
+        "addressee": "Цифровая СберКарта",
+        "icon_url": "https://sberbank.ru/transfer_failure.png",
+        "style": "failure"
       }
     },
     {
       "bubble": {
-        "text": "Чтобы снять оставшиеся деньги — обратитесь в офис банка или перевыпустите карту с новым номером и ПИН-кодом",
-        "markdown": true,
-        "expand_policy": "auto_expand"
-      }
-    },
-    {
-      "bubble": {
-        "text": "При заблокированной карте оплата такси или подписок на онлайн-сервисы недоступна",
-        "markdown": true,
-        "expand_policy": "auto_expand"
+        "text": "Операция отклонена, Сбербанк Онлайн заблокирован.\nВо избежание мошенничества, банку необходимо убедиться, что операция совершена вами. В ближайшее время вам позвонит сотрудник банка для её подтверждения.\nПожалуйста, ожидайте звонка.",
+        "markdown": true
       }
     }
   ]
