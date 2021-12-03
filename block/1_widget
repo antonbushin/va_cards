@@ -3,195 +3,50 @@
   "items": [
     {
       "bubble": {
-        "text": "Секундочку... Какую карту хочешь заблокировать?",
-        "markdown": true,
-        "expand_policy": "auto_expand"
+        "text": "Проверьте данные. Если всё верно — заблокируйте карту",
+        "markdown": true
       }
     },
     {
       "card": {
+        "type": "list_card",
+        "can_be_disabled": true,
+        "paddings": {
+          "left": "8x",
+          "right": "8x",
+          "top": "8x",
+          "bottom": "8x"
+        },
         "cells": [
           {
+            "type": "left_right_cell_view",
             "left": {
+              "type": "simple_left_view",
               "texts": {
                 "title": {
-                  "text": "Карты",
+                  "text": "Блокировка карты",
                   "typeface": "headline3",
                   "text_color": "default",
-                  "max_lines": 1
+                  "max_lines": 3
                 }
-              },
-              "icon_vertical_gravity": "center",
-              "type": "simple_left_view"
-            },
-            "paddings": {
-              "bottom": "6x",
-              "left": "0x",
-              "right": "0x",
-              "top": "6x"
-            },
-            "type": "left_right_cell_view"
-          },
-          {
-            "left": {
-              "icon": {
-                "address": {
-                  "url": "https://va-res.online.sberbank.ru/VA/icons/cards/mc_36_visa.png",
-                  "type": "url"
-                },
-                "size": {
-                  "width": "medium",
-                  "height": "medium"
-                },
-                "margins": {
-                  "bottom": "0x",
-                  "left": "0x",
-                  "right": "8x",
-                  "top": "0x"
-                },
-                "tint_color": "solid_brand"
-              },
-              "texts": {
-                "title": {
-                  "text": "Visa Classic",
-                  "typeface": "body1",
-                  "text_color": "default",
-                  "max_lines": 1
-                },
-                "subtitle": {
-                  "text": "•• 7083",
-                  "typeface": "footnote1",
-                  "text_color": "secondary",
-                  "margins": {
-                    "bottom": "0x",
-                    "left": "0x",
-                    "right": "0x",
-                    "top": "1x"
-                  },
-                  "max_lines": 1
-                },
-                "caption": {
-                  "text": "Привязана к счету •• 6808",
-                  "typeface": "caption",
-                  "text_color": "secondary",
-                  "margins": {
-                    "bottom": "0x",
-                    "left": "0x",
-                    "right": "0x",
-                    "top": "2x"
-                  },
-                  "max_lines": 1
-                }
-              },
-              "icon_vertical_gravity": "center",
-              "type": "simple_left_view"
-            },
-            "divider": {
-              "style": "default",
-              "size": "d5"
-            },
-            "actions": [
-              {
-                "text": "1000000000040056",
-                "type": "text"
               }
-            ],
-            "paddings": {
-              "bottom": "8x",
-              "left": "0x",
-              "right": "0x",
-              "top": "8x"
-            },
-            "type": "left_right_cell_view"
+            }
           },
           {
+            "type": "left_right_cell_view",
             "left": {
+              "type": "simple_left_view",
               "icon": {
                 "address": {
-                  "url": "https://va-res.online.sberbank.ru/VA/icons/cards/mc_36_visa.png",
-                  "type": "url"
+                  "type": "url",
+                  "url": "https://va-res.online.sberbank.ru/VA/icons/cards/mc_36_mastercard_sbercard_level_1.png"
                 },
                 "size": {
                   "width": "medium",
                   "height": "medium"
                 },
                 "margins": {
-                  "bottom": "0x",
-                  "left": "0x",
-                  "right": "8x",
-                  "top": "0x"
-                },
-                "tint_color": "solid_brand"
-              },
-              "texts": {
-                "title": {
-                  "text": "Visa Classic",
-                  "typeface": "body1",
-                  "text_color": "default",
-                  "max_lines": 1
-                },
-                "subtitle": {
-                  "text": "•• 9478 • зарплатная",
-                  "typeface": "footnote1",
-                  "text_color": "secondary",
-                  "margins": {
-                    "bottom": "0x",
-                    "left": "0x",
-                    "right": "0x",
-                    "top": "1x"
-                  },
-                  "max_lines": 1
-                },
-                "caption": {
-                  "text": "Привязана к счету •• 6808",
-                  "typeface": "caption",
-                  "text_color": "secondary",
-                  "margins": {
-                    "bottom": "0x",
-                    "left": "0x",
-                    "right": "0x",
-                    "top": "2x"
-                  },
-                  "max_lines": 1
-                }
-              },
-              "icon_vertical_gravity": "center",
-              "type": "simple_left_view"
-            },
-            "divider": {
-              "style": "default",
-              "size": "d5"
-            },
-            "actions": [
-              {
-                "text": "1000000000041623",
-                "type": "text"
-              }
-            ],
-            "paddings": {
-              "bottom": "8x",
-              "left": "0x",
-              "right": "0x",
-              "top": "8x"
-            },
-            "type": "left_right_cell_view"
-          },
-          {
-            "left": {
-              "icon": {
-                "address": {
-                  "url": "https://va-res.online.sberbank.ru/VA/icons/cards/mc_36_mastercard_sbercard_level_1.png",
-                  "type": "url"
-                },
-                "size": {
-                  "width": "medium",
-                  "height": "medium"
-                },
-                "margins": {
-                  "bottom": "0x",
-                  "left": "0x",
-                  "right": "8x",
-                  "top": "0x"
+                  "right": "8x"
                 },
                 "tint_color": "solid_brand"
               },
@@ -200,598 +55,158 @@
                   "text": "MasterCard Сберкарта Travel",
                   "typeface": "body1",
                   "text_color": "default",
-                  "max_lines": 1
-                },
-                "subtitle": {
-                  "text": "•• 4806 • мультивалютная",
-                  "typeface": "footnote1",
-                  "text_color": "secondary",
-                  "margins": {
-                    "bottom": "0x",
-                    "left": "0x",
-                    "right": "0x",
-                    "top": "1x"
-                  },
-                  "max_lines": 1
-                },
-                "caption": {
-                  "text": "Привязана к счету •• 6808",
-                  "typeface": "caption",
-                  "text_color": "secondary",
-                  "margins": {
-                    "bottom": "0x",
-                    "left": "0x",
-                    "right": "0x",
-                    "top": "2x"
-                  },
-                  "max_lines": 1
-                }
-              },
-              "icon_vertical_gravity": "center",
-              "type": "simple_left_view"
-            },
-            "divider": {
-              "style": "default",
-              "size": "d5"
-            },
-            "actions": [
-              {
-                "text": "1000000000041655",
-                "type": "text"
-              }
-            ],
-            "paddings": {
-              "bottom": "8x",
-              "left": "0x",
-              "right": "0x",
-              "top": "8x"
-            },
-            "type": "left_right_cell_view"
-          },
-          {
-            "left": {
-              "icon": {
-                "address": {
-                  "url": "https://va-res.online.sberbank.ru/VA/icons/cards/mc_36_mastercard_black_edition.png",
-                  "type": "url"
-                },
-                "size": {
-                  "width": "medium",
-                  "height": "medium"
-                },
-                "margins": {
-                  "bottom": "0x",
-                  "left": "0x",
-                  "right": "8x",
-                  "top": "0x"
-                },
-                "tint_color": "solid_brand"
-              },
-              "texts": {
-                "title": {
-                  "text": "MasterCard World Black Edition",
-                  "typeface": "body1",
-                  "text_color": "default",
-                  "max_lines": 1
-                },
-                "subtitle": {
-                  "text": "•• 2100 • кред",
-                  "typeface": "footnote1",
-                  "text_color": "secondary",
-                  "margins": {
-                    "bottom": "0x",
-                    "left": "0x",
-                    "right": "0x",
-                    "top": "1x"
-                  },
-                  "max_lines": 1
-                }
-              },
-              "icon_vertical_gravity": "center",
-              "type": "simple_left_view"
-            },
-            "right": {
-              "detail": {
-                "text": "277 000 ₽",
-                "typeface": "body1",
-                "text_color": "brand",
-                "margins": {
-                  "bottom": "0x",
-                  "left": "8x",
-                  "right": "0x",
-                  "top": "0x"
-                },
-                "max_lines": 1
-              },
-              "vertical_gravity": "top",
-              "detail_position": "top",
-              "type": "detail_right_view"
-            },
-            "divider": {
-              "style": "default",
-              "size": "d5"
-            },
-            "actions": [
-              {
-                "text": "1000000000040057",
-                "type": "text"
-              }
-            ],
-            "paddings": {
-              "bottom": "8x",
-              "left": "0x",
-              "right": "0x",
-              "top": "8x"
-            },
-            "type": "left_right_cell_view"
-          },
-          {
-            "left": {
-              "icon": {
-                "address": {
-                  "url": "https://va-res.online.sberbank.ru/VA/icons/cards/mc_36_visa.png",
-                  "type": "url"
-                },
-                "size": {
-                  "width": "medium",
-                  "height": "medium"
-                },
-                "margins": {
-                  "bottom": "0x",
-                  "left": "0x",
-                  "right": "8x",
-                  "top": "0x"
-                },
-                "tint_color": "solid_brand"
-              },
-              "texts": {
-                "title": {
-                  "text": "Visa Classic",
-                  "typeface": "body1",
-                  "text_color": "default",
-                  "max_lines": 1
-                },
-                "subtitle": {
-                  "text": "•• 3389",
-                  "typeface": "footnote1",
-                  "text_color": "secondary",
-                  "margins": {
-                    "bottom": "0x",
-                    "left": "0x",
-                    "right": "0x",
-                    "top": "1x"
-                  },
-                  "max_lines": 1
-                }
-              },
-              "icon_vertical_gravity": "center",
-              "type": "simple_left_view"
-            },
-            "right": {
-              "detail": {
-                "text": "-193 660,76 ₽",
-                "typeface": "body1",
-                "text_color": "secondary",
-                "margins": {
-                  "bottom": "0x",
-                  "left": "8x",
-                  "right": "0x",
-                  "top": "0x"
-                },
-                "max_lines": 1
-              },
-              "vertical_gravity": "top",
-              "detail_position": "top",
-              "type": "detail_right_view"
-            },
-            "divider": {
-              "style": "default",
-              "size": "d5"
-            },
-            "actions": [
-              {
-                "text": "1000000000041621",
-                "type": "text"
-              }
-            ],
-            "paddings": {
-              "bottom": "8x",
-              "left": "0x",
-              "right": "0x",
-              "top": "8x"
-            },
-            "type": "left_right_cell_view"
-          },
-          {
-            "left": {
-              "icon": {
-                "address": {
-                  "url": "https://va-res.online.sberbank.ru/VA/icons/cards/mc_36_visa.png",
-                  "type": "url"
-                },
-                "size": {
-                  "width": "medium",
-                  "height": "medium"
-                },
-                "margins": {
-                  "bottom": "0x",
-                  "left": "0x",
-                  "right": "8x",
-                  "top": "0x"
-                },
-                "tint_color": "solid_brand"
-              },
-              "texts": {
-                "title": {
-                  "text": "Visa Classic",
-                  "typeface": "body1",
-                  "text_color": "default",
-                  "max_lines": 1
-                },
-                "subtitle": {
-                  "text": "•• 3132",
-                  "typeface": "footnote1",
-                  "text_color": "secondary",
-                  "margins": {
-                    "bottom": "0x",
-                    "left": "0x",
-                    "right": "0x",
-                    "top": "1x"
-                  },
-                  "max_lines": 1
-                }
-              },
-              "icon_vertical_gravity": "center",
-              "type": "simple_left_view"
-            },
-            "right": {
-              "detail": {
-                "text": "15 644 560,76 $",
-                "typeface": "body1",
-                "text_color": "brand",
-                "margins": {
-                  "bottom": "0x",
-                  "left": "8x",
-                  "right": "0x",
-                  "top": "0x"
-                },
-                "max_lines": 1
-              },
-              "vertical_gravity": "top",
-              "detail_position": "top",
-              "type": "detail_right_view"
-            },
-            "divider": {
-              "style": "default",
-              "size": "d5"
-            },
-            "actions": [
-              {
-                "text": "1000000000041622",
-                "type": "text"
-              }
-            ],
-            "paddings": {
-              "bottom": "8x",
-              "left": "0x",
-              "right": "0x",
-              "top": "8x"
-            },
-            "type": "left_right_cell_view"
-          },
-          {
-            "left": {
-              "icon": {
-                "address": {
-                  "url": "https://va-res.online.sberbank.ru/VA/icons/cards/mc_36_mastercard_sbercard_level_1.png",
-                  "type": "url"
-                },
-                "size": {
-                  "width": "medium",
-                  "height": "medium"
-                },
-                "margins": {
-                  "bottom": "0x",
-                  "left": "0x",
-                  "right": "8x",
-                  "top": "0x"
-                },
-                "tint_color": "solid_brand"
-              },
-              "texts": {
-                "title": {
-                  "text": "MasterCard Сберкарта Travel",
-                  "typeface": "body1",
-                  "text_color": "default",
-                  "max_lines": 1
-                },
-                "subtitle": {
-                  "text": "•• 4772 • мультивалютная",
-                  "typeface": "footnote1",
-                  "text_color": "secondary",
-                  "margins": {
-                    "bottom": "0x",
-                    "left": "0x",
-                    "right": "0x",
-                    "top": "1x"
-                  },
-                  "max_lines": 1
-                }
-              },
-              "icon_vertical_gravity": "center",
-              "type": "simple_left_view"
-            },
-            "right": {
-              "detail": {
-                "text": "0 ₽",
-                "typeface": "body1",
-                "text_color": "brand",
-                "margins": {
-                  "bottom": "0x",
-                  "left": "8x",
-                  "right": "0x",
-                  "top": "0x"
-                },
-                "max_lines": 1
-              },
-              "vertical_gravity": "top",
-              "detail_position": "top",
-              "type": "detail_right_view"
-            },
-            "divider": {
-              "style": "default",
-              "size": "d5"
-            },
-            "actions": [
-              {
-                "text": "1000000000041632",
-                "type": "text"
-              }
-            ],
-            "paddings": {
-              "bottom": "8x",
-              "left": "0x",
-              "right": "0x",
-              "top": "8x"
-            },
-            "type": "left_right_cell_view"
-          },
-          {
-            "left": {
-              "icon": {
-                "address": {
-                  "url": "https://va-res.online.sberbank.ru/VA/icons/cards/mc_36_mastercard_sbercard_level_1.png",
-                  "type": "url"
-                },
-                "size": {
-                  "width": "medium",
-                  "height": "medium"
-                },
-                "margins": {
-                  "bottom": "0x",
-                  "left": "0x",
-                  "right": "8x",
-                  "top": "0x"
-                },
-                "tint_color": "solid_brand"
-              },
-              "texts": {
-                "title": {
-                  "text": "MasterCard Сберкарта",
-                  "typeface": "body1",
-                  "text_color": "default",
-                  "max_lines": 1
-                },
-                "subtitle": {
-                  "text": "•• 9714",
-                  "typeface": "footnote1",
-                  "text_color": "secondary",
-                  "margins": {
-                    "bottom": "0x",
-                    "left": "0x",
-                    "right": "0x",
-                    "top": "1x"
-                  },
-                  "max_lines": 1
-                }
-              },
-              "icon_vertical_gravity": "center",
-              "type": "simple_left_view"
-            },
-            "right": {
-              "detail": {
-                "text": "6 568 763,33 ₽",
-                "typeface": "body1",
-                "text_color": "brand",
-                "margins": {
-                  "bottom": "0x",
-                  "left": "8x",
-                  "right": "0x",
-                  "top": "0x"
-                },
-                "max_lines": 1
-              },
-              "vertical_gravity": "top",
-              "detail_position": "top",
-              "type": "detail_right_view"
-            },
-            "divider": {
-              "style": "default",
-              "size": "d5"
-            },
-            "actions": [
-              {
-                "text": "1000000000041627",
-                "type": "text"
-              }
-            ],
-            "paddings": {
-              "bottom": "8x",
-              "left": "0x",
-              "right": "0x",
-              "top": "8x"
-            },
-            "type": "left_right_cell_view"
-          },
-          {
-            "left": {
-              "icon": {
-                "address": {
-                  "url": "https://va-res.online.sberbank.ru/VA/icons/cards/mc_36_mastercard_sbercard_level_1.png",
-                  "type": "url"
-                },
-                "size": {
-                  "width": "medium",
-                  "height": "medium"
-                },
-                "margins": {
-                  "bottom": "0x",
-                  "left": "0x",
-                  "right": "8x",
-                  "top": "0x"
-                },
-                "tint_color": "solid_brand"
-              },
-              "texts": {
-                "title": {
-                  "text": "MasterCard Сберкарта Travel",
-                  "typeface": "body1",
-                  "text_color": "default",
-                  "max_lines": 1
-                },
-                "subtitle": {
-                  "text": "•• 4780 • мультивалютная",
-                  "typeface": "footnote1",
-                  "text_color": "secondary",
-                  "margins": {
-                    "bottom": "0x",
-                    "left": "0x",
-                    "right": "0x",
-                    "top": "1x"
-                  },
-                  "max_lines": 1
-                }
-              },
-              "icon_vertical_gravity": "center",
-              "type": "simple_left_view"
-            },
-            "right": {
-              "detail": {
-                "text": "0 ₽",
-                "typeface": "body1",
-                "text_color": "brand",
-                "margins": {
-                  "bottom": "0x",
-                  "left": "8x",
-                  "right": "0x",
-                  "top": "0x"
-                },
-                "max_lines": 1
-              },
-              "vertical_gravity": "top",
-              "detail_position": "top",
-              "type": "detail_right_view"
-            },
-            "divider": {
-              "style": "default",
-              "size": "d5"
-            },
-            "actions": [
-              {
-                "text": "1000000000041633",
-                "type": "text"
-              }
-            ],
-            "paddings": {
-              "bottom": "8x",
-              "left": "0x",
-              "right": "0x",
-              "top": "8x"
-            },
-            "type": "left_right_cell_view"
-          },
-          {
-            "left": {
-              "icon": {
-                "address": {
-                  "url": "https://va-res.online.sberbank.ru/VA/icons/cards/mc_36_mastercard_sbercard_level_1.png",
-                  "type": "url"
-                },
-                "size": {
-                  "width": "medium",
-                  "height": "medium"
-                },
-                "margins": {
-                  "bottom": "0x",
-                  "left": "0x",
-                  "right": "8x",
-                  "top": "0x"
-                },
-                "tint_color": "solid_brand"
-              },
-              "texts": {
-                "title": {
-                  "text": "MasterCard Сберкарта Travel",
-                  "typeface": "body1",
-                  "text_color": "default",
-                  "max_lines": 1
+                  "max_lines": 3
                 },
                 "subtitle": {
                   "text": "•• 4798 • мультивалютная",
                   "typeface": "footnote1",
                   "text_color": "secondary",
                   "margins": {
-                    "bottom": "0x",
-                    "left": "0x",
-                    "right": "0x",
                     "top": "1x"
                   },
-                  "max_lines": 1
+                  "max_lines": 3
                 }
               },
-              "icon_vertical_gravity": "center",
-              "type": "simple_left_view"
+              "icon_vertical_gravity": "center"
             },
             "right": {
+              "type": "detail_right_view",
               "detail": {
                 "text": "0 €",
                 "typeface": "body1",
                 "text_color": "brand",
+                "max_lines": 3,
                 "margins": {
-                  "bottom": "0x",
-                  "left": "8x",
-                  "right": "0x",
-                  "top": "0x"
-                },
-                "max_lines": 1
+                  "left": "8x"
+                }
               },
               "vertical_gravity": "top",
-              "detail_position": "top",
-              "type": "detail_right_view"
+              "detail_position": "top"
             },
-            "actions": [
-              {
-                "text": "1000000000041656",
-                "type": "text"
-              }
-            ],
             "paddings": {
-              "bottom": "8x",
-              "left": "0x",
-              "right": "0x",
-              "top": "8x"
+              "top": "12x",
+              "bottom": "6x"
             },
-            "type": "left_right_cell_view"
+            "divider": {
+              "style": "read_only",
+              "size": "d4"
+            }
+          },
+          {
+            "type": "left_right_cell_view",
+            "left": {
+              "type": "simple_left_view",
+              "icon": {
+                "address": {
+                  "type": "local",
+                  "identificator": "round_speech_bubble_question"
+                },
+                "size": {
+                  "width": "medium",
+                  "height": "medium"
+                },
+                "margins": {
+                  "right": "8x"
+                },
+                "tint_color": "solid_white"
+              },
+              "texts": {
+                "title": {
+                  "text": "Почему блокируете карту?",
+                  "typeface": "footnote1",
+                  "text_color": "secondary",
+                  "max_lines": 3
+                },
+                "subtitle": {
+                  "text": "Украли или потеря",
+                  "typeface": "body1",
+                  "text_color": "default",
+                  "margins": {
+                    "top": "3x"
+                  },
+                  "max_lines": 3
+                }
+              },
+              "icon_vertical_gravity": "center"
+            },
+            "paddings": {
+              "top": "12x",
+              "bottom": "6x"
+            },
+            "divider": {
+              "style": "read_only",
+              "size": "d4"
+            }
+          },
+          {
+            "type": "left_right_cell_view",
+            "left": {
+              "type": "simple_left_view",
+              "icon": {
+                "address": {
+                  "type": "local",
+                  "identificator": "info"
+                },
+                "size": {
+                  "width": "medium",
+                  "height": "medium"
+                },
+                "margins": {
+                  "right": "8x"
+                },
+                "tint_color": "solid_white"
+              },
+              "texts": {
+                "title": {
+                  "text": "Что утеряно с картой?",
+                  "typeface": "footnote1",
+                  "text_color": "secondary",
+                  "max_lines": 3
+                },
+                "subtitle": {
+                  "text": "ПИН-код, Паспорт",
+                  "typeface": "body1",
+                  "text_color": "default",
+                  "margins": {
+                    "top": "3x"
+                  },
+                  "max_lines": 3
+                }
+              },
+              "icon_vertical_gravity": "center"
+            },
+            "paddings": {
+              "top": "12x",
+              "bottom": "6x"
+            },
+            "divider": {
+              "style": "read_only",
+              "size": "d4"
+            }
+          },
+          {
+            "type": "button_cell_view",
+            "content": {
+              "text": "Заблокировать",
+              "typeface": "button1",
+              "style": "default",
+              "type": "accept",
+              "actions": [
+                {
+                  "type": "text",
+                  "text": "Заблокировать"
+                }
+              ],
+              "margins": {
+                "top": "6x",
+                "bottom": "6x"
+              }
+            },
+            "paddings": {
+              "top": "6x"
+            }
           }
-        ],
-        "paddings": {
-          "bottom": "4x",
-          "left": "8x",
-          "right": "8x",
-          "top": "4x"
-        },
-        "can_be_disabled": false,
-        "type": "list_card"
+        ]
       }
     }
   ]
