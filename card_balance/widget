@@ -49,7 +49,7 @@
               },
               "texts": {
                 "title": {
-                  "text": "Платёжный счёт",
+                  "text": "d5",
                   "typeface": "body1",
                   "text_color": "default",
                   "max_lines": 3
@@ -109,7 +109,7 @@
               },
               "texts": {
                 "title": {
-                  "text": "MasterCard World Black Edition",
+                  "text": "d4",
                   "typeface": "body1",
                   "text_color": "default",
                   "max_lines": 3
@@ -169,7 +169,7 @@
               },
               "texts": {
                 "title": {
-                  "text": "Visa Classic",
+                  "text": "d3",
                   "typeface": "body1",
                   "text_color": "default",
                   "max_lines": 3
@@ -229,7 +229,7 @@
               },
               "texts": {
                 "title": {
-                  "text": "Visa Classic",
+                  "text": "d2",
                   "typeface": "body1",
                   "text_color": "default",
                   "max_lines": 3
@@ -289,7 +289,7 @@
               },
               "texts": {
                 "title": {
-                  "text": "MasterCard Сберкарта Travel",
+                  "text": "d1",
                   "typeface": "body1",
                   "text_color": "default",
                   "max_lines": 3
@@ -349,7 +349,7 @@
               },
               "texts": {
                 "title": {
-                  "text": "MasterCard Сберкарта",
+                  "text": "none",
                   "typeface": "body1",
                   "text_color": "default",
                   "max_lines": 3
@@ -370,126 +370,6 @@
               "type": "detail_right_view",
               "detail": {
                 "text": "6 568 763,33 ₽",
-                "typeface": "body1",
-                "text_color": "brand",
-                "max_lines": 1,
-                "margins": {
-                  "left": "8x"
-                }
-              },
-              "vertical_gravity": "top",
-              "detail_position": "top"
-            },
-            "paddings": {
-              "top": "8x",
-              "bottom": "8x"
-            },
-            "divider": {
-              "style": "default",
-              "size": "d5"
-            }
-          },
-          {
-            "type": "left_right_cell_view",
-            "left": {
-              "type": "simple_left_view",
-              "icon": {
-                "address": {
-                  "type": "url",
-                  "url": "https://va-res.online.sberbank.ru/VA/icons/cards/mc_36_mastercard_sbercard_level_1.png"
-                },
-                "size": {
-                  "width": "medium",
-                  "height": "medium"
-                },
-                "margins": {
-                  "right": "8x"
-                },
-                "tint_color": "solid_brand"
-              },
-              "texts": {
-                "title": {
-                  "text": "MasterCard Сберкарта Travel",
-                  "typeface": "body1",
-                  "text_color": "default",
-                  "max_lines": 3
-                },
-                "subtitle": {
-                  "text": "•• 4780 • мультивалютная",
-                  "typeface": "footnote1",
-                  "text_color": "secondary",
-                  "margins": {
-                    "top": "1x"
-                  },
-                  "max_lines": 1
-                }
-              },
-              "icon_vertical_gravity": "center"
-            },
-            "right": {
-              "type": "detail_right_view",
-              "detail": {
-                "text": "0 ₽",
-                "typeface": "body1",
-                "text_color": "brand",
-                "max_lines": 1,
-                "margins": {
-                  "left": "8x"
-                }
-              },
-              "vertical_gravity": "top",
-              "detail_position": "top"
-            },
-            "paddings": {
-              "top": "8x",
-              "bottom": "8x"
-            },
-            "divider": {
-              "style": "default",
-              "size": "d5"
-            }
-          },
-          {
-            "type": "left_right_cell_view",
-            "left": {
-              "type": "simple_left_view",
-              "icon": {
-                "address": {
-                  "type": "url",
-                  "url": "https://va-res.online.sberbank.ru/VA/icons/cards/mc_36_mastercard_sbercard_level_1.png"
-                },
-                "size": {
-                  "width": "medium",
-                  "height": "medium"
-                },
-                "margins": {
-                  "right": "8x"
-                },
-                "tint_color": "solid_brand"
-              },
-              "texts": {
-                "title": {
-                  "text": "MasterCard Сберкарта Travel",
-                  "typeface": "body1",
-                  "text_color": "default",
-                  "max_lines": 3
-                },
-                "subtitle": {
-                  "text": "•• 4798 • мультивалютная",
-                  "typeface": "footnote1",
-                  "text_color": "secondary",
-                  "margins": {
-                    "top": "1x"
-                  },
-                  "max_lines": 1
-                }
-              },
-              "icon_vertical_gravity": "center"
-            },
-            "right": {
-              "type": "detail_right_view",
-              "detail": {
-                "text": "0 €",
                 "typeface": "body1",
                 "text_color": "brand",
                 "max_lines": 1,
