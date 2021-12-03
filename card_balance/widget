@@ -146,7 +146,7 @@
             },
             "divider": {
               "style": "default",
-              "size": "d5"
+              "size": "d4"
             }
           },
           {
@@ -206,7 +206,7 @@
             },
             "divider": {
               "style": "default",
-              "size": "d5"
+              "size": "d3"
             }
           },
           {
@@ -266,7 +266,7 @@
             },
             "divider": {
               "style": "default",
-              "size": "d5"
+              "size": "d2"
             }
           },
           {
@@ -326,7 +326,7 @@
             },
             "divider": {
               "style": "default",
-              "size": "d5"
+              "size": "d1"
             }
           },
           {
