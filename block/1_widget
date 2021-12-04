@@ -1287,7 +1287,7 @@
               "detail": {
                 "text": "4 531 816,18 ₽",
                 "typeface": "caption",
-                "text_color": "brand",
+                "text_color": "secondary",
                 "max_lines": 3,
                 "margins": {
                   "left": "8x"
@@ -1362,7 +1362,7 @@
               "detail": {
                 "text": "4 531 816,18 ₽",
                 "typeface": "caption",
-                "text_color": "brand",
+                "text_color": "secondary",
                 "max_lines": 3,
                 "margins": {
                   "left": "8x"
@@ -1437,7 +1437,7 @@
               "detail": {
                 "text": "4 531 816,18 ₽",
                 "typeface": "caption",
-                "text_color": "brand",
+                "text_color": "secondary",
                 "max_lines": 3,
                 "margins": {
                   "left": "8x"
@@ -1512,7 +1512,7 @@
               "detail": {
                 "text": "4 531 816,18 ₽",
                 "typeface": "caption",
-                "text_color": "brand",
+                "text_color": "secondary",
                 "max_lines": 3,
                 "margins": {
                   "left": "8x"
@@ -1587,7 +1587,7 @@
               "detail": {
                 "text": "4 531 816,18 ₽",
                 "typeface": "caption",
-                "text_color": "brand",
+                "text_color": "secondary",
                 "max_lines": 3,
                 "margins": {
                   "left": "8x"
