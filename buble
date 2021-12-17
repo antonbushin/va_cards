@@ -2,19 +2,226 @@
   "type": "sdk_answer",
   "items": [
     {
-      "card": {
-        "type": "p2p_transfer_result",
-        "title": "Операция отклонена",
-        "transfer_amount": " ",
-        "addressee": "Цифровая СберКарта",
-        "icon_url": "https://sberbank.ru/transfer_failure.png",
-        "style": "failure"
+      "bubble": {
+        "text": "Условия такие:",
+        "markdown": false,
+        "expand_policy": "auto_expand"
       }
     },
     {
-      "bubble": {
-        "text": "Операция отклонена, Сбербанк Онлайн заблокирован.\nВо избежание мошенничества, банку необходимо убедиться, что операция совершена вами. В ближайшее время вам позвонит сотрудник банка для её подтверждения.\nПожалуйста, ожидайте звонка.",
-        "markdown": true
+      "card": {
+        "type": "workflow",
+        "payload": {
+          "success": true,
+          "body": {
+            "result": "SUCCESS",
+            "pid": "e00937ed-5f22-11ec-a96d-bb4a0c1ddc2e",
+            "flow": "confirmClientIb",
+            "state": "confirmButtonState",
+            "output": {
+              "references": {
+                "resourceList": {
+                  "items": [
+                    {
+                      "value": "account:2000000000006628",
+                      "title": "Сберегательный счет",
+                      "properties": {
+                        "maskedNumber": "∙∙ 0047",
+                        "balance": "63 577,58",
+                        "name": "Сберегательный счет",
+                        "currency": "RUB",
+                        "style": "ic_36_safe",
+                        "type": "account",
+                        "title": "Сберегательный счет"
+                      }
+                    }
+                  ]
+                },
+                "ed63f60ac857e449b4b2918a97c173e455": {
+                  "properties": {},
+                  "items": [
+                    {
+                      "title": "fraud",
+                      "value": "/bh-confirmation/v3/api/fraud?uuid=5c50f06c-06cc-4f95-9272-a5c3ae00d046&documentId=ed63f60ac857e449b4b2918a97c173e455",
+                      "properties": {}
+                    },
+                    {
+                      "title": "document",
+                      "value": "/bh-confirmation/v3/api/documents?uuid=5c50f06c-06cc-4f95-9272-a5c3ae00d046&documentId=ed63f60ac857e449b4b2918a97c173e455",
+                      "properties": {}
+                    }
+                  ]
+                }
+              },
+              "screens": [
+                {
+                  "type": "DSNScreen",
+                  "properties": {
+                    "eventForAnalytic": "Confirmation"
+                  },
+                  "title": "Подтверждение",
+                  "description": "",
+                  "header": [
+                    {
+                      "description": "",
+                      "type": "CoreNavBar",
+                      "title": "Подтверждение",
+                      "events": [
+                        {
+                          "cmd": "ROLLBACK"
+                        }
+                      ]
+                    }
+                  ],
+                  "footer": [
+                    {
+                      "type": "ConfirmationSummaryPdfDocuments",
+                      "properties": {
+                        "pinned": true,
+                        "titleWithLink": "Я соглашаюсь с условиями и подписываю <a>Дополнительное соглашение о продлении срока аренды индивидуального сейфа</a>",
+                        "operationName": "Продление аренды сейфа в мобильном приложении",
+                        "channelName": "MOB_BANK",
+                        "secondStateTitle": "Документы по операции"
+                      },
+                      "title": "Ознакомление с <a>документами</a>",
+                      "description": "Подтверждая, вы соглашаетесь с документами",
+                      "fields": [
+                        {
+                          "id": "agreement",
+                          "value": "false",
+                          "type": "checkbox",
+                          "referenceId": "",
+                          "title": "Я соглашаюсь с условиями и подписываю <a>Дополнительное соглашение о продлении срока аренды индивидуального сейфа</a>",
+                          "readonly": false,
+                          "validators": [
+                            {
+                              "type": "required",
+                              "value": "true",
+                              "message": "Пожалуйста, подтвердите условия по операции"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "ed63f60ac857e449b4b2918a97c173e455",
+                          "title": "Дополнительное соглашение о продлении срока аренды индивидуального сейфа",
+                          "type": "text",
+                          "value": "",
+                          "referenceId": "ed63f60ac857e449b4b2918a97c173e455",
+                          "readonly": true
+                        }
+                      ],
+                      "events": [
+                        {
+                          "cmd": "EVENT",
+                          "name": "next",
+                          "type": "next",
+                          "title": "Продолжить"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "CoreButtons",
+                      "fields": [],
+                      "events": [
+                        {
+                          "name": "next",
+                          "type": "next",
+                          "title": "Подтвердить"
+                        }
+                      ]
+                    }
+                  ],
+                  "widgets": [
+                    {
+                      "type": "CoreFieldSet",
+                      "title": "",
+                      "fields": [
+                        {
+                          "id": "SafeBoxProlongationResourceSelect",
+                          "type": "select",
+                          "format": "resource",
+                          "referenceId": "resourceList",
+                          "value": "account:2000000000006628",
+                          "title": "Счёт списания",
+                          "readonly": true
+                        }
+                      ],
+                      "readonly": true
+                    },
+                    {
+                      "type": "CoreFieldset",
+                      "fields": [
+                        {
+                          "id": "fieldSet:detailOperationDuration",
+                          "type": "text",
+                          "value": "до 20 декабря 2021 года (4 дня)",
+                          "title": "Новый срок",
+                          "style": "noIcon",
+                          "readonly": true
+                        },
+                        {
+                          "id": "fieldSet:detailOperationTariff",
+                          "type": "text",
+                          "value": "219 ₽",
+                          "title": "Тариф за день",
+                          "style": "noIcon",
+                          "readonly": true
+                        },
+                        {
+                          "id": "fieldSet:detailOperationPrice",
+                          "type": "text",
+                          "value": "950 ₽",
+                          "title": "Стоимость",
+                          "style": "noIcon",
+                          "readonly": true
+                        }
+                      ],
+                      "readonly": true
+                    }
+                  ]
+                }
+              ]
+            },
+            "history": [
+              {
+                "id": "e3f4f0fe-5f22-11ec-b7c8-5db305b44d3f",
+                "flow": "confirmClientIb",
+                "state": "confirmButtonState",
+                "title": "",
+                "status": "ACTIVE",
+                "flowId": 4
+              },
+              {
+                "id": "e3f1959c-5f22-11ec-b7c8-6585dc2e9ad0",
+                "flow": "confirmClientIb",
+                "state": "rollback",
+                "title": "Переход",
+                "value": "",
+                "status": "ACTIVE",
+                "flowId": 4
+              },
+              {
+                "id": "e00937ee-5f22-11ec-a96d-f10e5ea7f28f",
+                "flow": "prolongation-flow",
+                "state": "enterDetails",
+                "title": "enterDetails",
+                "value": "",
+                "status": "ACTIVE",
+                "flowId": 1
+              }
+            ]
+          }
+        },
+        "event_to_actions": {
+          "next": {
+            "actions": [
+              {
+                "type": "text",
+                "text": "Подтверждаю"
+              }
+            ]
+          }
+        }
       }
     }
   ]
