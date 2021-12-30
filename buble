@@ -3,580 +3,86 @@
   "items": [
     {
       "card": {
-        "type": "simple_list",
-        "header": "1 Доллар США",
-        "items": [
-          {
-            "title": "Купить",
-            "body": "73,63 RUB"
-          },
-          {
-            "title": "Продать",
-            "body": "75,63 RUB"
-          }
-        ],
-        "footer": "Сбербанк Онлайн на сегодня в 13:23 при обмене до 5000$."
-      }
-    },
-    {
-      "card": {
         "type": "list_card",
+        "can_be_disabled": true,
+        "paddings": {
+          "bottom": "8x"
+        },
         "cells": [
           {
-            "type": "left_right_cell_view",
-            "left": {
-              "type": "simple_left_view",
-              "texts": {
-                "title": {
-                  "text": "Статус новых карт",
-                  "typeface": "title1",
-                  "text_color": "default",
-                  "max_lines": 2
-                }
+            "type": "flexible_image_cell_view",
+            "content": {
+              "url": "https://stat.online.sberbank.ru/EFS/cards.debit/digital_sbk_mc.png",
+              "size": {
+                "width": "resizable",
+                "aspect_ratio": 0.6
+              },
+              "paddings": {
+                "left": "8x",
+                "right": "8x",
+                "top": "8x",
+                "bottom": "0x"
               }
-            },
-            "paddings": {
-              "top": "4x",
-              "bottom": "4x"
             }
           },
           {
             "type": "left_right_cell_view",
             "left": {
               "type": "simple_left_view",
-              "icon": {
-                "address": {
-                  "type": "local",
-                  "identificator": "clock"
-                },
-                "size": {
-                  "width": "small",
-                  "height": "small"
-                },
-                "margins": {
-                  "right": "4x"
-                },
-                "tint_color": "solid_white"
-              },
               "texts": {
                 "title": {
-                  "text": "Сборка стартовала в",
-                  "typeface": "caption",
+                  "text": "Цифровая СберКарта",
+                  "typeface": "headline3",
                   "text_color": "default",
-                  "max_lines": 2
+                  "margins": {
+                    "top": "1x"
+                  }
+                },
+                "caption": {
+                  "text": "Бесплатно при покупках от 5 000 ? в месяц",
+                  "typeface": "footnote1",
+                  "text_color": "default",
+                  "margins": {
+                    "top": "6x"
+                  },
+                  "max_lines": 3
                 }
-              },
-              "margins": {
-                "rigth": "2x"
               },
               "icon_vertical_gravity": "center"
             },
-            "right": {
-              "type": "detail_right_view",
-              "detail": {
-                "text": "29.12.2021 17: 53: 50",
-                "typeface": "caption",
-                "text_color": "default",
-                "max_lines": 2,
-                "margins": {
-                  "left": "2x"
-                }
-              },
-              "vertical_gravity": "center",
-              "detail_position": "center"
-            },
             "paddings": {
-              "top": "4x",
-              "bottom": "4x"
-            },
-            "actions": [
-              {
-                "type": "text",
-                "text": "29.12.2021 17: 53: 50"
-              }
-            ],
-            "divider": {
-              "style": "read_only",
-              "size": "d1"
+              "left": "8x",
+              "right": "8x",
+              "top": "16x",
+              "bottom": "0x"
             }
           },
           {
-            "type": "left_right_cell_view",
-            "left": {
-              "type": "simple_left_view",
-              "icon": {
-                "address": {
-                  "type": "local",
-                  "identificator": "gear"
-                },
-                "size": {
-                  "width": "small",
-                  "height": "small"
-                },
-                "margins": {
-                  "right": "4x"
-                },
-                "tint_color": "solid_white"
-              },
-              "texts": {
-                "title": {
-                  "text": "smart_app ver.",
-                  "typeface": "caption",
-                  "text_color": "default",
-                  "max_lines": 2
+            "type": "button_cell_view",
+            "content": {
+              "text": "Перейти к оформлению",
+              "typeface": "button1",
+              "style": "default",
+              "type": "accept",
+              "actions": [
+                {
+                  "type": "text",
+                  "text": "Перейти к оформлению"
                 }
-              },
+              ],
               "margins": {
-                "rigth": "2x"
-              },
-              "icon_vertical_gravity": "center"
-            },
-            "right": {
-              "type": "detail_right_view",
-              "detail": {
-                "text": "UNKNOWN",
-                "typeface": "caption",
-                "text_color": "default",
-                "max_lines": 2,
-                "margins": {
-                  "left": "2x"
-                }
-              },
-              "vertical_gravity": "center",
-              "detail_position": "center"
-            },
-            "paddings": {
-              "top": "4x",
-              "bottom": "4x"
-            },
-            "actions": [
-              {
-                "type": "text",
-                "text": "UNKNOWN"
+                "top": "8x",
+                "bottom": "8x"
               }
-            ],
-            "divider": {
-              "style": "read_only",
-              "size": "d1"
-            }
-          },
-          {
-            "type": "left_right_cell_view",
-            "left": {
-              "type": "simple_left_view",
-              "icon": {
-                "address": {
-                  "type": "local",
-                  "identificator": "gear"
-                },
-                "size": {
-                  "width": "small",
-                  "height": "small"
-                },
-                "margins": {
-                  "right": "4x"
-                },
-                "tint_color": "solid_white"
-              },
-              "texts": {
-                "title": {
-                  "text": "skillflow ver.",
-                  "typeface": "caption",
-                  "text_color": "default",
-                  "max_lines": 2
-                }
-              },
-              "margins": {
-                "rigth": "2x"
-              },
-              "icon_vertical_gravity": "center"
-            },
-            "right": {
-              "type": "detail_right_view",
-              "detail": {
-                "text": "0.15.0-rc.2",
-                "typeface": "caption",
-                "text_color": "default",
-                "max_lines": 2,
-                "margins": {
-                  "left": "2x"
-                }
-              },
-              "vertical_gravity": "center",
-              "detail_position": "center"
             },
             "paddings": {
-              "top": "4x",
-              "bottom": "4x"
-            },
-            "actions": [
-              {
-                "type": "text",
-                "text": "0.15.0-rc.2"
-              }
-            ],
-            "divider": {
-              "style": "read_only",
-              "size": "d1"
-            }
-          },
-          {
-            "type": "left_right_cell_view",
-            "left": {
-              "type": "simple_left_view",
-              "icon": {
-                "address": {
-                  "type": "local",
-                  "identificator": "gear"
-                },
-                "size": {
-                  "width": "small",
-                  "height": "small"
-                },
-                "margins": {
-                  "right": "4x"
-                },
-                "tint_color": "solid_white"
-              },
-              "texts": {
-                "title": {
-                  "text": "textnorm ver.",
-                  "typeface": "caption",
-                  "text_color": "default",
-                  "max_lines": 2
-                }
-              },
-              "margins": {
-                "rigth": "2x"
-              },
-              "icon_vertical_gravity": "center"
-            },
-            "right": {
-              "type": "detail_right_view",
-              "detail": {
-                "text": "0.1.22",
-                "typeface": "caption",
-                "text_color": "default",
-                "max_lines": 2,
-                "margins": {
-                  "left": "2x"
-                }
-              },
-              "vertical_gravity": "center",
-              "detail_position": "center"
-            },
-            "paddings": {
-              "top": "4x",
-              "bottom": "4x"
-            },
-            "actions": [
-              {
-                "type": "text",
-                "text": "0.1.22"
-              }
-            ],
-            "divider": {
-              "style": "read_only",
-              "size": "d1"
-            }
-          },
-          {
-            "type": "left_right_cell_view",
-            "left": {
-              "type": "simple_left_view",
-              "icon": {
-                "address": {
-                  "type": "local",
-                  "identificator": "box"
-                },
-                "size": {
-                  "width": "small",
-                  "height": "small"
-                },
-                "margins": {
-                  "right": "4x"
-                },
-                "tint_color": "solid_white"
-              },
-              "texts": {
-                "title": {
-                  "text": "environment",
-                  "typeface": "caption",
-                  "text_color": "default",
-                  "max_lines": 2
-                }
-              },
-              "margins": {
-                "rigth": "2x"
-              },
-              "icon_vertical_gravity": "center"
-            },
-            "right": {
-              "type": "detail_right_view",
-              "detail": {
-                "text": "ift",
-                "typeface": "caption",
-                "text_color": "default",
-                "max_lines": 2,
-                "margins": {
-                  "left": "2x"
-                }
-              },
-              "vertical_gravity": "center",
-              "detail_position": "center"
-            },
-            "paddings": {
-              "top": "4x",
-              "bottom": "4x"
-            },
-            "actions": [
-              {
-                "type": "text",
-                "text": "ift"
-              }
-            ],
-            "divider": {
-              "style": "read_only",
-              "size": "d1"
-            }
-          },
-          {
-            "type": "left_right_cell_view",
-            "left": {
-              "type": "simple_left_view",
-              "icon": {
-                "address": {
-                  "type": "local",
-                  "identificator": "info"
-                },
-                "size": {
-                  "width": "small",
-                  "height": "small"
-                },
-                "margins": {
-                  "right": "4x"
-                },
-                "tint_color": "solid_white"
-              },
-              "texts": {
-                "title": {
-                  "text": "message_id",
-                  "typeface": "caption",
-                  "text_color": "default",
-                  "max_lines": 2
-                }
-              },
-              "margins": {
-                "rigth": "2x"
-              },
-              "icon_vertical_gravity": "center"
-            },
-            "right": {
-              "type": "detail_right_view",
-              "detail": {
-                "text": "0",
-                "typeface": "caption",
-                "text_color": "default",
-                "max_lines": 2,
-                "margins": {
-                  "left": "2x"
-                }
-              },
-              "vertical_gravity": "center",
-              "detail_position": "center"
-            },
-            "paddings": {
-              "top": "4x",
-              "bottom": "4x"
-            },
-            "actions": [
-              {
-                "type": "text",
-                "text": "0"
-              }
-            ],
-            "divider": {
-              "style": "read_only",
-              "size": "d1"
-            }
-          },
-          {
-            "type": "left_right_cell_view",
-            "left": {
-              "type": "simple_left_view",
-              "icon": {
-                "address": {
-                  "type": "local",
-                  "identificator": "info"
-                },
-                "size": {
-                  "width": "small",
-                  "height": "small"
-                },
-                "margins": {
-                  "right": "4x"
-                },
-                "tint_color": "solid_white"
-              },
-              "texts": {
-                "title": {
-                  "text": "uuid.userChannel",
-                  "typeface": "caption",
-                  "text_color": "default",
-                  "max_lines": 2
-                }
-              },
-              "margins": {
-                "rigth": "2x"
-              },
-              "icon_vertical_gravity": "center"
-            },
-            "right": {
-              "type": "detail_right_view",
-              "detail": {
-                "text": "SBOL",
-                "typeface": "caption",
-                "text_color": "default",
-                "max_lines": 2,
-                "margins": {
-                  "left": "2x"
-                }
-              },
-              "vertical_gravity": "center",
-              "detail_position": "center"
-            },
-            "paddings": {
-              "top": "4x",
-              "bottom": "4x"
-            },
-            "actions": [
-              {
-                "type": "text",
-                "text": "SBOL"
-              }
-            ],
-            "divider": {
-              "style": "read_only",
-              "size": "d1"
-            }
-          },
-          {
-            "type": "left_right_cell_view",
-            "left": {
-              "type": "simple_left_view",
-              "icon": {
-                "address": {
-                  "type": "local",
-                  "identificator": "info"
-                },
-                "size": {
-                  "width": "small",
-                  "height": "small"
-                },
-                "margins": {
-                  "right": "4x"
-                },
-                "tint_color": "solid_white"
-              },
-              "texts": {
-                "title": {
-                  "text": "uuid.userId",
-                  "typeface": "caption",
-                  "text_color": "default",
-                  "max_lines": 2
-                }
-              },
-              "margins": {
-                "rigth": "2x"
-              },
-              "icon_vertical_gravity": "center"
-            },
-            "right": {
-              "type": "detail_right_view",
-              "detail": {
-                "text": "local_testing_1",
-                "typeface": "caption",
-                "text_color": "default",
-                "max_lines": 2,
-                "margins": {
-                  "left": "2x"
-                }
-              },
-              "vertical_gravity": "center",
-              "detail_position": "center"
-            },
-            "paddings": {
-              "top": "4x",
-              "bottom": "4x"
-            },
-            "actions": [
-              {
-                "type": "text",
-                "text": "local_testing_1"
-              }
-            ],
-            "divider": {
-              "style": "read_only",
-              "size": "d1"
-            }
-          },
-          {
-            "type": "left_right_cell_view",
-            "left": {
-              "type": "simple_left_view",
-              "icon": {
-                "address": {
-                  "type": "local",
-                  "identificator": "info"
-                },
-                "size": {
-                  "width": "small",
-                  "height": "small"
-                },
-                "margins": {
-                  "right": "4x"
-                },
-                "tint_color": "solid_white"
-              },
-              "texts": {
-                "title": {
-                  "text": "uuid.sub",
-                  "typeface": "caption",
-                  "text_color": "default",
-                  "max_lines": 2
-                }
-              },
-              "margins": {
-                "rigth": "2x"
-              },
-              "icon_vertical_gravity": "center"
-            },
-            "right": {
-              "type": "detail_right_view",
-              "detail": {
-                "text": "d2d6da62-6bdd-452b-b",
-                "typeface": "caption",
-                "text_color": "default",
-                "max_lines": 2,
-                "margins": {
-                  "left": "2x"
-                }
-              },
-              "vertical_gravity": "center",
-              "detail_position": "center"
-            },
-            "paddings": {
-              "top": "4x",
-              "bottom": "4x"
+              "left": "6x",
+              "right": "6x",
+              "top": "8x",
+              "bottom": "0x"
             }
           }
-        ],
-        "paddings": {
-          "left": "4x",
-          "right": "4x",
-          "top": "4x",
-          "bottom": "4x"
-        }
+        ]
       }
     }
   ]
