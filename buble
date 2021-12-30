@@ -10,19 +10,16 @@
         },
         "cells": [
           {
-            "type": "flexible_image_cell_view",
+            "type": "image_cell_view",
             "content": {
               "url": "https://stat.online.sberbank.ru/EFS/cards.debit/digital_sbk_mc.png",
-              "size": {
-                "width": "resizable",
-                "aspect_ratio": 0.6
-              },
-              "paddings": {
-                "left": "8x",
-                "right": "8x",
-                "top": "8x",
-                "bottom": "0x"
-              }
+              "scale_mode": "scale_aspect_fit"
+            },
+            "paddings": {
+              "left": "8x",
+              "right": "8x",
+              "top": "8x",
+              "bottom": "8x"
             }
           },
           {
