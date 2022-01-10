@@ -15,7 +15,7 @@
               "url": "https://stat.online.sberbank.ru/EFS/cards.debit/digital_sbk_mc.png",
               "size": {
                 "width": "resizable",
-                "aspect_ratio": 0.5
+                "aspect_ratio": 0.65
               },
               "scale_mode": "scale_aspect_fill"
             },
@@ -40,7 +40,7 @@
                   }
                 },
                 "caption": {
-                  "text": "qwe при покупках от 5 000 ? в месяц",
+                  "text": "123 при покупках от 5 000 ? в месяц",
                   "typeface": "footnote1",
                   "text_color": "default",
                   "margins": {
