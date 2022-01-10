@@ -14,7 +14,7 @@
                 "width": "resizable",
                 "aspect_ratio": 1
               },
-              "scale_mode": "scale_aspect_fill",
+              "scale_mode": "scale_aspect_fit",
               "paddings": {
                 "left": "8x",
                 "right": "8x",
