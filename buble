@@ -5,9 +5,6 @@
       "card": {
         "type": "list_card",
         "can_be_disabled": true,
-        "paddings": {
-          "bottom": "8x"
-        },
         "cells": [
           {
             "type": "image_cell_view",
@@ -17,13 +14,13 @@
                 "width": "resizable",
                 "aspect_ratio": 0.65
               },
-              "scale_mode": "scale_aspect_fill"
-            },
-            "paddings": {
-              "left": "8x",
-              "right": "8x",
-              "top": "8x",
-              "bottom": "8x"
+              "scale_mode": "scale_aspect_fill",
+              "paddings": {
+                "left": "8x",
+                "right": "8x",
+                "top": "8x",
+                "bottom": "8x"
+              }
             }
           },
           {
@@ -32,7 +29,7 @@
               "type": "simple_left_view",
               "texts": {
                 "title": {
-                  "text": "Циfrовая СберКарта",
+                  "text": "Цифровая СберКарта",
                   "typeface": "headline3",
                   "text_color": "default",
                   "margins": {
@@ -40,7 +37,7 @@
                   }
                 },
                 "caption": {
-                  "text": "123 при покупках от 5 000 ? в месяц",
+                  "text": "Бесплатно при покупках от 5 000 ? в месяц",
                   "typeface": "footnote1",
                   "text_color": "default",
                   "margins": {
@@ -54,7 +51,7 @@
             "paddings": {
               "left": "8x",
               "right": "8x",
-              "top": "16x",
+              "top": "8x",
               "bottom": "0x"
             }
           },
@@ -77,10 +74,10 @@
               }
             },
             "paddings": {
-              "left": "6x",
-              "right": "6x",
+              "left": "8x",
+              "right": "8x",
               "top": "8x",
-              "bottom": "0x"
+              "bottom": "8x"
             }
           }
         ]
