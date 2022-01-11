@@ -14,13 +14,13 @@
                 "width": "resizable",
                 "aspect_ratio": 0.6
               },
-              "scale_mode": "scale_aspect_fill",
-              "paddings": {
-                "left": "8x",
-                "right": "8x",
-                "top": "8x",
-                "bottom": "8x"
-              }
+              "scale_mode": "scale_aspect_fill"
+            },
+            "paddings": {
+              "left": "8x",
+              "right": "8x",
+              "top": "8x",
+              "bottom": "8x"
             }
           },
           {
