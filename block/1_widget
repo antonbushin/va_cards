@@ -12,9 +12,9 @@
         "type": "list_card",
         "can_be_disabled": true,
         "paddings": {
-          "left": "8x",
-          "right": "8x",
-          "top": "4x",
+          "left": "0x",
+          "right": "0x",
+          "top": "2x",
           "bottom": "4x"
         },
         "cells": [
@@ -32,6 +32,8 @@
               }
             },
             "paddings": {
+              "left": "8x",
+              "right": "8x",
               "top": "6x",
               "bottom": "6x"
             }
@@ -43,7 +45,7 @@
               "icon": {
                 "address": {
                   "type": "url",
-                  "url": "https://va-res.online.sberbank.ru/VA/icons/cards/mc_36_mastercard_sbercard_level_1.png"
+                  "url": "https://va-res.online.sberbank.ru/VA/icons/cards/mc_36_default.png"
                 },
                 "size": {
                   "width": "medium",
@@ -62,7 +64,7 @@
                   "max_lines": 10
                 },
                 "subtitle": {
-                  "text": "•• 1640",
+                  "text": "•• 5886",
                   "typeface": "footnote1",
                   "text_color": "secondary",
                   "margins": {
@@ -71,7 +73,7 @@
                   "max_lines": 3
                 },
                 "caption": {
-                  "text": "Привязана к счету •• 8053",
+                  "text": "Привязана к счету •• 3320",
                   "typeface": "caption",
                   "text_color": "secondary",
                   "margins": {
@@ -85,7 +87,7 @@
             "right": {
               "type": "detail_right_view",
               "detail": {
-                "text": "-22 ₽",
+                "text": "25 412,55 ₽",
                 "typeface": "caption",
                 "text_color": "secondary",
                 "max_lines": 3,
@@ -97,17 +99,19 @@
               "detail_position": "bottom"
             },
             "paddings": {
-              "top": "8x",
-              "bottom": "8x"
+              "left": "8x",
+              "right": "8x",
+              "top": "6x",
+              "bottom": "6x"
             },
             "divider": {
               "style": "default",
-              "size": "d4"
+              "size": "d5"
             },
             "actions": [
               {
                 "type": "text",
-                "text": "MasterCard Сберкарта 1640"
+                "text": "MasterCard Сберкарта 5886"
               }
             ]
           },
@@ -118,232 +122,7 @@
               "icon": {
                 "address": {
                   "type": "url",
-                  "url": "https://va-res.online.sberbank.ru/VA/icons/cards/mc_36_visa_infinite_pb.png"
-                },
-                "size": {
-                  "width": "medium",
-                  "height": "medium"
-                },
-                "margins": {
-                  "right": "8x"
-                },
-                "tint_color": "solid_brand"
-              },
-              "texts": {
-                "title": {
-                  "text": "Visa Сберкарта",
-                  "typeface": "body1",
-                  "text_color": "default",
-                  "max_lines": 10
-                },
-                "subtitle": {
-                  "text": "•• 3592",
-                  "typeface": "footnote1",
-                  "text_color": "secondary",
-                  "margins": {
-                    "top": "1x"
-                  },
-                  "max_lines": 3
-                },
-                "caption": {
-                  "text": "Привязана к счету •• 7999",
-                  "typeface": "caption",
-                  "text_color": "secondary",
-                  "margins": {
-                    "top": "2x"
-                  },
-                  "max_lines": 3
-                }
-              },
-              "icon_vertical_gravity": "center"
-            },
-            "right": {
-              "type": "detail_right_view",
-              "detail": {
-                "text": "-22 ₽",
-                "typeface": "caption",
-                "text_color": "secondary",
-                "max_lines": 3,
-                "margins": {
-                  "left": "8x"
-                }
-              },
-              "vertical_gravity": "bottom",
-              "detail_position": "bottom"
-            },
-            "paddings": {
-              "top": "8x",
-              "bottom": "8x"
-            },
-            "divider": {
-              "style": "default",
-              "size": "d4"
-            },
-            "actions": [
-              {
-                "type": "text",
-                "text": "Visa Сберкарта 3592"
-              }
-            ]
-          },
-          {
-            "type": "left_right_cell_view",
-            "left": {
-              "type": "simple_left_view",
-              "icon": {
-                "address": {
-                  "type": "url",
-                  "url": "https://va-res.online.sberbank.ru/VA/icons/cards/mc_36_visa_infinite_pb.png"
-                },
-                "size": {
-                  "width": "medium",
-                  "height": "medium"
-                },
-                "margins": {
-                  "right": "8x"
-                },
-                "tint_color": "solid_brand"
-              },
-              "texts": {
-                "title": {
-                  "text": "Visa Сберкарта",
-                  "typeface": "body1",
-                  "text_color": "default",
-                  "max_lines": 10
-                },
-                "subtitle": {
-                  "text": "•• 3386",
-                  "typeface": "footnote1",
-                  "text_color": "secondary",
-                  "margins": {
-                    "top": "1x"
-                  },
-                  "max_lines": 3
-                },
-                "caption": {
-                  "text": "Привязана к счету •• 7931",
-                  "typeface": "caption",
-                  "text_color": "secondary",
-                  "margins": {
-                    "top": "2x"
-                  },
-                  "max_lines": 3
-                }
-              },
-              "icon_vertical_gravity": "center"
-            },
-            "right": {
-              "type": "detail_right_view",
-              "detail": {
-                "text": "-22 ₽",
-                "typeface": "caption",
-                "text_color": "secondary",
-                "max_lines": 3,
-                "margins": {
-                  "left": "8x"
-                }
-              },
-              "vertical_gravity": "bottom",
-              "detail_position": "bottom"
-            },
-            "paddings": {
-              "top": "8x",
-              "bottom": "8x"
-            },
-            "divider": {
-              "style": "default",
-              "size": "d4"
-            },
-            "actions": [
-              {
-                "type": "text",
-                "text": "Visa Сберкарта 3386"
-              }
-            ]
-          },
-          {
-            "type": "left_right_cell_view",
-            "left": {
-              "type": "simple_left_view",
-              "icon": {
-                "address": {
-                  "type": "url",
-                  "url": "https://va-res.online.sberbank.ru/VA/icons/cards/mc_36_visa_infinite_pb.png"
-                },
-                "size": {
-                  "width": "medium",
-                  "height": "medium"
-                },
-                "margins": {
-                  "right": "8x"
-                },
-                "tint_color": "solid_brand"
-              },
-              "texts": {
-                "title": {
-                  "text": "Visa Сберкарта",
-                  "typeface": "body1",
-                  "text_color": "default",
-                  "max_lines": 10
-                },
-                "subtitle": {
-                  "text": "•• 3352",
-                  "typeface": "footnote1",
-                  "text_color": "secondary",
-                  "margins": {
-                    "top": "1x"
-                  },
-                  "max_lines": 3
-                },
-                "caption": {
-                  "text": "Привязана к счету •• 7928",
-                  "typeface": "caption",
-                  "text_color": "secondary",
-                  "margins": {
-                    "top": "2x"
-                  },
-                  "max_lines": 3
-                }
-              },
-              "icon_vertical_gravity": "center"
-            },
-            "right": {
-              "type": "detail_right_view",
-              "detail": {
-                "text": "-22 ₽",
-                "typeface": "caption",
-                "text_color": "secondary",
-                "max_lines": 3,
-                "margins": {
-                  "left": "8x"
-                }
-              },
-              "vertical_gravity": "bottom",
-              "detail_position": "bottom"
-            },
-            "paddings": {
-              "top": "8x",
-              "bottom": "8x"
-            },
-            "divider": {
-              "style": "default",
-              "size": "d4"
-            },
-            "actions": [
-              {
-                "type": "text",
-                "text": "Visa Сберкарта 3352"
-              }
-            ]
-          },
-          {
-            "type": "left_right_cell_view",
-            "left": {
-              "type": "simple_left_view",
-              "icon": {
-                "address": {
-                  "type": "url",
-                  "url": "https://va-res.online.sberbank.ru/VA/icons/cards/mc_36_mir.png"
+                  "url": "https://va-res.online.sberbank.ru/VA/icons/cards/mc_36_default.png"
                 },
                 "size": {
                   "width": "medium",
@@ -362,7 +141,7 @@
                   "max_lines": 10
                 },
                 "subtitle": {
-                  "text": "•• 6181",
+                  "text": "•• 5126",
                   "typeface": "footnote1",
                   "text_color": "secondary",
                   "margins": {
@@ -371,7 +150,7 @@
                   "max_lines": 3
                 },
                 "caption": {
-                  "text": "Привязана к счету •• 7620",
+                  "text": "Привязана к счету •• 1169",
                   "typeface": "caption",
                   "text_color": "secondary",
                   "margins": {
@@ -397,17 +176,19 @@
               "detail_position": "bottom"
             },
             "paddings": {
-              "top": "8x",
-              "bottom": "8x"
+              "left": "8x",
+              "right": "8x",
+              "top": "6x",
+              "bottom": "6x"
             },
             "divider": {
               "style": "default",
-              "size": "d4"
+              "size": "d5"
             },
             "actions": [
               {
                 "type": "text",
-                "text": "МИР Сберкарта 6181"
+                "text": "МИР Сберкарта 5126"
               }
             ]
           },
@@ -418,7 +199,7 @@
               "icon": {
                 "address": {
                   "type": "url",
-                  "url": "https://va-res.online.sberbank.ru/VA/icons/cards/mc_36_visa_infinite_pb.png"
+                  "url": "https://va-res.online.sberbank.ru/VA/icons/cards/mc_36_default.png"
                 },
                 "size": {
                   "width": "medium",
@@ -431,307 +212,7 @@
               },
               "texts": {
                 "title": {
-                  "text": "Visa Сберкарта",
-                  "typeface": "body1",
-                  "text_color": "default",
-                  "max_lines": 10
-                },
-                "subtitle": {
-                  "text": "•• 3576",
-                  "typeface": "footnote1",
-                  "text_color": "secondary",
-                  "margins": {
-                    "top": "1x"
-                  },
-                  "max_lines": 3
-                },
-                "caption": {
-                  "text": "Привязана к счету •• 7953",
-                  "typeface": "caption",
-                  "text_color": "secondary",
-                  "margins": {
-                    "top": "2x"
-                  },
-                  "max_lines": 3
-                }
-              },
-              "icon_vertical_gravity": "center"
-            },
-            "right": {
-              "type": "detail_right_view",
-              "detail": {
-                "text": "-22 ₽",
-                "typeface": "caption",
-                "text_color": "secondary",
-                "max_lines": 3,
-                "margins": {
-                  "left": "8x"
-                }
-              },
-              "vertical_gravity": "bottom",
-              "detail_position": "bottom"
-            },
-            "paddings": {
-              "top": "8x",
-              "bottom": "8x"
-            },
-            "divider": {
-              "style": "default",
-              "size": "d4"
-            },
-            "actions": [
-              {
-                "type": "text",
-                "text": "Visa Сберкарта 3576"
-              }
-            ]
-          },
-          {
-            "type": "left_right_cell_view",
-            "left": {
-              "type": "simple_left_view",
-              "icon": {
-                "address": {
-                  "type": "url",
-                  "url": "https://va-res.online.sberbank.ru/VA/icons/cards/mc_36_visa_infinite_pb.png"
-                },
-                "size": {
-                  "width": "medium",
-                  "height": "medium"
-                },
-                "margins": {
-                  "right": "8x"
-                },
-                "tint_color": "solid_brand"
-              },
-              "texts": {
-                "title": {
-                  "text": "Visa Сберкарта",
-                  "typeface": "body1",
-                  "text_color": "default",
-                  "max_lines": 10
-                },
-                "subtitle": {
-                  "text": "•• 3584",
-                  "typeface": "footnote1",
-                  "text_color": "secondary",
-                  "margins": {
-                    "top": "1x"
-                  },
-                  "max_lines": 3
-                },
-                "caption": {
-                  "text": "Привязана к счету •• 7998",
-                  "typeface": "caption",
-                  "text_color": "secondary",
-                  "margins": {
-                    "top": "2x"
-                  },
-                  "max_lines": 3
-                }
-              },
-              "icon_vertical_gravity": "center"
-            },
-            "right": {
-              "type": "detail_right_view",
-              "detail": {
-                "text": "-22 ₽",
-                "typeface": "caption",
-                "text_color": "secondary",
-                "max_lines": 3,
-                "margins": {
-                  "left": "8x"
-                }
-              },
-              "vertical_gravity": "bottom",
-              "detail_position": "bottom"
-            },
-            "paddings": {
-              "top": "8x",
-              "bottom": "8x"
-            },
-            "divider": {
-              "style": "default",
-              "size": "d4"
-            },
-            "actions": [
-              {
-                "type": "text",
-                "text": "Visa Сберкарта 3584"
-              }
-            ]
-          },
-          {
-            "type": "left_right_cell_view",
-            "left": {
-              "type": "simple_left_view",
-              "icon": {
-                "address": {
-                  "type": "url",
-                  "url": "https://va-res.online.sberbank.ru/VA/icons/cards/mc_36_visa_infinite_pb.png"
-                },
-                "size": {
-                  "width": "medium",
-                  "height": "medium"
-                },
-                "margins": {
-                  "right": "8x"
-                },
-                "tint_color": "solid_brand"
-              },
-              "texts": {
-                "title": {
-                  "text": "Visa Сберкарта",
-                  "typeface": "body1",
-                  "text_color": "default",
-                  "max_lines": 10
-                },
-                "subtitle": {
-                  "text": "•• 3600",
-                  "typeface": "footnote1",
-                  "text_color": "secondary",
-                  "margins": {
-                    "top": "1x"
-                  },
-                  "max_lines": 3
-                },
-                "caption": {
-                  "text": "Привязана к счету •• 8097",
-                  "typeface": "caption",
-                  "text_color": "secondary",
-                  "margins": {
-                    "top": "2x"
-                  },
-                  "max_lines": 3
-                }
-              },
-              "icon_vertical_gravity": "center"
-            },
-            "right": {
-              "type": "detail_right_view",
-              "detail": {
-                "text": "-22 ₽",
-                "typeface": "caption",
-                "text_color": "secondary",
-                "max_lines": 3,
-                "margins": {
-                  "left": "8x"
-                }
-              },
-              "vertical_gravity": "bottom",
-              "detail_position": "bottom"
-            },
-            "paddings": {
-              "top": "8x",
-              "bottom": "8x"
-            },
-            "divider": {
-              "style": "default",
-              "size": "d4"
-            },
-            "actions": [
-              {
-                "type": "text",
-                "text": "Visa Сберкарта 3600"
-              }
-            ]
-          },
-          {
-            "type": "left_right_cell_view",
-            "left": {
-              "type": "simple_left_view",
-              "icon": {
-                "address": {
-                  "type": "url",
-                  "url": "https://va-res.online.sberbank.ru/VA/icons/cards/mc_36_mastercard_sbercard_level_1.png"
-                },
-                "size": {
-                  "width": "medium",
-                  "height": "medium"
-                },
-                "margins": {
-                  "right": "8x"
-                },
-                "tint_color": "solid_brand"
-              },
-              "texts": {
-                "title": {
-                  "text": "MasterCard Сберкарта",
-                  "typeface": "body1",
-                  "text_color": "default",
-                  "max_lines": 10
-                },
-                "subtitle": {
-                  "text": "•• 3443",
-                  "typeface": "footnote1",
-                  "text_color": "secondary",
-                  "margins": {
-                    "top": "1x"
-                  },
-                  "max_lines": 3
-                },
-                "caption": {
-                  "text": "Привязана к счету •• 8000",
-                  "typeface": "caption",
-                  "text_color": "secondary",
-                  "margins": {
-                    "top": "2x"
-                  },
-                  "max_lines": 3
-                }
-              },
-              "icon_vertical_gravity": "center"
-            },
-            "right": {
-              "type": "detail_right_view",
-              "detail": {
-                "text": "-22 ₽",
-                "typeface": "caption",
-                "text_color": "secondary",
-                "max_lines": 3,
-                "margins": {
-                  "left": "8x"
-                }
-              },
-              "vertical_gravity": "bottom",
-              "detail_position": "bottom"
-            },
-            "paddings": {
-              "top": "8x",
-              "bottom": "8x"
-            },
-            "divider": {
-              "style": "default",
-              "size": "d4"
-            },
-            "actions": [
-              {
-                "type": "text",
-                "text": "MasterCard Сберкарта 3443"
-              }
-            ]
-          },
-          {
-            "type": "left_right_cell_view",
-            "left": {
-              "type": "simple_left_view",
-              "icon": {
-                "address": {
-                  "type": "url",
-                  "url": "https://va-res.online.sberbank.ru/VA/icons/cards/mc_36_visa_infinite_pb.png"
-                },
-                "size": {
-                  "width": "medium",
-                  "height": "medium"
-                },
-                "margins": {
-                  "right": "8x"
-                },
-                "tint_color": "solid_brand"
-              },
-              "texts": {
-                "title": {
-                  "text": "Visa Сберкарта",
+                  "text": "Visa Сберкарта с длинным названием, чтобы протестировать",
                   "typeface": "body1",
                   "text_color": "default",
                   "max_lines": 10
@@ -772,17 +253,19 @@
               "detail_position": "bottom"
             },
             "paddings": {
-              "top": "8x",
-              "bottom": "8x"
+              "left": "8x",
+              "right": "8x",
+              "top": "6x",
+              "bottom": "6x"
             },
             "divider": {
               "style": "default",
-              "size": "d4"
+              "size": "d5"
             },
             "actions": [
               {
                 "type": "text",
-                "text": "Visa Сберкарта 0028"
+                "text": "Visa Сберкарта с длинным названием, чтобы протестировать 0028"
               }
             ]
           },
@@ -793,7 +276,7 @@
               "icon": {
                 "address": {
                   "type": "url",
-                  "url": "https://va-res.online.sberbank.ru/VA/icons/cards/mc_36_mastercard_sbercard_level_1.png"
+                  "url": "https://va-res.online.sberbank.ru/VA/icons/cards/mc_36_default.png"
                 },
                 "size": {
                   "width": "medium",
@@ -812,7 +295,7 @@
                   "max_lines": 10
                 },
                 "subtitle": {
-                  "text": "•• 3198",
+                  "text": "•• 9791",
                   "typeface": "footnote1",
                   "text_color": "secondary",
                   "margins": {
@@ -821,7 +304,7 @@
                   "max_lines": 3
                 },
                 "caption": {
-                  "text": "Привязана к счету •• 7541",
+                  "text": "Привязана к счету •• 9928",
                   "typeface": "caption",
                   "text_color": "secondary",
                   "margins": {
@@ -847,17 +330,19 @@
               "detail_position": "bottom"
             },
             "paddings": {
-              "top": "8x",
-              "bottom": "8x"
+              "left": "8x",
+              "right": "8x",
+              "top": "6x",
+              "bottom": "6x"
             },
             "divider": {
               "style": "default",
-              "size": "d4"
+              "size": "d5"
             },
             "actions": [
               {
                 "type": "text",
-                "text": "MasterCard Сберкарта 3198"
+                "text": "MasterCard Сберкарта 9791"
               }
             ]
           },
@@ -868,7 +353,7 @@
               "icon": {
                 "address": {
                   "type": "url",
-                  "url": "https://va-res.online.sberbank.ru/VA/icons/cards/mc_36_mastercard_sbercard_level_1.png"
+                  "url": "https://va-res.online.sberbank.ru/VA/icons/cards/mc_36_default.png"
                 },
                 "size": {
                   "width": "medium",
@@ -922,12 +407,14 @@
               "detail_position": "bottom"
             },
             "paddings": {
-              "top": "8x",
-              "bottom": "8x"
+              "left": "8x",
+              "right": "8x",
+              "top": "6x",
+              "bottom": "6x"
             },
             "divider": {
               "style": "default",
-              "size": "d4"
+              "size": "d5"
             },
             "actions": [
               {
@@ -943,7 +430,7 @@
               "icon": {
                 "address": {
                   "type": "url",
-                  "url": "https://va-res.online.sberbank.ru/VA/icons/cards/mc_36_visa_infinite_pb.png"
+                  "url": "https://va-res.online.sberbank.ru/VA/icons/cards/mc_36_default.png"
                 },
                 "size": {
                   "width": "medium",
@@ -956,13 +443,13 @@
               },
               "texts": {
                 "title": {
-                  "text": "Visa Сберкарта",
+                  "text": "MasterCard Сберкарта",
                   "typeface": "body1",
                   "text_color": "default",
                   "max_lines": 10
                 },
                 "subtitle": {
-                  "text": "•• 3568",
+                  "text": "•• 0299",
                   "typeface": "footnote1",
                   "text_color": "secondary",
                   "margins": {
@@ -971,7 +458,7 @@
                   "max_lines": 3
                 },
                 "caption": {
-                  "text": "Привязана к счету •• 7942",
+                  "text": "Привязана к счету •• 9329",
                   "typeface": "caption",
                   "text_color": "secondary",
                   "margins": {
@@ -997,17 +484,19 @@
               "detail_position": "bottom"
             },
             "paddings": {
-              "top": "8x",
-              "bottom": "8x"
+              "left": "8x",
+              "right": "8x",
+              "top": "6x",
+              "bottom": "6x"
             },
             "divider": {
               "style": "default",
-              "size": "d4"
+              "size": "d5"
             },
             "actions": [
               {
                 "type": "text",
-                "text": "Visa Сберкарта 3568"
+                "text": "MasterCard Сберкарта 0299"
               }
             ]
           },
@@ -1018,82 +507,7 @@
               "icon": {
                 "address": {
                   "type": "url",
-                  "url": "https://va-res.online.sberbank.ru/VA/icons/cards/mc_36_mir.png"
-                },
-                "size": {
-                  "width": "medium",
-                  "height": "medium"
-                },
-                "margins": {
-                  "right": "8x"
-                },
-                "tint_color": "solid_brand"
-              },
-              "texts": {
-                "title": {
-                  "text": "МИР Сберкарта",
-                  "typeface": "body1",
-                  "text_color": "default",
-                  "max_lines": 10
-                },
-                "subtitle": {
-                  "text": "•• 6132",
-                  "typeface": "footnote1",
-                  "text_color": "secondary",
-                  "margins": {
-                    "top": "1x"
-                  },
-                  "max_lines": 3
-                },
-                "caption": {
-                  "text": "Привязана к счету •• 7528",
-                  "typeface": "caption",
-                  "text_color": "secondary",
-                  "margins": {
-                    "top": "2x"
-                  },
-                  "max_lines": 3
-                }
-              },
-              "icon_vertical_gravity": "center"
-            },
-            "right": {
-              "type": "detail_right_view",
-              "detail": {
-                "text": "-22 ₽",
-                "typeface": "caption",
-                "text_color": "secondary",
-                "max_lines": 3,
-                "margins": {
-                  "left": "8x"
-                }
-              },
-              "vertical_gravity": "bottom",
-              "detail_position": "bottom"
-            },
-            "paddings": {
-              "top": "8x",
-              "bottom": "8x"
-            },
-            "divider": {
-              "style": "default",
-              "size": "d4"
-            },
-            "actions": [
-              {
-                "type": "text",
-                "text": "МИР Сберкарта 6132"
-              }
-            ]
-          },
-          {
-            "type": "left_right_cell_view",
-            "left": {
-              "type": "simple_left_view",
-              "icon": {
-                "address": {
-                  "type": "url",
-                  "url": "https://va-res.online.sberbank.ru/VA/icons/cards/mc_36_mastercard_sbercard_level_1.png"
+                  "url": "https://va-res.online.sberbank.ru/VA/icons/cards/mc_36_default.png"
                 },
                 "size": {
                   "width": "medium",
@@ -1112,157 +526,7 @@
                   "max_lines": 10
                 },
                 "subtitle": {
-                  "text": "•• 6588",
-                  "typeface": "footnote1",
-                  "text_color": "secondary",
-                  "margins": {
-                    "top": "1x"
-                  },
-                  "max_lines": 3
-                },
-                "caption": {
-                  "text": "Привязана к счету •• 7929",
-                  "typeface": "caption",
-                  "text_color": "secondary",
-                  "margins": {
-                    "top": "2x"
-                  },
-                  "max_lines": 3
-                }
-              },
-              "icon_vertical_gravity": "center"
-            },
-            "right": {
-              "type": "detail_right_view",
-              "detail": {
-                "text": "-22 ₽",
-                "typeface": "caption",
-                "text_color": "secondary",
-                "max_lines": 3,
-                "margins": {
-                  "left": "8x"
-                }
-              },
-              "vertical_gravity": "bottom",
-              "detail_position": "bottom"
-            },
-            "paddings": {
-              "top": "8x",
-              "bottom": "8x"
-            },
-            "divider": {
-              "style": "default",
-              "size": "d4"
-            },
-            "actions": [
-              {
-                "type": "text",
-                "text": "MasterCard Сберкарта 6588"
-              }
-            ]
-          },
-          {
-            "type": "left_right_cell_view",
-            "left": {
-              "type": "simple_left_view",
-              "icon": {
-                "address": {
-                  "type": "url",
-                  "url": "https://va-res.online.sberbank.ru/VA/icons/cards/mc_36_visa_infinite_pb.png"
-                },
-                "size": {
-                  "width": "medium",
-                  "height": "medium"
-                },
-                "margins": {
-                  "right": "8x"
-                },
-                "tint_color": "solid_brand"
-              },
-              "texts": {
-                "title": {
-                  "text": "Visa Сберкарта",
-                  "typeface": "body1",
-                  "text_color": "default",
-                  "max_lines": 10
-                },
-                "subtitle": {
-                  "text": "•• 2685",
-                  "typeface": "footnote1",
-                  "text_color": "secondary",
-                  "margins": {
-                    "top": "1x"
-                  },
-                  "max_lines": 3
-                },
-                "caption": {
-                  "text": "Привязана к счету •• 9937",
-                  "typeface": "caption",
-                  "text_color": "secondary",
-                  "margins": {
-                    "top": "2x"
-                  },
-                  "max_lines": 3
-                }
-              },
-              "icon_vertical_gravity": "center"
-            },
-            "right": {
-              "type": "detail_right_view",
-              "detail": {
-                "text": "-44 ₽",
-                "typeface": "caption",
-                "text_color": "secondary",
-                "max_lines": 3,
-                "margins": {
-                  "left": "8x"
-                }
-              },
-              "vertical_gravity": "bottom",
-              "detail_position": "bottom"
-            },
-            "paddings": {
-              "top": "8x",
-              "bottom": "8x"
-            },
-            "divider": {
-              "style": "default",
-              "size": "d4"
-            },
-            "actions": [
-              {
-                "type": "text",
-                "text": "Visa Сберкарта 2685"
-              }
-            ]
-          },
-          {
-            "type": "left_right_cell_view",
-            "left": {
-              "type": "simple_left_view",
-              "icon": {
-                "address": {
-                  "type": "url",
-                  "url": "https://va-res.online.sberbank.ru/VA/icons/cards/mc_36_visa_infinite_pb.png"
-                },
-                "size": {
-                  "width": "medium",
-                  "height": "medium"
-                },
-                "margins": {
-                  "right": "8x"
-                },
-                "tint_color": "solid_brand"
-              },
-              "texts": {
-                "title": {
-                  "text": "Visa Сберкарта",
-                  "typeface": "body1",
-                  "text_color": "default",
-                  "max_lines": 10
-                },
-                "subtitle": {
-                  "text": "•• 3360",
+                  "text": "•• 5067",
                   "typeface": "footnote1",
                   "text_color": "secondary",
                   "margins": {
@@ -1285,7 +549,7 @@
             "right": {
               "type": "detail_right_view",
               "detail": {
-                "text": "4 531 816,18 ₽",
+                "text": "4 531 860,18 ₽",
                 "typeface": "caption",
                 "text_color": "secondary",
                 "max_lines": 3,
@@ -1297,17 +561,19 @@
               "detail_position": "bottom"
             },
             "paddings": {
-              "top": "8x",
-              "bottom": "8x"
+              "left": "8x",
+              "right": "8x",
+              "top": "6x",
+              "bottom": "6x"
             },
             "divider": {
               "style": "default",
-              "size": "d4"
+              "size": "d5"
             },
             "actions": [
               {
                 "type": "text",
-                "text": "Visa Сберкарта 3360"
+                "text": "MasterCard Сберкарта 5067"
               }
             ]
           },
@@ -1318,232 +584,7 @@
               "icon": {
                 "address": {
                   "type": "url",
-                  "url": "https://va-res.online.sberbank.ru/VA/icons/cards/mc_36_mastercard_sbercard_level_1.png"
-                },
-                "size": {
-                  "width": "medium",
-                  "height": "medium"
-                },
-                "margins": {
-                  "right": "8x"
-                },
-                "tint_color": "solid_brand"
-              },
-              "texts": {
-                "title": {
-                  "text": "MasterCard Сберкарта",
-                  "typeface": "body1",
-                  "text_color": "default",
-                  "max_lines": 10
-                },
-                "subtitle": {
-                  "text": "•• 1137",
-                  "typeface": "footnote1",
-                  "text_color": "secondary",
-                  "margins": {
-                    "top": "1x"
-                  },
-                  "max_lines": 3
-                },
-                "caption": {
-                  "text": "Привязана к счету •• 3357",
-                  "typeface": "caption",
-                  "text_color": "secondary",
-                  "margins": {
-                    "top": "2x"
-                  },
-                  "max_lines": 3
-                }
-              },
-              "icon_vertical_gravity": "center"
-            },
-            "right": {
-              "type": "detail_right_view",
-              "detail": {
-                "text": "4 531 816,18 ₽",
-                "typeface": "caption",
-                "text_color": "secondary",
-                "max_lines": 3,
-                "margins": {
-                  "left": "8x"
-                }
-              },
-              "vertical_gravity": "bottom",
-              "detail_position": "bottom"
-            },
-            "paddings": {
-              "top": "8x",
-              "bottom": "8x"
-            },
-            "divider": {
-              "style": "default",
-              "size": "d4"
-            },
-            "actions": [
-              {
-                "type": "text",
-                "text": "MasterCard Сберкарта 1137"
-              }
-            ]
-          },
-          {
-            "type": "left_right_cell_view",
-            "left": {
-              "type": "simple_left_view",
-              "icon": {
-                "address": {
-                  "type": "url",
-                  "url": "https://va-res.online.sberbank.ru/VA/icons/cards/mc_36_visa_infinite_pb.png"
-                },
-                "size": {
-                  "width": "medium",
-                  "height": "medium"
-                },
-                "margins": {
-                  "right": "8x"
-                },
-                "tint_color": "solid_brand"
-              },
-              "texts": {
-                "title": {
-                  "text": "Visa Сберкарта",
-                  "typeface": "body1",
-                  "text_color": "default",
-                  "max_lines": 10
-                },
-                "subtitle": {
-                  "text": "•• 2727",
-                  "typeface": "footnote1",
-                  "text_color": "secondary",
-                  "margins": {
-                    "top": "1x"
-                  },
-                  "max_lines": 3
-                },
-                "caption": {
-                  "text": "Привязана к счету •• 3357",
-                  "typeface": "caption",
-                  "text_color": "secondary",
-                  "margins": {
-                    "top": "2x"
-                  },
-                  "max_lines": 3
-                }
-              },
-              "icon_vertical_gravity": "center"
-            },
-            "right": {
-              "type": "detail_right_view",
-              "detail": {
-                "text": "4 531 816,18 ₽",
-                "typeface": "caption",
-                "text_color": "secondary",
-                "max_lines": 3,
-                "margins": {
-                  "left": "8x"
-                }
-              },
-              "vertical_gravity": "bottom",
-              "detail_position": "bottom"
-            },
-            "paddings": {
-              "top": "8x",
-              "bottom": "8x"
-            },
-            "divider": {
-              "style": "default",
-              "size": "d4"
-            },
-            "actions": [
-              {
-                "type": "text",
-                "text": "Visa Сберкарта 2727"
-              }
-            ]
-          },
-          {
-            "type": "left_right_cell_view",
-            "left": {
-              "type": "simple_left_view",
-              "icon": {
-                "address": {
-                  "type": "url",
-                  "url": "https://va-res.online.sberbank.ru/VA/icons/cards/mc_36_mastercard_sbercard_level_1.png"
-                },
-                "size": {
-                  "width": "medium",
-                  "height": "medium"
-                },
-                "margins": {
-                  "right": "8x"
-                },
-                "tint_color": "solid_brand"
-              },
-              "texts": {
-                "title": {
-                  "text": "MasterCard Сберкарта",
-                  "typeface": "body1",
-                  "text_color": "default",
-                  "max_lines": 10
-                },
-                "subtitle": {
-                  "text": "•• 0899",
-                  "typeface": "footnote1",
-                  "text_color": "secondary",
-                  "margins": {
-                    "top": "1x"
-                  },
-                  "max_lines": 3
-                },
-                "caption": {
-                  "text": "Привязана к счету •• 3357",
-                  "typeface": "caption",
-                  "text_color": "secondary",
-                  "margins": {
-                    "top": "2x"
-                  },
-                  "max_lines": 3
-                }
-              },
-              "icon_vertical_gravity": "center"
-            },
-            "right": {
-              "type": "detail_right_view",
-              "detail": {
-                "text": "4 531 816,18 ₽",
-                "typeface": "caption",
-                "text_color": "secondary",
-                "max_lines": 3,
-                "margins": {
-                  "left": "8x"
-                }
-              },
-              "vertical_gravity": "bottom",
-              "detail_position": "bottom"
-            },
-            "paddings": {
-              "top": "8x",
-              "bottom": "8x"
-            },
-            "divider": {
-              "style": "default",
-              "size": "d4"
-            },
-            "actions": [
-              {
-                "type": "text",
-                "text": "MasterCard Сберкарта 0899"
-              }
-            ]
-          },
-          {
-            "type": "left_right_cell_view",
-            "left": {
-              "type": "simple_left_view",
-              "icon": {
-                "address": {
-                  "type": "url",
-                  "url": "https://va-res.online.sberbank.ru/VA/icons/cards/mc_36_mastercard_sbercard_level_1.png"
+                  "url": "https://va-res.online.sberbank.ru/VA/icons/cards/mc_36_default.png"
                 },
                 "size": {
                   "width": "medium",
@@ -1585,7 +626,7 @@
             "right": {
               "type": "detail_right_view",
               "detail": {
-                "text": "4 531 816,18 ₽",
+                "text": "4 531 860,18 ₽",
                 "typeface": "caption",
                 "text_color": "secondary",
                 "max_lines": 3,
@@ -1597,12 +638,14 @@
               "detail_position": "bottom"
             },
             "paddings": {
-              "top": "8x",
-              "bottom": "8x"
+              "left": "8x",
+              "right": "8x",
+              "top": "6x",
+              "bottom": "6x"
             },
             "divider": {
               "style": "default",
-              "size": "d4"
+              "size": "d5"
             },
             "actions": [
               {
@@ -1618,7 +661,161 @@
               "icon": {
                 "address": {
                   "type": "url",
-                  "url": "https://va-res.online.sberbank.ru/VA/icons/cards/mc_36_mastercard_sbercard_level_1.png"
+                  "url": "https://va-res.online.sberbank.ru/VA/icons/cards/mc_36_default.png"
+                },
+                "size": {
+                  "width": "medium",
+                  "height": "medium"
+                },
+                "margins": {
+                  "right": "8x"
+                },
+                "tint_color": "solid_brand"
+              },
+              "texts": {
+                "title": {
+                  "text": "Oleg",
+                  "typeface": "body1",
+                  "text_color": "default",
+                  "max_lines": 10
+                },
+                "subtitle": {
+                  "text": "•• 1137",
+                  "typeface": "footnote1",
+                  "text_color": "secondary",
+                  "margins": {
+                    "top": "1x"
+                  },
+                  "max_lines": 3
+                },
+                "caption": {
+                  "text": "Привязана к счету •• 3357",
+                  "typeface": "caption",
+                  "text_color": "secondary",
+                  "margins": {
+                    "top": "2x"
+                  },
+                  "max_lines": 3
+                }
+              },
+              "icon_vertical_gravity": "center"
+            },
+            "right": {
+              "type": "detail_right_view",
+              "detail": {
+                "text": "4 531 860,18 ₽",
+                "typeface": "caption",
+                "text_color": "secondary",
+                "max_lines": 3,
+                "margins": {
+                  "left": "8x"
+                }
+              },
+              "vertical_gravity": "bottom",
+              "detail_position": "bottom"
+            },
+            "paddings": {
+              "left": "8x",
+              "right": "8x",
+              "top": "6x",
+              "bottom": "6x"
+            },
+            "divider": {
+              "style": "default",
+              "size": "d5"
+            },
+            "actions": [
+              {
+                "type": "text",
+                "text": "Oleg 1137"
+              }
+            ]
+          },
+          {
+            "type": "left_right_cell_view",
+            "left": {
+              "type": "simple_left_view",
+              "icon": {
+                "address": {
+                  "type": "url",
+                  "url": "https://va-res.online.sberbank.ru/VA/icons/cards/mc_36_default.png"
+                },
+                "size": {
+                  "width": "medium",
+                  "height": "medium"
+                },
+                "margins": {
+                  "right": "8x"
+                },
+                "tint_color": "solid_brand"
+              },
+              "texts": {
+                "title": {
+                  "text": "Visa Сберкарта",
+                  "typeface": "body1",
+                  "text_color": "default",
+                  "max_lines": 10
+                },
+                "subtitle": {
+                  "text": "•• 9103",
+                  "typeface": "footnote1",
+                  "text_color": "secondary",
+                  "margins": {
+                    "top": "1x"
+                  },
+                  "max_lines": 3
+                },
+                "caption": {
+                  "text": "Привязана к счету •• 3357",
+                  "typeface": "caption",
+                  "text_color": "secondary",
+                  "margins": {
+                    "top": "2x"
+                  },
+                  "max_lines": 3
+                }
+              },
+              "icon_vertical_gravity": "center"
+            },
+            "right": {
+              "type": "detail_right_view",
+              "detail": {
+                "text": "4 531 860,18 ₽",
+                "typeface": "caption",
+                "text_color": "secondary",
+                "max_lines": 3,
+                "margins": {
+                  "left": "8x"
+                }
+              },
+              "vertical_gravity": "bottom",
+              "detail_position": "bottom"
+            },
+            "paddings": {
+              "left": "8x",
+              "right": "8x",
+              "top": "6x",
+              "bottom": "6x"
+            },
+            "divider": {
+              "style": "default",
+              "size": "d5"
+            },
+            "actions": [
+              {
+                "type": "text",
+                "text": "Visa Сберкарта 9103"
+              }
+            ]
+          },
+          {
+            "type": "left_right_cell_view",
+            "left": {
+              "type": "simple_left_view",
+              "icon": {
+                "address": {
+                  "type": "url",
+                  "url": "https://va-res.online.sberbank.ru/VA/icons/cards/mc_36_default.png"
                 },
                 "size": {
                   "width": "medium",
@@ -1637,11 +834,20 @@
                   "max_lines": 10
                 },
                 "subtitle": {
-                  "text": "•• 0104",
+                  "text": "•• 0899",
                   "typeface": "footnote1",
                   "text_color": "secondary",
                   "margins": {
                     "top": "1x"
+                  },
+                  "max_lines": 3
+                },
+                "caption": {
+                  "text": "Привязана к счету •• 3357",
+                  "typeface": "caption",
+                  "text_color": "secondary",
+                  "margins": {
+                    "top": "2x"
                   },
                   "max_lines": 3
                 }
@@ -1651,29 +857,31 @@
             "right": {
               "type": "detail_right_view",
               "detail": {
-                "text": "-22 ₽",
-                "typeface": "body1",
+                "text": "4 531 860,18 ₽",
+                "typeface": "caption",
                 "text_color": "secondary",
                 "max_lines": 3,
                 "margins": {
                   "left": "8x"
                 }
               },
-              "vertical_gravity": "top",
-              "detail_position": "top"
+              "vertical_gravity": "bottom",
+              "detail_position": "bottom"
             },
             "paddings": {
-              "top": "8x",
-              "bottom": "8x"
+              "left": "8x",
+              "right": "8x",
+              "top": "6x",
+              "bottom": "6x"
             },
             "divider": {
               "style": "default",
-              "size": "d4"
+              "size": "d5"
             },
             "actions": [
               {
                 "type": "text",
-                "text": "MasterCard Сберкарта 0104"
+                "text": "MasterCard Сберкарта 0899"
               }
             ]
           },
@@ -1684,7 +892,84 @@
               "icon": {
                 "address": {
                   "type": "url",
-                  "url": "https://va-res.online.sberbank.ru/VA/icons/cards/mc_36_mastercard_sbercard_level_1.png"
+                  "url": "https://va-res.online.sberbank.ru/VA/icons/cards/mc_36_default.png"
+                },
+                "size": {
+                  "width": "medium",
+                  "height": "medium"
+                },
+                "margins": {
+                  "right": "8x"
+                },
+                "tint_color": "solid_brand"
+              },
+              "texts": {
+                "title": {
+                  "text": "MasterCard Сберкарта",
+                  "typeface": "body1",
+                  "text_color": "default",
+                  "max_lines": 10
+                },
+                "subtitle": {
+                  "text": "•• 2157",
+                  "typeface": "footnote1",
+                  "text_color": "secondary",
+                  "margins": {
+                    "top": "1x"
+                  },
+                  "max_lines": 3
+                },
+                "caption": {
+                  "text": "Привязана к счету •• 1170",
+                  "typeface": "caption",
+                  "text_color": "secondary",
+                  "margins": {
+                    "top": "2x"
+                  },
+                  "max_lines": 3
+                }
+              },
+              "icon_vertical_gravity": "center"
+            },
+            "right": {
+              "type": "detail_right_view",
+              "detail": {
+                "text": "-22 ₽",
+                "typeface": "caption",
+                "text_color": "secondary",
+                "max_lines": 3,
+                "margins": {
+                  "left": "8x"
+                }
+              },
+              "vertical_gravity": "bottom",
+              "detail_position": "bottom"
+            },
+            "paddings": {
+              "left": "8x",
+              "right": "8x",
+              "top": "6x",
+              "bottom": "6x"
+            },
+            "divider": {
+              "style": "default",
+              "size": "d5"
+            },
+            "actions": [
+              {
+                "type": "text",
+                "text": "MasterCard Сберкарта 2157"
+              }
+            ]
+          },
+          {
+            "type": "left_right_cell_view",
+            "left": {
+              "type": "simple_left_view",
+              "icon": {
+                "address": {
+                  "type": "url",
+                  "url": "https://va-res.online.sberbank.ru/VA/icons/cards/mc_36_default.png"
                 },
                 "size": {
                   "width": "medium",
@@ -1703,7 +988,7 @@
                   "max_lines": 10
                 },
                 "subtitle": {
-                  "text": "•• 5159",
+                  "text": "•• 5183",
                   "typeface": "footnote1",
                   "text_color": "secondary",
                   "margins": {
@@ -1717,7 +1002,7 @@
             "right": {
               "type": "detail_right_view",
               "detail": {
-                "text": "150 ₽",
+                "text": "0 ₽",
                 "typeface": "body1",
                 "text_color": "brand",
                 "max_lines": 3,
@@ -1729,17 +1014,19 @@
               "detail_position": "top"
             },
             "paddings": {
-              "top": "8x",
-              "bottom": "8x"
+              "left": "8x",
+              "right": "8x",
+              "top": "6x",
+              "bottom": "6x"
             },
             "divider": {
               "style": "default",
-              "size": "d4"
+              "size": "d5"
             },
             "actions": [
               {
                 "type": "text",
-                "text": "MasterCard Сберкарта Travel 5159"
+                "text": "MasterCard Сберкарта Travel 5183"
               }
             ]
           },
@@ -1750,7 +1037,75 @@
               "icon": {
                 "address": {
                   "type": "url",
-                  "url": "https://va-res.online.sberbank.ru/VA/icons/cards/mc_36_mastercard_sbercard_level_1.png"
+                  "url": "https://va-res.online.sberbank.ru/VA/icons/cards/mc_36_default.png"
+                },
+                "size": {
+                  "width": "medium",
+                  "height": "medium"
+                },
+                "margins": {
+                  "right": "8x"
+                },
+                "tint_color": "solid_brand"
+              },
+              "texts": {
+                "title": {
+                  "text": "MasterCard World Black Edition",
+                  "typeface": "body1",
+                  "text_color": "default",
+                  "max_lines": 10
+                },
+                "subtitle": {
+                  "text": "•• 9735 • кред",
+                  "typeface": "footnote1",
+                  "text_color": "secondary",
+                  "margins": {
+                    "top": "1x"
+                  },
+                  "max_lines": 3
+                }
+              },
+              "icon_vertical_gravity": "center"
+            },
+            "right": {
+              "type": "detail_right_view",
+              "detail": {
+                "text": "227 000 ₽",
+                "typeface": "body1",
+                "text_color": "brand",
+                "max_lines": 3,
+                "margins": {
+                  "left": "8x"
+                }
+              },
+              "vertical_gravity": "top",
+              "detail_position": "top"
+            },
+            "paddings": {
+              "left": "8x",
+              "right": "8x",
+              "top": "6x",
+              "bottom": "6x"
+            },
+            "divider": {
+              "style": "default",
+              "size": "d5"
+            },
+            "actions": [
+              {
+                "type": "text",
+                "text": "MasterCard World Black Edition 9735"
+              }
+            ]
+          },
+          {
+            "type": "left_right_cell_view",
+            "left": {
+              "type": "simple_left_view",
+              "icon": {
+                "address": {
+                  "type": "url",
+                  "url": "https://va-res.online.sberbank.ru/VA/icons/cards/mc_36_default.png"
                 },
                 "size": {
                   "width": "medium",
@@ -1795,12 +1150,14 @@
               "detail_position": "top"
             },
             "paddings": {
-              "top": "8x",
-              "bottom": "8x"
+              "left": "8x",
+              "right": "8x",
+              "top": "6x",
+              "bottom": "6x"
             },
             "divider": {
               "style": "default",
-              "size": "d4"
+              "size": "d5"
             },
             "actions": [
               {
@@ -1816,7 +1173,347 @@
               "icon": {
                 "address": {
                   "type": "url",
-                  "url": "https://va-res.online.sberbank.ru/VA/icons/cards/mc_36_visa.png"
+                  "url": "https://va-res.online.sberbank.ru/VA/icons/cards/mc_36_default.png"
+                },
+                "size": {
+                  "width": "medium",
+                  "height": "medium"
+                },
+                "margins": {
+                  "right": "8x"
+                },
+                "tint_color": "solid_brand"
+              },
+              "texts": {
+                "title": {
+                  "text": "MasterCard Сберкарта Travel",
+                  "typeface": "body1",
+                  "text_color": "default",
+                  "max_lines": 10
+                },
+                "subtitle": {
+                  "text": "•• 5159",
+                  "typeface": "footnote1",
+                  "text_color": "secondary",
+                  "margins": {
+                    "top": "1x"
+                  },
+                  "max_lines": 3
+                }
+              },
+              "icon_vertical_gravity": "center"
+            },
+            "right": {
+              "type": "detail_right_view",
+              "detail": {
+                "text": "150 ₽",
+                "typeface": "body1",
+                "text_color": "brand",
+                "max_lines": 3,
+                "margins": {
+                  "left": "8x"
+                }
+              },
+              "vertical_gravity": "top",
+              "detail_position": "top"
+            },
+            "paddings": {
+              "left": "8x",
+              "right": "8x",
+              "top": "6x",
+              "bottom": "6x"
+            },
+            "divider": {
+              "style": "default",
+              "size": "d5"
+            },
+            "actions": [
+              {
+                "type": "text",
+                "text": "MasterCard Сберкарта Travel 5159"
+              }
+            ]
+          },
+          {
+            "type": "left_right_cell_view",
+            "left": {
+              "type": "simple_left_view",
+              "icon": {
+                "address": {
+                  "type": "url",
+                  "url": "https://va-res.online.sberbank.ru/VA/icons/cards/mc_36_default.png"
+                },
+                "size": {
+                  "width": "medium",
+                  "height": "medium"
+                },
+                "margins": {
+                  "right": "8x"
+                },
+                "tint_color": "solid_brand"
+              },
+              "texts": {
+                "title": {
+                  "text": "MasterCard Сберкарта Travel",
+                  "typeface": "body1",
+                  "text_color": "default",
+                  "max_lines": 10
+                },
+                "subtitle": {
+                  "text": "•• 4608",
+                  "typeface": "footnote1",
+                  "text_color": "secondary",
+                  "margins": {
+                    "top": "1x"
+                  },
+                  "max_lines": 3
+                }
+              },
+              "icon_vertical_gravity": "center"
+            },
+            "right": {
+              "type": "detail_right_view",
+              "detail": {
+                "text": "0 ₽",
+                "typeface": "body1",
+                "text_color": "brand",
+                "max_lines": 3,
+                "margins": {
+                  "left": "8x"
+                }
+              },
+              "vertical_gravity": "top",
+              "detail_position": "top"
+            },
+            "paddings": {
+              "left": "8x",
+              "right": "8x",
+              "top": "6x",
+              "bottom": "6x"
+            },
+            "divider": {
+              "style": "default",
+              "size": "d5"
+            },
+            "actions": [
+              {
+                "type": "text",
+                "text": "MasterCard Сберкарта Travel 4608"
+              }
+            ]
+          },
+          {
+            "type": "left_right_cell_view",
+            "left": {
+              "type": "simple_left_view",
+              "icon": {
+                "address": {
+                  "type": "url",
+                  "url": "https://va-res.online.sberbank.ru/VA/icons/cards/mc_36_default.png"
+                },
+                "size": {
+                  "width": "medium",
+                  "height": "medium"
+                },
+                "margins": {
+                  "right": "8x"
+                },
+                "tint_color": "solid_brand"
+              },
+              "texts": {
+                "title": {
+                  "text": "Visa Digital",
+                  "typeface": "body1",
+                  "text_color": "default",
+                  "max_lines": 10
+                },
+                "subtitle": {
+                  "text": "•• 7787",
+                  "typeface": "footnote1",
+                  "text_color": "secondary",
+                  "margins": {
+                    "top": "1x"
+                  },
+                  "max_lines": 3
+                }
+              },
+              "icon_vertical_gravity": "center"
+            },
+            "right": {
+              "type": "detail_right_view",
+              "detail": {
+                "text": "0 ₽",
+                "typeface": "body1",
+                "text_color": "brand",
+                "max_lines": 3,
+                "margins": {
+                  "left": "8x"
+                }
+              },
+              "vertical_gravity": "top",
+              "detail_position": "top"
+            },
+            "paddings": {
+              "left": "8x",
+              "right": "8x",
+              "top": "6x",
+              "bottom": "6x"
+            },
+            "divider": {
+              "style": "default",
+              "size": "d5"
+            },
+            "actions": [
+              {
+                "type": "text",
+                "text": "Visa Digital 7787"
+              }
+            ]
+          },
+          {
+            "type": "left_right_cell_view",
+            "left": {
+              "type": "simple_left_view",
+              "icon": {
+                "address": {
+                  "type": "url",
+                  "url": "https://va-res.online.sberbank.ru/VA/icons/cards/mc_36_default.png"
+                },
+                "size": {
+                  "width": "medium",
+                  "height": "medium"
+                },
+                "margins": {
+                  "right": "8x"
+                },
+                "tint_color": "solid_brand"
+              },
+              "texts": {
+                "title": {
+                  "text": "Visa Digital",
+                  "typeface": "body1",
+                  "text_color": "default",
+                  "max_lines": 10
+                },
+                "subtitle": {
+                  "text": "•• 9226",
+                  "typeface": "footnote1",
+                  "text_color": "secondary",
+                  "margins": {
+                    "top": "1x"
+                  },
+                  "max_lines": 3
+                }
+              },
+              "icon_vertical_gravity": "center"
+            },
+            "right": {
+              "type": "detail_right_view",
+              "detail": {
+                "text": "0 ₽",
+                "typeface": "body1",
+                "text_color": "brand",
+                "max_lines": 3,
+                "margins": {
+                  "left": "8x"
+                }
+              },
+              "vertical_gravity": "top",
+              "detail_position": "top"
+            },
+            "paddings": {
+              "left": "8x",
+              "right": "8x",
+              "top": "6x",
+              "bottom": "6x"
+            },
+            "divider": {
+              "style": "default",
+              "size": "d5"
+            },
+            "actions": [
+              {
+                "type": "text",
+                "text": "Visa Digital 9226"
+              }
+            ]
+          },
+          {
+            "type": "left_right_cell_view",
+            "left": {
+              "type": "simple_left_view",
+              "icon": {
+                "address": {
+                  "type": "url",
+                  "url": "https://va-res.online.sberbank.ru/VA/icons/cards/mc_36_default.png"
+                },
+                "size": {
+                  "width": "medium",
+                  "height": "medium"
+                },
+                "margins": {
+                  "right": "8x"
+                },
+                "tint_color": "solid_brand"
+              },
+              "texts": {
+                "title": {
+                  "text": "Visa Digital",
+                  "typeface": "body1",
+                  "text_color": "default",
+                  "max_lines": 10
+                },
+                "subtitle": {
+                  "text": "•• 0299",
+                  "typeface": "footnote1",
+                  "text_color": "secondary",
+                  "margins": {
+                    "top": "1x"
+                  },
+                  "max_lines": 3
+                }
+              },
+              "icon_vertical_gravity": "center"
+            },
+            "right": {
+              "type": "detail_right_view",
+              "detail": {
+                "text": "0 ₽",
+                "typeface": "body1",
+                "text_color": "brand",
+                "max_lines": 3,
+                "margins": {
+                  "left": "8x"
+                }
+              },
+              "vertical_gravity": "top",
+              "detail_position": "top"
+            },
+            "paddings": {
+              "left": "8x",
+              "right": "8x",
+              "top": "6x",
+              "bottom": "6x"
+            },
+            "divider": {
+              "style": "default",
+              "size": "d5"
+            },
+            "actions": [
+              {
+                "type": "text",
+                "text": "Visa Digital 0299"
+              }
+            ]
+          },
+          {
+            "type": "left_right_cell_view",
+            "left": {
+              "type": "simple_left_view",
+              "icon": {
+                "address": {
+                  "type": "url",
+                  "url": "https://va-res.online.sberbank.ru/VA/icons/cards/mc_36_default.png"
                 },
                 "size": {
                   "width": "medium",
@@ -1846,14 +1543,234 @@
               },
               "icon_vertical_gravity": "center"
             },
+            "right": {
+              "type": "detail_right_view",
+              "detail": {
+                "text": "99 758 ₽",
+                "typeface": "body1",
+                "text_color": "brand",
+                "max_lines": 3,
+                "margins": {
+                  "left": "8x"
+                }
+              },
+              "vertical_gravity": "top",
+              "detail_position": "top"
+            },
             "paddings": {
-              "top": "8x",
-              "bottom": "8x"
+              "left": "8x",
+              "right": "8x",
+              "top": "6x",
+              "bottom": "6x"
+            },
+            "divider": {
+              "style": "default",
+              "size": "d5"
             },
             "actions": [
               {
                 "type": "text",
                 "text": "Visa Classic 0792"
+              }
+            ]
+          },
+          {
+            "type": "left_right_cell_view",
+            "left": {
+              "type": "simple_left_view",
+              "icon": {
+                "address": {
+                  "type": "url",
+                  "url": "https://va-res.online.sberbank.ru/VA/icons/cards/mc_36_default.png"
+                },
+                "size": {
+                  "width": "medium",
+                  "height": "medium"
+                },
+                "margins": {
+                  "right": "8x"
+                },
+                "tint_color": "solid_brand"
+              },
+              "texts": {
+                "title": {
+                  "text": "Visa Digital",
+                  "typeface": "body1",
+                  "text_color": "default",
+                  "max_lines": 10
+                },
+                "subtitle": {
+                  "text": "•• 8698",
+                  "typeface": "footnote1",
+                  "text_color": "secondary",
+                  "margins": {
+                    "top": "1x"
+                  },
+                  "max_lines": 3
+                }
+              },
+              "icon_vertical_gravity": "center"
+            },
+            "right": {
+              "type": "detail_right_view",
+              "detail": {
+                "text": "0 ₽",
+                "typeface": "body1",
+                "text_color": "brand",
+                "max_lines": 3,
+                "margins": {
+                  "left": "8x"
+                }
+              },
+              "vertical_gravity": "top",
+              "detail_position": "top"
+            },
+            "paddings": {
+              "left": "8x",
+              "right": "8x",
+              "top": "6x",
+              "bottom": "6x"
+            },
+            "divider": {
+              "style": "default",
+              "size": "d5"
+            },
+            "actions": [
+              {
+                "type": "text",
+                "text": "Visa Digital 8698"
+              }
+            ]
+          },
+          {
+            "type": "left_right_cell_view",
+            "left": {
+              "type": "simple_left_view",
+              "icon": {
+                "address": {
+                  "type": "url",
+                  "url": "https://va-res.online.sberbank.ru/VA/icons/cards/mc_36_default.png"
+                },
+                "size": {
+                  "width": "medium",
+                  "height": "medium"
+                },
+                "margins": {
+                  "right": "8x"
+                },
+                "tint_color": "solid_brand"
+              },
+              "texts": {
+                "title": {
+                  "text": "Visa Digital",
+                  "typeface": "body1",
+                  "text_color": "default",
+                  "max_lines": 10
+                },
+                "subtitle": {
+                  "text": "•• 0636",
+                  "typeface": "footnote1",
+                  "text_color": "secondary",
+                  "margins": {
+                    "top": "1x"
+                  },
+                  "max_lines": 3
+                }
+              },
+              "icon_vertical_gravity": "center"
+            },
+            "right": {
+              "type": "detail_right_view",
+              "detail": {
+                "text": "0 ₽",
+                "typeface": "body1",
+                "text_color": "brand",
+                "max_lines": 3,
+                "margins": {
+                  "left": "8x"
+                }
+              },
+              "vertical_gravity": "top",
+              "detail_position": "top"
+            },
+            "paddings": {
+              "left": "8x",
+              "right": "8x",
+              "top": "6x",
+              "bottom": "6x"
+            },
+            "divider": {
+              "style": "default",
+              "size": "d5"
+            },
+            "actions": [
+              {
+                "type": "text",
+                "text": "Visa Digital 0636"
+              }
+            ]
+          },
+          {
+            "type": "left_right_cell_view",
+            "left": {
+              "type": "simple_left_view",
+              "icon": {
+                "address": {
+                  "type": "url",
+                  "url": "https://va-res.online.sberbank.ru/VA/icons/cards/mc_36_default.png"
+                },
+                "size": {
+                  "width": "medium",
+                  "height": "medium"
+                },
+                "margins": {
+                  "right": "8x"
+                },
+                "tint_color": "solid_brand"
+              },
+              "texts": {
+                "title": {
+                  "text": "Visa Digital",
+                  "typeface": "body1",
+                  "text_color": "default",
+                  "max_lines": 10
+                },
+                "subtitle": {
+                  "text": "•• 6905",
+                  "typeface": "footnote1",
+                  "text_color": "secondary",
+                  "margins": {
+                    "top": "1x"
+                  },
+                  "max_lines": 3
+                }
+              },
+              "icon_vertical_gravity": "center"
+            },
+            "right": {
+              "type": "detail_right_view",
+              "detail": {
+                "text": "0 ₽",
+                "typeface": "body1",
+                "text_color": "brand",
+                "max_lines": 3,
+                "margins": {
+                  "left": "8x"
+                }
+              },
+              "vertical_gravity": "top",
+              "detail_position": "top"
+            },
+            "paddings": {
+              "left": "8x",
+              "right": "8x",
+              "top": "6x",
+              "bottom": "6x"
+            },
+            "actions": [
+              {
+                "type": "text",
+                "text": "Visa Digital 6905"
               }
             ]
           }
