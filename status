@@ -12,9 +12,9 @@
               "url": "https://stat.online.sberbank.ru/EFS/cards.debit/digital_sbk_mc.png",
               "size": {
                 "width": "resizable",
-                "aspect_ratio": 0.8
+                "aspect_ratio": 0.65
               },
-              "scale_mode": "scale_aspect_fill"
+              "scale_mode": "scale_aspect_fit"
             },
             "paddings": {
               "left": "8x",
