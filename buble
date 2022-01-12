@@ -29,7 +29,7 @@
               "type": "simple_left_view",
               "texts": {
                 "title": {
-                  "text": "Цифровая СберКарта",
+                  "text": "Циfровая СберКарта",
                   "typeface": "headline3",
                   "text_color": "default",
                   "margins": {
