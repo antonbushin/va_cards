@@ -4,14 +4,43 @@
     {
       "card": {
         "type": "list_card",
+        "background_image": {
+          "url": "https://stat.online.sberbank.ru/EFS/cards.debit/digital_sbk_mc.png"
+        },
+        "paddings": {
+          "top": "8x",
+          "bottom": "8x"
+        },
         "cells": [
           {
-            "type": "image_cell_view",
-            "content": {
-              "url": "https://stat.online.sberbank.ru/EFS/cards.debit/digital_sbk_mc.png",
-              "size": {
-                "width": "resizable",
-                "aspect_ratio": 0.6
+            "type": "left_right_cell_view",
+            "paddings": {
+              "left": "8x",
+              "top": "8x",
+              "right": "8x",
+              "bottom": "8x"
+            },
+            "actions": [
+              {
+                "type": "text",
+                "text": "Менеджер по продажам"
+              }
+            ],
+            "left": {
+              "type": "simple_left_view",
+              "texts": {
+                "title": {
+                  "text": "Менеджер по продажам",
+                  "typeface": "headline1",
+                  "text_color": "default",
+                  "max_lines": 2
+                },
+                "caption": {
+                  "text": "Компания ГРОТЕК",
+                  "typeface": "footnote1",
+                  "text_color": "secondary",
+                  "max_lines": 1
+                }
               }
             }
           },
@@ -19,56 +48,25 @@
             "type": "left_right_cell_view",
             "paddings": {
               "left": "8x",
-              "top": "4x",
+              "top": "8x",
               "right": "8x",
-              "bottom": "4x"
+              "bottom": "8x"
             },
+            "actions": [
+              {
+                "type": "text",
+                "text": "Менеджер по продажам"
+              }
+            ],
             "left": {
               "type": "simple_left_view",
               "texts": {
                 "title": {
-                  "text": "Кредитная бизнес-карта",
-                  "typeface": "footnote1",
-                  "text_color": "secondary"
-                },
-                "subtitle": {
-                  "text": "100 дней — льготный период\n0 ₽ — обслуживание на весь срок действия карты",
-                  "typeface": "body1",
-                  "text_color": "default",
-                  "max_lines": 0,
-                  "margins": {
-                    "top": "2x"
-                  }
+                  "text": "От 50 000 ₽",
+                  "typeface": "headline2",
+                  "text_color": "default"
                 }
               }
-            }
-          },
-          {
-            "type": "button_cell_view",
-            "content": {
-              "text": "Выпустить карту",
-              "typeface": "button1",
-              "style": "default",
-              "type": "accept",
-              "actions": [
-                {
-                  "type": "url",
-                  "url": "sbbol://marketplace/banking_products/creditCard_request?source=cards&destination=creditCard",
-                  "text": "Выпустить карту"
-                }
-              ],
-              "margins": {
-                "left": "0x",
-                "top": "5x",
-                "right": "0x",
-                "bottom": "5x"
-              }
-            },
-            "paddings": {
-              "left": "6x",
-              "top": "12x",
-              "right": "6x",
-              "bottom": "8x"
             }
           }
         ]
