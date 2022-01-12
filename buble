@@ -9,7 +9,7 @@
           {
             "type": "image_cell_view",
             "content": {
-              "url": "https://stat.online.sberbank.ru/EFS/cards.debit/digital_sbk_mc.png",
+              "url": "https://github.com/antonbushin/va_cards/blob/main/sbercard/digital_sbk_mc.png",
               "size": {
                 "width": "resizable",
                 "aspect_ratio": 0.632
