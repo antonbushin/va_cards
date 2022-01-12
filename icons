@@ -9,10 +9,10 @@
           {
             "type": "image_cell_view",
             "content": {
-              "url": "https://stat.online.sberbank.ru/EFS/cards.debit/digital_sbk_mc.png",
+              "url": "https://raw.githubusercontent.com/antonbushin/va_cards/main/sbercard/digital_sbk_mc.png",
               "size": {
                 "width": "resizable",
-                "aspect_ratio": 0.6
+                "aspect_ratio": 0.632
               },
               "scale_mode": "scale_aspect_fill"
             },
@@ -29,7 +29,7 @@
               "type": "simple_left_view",
               "texts": {
                 "title": {
-                  "text": "Цифровая СберКарта",
+                  "text": "Циfровая СберКарта",
                   "typeface": "headline3",
                   "text_color": "default",
                   "margins": {
