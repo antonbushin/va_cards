@@ -4,80 +4,65 @@
     {
       "card": {
         "type": "list_card",
-        "can_be_disabled": true,
+        "paddings": {
+          "bottom": "16x",
+          "top": "8x",
+          "left": "8x",
+          "right": "8x"
+        },
+        "background_image": {
+          "type": "url",
+          "url": "https://va-res.online.sberbank.ru/VA/icons/cardsapp/A0677_digital_site_visa.png",
+          "scale_mode": "scale_aspect_fit",
+          "size": "small"
+        },
         "cells": [
           {
-            "type": "image_cell_view",
+            "type": "text_cell_view",
             "content": {
-              "url": "https://va-res.online.sberbank.ru/VA/icons/cardsapp/A0677_digital_site_visa.png",
-              "size": {
-                "width": "resizable",
-                "aspect_ratio": 0.632
-              },
-              "scale_mode": "scale_aspect_fill"
+              "text": "Вопросы обо всем",
+              "typeface": "footnote1",
+              "text_color": "default"
             },
             "paddings": {
-              "left": "8x",
-              "right": "8x",
-              "top": "8x",
-              "bottom": "8x"
+              "bottom": "16x",
+              "top": "16x"
             }
           },
           {
-            "type": "left_right_cell_view",
-            "left": {
-              "type": "simple_left_view",
-              "texts": {
-                "title": {
-                  "text": "Циfровая СберКарта",
-                  "typeface": "headline3",
-                  "text_color": "default",
-                  "margins": {
-                    "top": "1x"
-                  }
-                },
-                "caption": {
-                  "text": "Бесплатно при покупках от 5 000 ? в месяц",
-                  "typeface": "footnote1",
-                  "text_color": "default",
-                  "margins": {
-                    "top": "6x"
-                  },
-                  "max_lines": 3
-                }
-              },
-              "icon_vertical_gravity": "center"
+            "type": "text_cell_view",
+            "content": {
+              "text": "Вопросы обо всем",
+              "typeface": "footnote1",
+              "text_color": "default"
             },
             "paddings": {
-              "left": "8x",
-              "right": "8x",
-              "top": "8x",
-              "bottom": "0x"
+              "bottom": "16x",
+              "top": "16x"
             }
           },
           {
-            "type": "button_cell_view",
+            "type": "text_cell_view",
             "content": {
-              "text": "Перейти к оформлению",
-              "typeface": "button1",
-              "style": "default",
-              "type": "accept",
-              "actions": [
-                {
-                  "type": "text",
-                  "text": "Перейти к оформлению"
-                }
-              ],
-              "margins": {
-                "top": "8x",
-                "bottom": "8x"
-              }
+              "text": "Вопросы обо всем",
+              "typeface": "footnote1",
+              "text_color": "default"
             },
             "paddings": {
-              "left": "8x",
-              "right": "8x",
-              "top": "8x",
-              "bottom": "8x"
+              "bottom": "16x",
+              "top": "16x"
+            }
+          },
+          {
+            "type": "text_cell_view",
+            "content": {
+              "text": "Вопросы обо всем",
+              "typeface": "footnote1",
+              "text_color": "default"
+            },
+            "paddings": {
+              "bottom": "16x",
+              "top": "16x"
             }
           }
         ]
