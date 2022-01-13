@@ -13,7 +13,7 @@
         "background_image": {
           "type": "url",
           "url": "https://va-res.online.sberbank.ru/VA/icons/cardsapp/A0677_digital_site_visa.png",
-          "scale_mode": "scale_aspect_fill",
+          "scale_mode": "scale_aspect_fit",
           "size": "large",
           "gravity": "top"
         },
