@@ -4,69 +4,65 @@
     {
       "card": {
         "type": "list_card",
-        "background_image": {
-          "url": "https://stat.online.sberbank.ru/EFS/cards.debit/digital_sbk_mc.png"
-        },
         "paddings": {
+          "bottom": "16x",
           "top": "8x",
-          "bottom": "8x"
+          "left": "8x",
+          "right": "8x"
+        },
+        "background_image": {
+          "type": "url",
+          "url": "https://stat.online.sberbank.ru/EFS/cards.debit/digital_sbk_mc.png",
+          "scale_mode": "scale_aspect_fit",
+          "size": "small"
         },
         "cells": [
           {
-            "type": "left_right_cell_view",
-            "paddings": {
-              "left": "8x",
-              "top": "8x",
-              "right": "8x",
-              "bottom": "8x"
+            "type": "text_cell_view",
+            "content": {
+              "text": "Вопросы обо всем",
+              "typeface": "footnote1",
+              "text_color": "default"
             },
-            "actions": [
-              {
-                "type": "text",
-                "text": "Менеджер по продажам"
-              }
-            ],
-            "left": {
-              "type": "simple_left_view",
-              "texts": {
-                "title": {
-                  "text": "Менеджер по продажам",
-                  "typeface": "headline1",
-                  "text_color": "default",
-                  "max_lines": 2
-                },
-                "caption": {
-                  "text": "Компания ГРОТЕК",
-                  "typeface": "footnote1",
-                  "text_color": "secondary",
-                  "max_lines": 1
-                }
-              }
+            "paddings": {
+              "bottom": "16x",
+              "top": "16x"
             }
           },
           {
-            "type": "left_right_cell_view",
-            "paddings": {
-              "left": "8x",
-              "top": "8x",
-              "right": "8x",
-              "bottom": "8x"
+            "type": "text_cell_view",
+            "content": {
+              "text": "Вопросы обо всем",
+              "typeface": "footnote1",
+              "text_color": "default"
             },
-            "actions": [
-              {
-                "type": "text",
-                "text": "Менеджер по продажам"
-              }
-            ],
-            "left": {
-              "type": "simple_left_view",
-              "texts": {
-                "title": {
-                  "text": "От 50 000 ₽",
-                  "typeface": "headline2",
-                  "text_color": "default"
-                }
-              }
+            "paddings": {
+              "bottom": "16x",
+              "top": "16x"
+            }
+          },
+          {
+            "type": "text_cell_view",
+            "content": {
+              "text": "Вопросы обо всем",
+              "typeface": "footnote1",
+              "text_color": "default"
+            },
+            "paddings": {
+              "bottom": "16x",
+              "top": "16x"
+            }
+          },
+          {
+            "type": "text_cell_view",
+            "content": {
+              "text": "Вопросы обо всем",
+              "typeface": "footnote1",
+              "text_color": "default"
+            },
+            "paddings": {
+              "bottom": "16x",
+              "top": "16x"
             }
           }
         ]
