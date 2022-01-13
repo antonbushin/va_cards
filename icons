@@ -14,10 +14,8 @@
           "type": "url",
           "url": "https://va-res.online.sberbank.ru/VA/icons/cardsapp/A0677_digital_site_visa.png",
           "scale_mode": "scale_aspect_fill",
-          "size": {
-            "width": "resizable",
-            "aspect_ratio": 0.632
-          }
+          "size": "large",
+          "gravity": "top"
         },
         "cells": [
           {
