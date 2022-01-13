@@ -5,16 +5,19 @@
       "card": {
         "type": "list_card",
         "paddings": {
-          "bottom": "16x",
+          "bottom": "8x",
           "top": "8x",
           "left": "8x",
           "right": "8x"
         },
         "background_image": {
           "type": "url",
-          "url": "https://stat.online.sberbank.ru/EFS/cards.debit/digital_sbk_mc.png",
-          "scale_mode": "scale_aspect_fit",
-          "size": "small"
+          "url": "https://va-res.online.sberbank.ru/VA/icons/cardsapp/A0677_digital_site_visa.png",
+          "scale_mode": "scale_aspect_fill",
+          "size": {
+            "width": "resizable",
+            "aspect_ratio": 0.632
+          }
         },
         "cells": [
           {
