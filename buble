@@ -5,7 +5,7 @@
       "card": {
         "type": "list_card",
         "paddings": {
-          "bottom": "16x",
+          "bottom": "8x",
           "top": "8x",
           "left": "8x",
           "right": "8x"
@@ -14,7 +14,8 @@
           "type": "url",
           "url": "https://va-res.online.sberbank.ru/VA/icons/cardsapp/A0677_digital_site_visa.png",
           "scale_mode": "scale_aspect_fit",
-          "size": "small"
+          "size": "large",
+          "gravity": "top"
         },
         "cells": [
           {
