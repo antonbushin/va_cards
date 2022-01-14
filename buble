@@ -4,66 +4,90 @@
     {
       "card": {
         "type": "list_card",
+        "can_be_disabled": true,
         "paddings": {
-          "bottom": "8x",
-          "top": "8x",
           "left": "8x",
-          "right": "8x"
-        },
-        "background_image": {
-          "type": "url",
-          "url": "https://va-res.online.sberbank.ru/VA/icons/cardsapp/A0677_digital_site_visa.png",
-          "scale_mode": "scale_aspect_fit",
-          "size": "large",
-          "gravity": "top"
+          "right": "8x",
+          "top": "0x",
+          "bottom": "8x"
         },
         "cells": [
           {
-            "type": "text_cell_view",
+            "type": "image_cell_view",
             "content": {
-              "text": "Вопросы обо всем",
-              "typeface": "footnote1",
-              "text_color": "default"
-            },
-            "paddings": {
-              "bottom": "16x",
-              "top": "16x"
+              "url": "https://stat.online.sberbank.ru/EFS/cards.debit/digital_sbk_mc.png",
+              "size": {
+                "width": "resizable",
+                "aspect_ratio": 0.6
+              },
+              "scale_mode": "scale_aspect_fill"
             }
           },
           {
-            "type": "text_cell_view",
-            "content": {
-              "text": "Вопросы обо всем",
-              "typeface": "footnote1",
-              "text_color": "default"
+            "type": "left_right_cell_view",
+            "left": {
+              "type": "simple_left_view",
+              "texts": {
+                "title": {
+                  "text": "Цифровая СберКарта",
+                  "typeface": "headline3",
+                  "text_color": "default",
+                  "margins": {
+                    "top": "1x"
+                  }
+                },
+                "subtitle": {
+                  "text": "Бесплатно",
+                  "typeface": "footnote1",
+                  "text_color": "secondary",
+                  "margins": {
+                    "top": "4x"
+                  }
+                },
+                "caption": {
+                  "text": "Пока действует подписка СберПрайм+",
+                  "typeface": "footnote1",
+                  "text_color": "default",
+                  "margins": {
+                    "top": "6x"
+                  },
+                  "max_lines": 3
+                }
+              },
+              "icon_vertical_gravity": "center"
             },
             "paddings": {
-              "bottom": "16x",
-              "top": "16x"
+              "left": "0x",
+              "right": "0x",
+              "top": "8x",
+              "bottom": "8x"
             }
           },
           {
-            "type": "text_cell_view",
+            "type": "button_cell_view",
             "content": {
-              "text": "Вопросы обо всем",
-              "typeface": "footnote1",
-              "text_color": "default"
+              "text": "Перейти к оформлению",
+              "typeface": "button1",
+              "style": "default",
+              "type": "accept",
+              "actions": [
+                {
+                  "type": "text",
+                  "text": "Перейти к оформлению"
+                }
+              ],
+              "margins": {
+                "left": "0x",
+                "right": "0x",
+                "top": "6x",
+                "bottom": "6x"
+              }
             },
             "paddings": {
-              "bottom": "16x",
-              "top": "16x"
-            }
-          },
-          {
-            "type": "text_cell_view",
-            "content": {
-              "text": "Вопросы обо всем",
-              "typeface": "footnote1",
-              "text_color": "default"
-            },
-            "paddings": {
-              "bottom": "16x",
-              "top": "16x"
+              "left": "0x",
+              "right": "0x",
+              "top": "0x",
+              "bottom": "0x"
             }
           }
         ]
