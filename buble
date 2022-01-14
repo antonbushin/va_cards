@@ -6,19 +6,19 @@
         "type": "list_card",
         "can_be_disabled": true,
         "paddings": {
-          "left": "8x",
-          "right": "8x",
-          "top": "8x",
+          "left": "0x",
+          "right": "0x",
+          "top": "0x",
           "bottom": "8x"
         },
         "cells": [
           {
             "type": "image_cell_view",
             "content": {
-              "url": "https://va-res.online.sberbank.ru/VA/icons/cardsapp/A0677_digital_site_visa.png",
+              "url": "https://stat.online.sberbank.ru/EFS/cards.debit/digital_sbk_mc.png",
               "size": {
                 "width": "resizable",
-                "aspect_ratio": 0.632
+                "aspect_ratio": 0.6
               },
               "scale_mode": "scale_aspect_fill"
             }
@@ -57,8 +57,8 @@
               "icon_vertical_gravity": "center"
             },
             "paddings": {
-              "left": "0x",
-              "right": "0x",
+              "left": "8x",
+              "right": "8x",
               "top": "8x",
               "bottom": "8x"
             }
@@ -84,8 +84,8 @@
               }
             },
             "paddings": {
-              "left": "0x",
-              "right": "0x",
+              "left": "8x",
+              "right": "8x",
               "top": "0x",
               "bottom": "0x"
             }
