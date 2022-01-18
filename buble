@@ -3,426 +3,72 @@
   "items": [
     {
       "card": {
-        "type": "workflow",
-        "payload": {
-          "success": true,
-          "body": {
-            "result": "SUCCESS",
-            "pid": "5804bb17-37c6-11ec-961d-c394b26445a3",
-            "flow": "confirmClientIb",
-            "state": "confirmButtonState",
-            "output": {
-              "references": {
-                "mobileBankNumbers": {
-                  "items": [
-                    {
-                      "value": "79179444100",
-                      "title": "+7 917 944-41-00"
-                    },
-                    {
-                      "value": "79179444100",
-                      "title": "+7 917 944-41-00"
-                    },
-                    {
-                      "value": "79055993452",
-                      "title": "+7 905 599-34-52"
-                    }
-                  ]
+        "type": "p2p_transfer_result",
+        "title": "Карта\nне заблокирована",
+        "transfer_amount": " ",
+        "addressee": "MasterCard Сберкарта_1 ** 4798",
+        "icon_url": "https://sberbank.ru/transfer_failure.png",
+        "style": "failure"
+      }
+    },
+    {
+      "bubble": {
+        "text": "Я не смог заблокировать карту. Пожалуйста, позвоните в банк прямо сейчас",
+        "markdown": true
+      }
+    },
+    {
+      "card": {
+        "type": "list_card",
+        "cells": [
+          {
+            "type": "left_right_cell_view",
+            "left": {
+              "type": "simple_left_view",
+              "icon": {
+                "address": {
+                  "type": "local",
+                  "identificator": "handset"
                 },
-                "payAccounts": {
-                  "properties": {
-                    "headerSubtitle": "Откройте новый или оформите карту к одному из ваших счетов"
-                  },
-                  "items": [
-                    {
-                      "value": "04173d99-66eb-4f3b-b3ef-e15049edabe1",
-                      "title": "Открыть новый",
-                      "properties": {
-                        "balance": "",
-                        "unavailableReason": "",
-                        "unavailable": false,
-                        "currency": "RUB",
-                        "detail": "в рублях",
-                        "type": "new"
-                      }
-                    },
-                    {
-                      "value": "879dcc6c-e00d-4202-9929-61eb06b932b7",
-                      "title": "Платёжный счёт",
-                      "properties": {
-                        "balance": "-22",
-                        "unavailableReason": "",
-                        "unavailable": false,
-                        "currency": "RUB",
-                        "detail": "•• 0385",
-                        "type": "account"
-                      }
-                    },
-                    {
-                      "value": "0c1d3bf6-fb41-40a7-8dc8-656a9bc30b06",
-                      "title": "Платёжный счёт",
-                      "properties": {
-                        "balance": "-22",
-                        "unavailableReason": "",
-                        "unavailable": false,
-                        "currency": "RUB",
-                        "detail": "•• 0390",
-                        "type": "account"
-                      }
-                    },
-                    {
-                      "value": "c350db0d-081c-4d85-a06e-7cdc38359c71",
-                      "title": "Платёжный счёт",
-                      "properties": {
-                        "balance": "-22",
-                        "unavailableReason": "",
-                        "unavailable": false,
-                        "currency": "RUB",
-                        "detail": "•• 0397",
-                        "type": "account"
-                      }
-                    },
-                    {
-                      "value": "598d641d-a85f-48cf-969e-57b847eb9b0e",
-                      "title": "Платёжный счёт",
-                      "properties": {
-                        "balance": "-22",
-                        "unavailableReason": "",
-                        "unavailable": false,
-                        "currency": "RUB",
-                        "detail": "•• 0396",
-                        "type": "account"
-                      }
-                    },
-                    {
-                      "value": "25a15c5b-c8c2-46d6-9fcb-6c44c81d7e6f",
-                      "title": "Платёжный счёт",
-                      "properties": {
-                        "balance": "-22",
-                        "unavailableReason": "",
-                        "unavailable": false,
-                        "currency": "RUB",
-                        "detail": "•• 0182",
-                        "type": "account"
-                      }
-                    },
-                    {
-                      "value": "d00fe471-e703-4951-a160-9670636a7907",
-                      "title": "Платёжный счёт",
-                      "properties": {
-                        "balance": "-22",
-                        "unavailableReason": "",
-                        "unavailable": false,
-                        "currency": "RUB",
-                        "detail": "•• 9861",
-                        "type": "account"
-                      }
-                    },
-                    {
-                      "value": "ca52633c-eae4-4596-8837-3e961b85bfeb",
-                      "title": "Платёжный счёт",
-                      "properties": {
-                        "balance": "0",
-                        "unavailableReason": "",
-                        "unavailable": false,
-                        "currency": "RUB",
-                        "detail": "•• 0293",
-                        "type": "account"
-                      }
-                    },
-                    {
-                      "value": "31221a15-4c7d-48a6-a0b0-d289b9b3a4c5",
-                      "title": "Платёжный счёт",
-                      "properties": {
-                        "balance": "-22",
-                        "unavailableReason": "",
-                        "unavailable": false,
-                        "currency": "RUB",
-                        "detail": "•• 0177",
-                        "type": "account"
-                      }
-                    },
-                    {
-                      "value": "58246ffd-66ba-4ef7-b86a-0267b0cb1163",
-                      "title": "Платёжный счёт",
-                      "properties": {
-                        "balance": "-44",
-                        "unavailableReason": "",
-                        "unavailable": false,
-                        "currency": "RUB",
-                        "detail": "•• 9085",
-                        "type": "account"
-                      }
-                    },
-                    {
-                      "value": "963a1308-7b9d-49e6-8510-873bf80754a3",
-                      "title": "Платёжный счёт",
-                      "properties": {
-                        "balance": "-44",
-                        "unavailableReason": "",
-                        "unavailable": false,
-                        "currency": "RUB",
-                        "detail": "•• 9016",
-                        "type": "account"
-                      }
-                    },
-                    {
-                      "value": "282a8bb3-2be5-4f20-b290-156c657ea65d",
-                      "title": "Платёжный счёт",
-                      "properties": {
-                        "balance": "-22",
-                        "unavailableReason": "",
-                        "unavailable": false,
-                        "currency": "RUB",
-                        "detail": "•• 0384",
-                        "type": "account"
-                      }
-                    }
-                  ]
+                "size": {
+                  "width": "medium",
+                  "height": "medium"
                 },
-                "ed73a4c14be4d74ca8bc85e1fcdca268ba": {
-                  "properties": {},
-                  "items": [
-                    {
-                      "title": "document",
-                      "value": "https://www.sberbank.ru/common/img/uploaded/files/pdf/person/bank_cards/debetovye_karty_tarify.pdf",
-                      "properties": {}
-                    }
-                  ]
-                }
+                "margins": {
+                  "top": "5x",
+                  "right": "6x",
+                  "bottom": "5x",
+                  "left": "8x"
+                },
+                "tint_color": "solid_brand"
               },
-              "screens": [
-                {
-                  "properties": {
-                    "paramsForAnalytic": [
-                      "SegmentId:ssberkartadigital",
-                      "ProductId:mc_mb_sbk_digital_rub",
-                      "SystemId:P",
-                      "ClientSegment:1",
-                      "Status:OK",
-                      "DeliveryType:Virtual"
-                    ],
-                    "eventForAnalytic": "Confirm"
-                  },
-                  "title": "Подтверждение",
-                  "description": "",
-                  "header": [
-                    {
-                      "type": "CoreNavBar",
-                      "title": "Подтверждение",
-                      "events": [
-                        {
-                          "cmd": "ROLLBACK",
-                          "name": "rollback",
-                          "title": ""
-                        }
-                      ]
-                    }
-                  ],
-                  "footer": [
-                    {
-                      "type": "ConfirmationSummaryPdfDocuments",
-                      "properties": {
-                        "pinned": true,
-                        "titleWithLink": "Я соглашаюсь с условиями и подписываю все <a>документы по операции</a>",
-                        "operationName": "Оформление дебетовой карты",
-                        "channelName": "MOB_BANK",
-                        "secondStateTitle": "Документы по операции"
-                      },
-                      "title": "Ознакомление с <a>документами</a>",
-                      "description": "Подтверждая, вы соглашаетесь с документами",
-                      "fields": [
-                        {
-                          "id": "agreement",
-                          "value": "false",
-                          "type": "checkbox",
-                          "referenceId": "",
-                          "title": "Я соглашаюсь с условиями и подписываю все <a>документы по операции</a>",
-                          "readonly": false,
-                          "validators": [
-                            {
-                              "type": "required",
-                              "value": "true",
-                              "message": "Пожалуйста, подтвердите условия по операции"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "ed73a4c14be4d74ca8bc85e1fcdca268ba",
-                          "title": "Альбом тарифов на услуги, предоставляемые ПАО Сбербанк",
-                          "type": "text",
-                          "value": "",
-                          "referenceId": "ed73a4c14be4d74ca8bc85e1fcdca268ba",
-                          "readonly": true
-                        }
-                      ],
-                      "events": [
-                        {
-                          "cmd": "EVENT",
-                          "name": "next",
-                          "type": "next",
-                          "title": "Продолжить"
-                        }
-                      ]
-                    },
-                    {
-                      "type": "CoreButtons",
-                      "fields": [],
-                      "events": [
-                        {
-                          "name": "next",
-                          "type": "next",
-                          "title": "Подтвердить"
-                        }
-                      ]
-                    }
-                  ],
-                  "widgets": [
-                    {
-                      "type": "CoreFieldset",
-                      "fields": [
-                        {
-                          "id": "coreFieldset:mobileBank:phoneNumber",
-                          "type": "select",
-                          "referenceId": "mobileBankNumbers",
-                          "value": "79179444100",
-                          "title": "Номер для уведомления",
-                          "style": "noIcon",
-                          "readonly": false,
-                          "description": "Коды для подтверждения операций будут приходить бесплатно"
-                        },
-                        {
-                          "id": "coreFieldSet:payAccount",
-                          "type": "select",
-                          "referenceId": "payAccounts",
-                          "value": "04173d99-66eb-4f3b-b3ef-e15049edabe1",
-                          "title": "Счёт карты",
-                          "readonly": false
-                        },
-                        {
-                          "id": "coreFieldSet:cardType",
-                          "type": "text",
-                          "value": "Цифровая СберКарта",
-                          "title": "Карта",
-                          "style": "noIcon",
-                          "readonly": true
-                        },
-                        {
-                          "id": "coreFieldSet:cardInfo",
-                          "type": "text",
-                          "value": "MasterCard Цифровая СберКарта",
-                          "title": "Платёжная система",
-                          "style": "noIcon",
-                          "readonly": true
-                        },
-                        {
-                          "id": "coreFieldSet:cardCurrency",
-                          "type": "text",
-                          "value": "Российский рубль",
-                          "title": "Валюша",
-                          "style": "noIcon",
-                          "readonly": false
-                        },
-                        {
-                          "id": "coreFieldSet:annualPayment",
-                          "type": "text",
-                          "value": "Бесплатно при покупках от 5 000 ₽ в месяц",
-                          "title": "Обслуживание",
-                          "style": "noIcon",
-                          "readonly": true
-                        },
-                        {
-                          "id": "coreFieldSet:fatca:country",
-                          "type": "text",
-                          "value": "Только Россия",
-                          "title": "Налоговое резидентство",
-                          "style": "noIcon",
-                          "readonly": true
-                        }
-                      ],
-                      "strategies": [
-                        {
-                          "fieldLookupId": "coreFieldSet:fatca:country",
-                          "type": "divider",
-                          "properties": {
-                            "dividerType": "none"
-                          }
-                        },
-                        {
-                          "fieldLookupId": "coreFieldSet:payAccount",
-                          "type": "payAccount:analytics"
-                        }
-                      ]
-                    }
-                  ]
+              "title": {
+                "text": "Позвонить в банк",
+                "typeface": "body1",
+                "text_color": "default",
+                "max_lines": 2,
+                "margins": {
+                  "top": "9x",
+                  "bottom": "9x"
                 }
-              ]
+              }
             },
-            "history": [
+            "right": {
+              "type": "disclosure_right_view",
+              "margins": {
+                "top": "8x",
+                "right": "4x",
+                "bottom": "8x"
+              }
+            },
+            "actions": [
               {
-                "id": "6568c5c3-37c6-11ec-8eb7-c3419a6dbdb6",
-                "flow": "confirmClientIb",
-                "state": "confirmButtonState",
-                "title": "",
-                "status": "ACTIVE",
-                "flowId": 4
-              },
-              {
-                "id": "656458f1-37c6-11ec-8eb7-c175ac52464c",
-                "flow": "confirmClientIb",
-                "state": "rollback",
-                "title": "Переход",
-                "value": "",
-                "status": "ACTIVE",
-                "flowId": 4
-              },
-              {
-                "id": "5a5b7cb7-37c6-11ec-961d-29dcef25da83",
-                "flow": "debitCardOrder",
-                "state": "cardParams",
-                "title": "cardParams",
-                "status": "ACTIVE",
-                "flowId": 1
+                "type": "deep_link",
+                "deep_link": "sberbankonline://callbank/voip?surface=sbol_assist&operator=0&internal_source=audiohelper502"
               }
             ]
           }
-        },
-        "event_to_actions": {
-          "next": {
-            "actions": [
-              {
-                "type": "text",
-                "text": "Подтверждаю",
-                "should_send_to_backend": false
-              },
-              {
-                "type": "server_action",
-                "message_name": "SERVER_ACTION",
-                "server_action": {
-                  "action_id": "next",
-                  "parameters": {}
-                }
-              }
-            ]
-          },
-          "back": {
-            "actions": [
-              {
-                "type": "text",
-                "text": "В начало",
-                "should_send_to_backend": false
-              },
-              {
-                "type": "server_action",
-                "message_name": "SERVER_ACTION",
-                "server_action": {
-                  "action_id": "back",
-                  "parameters": {}
-                }
-              }
-            ]
-          }
-        }
+        ]
       }
     }
   ]
