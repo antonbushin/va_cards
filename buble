@@ -321,6 +321,10 @@
                           "properties": {
                             "dividerType": "none"
                           }
+                        },
+                        {
+                          "fieldLookupId": "debitCard:payAccount",
+                          "type": "payAccount:analytics"
                         }
                       ]
                     }
