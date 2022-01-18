@@ -323,7 +323,7 @@
                           }
                         },
                         {
-                          "fieldLookupId": "debitCard:payAccount",
+                          "fieldLookupId": "coreFieldSet:payAccount",
                           "type": "payAccount:analytics"
                         }
                       ]
