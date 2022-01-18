@@ -13,6 +13,22 @@
             "state": "confirmButtonState",
             "output": {
               "references": {
+                "mobileBankNumbers": {
+                  "items": [
+                    {
+                      "value": "79179444100",
+                      "title": "+7 917 944-41-00"
+                    },
+                    {
+                      "value": "79179444100",
+                      "title": "+7 917 944-41-00"
+                    },
+                    {
+                      "value": "79055993452",
+                      "title": "+7 905 599-34-52"
+                    }
+                  ]
+                },
                 "payAccounts": {
                   "properties": {
                     "headerSubtitle": "Откройте новый или оформите карту к одному из ваших счетов"
@@ -265,6 +281,16 @@
                     {
                       "type": "CoreFieldset",
                       "fields": [
+                        {
+                          "id": "coreFieldset:mobileBank:phoneNumber",
+                          "type": "select",
+                          "referenceId": "mobileBankNumbers",
+                          "value": "79179444100",
+                          "title": "Номер для уведомления",
+                          "style": "noIcon",
+                          "readonly": false,
+                          "description": "Коды для подтверждения операций будут приходить бесплатно"
+                        },
                         {
                           "id": "coreFieldSet:payAccount",
                           "type": "select",
