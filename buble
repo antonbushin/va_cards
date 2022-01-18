@@ -3,94 +3,245 @@
   "items": [
     {
       "card": {
-        "type": "list_card",
-        "can_be_disabled": true,
-        "paddings": {
-          "left": "0x",
-          "right": "0x",
-          "top": "0x",
-          "bottom": "8x"
-        },
-        "cells": [
-          {
-            "type": "image_cell_view",
-            "content": {
-              "url": "https://va-res.online.sberbank.ru/VA/icons/cardsapp/A0677_digital_site_visa.png",
-              "size": {
-                "width": "resizable",
-                "aspect_ratio": 0.6
-              },
-              "scale_mode": "scale_aspect_fill"
-            }
-          },
-          {
-            "type": "left_right_cell_view",
-            "left": {
-              "type": "simple_left_view",
-              "texts": {
-                "title": {
-                  "text": "Цифровая СберКарта",
-                  "typeface": "headline3",
-                  "text_color": "default",
-                  "margins": {
-                    "top": "1x"
-                  }
-                },
-                "subtitle": {
-                  "text": "Бесплатно",
-                  "typeface": "footnote1",
-                  "text_color": "secondary",
-                  "margins": {
-                    "top": "4x"
-                  }
-                },
-                "caption": {
-                  "text": "Пока действует подписка СберПрайм+",
-                  "typeface": "footnote1",
-                  "text_color": "default",
-                  "margins": {
-                    "top": "6x"
-                  },
-                  "max_lines": 3
+        "type": "workflow",
+        "payload": {
+          "success": true,
+          "body": {
+            "result": "SUCCESS",
+            "pid": "5804bb17-37c6-11ec-961d-c394b26445a3",
+            "flow": "confirmClientIb",
+            "state": "confirmButtonState",
+            "output": {
+              "references": {
+                "ed73a4c14be4d74ca8bc85e1fcdca268ba": {
+                  "properties": {},
+                  "items": [
+                    {
+                      "title": "document",
+                      "value": "https://www.sberbank.ru/common/img/uploaded/files/pdf/person/bank_cards/debetovye_karty_tarify.pdf",
+                      "properties": {}
+                    }
+                  ]
                 }
               },
-              "icon_vertical_gravity": "center"
-            },
-            "paddings": {
-              "left": "8x",
-              "right": "8x",
-              "top": "8x",
-              "bottom": "8x"
-            }
-          },
-          {
-            "type": "button_cell_view",
-            "content": {
-              "text": "Перейти к оформлению",
-              "typeface": "button1",
-              "style": "default",
-              "type": "accept",
-              "actions": [
+              "screens": [
                 {
-                  "type": "text",
-                  "text": "Перейти к оформлению"
+                  "properties": {
+                    "paramsForAnalytic": [
+                      "SegmentId:ssberkartadigital",
+                      "ProductId:mc_mb_sbk_digital_rub",
+                      "SystemId:P",
+                      "ClientSegment:1",
+                      "Status:OK",
+                      "DeliveryType:Virtual"
+                    ],
+                    "eventForAnalytic": "Confirm"
+                  },
+                  "title": "Подтверждение",
+                  "description": "",
+                  "header": [
+                    {
+                      "type": "CoreNavBar",
+                      "title": "Подтверждение",
+                      "events": [
+                        {
+                          "cmd": "ROLLBACK",
+                          "name": "rollback",
+                          "title": ""
+                        }
+                      ]
+                    }
+                  ],
+                  "footer": [
+                    {
+                      "type": "ConfirmationSummaryPdfDocuments",
+                      "properties": {
+                        "pinned": true,
+                        "titleWithLink": "Я соглашаюсь с условиями и подписываю все <a>документы по операции</a>",
+                        "operationName": "Оформление дебетовой карты",
+                        "channelName": "MOB_BANK",
+                        "secondStateTitle": "Документы по операции"
+                      },
+                      "title": "Ознакомление с <a>документами</a>",
+                      "description": "Подтверждая, вы соглашаетесь с документами",
+                      "fields": [
+                        {
+                          "id": "agreement",
+                          "value": "false",
+                          "type": "checkbox",
+                          "referenceId": "",
+                          "title": "Я соглашаюсь с условиями и подписываю все <a>документы по операции</a>",
+                          "readonly": false,
+                          "validators": [
+                            {
+                              "type": "required",
+                              "value": "true",
+                              "message": "Пожалуйста, подтвердите условия по операции"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "ed73a4c14be4d74ca8bc85e1fcdca268ba",
+                          "title": "Альбом тарифов на услуги, предоставляемые ПАО Сбербанк",
+                          "type": "text",
+                          "value": "",
+                          "referenceId": "ed73a4c14be4d74ca8bc85e1fcdca268ba",
+                          "readonly": true
+                        }
+                      ],
+                      "events": [
+                        {
+                          "cmd": "EVENT",
+                          "name": "next",
+                          "type": "next",
+                          "title": "Продолжить"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "CoreButtons",
+                      "fields": [],
+                      "events": [
+                        {
+                          "name": "next",
+                          "type": "next",
+                          "title": "Подтвердить"
+                        }
+                      ]
+                    }
+                  ],
+                  "widgets": [
+                    {
+                      "type": "CoreFieldset",
+                      "fields": [
+                        {
+                          "id": "coreFieldSet:cardType",
+                          "type": "text",
+                          "value": "Цифровая СберКарта",
+                          "title": "Карта",
+                          "style": "noIcon",
+                          "readonly": true
+                        },
+                        {
+                          "id": "coreFieldSet:cardInfo",
+                          "type": "text",
+                          "value": "MasterCard Цифровая СберКарта",
+                          "title": "Платёжная система",
+                          "style": "noIcon",
+                          "readonly": true
+                        },
+                        {
+                          "id": "coreFieldSet:payAccount",
+                          "type": "text",
+                          "value": "Платёжный счёт •• 0385",
+                          "title": "Счёт карты",
+                          "style": "noIcon",
+                          "readonly": true
+                        },
+                        {
+                          "id": "coreFieldSet:cardCurrency",
+                          "type": "text",
+                          "value": "Российский рубль",
+                          "title": "Валюта",
+                          "style": "noIcon",
+                          "readonly": true
+                        },
+                        {
+                          "id": "coreFieldSet:annualPayment",
+                          "type": "text",
+                          "value": "Бесплатно при покупках от 5 000 ₽ в месяц",
+                          "title": "Обслуживание",
+                          "style": "noIcon",
+                          "readonly": true
+                        },
+                        {
+                          "id": "coreFieldSet:fatca:country",
+                          "type": "text",
+                          "value": "Только Россия",
+                          "title": "Налоговое резидентство",
+                          "style": "noIcon",
+                          "readonly": true
+                        }
+                      ],
+                      "strategies": [
+                        {
+                          "fieldLookupId": "coreFieldSet:fatca:country",
+                          "type": "divider",
+                          "properties": {
+                            "dividerType": "none"
+                          }
+                        }
+                      ]
+                    }
+                  ]
                 }
-              ],
-              "margins": {
-                "left": "0x",
-                "right": "0x",
-                "top": "6x",
-                "bottom": "6x"
-              }
+              ]
             },
-            "paddings": {
-              "left": "8x",
-              "right": "8x",
-              "top": "0x",
-              "bottom": "0x"
-            }
+            "history": [
+              {
+                "id": "6568c5c3-37c6-11ec-8eb7-c3419a6dbdb6",
+                "flow": "confirmClientIb",
+                "state": "confirmButtonState",
+                "title": "",
+                "status": "ACTIVE",
+                "flowId": 4
+              },
+              {
+                "id": "656458f1-37c6-11ec-8eb7-c175ac52464c",
+                "flow": "confirmClientIb",
+                "state": "rollback",
+                "title": "Переход",
+                "value": "",
+                "status": "ACTIVE",
+                "flowId": 4
+              },
+              {
+                "id": "5a5b7cb7-37c6-11ec-961d-29dcef25da83",
+                "flow": "debitCardOrder",
+                "state": "cardParams",
+                "title": "cardParams",
+                "status": "ACTIVE",
+                "flowId": 1
+              }
+            ]
           }
-        ]
+        },
+        "event_to_actions": {
+          "next": {
+            "actions": [
+              {
+                "type": "text",
+                "text": "Подтверждаю",
+                "should_send_to_backend": false
+              },
+              {
+                "type": "server_action",
+                "message_name": "SERVER_ACTION",
+                "server_action": {
+                  "action_id": "next",
+                  "parameters": {}
+                }
+              }
+            ]
+          },
+          "back": {
+            "actions": [
+              {
+                "type": "text",
+                "text": "В начало",
+                "should_send_to_backend": false
+              },
+              {
+                "type": "server_action",
+                "message_name": "SERVER_ACTION",
+                "server_action": {
+                  "action_id": "back",
+                  "parameters": {}
+                }
+              }
+            ]
+          }
+        }
       }
     }
   ]
