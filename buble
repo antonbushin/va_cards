@@ -142,9 +142,9 @@
                           "id": "coreFieldSet:cardCurrency",
                           "type": "text",
                           "value": "Российский рубль",
-                          "title": "Валюта",
+                          "title": "Валюша",
                           "style": "noIcon",
-                          "readonly": true
+                          "readonly": false
                         },
                         {
                           "id": "coreFieldSet:annualPayment",
