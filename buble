@@ -43,7 +43,7 @@
                 "tint_color": "solid_brand"
               },
               "title": {
-                "text": "Позвонить в банк",
+                "text": "Позвонить в банк [Сайт Сбербанка](https://www.sberbank.ru/) йцукен",
                 "typeface": "body1",
                 "text_color": "default",
                 "max_lines": 2,
