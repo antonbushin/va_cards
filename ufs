@@ -8,35 +8,33 @@
           "success": true,
           "body": {
             "result": "SUCCESS",
-            "pid": "19152a2d-4ac6-11ec-8748-cd53454481a4",
+            "pid": "8735de37-51a9-11ec-8748-03f55d297391",
             "flow": "debitCardOrder",
-            "state": "checkClient",
+            "state": "confirmClaim",
             "output": {
               "document": {
-                "documentId": "bbedb981da8f4d30baefaa1a9d5fe751",
-                "cardGuid": "visa_mb_sbk_digital_rub"
+                "documentId": "ab21501de29941599f4a57db6e5b558f",
+                "cardGuid": "mc_mb_sbk_digital_rub"
               },
               "screens": [
                 {
-                  "title": "complianceValidation",
+                  "title": "fraudDenyBlock",
                   "type": "StatusScreen2021",
                   "properties": {
                     "paramsForAnalytic": [
                       "SegmentId:ssberkartadigital",
-                      "ProductId:visa_mb_sbk_digital_rub",
-                      "SystemId:W",
+                      "ProductId:mc_mb_sbk_digital_rub",
+                      "SystemId:P",
                       "ClientSegment:1",
-                      "Status:Error 3",
-                      "DeliveryType:VSP",
-                      "ScreenVersion:3.0",
-                      "Offer:2"
+                      "Status:Error 1",
+                      "DeliveryType:Virtual"
                     ],
                     "disabledAnimation": false,
                     "animationSuccessLocation": "https://pfm-stat.online.sberbank.ru/PFM/logos3/ss21_check_ok.json",
                     "noneTransitionAnimation": true,
                     "animationFailureLocation": "https://pfm-stat.online.sberbank.ru/PFM/logos3/ss21_check_error.json",
                     "animationWaitingLocation": "https://pfm-stat.online.sberbank.ru/PFM/logos3/ss21_check_time.json",
-                    "eventForAnalytic": "PlasticOption",
+                    "eventForAnalytic": "Status",
                     "status": "failure"
                   },
                   "header": [
@@ -46,8 +44,8 @@
                     },
                     {
                       "type": "StatusHeader2021",
-                      "title": "Отклонено",
-                      "description": "Visa Цифровая СберКарта",
+                      "title": "Операция отклонена",
+                      "description": "MasterCard Цифровая СберКарта",
                       "properties": {
                         "style": "header",
                         "numberOfOpenCells": 3
@@ -61,7 +59,7 @@
                         {
                           "id": "сoreFormattedText:checkStatus:1",
                           "type": "text",
-                          "value": "Мы не можем оформить вам карту по [Условиям выпуска и обслуживания дебетовых карт ПАО Сбербанк](http://www.sberbank.ru/common/img/uploaded/files/pdf/usl_card.pdf)",
+                          "value": "#### Сбербанк Онлайн заблокирован \n Операция отклонена, Сбербанк Онлайн заблокирован. Во избежание мошенничества, банку необходимо убедиться, что операция совершена вами. В ближайшее время вам позвонит сотрудник банка для её подтверждения. Пожалуйста, ожидайте звонка",
                           "readonly": true
                         }
                       ]
@@ -72,24 +70,72 @@
                       "type": "CoreButtons",
                       "events": [
                         {
-                          "cmd": "EXIT",
-                          "name": "leave",
-                          "title": "Вернуться на главный",
+                          "name": "logout",
+                          "title": "Выйти",
                           "description": "",
-                          "uri": "app:mainScreen"
+                          "uri": "app:authScreen"
                         }
                       ]
                     }
                   ]
                 }
-              ]
+              ],
+              "references": {
+                "resourceList": {
+                  "items": [
+                    {
+                      "value": "",
+                      "title": "MasterCard Цифровая СберКарта",
+                      "properties": {
+                        "maskedNumber": "",
+                        "isVirtual": "false",
+                        "cardAccount": ""
+                      }
+                    }
+                  ]
+                }
+              }
             },
             "history": [
               {
-                "id": "19cbf62a-4ac6-11ec-8748-edea7fda95a7",
+                "id": "8d3d4bc8-51a9-11ec-8748-753ed39c84b0",
                 "flow": "debitCardOrder",
-                "state": "checkClient",
+                "state": "confirmClaim",
                 "title": "",
+                "status": "ACTIVE",
+                "flowId": 1
+              },
+              {
+                "id": "8b7fe438-51a9-11ec-9b84-379751fc568e",
+                "flow": "confirmClientIb",
+                "state": "confirmButtonState",
+                "title": "Summary",
+                "value": "",
+                "status": "ACTIVE",
+                "flowId": 4
+              },
+              {
+                "id": "8b70f016-51a9-11ec-9b84-a7041458f0e9",
+                "flow": "confirmClientIb",
+                "state": "rollback",
+                "title": "Переход",
+                "value": "",
+                "status": "ACTIVE",
+                "flowId": 4
+              },
+              {
+                "id": "8a15579f-51a9-11ec-8748-3b614fdc681b",
+                "flow": "debitCardOrder",
+                "state": "mobileBank",
+                "title": "mobileBank",
+                "status": "ACTIVE",
+                "flowId": 1
+              },
+              {
+                "id": "88293f00-51a9-11ec-8748-173c349fd750",
+                "flow": "debitCardOrder",
+                "state": "cardParams",
+                "title": "cardParams",
                 "status": "ACTIVE",
                 "flowId": 1
               }
