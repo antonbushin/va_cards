@@ -1,0 +1,179 @@
+{
+  "type": "sdk_answer",
+  "items": [
+    {
+      "card": {
+        "type": "workflow",
+        "payload": {
+          "success": true,
+          "body": {
+            "result": "SUCCESS",
+            "pid": "f808d491-3d32-11ec-ace1-b9eefc46c8ba",
+            "flow": "debitCardOrder",
+            "state": "confirmClaim",
+            "output": {
+              "document": {
+                "documentId": "9247875fb49d4f958648ab199f1fe47d",
+                "cardGuid": "visa_mb_sbk_digital_rub"
+              },
+              "screens": [
+                {
+                  "title": "fraudDeny",
+                  "type": "StatusScreen2021",
+                  "properties": {
+                    "paramsForAnalytic": [
+                      "SegmentId:ssberkartadigital",
+                      "ProductId:visa_mb_sbk_digital_rub",
+                      "SystemId:P",
+                      "ClientSegment:1",
+                      "Status:Error 2",
+                      "DeliveryType:Virtual",
+                      "ScreenVersion:3.0",
+                      "Offer:2"
+                    ],
+                    "disabledAnimation": false,
+                    "animationSuccessLocation": "https://pfm-stat.online.sberbank.ru/PFM/logos3/ss21_check_ok.json",
+                    "noneTransitionAnimation": true,
+                    "animationFailureLocation": "https://pfm-stat.online.sberbank.ru/PFM/logos3/ss21_check_error.json",
+                    "animationWaitingLocation": "https://pfm-stat.online.sberbank.ru/PFM/logos3/ss21_check_time.json",
+                    "eventForAnalytic": "Status",
+                    "status": "failure"
+                  },
+                  "header": [
+                    {
+                      "type": "StatusNavBar",
+                      "title": ""
+                    },
+                    {
+                      "type": "StatusHeader2021",
+                      "title": "Операция отклонена",
+                      "description": "Visa Цифровая СберКарта",
+                      "properties": {
+                        "style": "header",
+                        "numberOfOpenCells": 3
+                      }
+                    }
+                  ],
+                  "widgets": [
+                    {
+                      "type": "CoreFormattedText",
+                      "fields": [
+                        {
+                          "id": "сoreFormattedText:checkStatus:1",
+                          "type": "text",
+                          "value": "Ваша операция заблокирована",
+                          "readonly": true
+                        }
+                      ]
+                    }
+                  ],
+                  "footer": [
+                    {
+                      "type": "CoreButtons",
+                      "events": [
+                        {
+                          "cmd": "EXIT",
+                          "name": "leave",
+                          "title": "Вернуться на главный",
+                          "description": "",
+                          "uri": "app:mainScreen"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "references": {
+                "resourceList": {
+                  "items": [
+                    {
+                      "value": "",
+                      "title": "Visa Цифровая СберКарта",
+                      "properties": {
+                        "maskedNumber": "",
+                        "isVirtual": "false",
+                        "cardAccount": ""
+                      }
+                    }
+                  ]
+                }
+              }
+            },
+            "history": [
+              {
+                "id": "004598a9-3d33-11ec-ace1-0d4164f13cd8",
+                "flow": "debitCardOrder",
+                "state": "confirmClaim",
+                "title": "",
+                "status": "ACTIVE",
+                "flowId": 1
+              },
+              {
+                "id": "fdd8b73d-3d32-11ec-8020-d5cf6004d659",
+                "flow": "confirmClientIb",
+                "state": "confirmButtonState",
+                "title": "Summary",
+                "value": "",
+                "status": "ACTIVE",
+                "flowId": 5
+              },
+              {
+                "id": "fdd004ab-3d32-11ec-8020-178d8d423639",
+                "flow": "confirmClientIb",
+                "state": "rollback",
+                "title": "Переход",
+                "value": "",
+                "status": "ACTIVE",
+                "flowId": 5
+              },
+              {
+                "id": "fa67ac42-3d32-11ec-ace1-15eb37558868",
+                "flow": "debitCardOrder",
+                "state": "cardParams",
+                "title": "cardParams",
+                "status": "ACTIVE",
+                "flowId": 1
+              }
+            ]
+          }
+        },
+        "event_to_actions": {
+          "next": {
+            "actions": [
+              {
+                "type": "text",
+                "text": "Подтверждаю",
+                "should_send_to_backend": false
+              },
+              {
+                "type": "server_action",
+                "message_name": "SERVER_ACTION",
+                "server_action": {
+                  "action_id": "next",
+                  "parameters": {}
+                }
+              }
+            ]
+          },
+          "back": {
+            "actions": [
+              {
+                "type": "text",
+                "text": "В начало",
+                "should_send_to_backend": false
+              },
+              {
+                "type": "server_action",
+                "message_name": "SERVER_ACTION",
+                "server_action": {
+                  "action_id": "back",
+                  "parameters": {}
+                }
+              }
+            ]
+          }
+        }
+      }
+    }
+  ]
+}
