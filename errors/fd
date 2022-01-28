@@ -1,0 +1,184 @@
+{
+  "type": "sdk_answer",
+  "items": [
+    {
+      "card": {
+        "type": "workflow",
+        "payload": {
+          "success": true,
+          "body": {
+            "result": "SUCCESS",
+            "pid": "8735de37-51a9-11ec-8748-03f55d297391",
+            "flow": "debitCardOrder",
+            "state": "confirmClaim",
+            "output": {
+              "document": {
+                "documentId": "ab21501de29941599f4a57db6e5b558f",
+                "cardGuid": "mc_mb_sbk_digital_rub"
+              },
+              "screens": [
+                {
+                  "title": "fraudDenyBlock",
+                  "type": "StatusScreen2021",
+                  "properties": {
+                    "paramsForAnalytic": [
+                      "SegmentId:ssberkartadigital",
+                      "ProductId:mc_mb_sbk_digital_rub",
+                      "SystemId:P",
+                      "ClientSegment:1",
+                      "Status:Error 1",
+                      "DeliveryType:Virtual"
+                    ],
+                    "disabledAnimation": false,
+                    "animationSuccessLocation": "https://pfm-stat.online.sberbank.ru/PFM/logos3/ss21_check_ok.json",
+                    "noneTransitionAnimation": true,
+                    "animationFailureLocation": "https://pfm-stat.online.sberbank.ru/PFM/logos3/ss21_check_error.json",
+                    "animationWaitingLocation": "https://pfm-stat.online.sberbank.ru/PFM/logos3/ss21_check_time.json",
+                    "eventForAnalytic": "Status",
+                    "status": "failure"
+                  },
+                  "header": [
+                    {
+                      "type": "StatusNavBar",
+                      "title": ""
+                    },
+                    {
+                      "type": "StatusHeader2021",
+                      "title": "Операция отклонена",
+                      "description": "MasterCard Цифровая СберКарта",
+                      "properties": {
+                        "style": "header",
+                        "numberOfOpenCells": 3
+                      }
+                    }
+                  ],
+                  "widgets": [
+                    {
+                      "type": "CoreFormattedText",
+                      "fields": [
+                        {
+                          "id": "сoreFormattedText:checkStatus:1",
+                          "type": "text",
+                          "value": "#### Сбербанк Онлайн заблокирован \n Операция отклонена, Сбербанк Онлайн заблокирован. Во избежание мошенничества, банку необходимо убедиться, что операция совершена вами. В ближайшее время вам позвонит сотрудник банка для её подтверждения. Пожалуйста, ожидайте звонка",
+                          "readonly": true
+                        }
+                      ]
+                    }
+                  ],
+                  "footer": [
+                    {
+                      "type": "CoreButtons",
+                      "events": [
+                        {
+                          "name": "logout",
+                          "title": "Выйти",
+                          "description": "",
+                          "uri": "app:authScreen"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "references": {
+                "resourceList": {
+                  "items": [
+                    {
+                      "value": "",
+                      "title": "MasterCard Цифровая СберКарта",
+                      "properties": {
+                        "maskedNumber": "",
+                        "isVirtual": "false",
+                        "cardAccount": ""
+                      }
+                    }
+                  ]
+                }
+              }
+            },
+            "history": [
+              {
+                "id": "8d3d4bc8-51a9-11ec-8748-753ed39c84b0",
+                "flow": "debitCardOrder",
+                "state": "confirmClaim",
+                "title": "",
+                "status": "ACTIVE",
+                "flowId": 1
+              },
+              {
+                "id": "8b7fe438-51a9-11ec-9b84-379751fc568e",
+                "flow": "confirmClientIb",
+                "state": "confirmButtonState",
+                "title": "Summary",
+                "value": "",
+                "status": "ACTIVE",
+                "flowId": 4
+              },
+              {
+                "id": "8b70f016-51a9-11ec-9b84-a7041458f0e9",
+                "flow": "confirmClientIb",
+                "state": "rollback",
+                "title": "Переход",
+                "value": "",
+                "status": "ACTIVE",
+                "flowId": 4
+              },
+              {
+                "id": "8a15579f-51a9-11ec-8748-3b614fdc681b",
+                "flow": "debitCardOrder",
+                "state": "mobileBank",
+                "title": "mobileBank",
+                "status": "ACTIVE",
+                "flowId": 1
+              },
+              {
+                "id": "88293f00-51a9-11ec-8748-173c349fd750",
+                "flow": "debitCardOrder",
+                "state": "cardParams",
+                "title": "cardParams",
+                "status": "ACTIVE",
+                "flowId": 1
+              }
+            ]
+          }
+        },
+        "event_to_actions": {
+          "next": {
+            "actions": [
+              {
+                "type": "text",
+                "text": "Подтверждаю",
+                "should_send_to_backend": false
+              },
+              {
+                "type": "server_action",
+                "message_name": "SERVER_ACTION",
+                "server_action": {
+                  "action_id": "next",
+                  "parameters": {}
+                }
+              }
+            ]
+          },
+          "back": {
+            "actions": [
+              {
+                "type": "text",
+                "text": "В начало",
+                "should_send_to_backend": false
+              },
+              {
+                "type": "server_action",
+                "message_name": "SERVER_ACTION",
+                "server_action": {
+                  "action_id": "back",
+                  "parameters": {}
+                }
+              }
+            ]
+          }
+        }
+      }
+    }
+  ]
+}
