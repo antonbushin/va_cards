@@ -1,0 +1,152 @@
+{
+  "type": "sdk_answer",
+  "items": [
+    {
+      "card": {
+        "type": "workflow",
+        "payload": {
+          "success": true,
+          "body": {
+            "result": "SUCCESS",
+            "pid": "f3e14ce4-4ab4-11ec-8748-2107c07635d1",
+            "flow": "debitCardOrder",
+            "state": "checkClient",
+            "output": {
+              "document": {
+                "documentId": "da845990ea694e36b884a895b0d372e9",
+                "cardGuid": "visa_mb_sbk_digital_rub"
+              },
+              "screens": [
+                {
+                  "title": "complianceVspValidation",
+                  "type": "StatusScreen2021",
+                  "properties": {
+                    "paramsForAnalytic": [
+                      "SegmentId:ssberkartadigital",
+                      "ProductId:visa_mb_sbk_digital_rub",
+                      "SystemId:W",
+                      "ClientSegment:1",
+                      "Status:Error 4",
+                      "DeliveryType:VSP",
+                      "ScreenVersion:3.0",
+                      "Offer:2"
+                    ],
+                    "disabledAnimation": false,
+                    "animationSuccessLocation": "https://pfm-stat.online.sberbank.ru/PFM/logos3/ss21_check_ok.json",
+                    "noneTransitionAnimation": true,
+                    "animationFailureLocation": "https://pfm-stat.online.sberbank.ru/PFM/logos3/ss21_check_error.json",
+                    "animationWaitingLocation": "https://pfm-stat.online.sberbank.ru/PFM/logos3/ss21_check_time.json",
+                    "eventForAnalytic": "PlasticOption",
+                    "status": "failure"
+                  },
+                  "header": [
+                    {
+                      "type": "StatusNavBar",
+                      "title": ""
+                    },
+                    {
+                      "type": "StatusHeader2021",
+                      "title": "Отклонено",
+                      "description": "Visa Цифровая СберКарта",
+                      "properties": {
+                        "style": "header",
+                        "numberOfOpenCells": 3
+                      }
+                    }
+                  ],
+                  "widgets": [
+                    {
+                      "type": "CoreFormattedText",
+                      "fields": [
+                        {
+                          "id": "сoreFormattedText:checkStatus:1",
+                          "type": "text",
+                          "value": "Чтобы оформить карту, обратитесь в любой офис банка с паспортом",
+                          "readonly": true
+                        }
+                      ]
+                    }
+                  ],
+                  "footer": [
+                    {
+                      "type": "CoreButtons",
+                      "properties": {
+                        "style": "accepttransparent"
+                      },
+                      "events": [
+                        {
+                          "name": "leave",
+                          "title": "Найти офис на карте",
+                          "description": "",
+                          "uri": "app:branchmapscreen"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "CoreButtons",
+                      "events": [
+                        {
+                          "cmd": "EXIT",
+                          "name": "leave",
+                          "title": "Вернуться на главный",
+                          "description": "",
+                          "uri": "app:mainScreen"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            "history": [
+              {
+                "id": "f4ba6df1-4ab4-11ec-8748-f186efc3c285",
+                "flow": "debitCardOrder",
+                "state": "checkClient",
+                "title": "",
+                "status": "ACTIVE",
+                "flowId": 1
+              }
+            ]
+          }
+        },
+        "event_to_actions": {
+          "next": {
+            "actions": [
+              {
+                "type": "text",
+                "text": "Подтверждаю",
+                "should_send_to_backend": false
+              },
+              {
+                "type": "server_action",
+                "message_name": "SERVER_ACTION",
+                "server_action": {
+                  "action_id": "next",
+                  "parameters": {}
+                }
+              }
+            ]
+          },
+          "back": {
+            "actions": [
+              {
+                "type": "text",
+                "text": "В начало",
+                "should_send_to_backend": false
+              },
+              {
+                "type": "server_action",
+                "message_name": "SERVER_ACTION",
+                "server_action": {
+                  "action_id": "back",
+                  "parameters": {}
+                }
+              }
+            ]
+          }
+        }
+      }
+    }
+  ]
+}
