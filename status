@@ -14,24 +14,59 @@
           "success": true,
           "body": {
             "result": "SUCCESS",
-            "pid": "1d39ec3b-162c-11ec-90f1-ffb97d3b666d",
-            "flow": "MobileBlockFlow",
-            "state": "SelectReason",
+            "pid": "8735de37-51a9-11ec-8748-03f55d297391",
+            "flow": "debitCardOrder",
+            "state": "confirmClaim",
             "output": {
+              "document": {
+                "documentId": "ab21501de29941599f4a57db6e5b558f",
+                "cardGuid": "mc_mb_sbk_digital_rub"
+              },
               "screens": [
                 {
-                  "type": "DSNScreen",
-                  "title": "Блокировка карты",
+                  "title": "fraudDenyBlock",
+                  "type": "StatusScreen2021",
+                  "properties": {
+                    "paramsForAnalytic": [
+                      "SegmentId:ssberkartadigital",
+                      "ProductId:mc_mb_sbk_digital_rub",
+                      "SystemId:P",
+                      "ClientSegment:1",
+                      "Status:Error 1",
+                      "DeliveryType:Virtual"
+                    ],
+                    "disabledAnimation": false,
+                    "animationSuccessLocation": "https://pfm-stat.online.sberbank.ru/PFM/logos3/ss21_check_ok.json",
+                    "noneTransitionAnimation": true,
+                    "animationFailureLocation": "https://pfm-stat.online.sberbank.ru/PFM/logos3/ss21_check_error.json",
+                    "animationWaitingLocation": "https://pfm-stat.online.sberbank.ru/PFM/logos3/ss21_check_time.json",
+                    "eventForAnalytic": "Status",
+                    "status": "failure"
+                  },
+                  "header": [
+                    {
+                      "type": "StatusNavBar",
+                      "title": ""
+                    },
+                    {
+                      "type": "StatusHeader2021",
+                      "title": "Операция отклонена",
+                      "description": "MasterCard Цифровая СберКарта",
+                      "properties": {
+                        "style": "header",
+                        "numberOfOpenCells": 3
+                      }
+                    }
+                  ],
                   "widgets": [
                     {
-                      "type": "CoreFieldSet",
+                      "type": "CoreFormattedText",
                       "fields": [
                         {
-                          "id": "reason",
-                          "type": "select",
-                          "title": "Почему блокируете карту?",
-                          "referenceId": "reasons",
-                          "value": ""
+                          "id": "сoreFormattedText:checkStatus:1",
+                          "type": "text",
+                          "value": "#### Сбербанк Онлайн заблокирован \n Операция отклонена, Сбербанк Онлайн заблокирован. Во избежание мошенничества, банку необходимо убедиться, что операция совершена вами. В ближайшее время вам позвонит сотрудник банка для её подтверждения. Пожалуйста, ожидайте звонка",
+                          "readonly": true
                         }
                       ]
                     }
@@ -39,29 +74,12 @@
                   "footer": [
                     {
                       "type": "CoreButtons",
-                      "visible": {
-                        "id": "reason",
-                        "regexp": "^((?!close).)*$"
-                      },
                       "events": [
                         {
-                          "cmd": "EVENT",
-                          "name": "on-next-call",
-                          "title": "Продолжить"
-                        }
-                      ]
-                    },
-                    {
-                      "type": "CoreButtons",
-                      "visible": {
-                        "id": "reason",
-                        "regexp": "close"
-                      },
-                      "events": [
-                        {
-                          "name": "on-next-call",
-                          "uri": "app:closeCard?cardId=correct0",
-                          "title": "Продолжить"
+                          "name": "logout",
+                          "title": "Выйти",
+                          "description": "",
+                          "uri": "app:authScreen"
                         }
                       ]
                     }
@@ -69,42 +87,65 @@
                 }
               ],
               "references": {
-                "reasons": {
+                "resourceList": {
                   "items": [
                     {
-                      "title": "Украли или потерялась",
-                      "value": "lost"
-                    },
-                    {
-                      "title": "Подозреваю мошенничество",
-                      "value": "fraud"
-                    },
-                    {
-                      "title": "Её захватил банкомат",
-                      "value": "capture"
-                    },
-                    {
-                      "title": "Я так хочу",
-                      "value": "client"
-                    },
-                    {
-                      "title": "Не пользуюсь, закройте её",
-                      "value": "close"
+                      "value": "",
+                      "title": "MasterCard Цифровая СберКарта",
+                      "properties": {
+                        "maskedNumber": "",
+                        "isVirtual": "false",
+                        "cardAccount": ""
+                      }
                     }
                   ]
                 }
+              }
+            },
+            "history": [
+              {
+                "id": "8d3d4bc8-51a9-11ec-8748-753ed39c84b0",
+                "flow": "debitCardOrder",
+                "state": "confirmClaim",
+                "title": "",
+                "status": "ACTIVE",
+                "flowId": 1
               },
-              "history": [
-                {
-                  "id": "1d3b72dd-162c-11ec-90f1-83e0fe0a9df7",
-                  "flow": "MobileBlockFlow",
-                  "state": "SelectReason",
-                  "title": "Выбор причины",
-                  "status": "ACTIVE",
-                  "flowId": 1
-                }
-              ]
-            }
+              {
+                "id": "8b7fe438-51a9-11ec-9b84-379751fc568e",
+                "flow": "confirmClientIb",
+                "state": "confirmButtonState",
+                "title": "Summary",
+                "value": "",
+                "status": "ACTIVE",
+                "flowId": 4
+              },
+              {
+                "id": "8b70f016-51a9-11ec-9b84-a7041458f0e9",
+                "flow": "confirmClientIb",
+                "state": "rollback",
+                "title": "Переход",
+                "value": "",
+                "status": "ACTIVE",
+                "flowId": 4
+              },
+              {
+                "id": "8a15579f-51a9-11ec-8748-3b614fdc681b",
+                "flow": "debitCardOrder",
+                "state": "mobileBank",
+                "title": "mobileBank",
+                "status": "ACTIVE",
+                "flowId": 1
+              },
+              {
+                "id": "88293f00-51a9-11ec-8748-173c349fd750",
+                "flow": "debitCardOrder",
+                "state": "cardParams",
+                "title": "cardParams",
+                "status": "ACTIVE",
+                "flowId": 1
+              }
+            ]
           }
         },
         "event_to_actions": {
