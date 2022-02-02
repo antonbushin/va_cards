@@ -44,6 +44,30 @@
                   ],
                   "widgets": [
                     {
+                      "type": "CoreResource",
+                      "description": "",
+                      "strategies": [
+                        {
+                          "fieldLookupId": "CoreResource:resourceSelect:source3",
+                          "type": "ResourceDividerStrategy",
+                          "properties": {
+                            "divider": "line"
+                          }
+                        }
+                      ],
+                      "fields": [
+                        {
+                          "id": "CoreResource:resourceSelect:source3",
+                          "title": "Счёт списания",
+                          "type": "select",
+                          "referenceId": "resourceList",
+                          "value": "id-visa-classic-card0987",
+                          "readonly": false,
+                          "validators": []
+                        }
+                      ]
+                    },
+                    {
                       "type": "DCPayAccount",
                       "properties": {
                         "divider": true,
