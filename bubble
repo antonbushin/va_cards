@@ -54,6 +54,7 @@
                         {
                           "id": "debitCard:payAccount",
                           "type": "select",
+                          "format": "resource",
                           "referenceId": "payAccounts",
                           "value": "04173d99-66eb-4f3b-b3ef-e15049edabe1",
                           "title": "Счёт карты",
