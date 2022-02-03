@@ -8,92 +8,51 @@
           "success": true,
           "body": {
             "result": "SUCCESS",
-            "pid": "80c30504-e9ac-4f63-9d9c-f31cce9f5ae5",
-            "flow": "Example",
-            "state": "paymentInfo",
+            "pid": "62684d5a-7e53-11eb-a96d-99cf0f9f816b",
+            "flow": "sbolDepositOpenFlowMobile",
+            "state": "selectAccounts",
             "output": {
               "screens": [
                 {
-                  "title": "Пример",
-                  "type": "DSNScreen",
-                  "description": "Пример description",
-                  "header": [
-                    {
-                      "type": "CoreNavBar",
-                      "title": "Данные о взносе",
-                      "events": [
-                        {
-                          "cmd": "EXIT",
-                          "uri": "Диплинк на предыдущий экран",
-                          "title": "На предыдущий экран",
-                          "description": "Переход на предыдущий экран"
-                        }
-                      ]
-                    }
-                  ],
                   "widgets": [
                     {
                       "type": "CoreResource",
-                      "description": "",
-                      "readonly": false,
                       "fields": [
                         {
-                          "id": "CoreResource:resourceSelect:source",
-                          "title": "Счёт списания noicon",
+                          "validators": [
+                            {
+                              "type": "required",
+                              "value": "true",
+                              "message": ""
+                            }
+                          ],
+                          "id": "card:from",
                           "type": "select",
-                          "referenceId": "resourceList",
-                          "value": "id-visa-classic-card4545",
+                          "title": "Откуда списать деньги",
+                          "value": "275304",
+                          "description": "",
+                          "referenceId": "withdrawAccounts",
                           "readonly": false,
-                          "style": "noicon",
-                          "validators": []
+                          "masked": false
                         }
-                      ]
+                      ],
+                      "title": ""
                     },
                     {
                       "type": "CoreResource",
-                      "description": "",
-                      "readonly": false,
                       "fields": [
                         {
-                          "id": "CoreResource:resourceSelect:source:1",
-                          "title": "Счёт списания noicon",
+                          "id": "card:to",
                           "type": "select",
-                          "referenceId": "resourceList",
-                          "value": "id-payAccount-2",
+                          "title": "Куда перечислять доход",
+                          "value": "275304",
+                          "description": "",
+                          "referenceId": "percentAccounts",
                           "readonly": false,
-                          "validators": []
+                          "masked": false
                         }
-                      ]
-                    },
-                    {
-                      "type": "CoreFieldSet",
-                      "fields": [
-                        {
-                          "id": "fieldSet:resource",
-                          "type": "select",
-                          "format": "resource",
-                          "title": "Счёт списания resource",
-                          "value": "id-payAccount-1",
-                          "readonly": false,
-                          "referenceId": "resourceList",
-                          "description": "описание текстового поля"
-                        }
-                      ]
-                    },
-                    {
-                      "type": "CoreFieldSet",
-                      "fields": [
-                        {
-                          "id": "fieldSet:resource",
-                          "type": "select",
-                          "format": "resource",
-                          "title": "Счёт списания resource",
-                          "value": "id-master-card6667",
-                          "readonly": false,
-                          "referenceId": "resourceList2",
-                          "description": "описание текстового поля"
-                        }
-                      ]
+                      ],
+                      "title": ""
                     }
                   ],
                   "footer": [
@@ -101,9 +60,28 @@
                       "type": "CoreButtons",
                       "events": [
                         {
-                          "uri": "nav:next",
+                          "name": "next",
                           "title": "Продолжить",
-                          "description": "Переход на следующий экран"
+                          "cmd": "EVENT"
+                        }
+                      ]
+                    }
+                  ],
+                  "properties": {
+                    "eventForAnalytic": "ChoiceTerms",
+                    "paramsForAnalytic": [
+                      "currency:RUB",
+                      "depositID:91_2"
+                    ]
+                  },
+                  "header": [
+                    {
+                      "type": "CoreNavBar",
+                      "title": "Открытие вклада",
+                      "events": [
+                        {
+                          "cmd": "EXIT",
+                          "name": "back"
                         }
                       ]
                     }
@@ -111,189 +89,78 @@
                 }
               ],
               "references": {
-                "resourceList": {
-                  "properties": {
-                    "title": ""
-                  },
+                "withdrawAccounts": {
                   "items": [
                     {
-                      "title": "test1",
-                      "value": "id-payAccount-1",
+                      "value": "275304",
+                      "title": "Visa Infinite",
                       "properties": {
-                        "title": "Visa Classic RK1",
-                        "type": "payAccount",
-                        "name": "TRANS",
-                        "maskedNumber": "•••• 4545",
-                        "currency": "RUB",
-                        "balance": "1000000",
-                        "additionalInfo": "инфо",
-                        "style": "payAccountRuble",
-                        "sectionTitle": "Кошелек"
-                      }
-                    },
-                    {
-                      "title": "test2",
-                      "value": "id-payAccount-2",
-                      "properties": {
-                        "title": "Visa Classic RK2",
-                        "type": "payAccount",
-                        "paymentSystem": "visa",
-                        "name": "Visa Classic",
-                        "maskedNumber": "•••• 4545",
-                        "currency": "USD",
-                        "balance": "15000",
-                        "state": "warning4",
-                        "additionalInfo": "Инфо",
-                        "unavailable": "true",
-                        "style": "payAccountUsd",
-                        "sectionTitle": "Кошелек"
-                      }
-                    },
-                    {
-                      "title": "test3",
-                      "value": "id-payAccount-3",
-                      "properties": {
-                        "title": "Visa Classic RK3",
-                        "type": "payAccount",
-                        "isCredit": false,
-                        "paymentSystem": "visa",
-                        "name": "Visa Classic",
-                        "maskedNumber": "•••• 4545",
-                        "currency": "EUR",
-                        "balance": "10000",
-                        "state": "warning4",
-                        "additionalInfo": "Инфо",
-                        "unavailable": "true",
-                        "style": "payAccountEuro",
-                        "sectionTitle": "Кошелек"
-                      }
-                    },
-                    {
-                      "title": "test4",
-                      "value": "id-payAccount-4",
-                      "properties": {
-                        "title": "Visa Classic RK4",
-                        "type": "payAccount",
-                        "isCredit": false,
-                        "paymentSystem": "visa",
-                        "name": "Visa Classic",
-                        "maskedNumber": "•••• 4545",
-                        "currency": "RUB",
-                        "balance": "50000",
-                        "state": "warning4",
-                        "additionalInfo": "Инфо",
-                        "unavailable": "true",
-                        "style": "payAccountLock",
-                        "sectionTitle": "Кошелек"
-                      }
-                    },
-                    {
-                      "title": "",
-                      "value": "id-visa-classic-card4545",
-                      "properties": {
-                        "title": "Visa Classic RK",
+                        "maskedNumber": "**** 1680",
+                        "number": "**** 1680",
+                        "name": "Visa Infinite",
                         "type": "card",
-                        "isCredit": false,
                         "paymentSystem": "visa",
-                        "name": "Visa Classic",
-                        "maskedNumber": "•••• 4545",
-                        "currency": "RUB",
-                        "balance": "20000",
-                        "state": "warning4",
-                        "additionalInfo": "Карта заблокирована",
-                        "unavailable": "true",
-                        "sectionTitle": "Кошелек"
+                        "balance": "500 000,00",
+                        "currency": "RUB"
                       }
                     },
                     {
-                      "title": "•••• 6666 Mastercard 789 041.38 ₽",
-                      "value": "id-master-card6666",
+                      "value": "277441",
+                      "title": "Visa Infinite",
                       "properties": {
-                        "title": "Maestro",
+                        "maskedNumber": "**** 4067",
+                        "number": "**** 4067",
+                        "name": "Visa Infinite",
                         "type": "card",
-                        "isCredit": false,
-                        "paymentSystem": "maestro",
-                        "name": "Maestro CLassic",
-                        "maskedNumber": "•••• 6666",
-                        "currency": "RUB",
-                        "balance": "6502.38",
-                        "sectionTitle": "Кошелек"
+                        "paymentSystem": "visa",
+                        "balance": "500 000,00",
+                        "currency": "RUB"
                       }
                     }
                   ]
                 },
-                "resourceList2": {
-                  "properties": {
-                    "title": ""
-                  },
+                "percentAccounts": {
                   "items": [
                     {
-                      "title": "test1",
-                      "value": "id-payAccount-1",
+                      "value": "275304",
+                      "title": "Visa Infinite",
                       "properties": {
-                        "title": "Visa Classic RK1",
-                        "type": "payAccount",
-                        "name": "TRANS",
-                        "maskedNumber": "•••• 4545",
-                        "currency": "RUB",
-                        "balance": "999999",
-                        "additionalInfo": "инфо",
-                        "style": "payAccountRuble",
-                        "sectionTitle": "Кошелек"
-                      }
-                    },
-                    {
-                      "title": "",
-                      "value": "id-visa-classic-card4545",
-                      "properties": {
-                        "title": "Visa Classic RK",
+                        "maskedNumber": "**** 1680",
+                        "number": "**** 1680",
+                        "name": "Visa Infinite",
                         "type": "card",
-                        "isCredit": false,
                         "paymentSystem": "visa",
-                        "name": "Visa Classic",
-                        "maskedNumber": "•••• 4545",
-                        "currency": "RUB",
-                        "balance": "20000",
-                        "state": "warning4",
-                        "additionalInfo": "Карта заблокирована",
-                        "unavailable": "false",
-                        "sectionTitle": "Кошелек"
+                        "balance": "500 000,00",
+                        "currency": "RUB"
                       }
                     },
                     {
-                      "title": "•••• 6666 Mastercard 6502.38 ₽",
-                      "value": "id-master-card6666",
+                      "value": "277441",
+                      "title": "Visa Infinite",
                       "properties": {
-                        "title": "Maestro",
+                        "maskedNumber": "**** 4067",
+                        "number": "**** 4067",
+                        "name": "Visa Infinite",
                         "type": "card",
-                        "isCredit": false,
-                        "paymentSystem": "maestro",
-                        "name": "Maestro CLassic",
-                        "maskedNumber": "•••• 6666",
-                        "currency": "RUB",
-                        "balance": "6502.38",
-                        "sectionTitle": "Кошелек"
-                      }
-                    },
-                    {
-                      "title": "•••• 6667 Mastercard 6502.38 ₽",
-                      "value": "id-master-card6667",
-                      "properties": {
-                        "title": "Maestro",
-                        "type": "card",
-                        "isCredit": false,
-                        "paymentSystem": "maestro",
-                        "name": "Maestro CLassic",
-                        "maskedNumber": "•••• 6667",
-                        "currency": "RUB",
-                        "balance": "99000.99",
-                        "sectionTitle": "Карты и вклады"
+                        "paymentSystem": "visa",
+                        "balance": "500 000,00",
+                        "currency": "RUB"
                       }
                     }
                   ]
                 }
               }
-            }
+            },
+            "history": [
+              {
+                "id": "65adb499-7e53-11eb-a96d-d77d62224c25",
+                "flow": "sbolDepositOpenFlowMobile",
+                "state": "selectAccounts",
+                "title": "Выбор источника списания и зачисления процентов",
+                "status": "ACTIVE",
+                "flowId": 1
+              }
+            ]
           }
         },
         "event_to_actions": {
