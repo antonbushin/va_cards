@@ -3,98 +3,291 @@
   "items": [
     {
       "card": {
-        "type": "list_card",
-        "can_be_disabled": true,
-        "paddings": {
-          "left": "0x",
-          "right": "0x",
-          "top": "0x",
-          "bottom": "8x"
-        },
-        "cells": [
-          {
-            "type": "image_cell_view",
-            "content": {
-              "url": "https://va-res.online.sberbank.ru/VA/icons/cardsapp/A0677_digital_site_visa.png",
-              "size": {
-                "width": "resizable",
-                "aspect_ratio": 0.6
-              },
-              "scale_mode": "scale_aspect_fill"
-            }
-          },
-          {
-            "type": "left_right_cell_view",
-            "left": {
-              "type": "simple_left_view",
-              "texts": {
-                "title": {
-                  "text": "Цифровая СберКарта",
-                  "typeface": "headline3",
-                  "text_color": "default",
-                  "margins": {
-                    "top": "1x"
-                  }
-                },
-                "subtitle": {
-                  "text": "Бесплатно",
-                  "typeface": "footnote1",
-                  "text_color": "secondary",
-                  "margins": {
-                    "top": "4x"
-                  }
-                },
-                "caption": {
-                  "text": "Пока действует подписка СберПрайм+",
-                  "typeface": "footnote1",
-                  "text_color": "default",
-                  "margins": {
-                    "top": "6x"
+        "type": "workflow",
+        "payload": {
+          "success": true,
+          "body": {
+            "result": "SUCCESS",
+            "pid": "62684d5a-7e53-11eb-a96d-99cf0f9f816b",
+            "flow": "sbolDepositOpenFlowMobile",
+            "state": "selectAccounts",
+            "output": {
+              "screens": [
+                {
+                  "widgets": [
+                    {
+                      "type": "CoreFieldSet",
+                      "properties": {},
+                      "fields": [
+                        {
+                          "id": "f206",
+                          "type": "checkbox",
+                          "format": "switch",
+                          "title": "Показать SnackBar",
+                          "description": "Тип снекбара с undefined (отсутствует style) ",
+                          "value": "false",
+                          "readonly": false
+                        }
+                      ]
+                    },
+                    {
+                      "type": "MobileSnackBar",
+                      "title": "",
+                      "strategies": [
+                        {
+                          "fieldLookupId": "f206",
+                          "type": "mobilesnackbartests"
+                        }
+                      ],
+                      "fields": [
+                        {
+                          "id": "default:1",
+                          "type": "text",
+                          "format": "text",
+                          "value": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum",
+                          "title": ""
+                        }
+                      ]
+                    },
+                    {
+                      "type": "CoreSuggest",
+                      "strategies": [
+                        {
+                          "fieldLookupId": "suggestText:1",
+                          "type": "baseSuggest"
+                        }
+                      ],
+                      "fields": [
+                        {
+                          "id": "suggestHolder:1",
+                          "type": "text",
+                          "format": "checkbox",
+                          "referenceId": "suggestRef"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "CoreFieldSet",
+                      "fields": [
+                        {
+                          "id": "suggestText:1",
+                          "type": "text",
+                          "style": "card",
+                          "title": "Title",
+                          "description": "Description",
+                          "readonly": false
+                        }
+                      ]
+                    },
+                    {
+                      "type": "CoreResource",
+                      "fields": [
+                        {
+                          "validators": [
+                            {
+                              "type": "required",
+                              "value": "true",
+                              "message": ""
+                            }
+                          ],
+                          "id": "card:from",
+                          "type": "select",
+                          "title": "Откуда списать деньги",
+                          "value": "275304",
+                          "description": "",
+                          "referenceId": "withdrawAccounts",
+                          "readonly": false,
+                          "masked": false
+                        }
+                      ],
+                      "title": ""
+                    },
+                    {
+                      "type": "CoreResource",
+                      "fields": [
+                        {
+                          "id": "card:to",
+                          "type": "select",
+                          "title": "Куда перечислять доход",
+                          "value": "275304",
+                          "description": "",
+                          "referenceId": "percentAccounts",
+                          "readonly": false,
+                          "masked": false
+                        }
+                      ],
+                      "title": ""
+                    }
+                  ],
+                  "footer": [
+                    {
+                      "type": "CoreButtons",
+                      "events": [
+                        {
+                          "name": "next",
+                          "title": "Продолжить",
+                          "cmd": "EVENT"
+                        }
+                      ]
+                    }
+                  ],
+                  "properties": {
+                    "eventForAnalytic": "ChoiceTerms",
+                    "paramsForAnalytic": [
+                      "currency:RUB",
+                      "depositID:91_2"
+                    ]
                   },
-                  "max_lines": 3
-                }
-              },
-              "icon_vertical_gravity": "center"
-            },
-            "paddings": {
-              "left": "8x",
-              "right": "8x",
-              "top": "8x",
-              "bottom": "8x"
-            }
-          },
-          {
-            "type": "button_cell_view",
-            "content": {
-              "text": "Перейти к оформлению",
-              "typeface": "button1",
-              "style": "default",
-              "type": "accept",
-              "actions": [
-                {
-                  "type": "text",
-                  "text": "Перейти к оформлению"
-                },
-                {
-                    "type": "copy_text_to_buffer",
-                    "text": "Перейти к оформлению"
+                  "header": [
+                    {
+                      "type": "CoreNavBar",
+                      "title": "Открытие вклада",
+                      "events": [
+                        {
+                          "cmd": "EXIT",
+                          "name": "back"
+                        }
+                      ]
+                    }
+                  ]
                 }
               ],
-              "margins": {
-                "left": "0x",
-                "right": "0x",
-                "top": "6x",
-                "bottom": "6x"
+              "references": {
+                "suggestRef": {
+                  "items": [
+                    {
+                      "value": "suggest:1",
+                      "title": "FullSuggest:1",
+                      "properties": {
+                        "titleValueUI": "titleValueUI",
+                        "titleValueAcc": "titleValueAcc",
+                        "descriptionValueUI": "descriptionValueUI",
+                        "descriptionValueAcc": "descriptionValueAcc",
+                        "shortValueUI": "shortValueUI",
+                        "shortValueAcc": "shortValueAcc",
+                        "fullValueUI": "fullValueUI",
+                        "fullValueAcc": "fullValueAcc",
+                        "style": "card",
+                        "deletable": false,
+                        "selected": false
+                      }
+                    },
+                    {
+                      "value": "suggest:2",
+                      "title": "ShortSuggest:2"
+                    }
+                  ]
+                },
+                "withdrawAccounts": {
+                  "items": [
+                    {
+                      "value": "275304",
+                      "title": "Visa Infinite",
+                      "properties": {
+                        "maskedNumber": "**** 1680",
+                        "number": "**** 1680",
+                        "name": "Visa Infinite",
+                        "type": "card",
+                        "paymentSystem": "visa",
+                        "balance": "500 000,00",
+                        "currency": "RUB"
+                      }
+                    },
+                    {
+                      "value": "277441",
+                      "title": "Visa Infinite",
+                      "properties": {
+                        "maskedNumber": "**** 4067",
+                        "number": "**** 4067",
+                        "name": "Visa Infinite",
+                        "type": "card",
+                        "paymentSystem": "visa",
+                        "balance": "500 000,00",
+                        "currency": "RUB"
+                      }
+                    }
+                  ]
+                },
+                "percentAccounts": {
+                  "items": [
+                    {
+                      "value": "275304",
+                      "title": "Visa Infinite",
+                      "properties": {
+                        "maskedNumber": "**** 1680",
+                        "number": "**** 1680",
+                        "name": "Visa Infinite",
+                        "type": "card",
+                        "paymentSystem": "visa",
+                        "balance": "500 000,00",
+                        "currency": "RUB"
+                      }
+                    },
+                    {
+                      "value": "277441",
+                      "title": "Visa Infinite",
+                      "properties": {
+                        "maskedNumber": "**** 4067",
+                        "number": "**** 4067",
+                        "name": "Visa Infinite",
+                        "type": "card",
+                        "paymentSystem": "visa",
+                        "balance": "500 000,00",
+                        "currency": "RUB"
+                      }
+                    }
+                  ]
+                }
               }
             },
-            "paddings": {
-              "left": "8x",
-              "right": "8x",
-              "top": "0x",
-              "bottom": "0x"
-            }
+            "history": [
+              {
+                "id": "65adb499-7e53-11eb-a96d-d77d62224c25",
+                "flow": "sbolDepositOpenFlowMobile",
+                "state": "selectAccounts",
+                "title": "Выбор источника списания и зачисления процентов",
+                "status": "ACTIVE",
+                "flowId": 1
+              }
+            ]
           }
-        ]
+        },
+        "event_to_actions": {
+          "next": {
+            "actions": [
+              {
+                "type": "text",
+                "text": "Подтверждаю",
+                "should_send_to_backend": false
+              },
+              {
+                "type": "server_action",
+                "message_name": "SERVER_ACTION",
+                "server_action": {
+                  "action_id": "next",
+                  "parameters": {}
+                }
+              }
+            ]
+          },
+          "back": {
+            "actions": [
+              {
+                "type": "text",
+                "text": "В начало",
+                "should_send_to_backend": false
+              },
+              {
+                "type": "server_action",
+                "message_name": "SERVER_ACTION",
+                "server_action": {
+                  "action_id": "back",
+                  "parameters": {}
+                }
+              }
+            ]
+          }
+        }
       }
     }
   ]
