@@ -16,6 +16,36 @@
                 {
                   "widgets": [
                     {
+                      "type": "CoreSuggest",
+                      "strategies": [
+                        {
+                          "fieldLookupId": "suggestText:1",
+                          "type": "baseSuggest"
+                        }
+                      ],
+                      "fields": [
+                        {
+                          "id": "suggestHolder:1",
+                          "type": "text",
+                          "format": "checkbox",
+                          "referenceId": "suggestRef"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "CoreFieldSet",
+                      "fields": [
+                        {
+                          "id": "suggestText:1",
+                          "type": "text",
+                          "style": "card",
+                          "title": "Title",
+                          "description": "Description",
+                          "readonly": false
+                        }
+                      ]
+                    },
+                    {
                       "type": "CoreResource",
                       "fields": [
                         {
@@ -89,6 +119,31 @@
                 }
               ],
               "references": {
+                "suggestRef": {
+                  "items": [
+                    {
+                      "value": "suggest:1",
+                      "title": "FullSuggest:1",
+                      "properties": {
+                        "titleValueUI": "titleValueUI",
+                        "titleValueAcc": "titleValueAcc",
+                        "descriptionValueUI": "descriptionValueUI",
+                        "descriptionValueAcc": "descriptionValueAcc",
+                        "shortValueUI": "shortValueUI",
+                        "shortValueAcc": "shortValueAcc",
+                        "fullValueUI": "fullValueUI",
+                        "fullValueAcc": "fullValueAcc",
+                        "style": "card",
+                        "deletable": true,
+                        "selected": false
+                      }
+                    },
+                    {
+                      "value": "suggest:2",
+                      "title": "ShortSuggest:2"
+                    }
+                  ]
+                },
                 "withdrawAccounts": {
                   "items": [
                     {
