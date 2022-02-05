@@ -2,127 +2,49 @@
   "type": "sdk_answer",
   "items": [
     {
-      "bubble": {
-        "text": "Нашёл несколько ваших карт. Какую заблокировать?",
-        "markdown": true
-      }
-    },
-    {
       "card": {
         "type": "workflow",
         "payload": {
           "success": true,
           "body": {
             "result": "SUCCESS",
-            "pid": "923d63fb-7bf6-11eb-a887-5f77f9bd9992",
-            "flow": "StatusScreen2021",
-            "state": "showInfo",
+            "pid": "80c30504-e9ac-4f63-9d9c-f31cce9f5ae5",
+            "flow": "VABlockFlow",
+            "state": "paymentInfo",
             "output": {
               "screens": [
                 {
-                  "properties": {
-                    "status": "success",
-                    "disabledAnimation": false,
-                    "noneTransitionAnimation": true,
-                    "eventForAnalytic": "Details",
-                    "animationSuccessLocation": "https://pfm-stat.online.sberbank.ru/PFM/logos3/ss21_check_ok.json",
-                    "animationFailureLocation": "https://pfm-stat.online.sberbank.ru/PFM/logos3/ss21_check_error.json",
-                    "animationWaitingLocation": "https://pfm-stat.online.sberbank.ru/PFM/logos3/ss21_check_time.json"
-                  },
-                  "type": "StatusScreen2021",
+                  "title": "Заголовок экрана",
+                  "type": "DSNScreen",
+                  "description": "Описание экрана",
                   "header": [
                     {
-                      "type": "StatusNavBar",
-                      "title": "Перевод доставлен",
+                      "type": "CoreNavBar",
+                      "title": "coreResource",
                       "events": [
                         {
                           "cmd": "EXIT",
-                          "name": "exit",
-                          "type": "exit"
+                          "uri": "Диплинк на предыдущий экран",
+                          "title": "На предыдущий экран",
+                          "description": "Переход на предыдущий экран"
                         }
                       ]
-                    },
-                    {
-                      "type": "StatusHeader2021",
-                      "title": "200",
-                      "description": "Андрей Игоревич Б.",
-                      "properties": {
-                        "style": "summary",
-                        "numberOfOpenCells": 2
-                      }
                     }
                   ],
                   "widgets": [
                     {
-                      "type": "CoreSavePDF",
-                      "title": "Сохранить чек",
-                      "properties": {
-                        "url": "/invest/pifbuy-mobile/v1.0/banking/receipt/print?documentId=00p3_0000000000000037040&format=pdf"
-                      }
-                    },
-                    {
-                      "type": "CoreFieldSet",
+                      "type": "CoreResource",
+                      "description": "Описание виджета",
+                      "readonly": false,
                       "fields": [
                         {
-                          "id": "efsct:receiver:name",
-                          "type": "text",
-                          "value": "Андрей Игоревич Б.",
-                          "title": "ФИО получателя",
-                          "style": "noIcon",
-                          "readonly": true
-                        },
-                        {
-                          "id": "efsct:receiver:phone",
-                          "type": "text",
-                          "format": "phone",
-                          "value": "",
-                          "title": "Телефон получателя",
-                          "style": "noIcon",
-                          "readonly": true
-                        }
-                      ]
-                    },
-                    {
-                      "type": "CoreFieldSet",
-                      "fields": [
-                        {
-                          "id": "efsct:transfer:sum",
-                          "type": "text",
-                          "format": "money",
-                          "formatConfig": "RUB",
-                          "value": "143",
-                          "title": "Сумма перевода",
-                          "style": "noIcon",
-                          "readonly": true
-                        }
-                      ]
-                    },
-                    {
-                      "type": "CoreFieldSet",
-                      "fields": [
-                        {
-                          "id": "efsct:status:additionalInfo",
-                          "type": "text",
-                          "value": "Если вы отправили перевод не тому человеку и хотите вернуть деньги, попросите получателя позвонить в СберБанк по номеру 900 и отменить операцию. По закону вернуть перевод может только получатель.",
-                          "title": "Дополнительная информация",
-                          "style": "noIcon",
-                          "readonly": true
-                        },
-                        {
-                          "id": "efsct:transfer:documentNumber",
-                          "type": "text",
-                          "value": "387178",
-                          "title": "Номер документа",
-                          "style": "noIcon",
-                          "readonly": true
-                        },
-                        {
-                          "id": "efsct:transfer:documentDate",
-                          "type": "text",
-                          "value": "02.03.2021",
-                          "title": "Дата документа",
-                          "style": "noIcon",
-                          "readonly": true
+                          "id": "CoreResource:resourceSelect:source:1",
+                          "title": "Выбор карты для блокировки",
+                          "type": "select",
+                          "referenceId": "resourceList",
+                          "value": "id-card-1",
+                          "readonly": false,
+                          "validators": []
                         }
                       ]
                     }
@@ -132,16 +54,453 @@
                       "type": "CoreButtons",
                       "events": [
                         {
-                          "cmd": "EVENT",
-                          "name": "repeatTransfer",
-                          "type": "next",
-                          "title": "ПОВТОРИТЬ"
+                          "uri": "nav:next",
+                          "title": "Продолжить",
+                          "description": "Переход на следующий экран"
                         }
                       ]
                     }
                   ]
                 }
-              ]
+              ],
+              "references": {
+                "resourceList": {
+                  "items": [
+                    {
+                      "title": "test6",
+                      "value": "1100000000020083",
+                      "properties": {
+                        "title": "MasterCard Сберкарта",
+                        "type": "card",
+                        "isCredit": "false",
+                        "paymentSystem": "visa",
+                        "name": "MasterCard Сберкарта",
+                        "maskedNumber": "•• 5886",
+                        "currency": "RUB",
+                        "balance": "25412.55",
+                        "state": "warning4",
+                        "additionalInfo": "Привязана к счету ••3320",
+                        "unavailable": "false",
+                        "style": "mc_36_default"
+                      }
+                    },
+                    {
+                      "title": "test6",
+                      "value": "1100000000020075",
+                      "properties": {
+                        "title": "МИР Сберкарта",
+                        "type": "card",
+                        "isCredit": "false",
+                        "paymentSystem": "visa",
+                        "name": "МИР Сберкарта",
+                        "maskedNumber": "•• 5126",
+                        "currency": "RUB",
+                        "balance": "-22.00",
+                        "state": "warning4",
+                        "additionalInfo": "Привязана к счету ••1169",
+                        "unavailable": "false",
+                        "style": "mc_36_default"
+                      }
+                    },
+                    {
+                      "title": "test6",
+                      "value": "1000000000073870",
+                      "properties": {
+                        "title": "Visa Сберкарта",
+                        "type": "card",
+                        "isCredit": "false",
+                        "paymentSystem": "visa",
+                        "name": "Visa Сберкарта с длинным названием, чтобы протестировать",
+                        "maskedNumber": "•• 0028",
+                        "currency": "RUB",
+                        "balance": "-22.00",
+                        "state": "warning4",
+                        "additionalInfo": "Привязана к счету ••6358",
+                        "unavailable": "false",
+                        "style": "mc_36_default"
+                      }
+                    },
+                    {
+                      "title": "test6",
+                      "value": "1000000000071619",
+                      "properties": {
+                        "title": "MasterCard Сберкарта",
+                        "type": "card",
+                        "isCredit": "false",
+                        "paymentSystem": "visa",
+                        "name": "MasterCard Сберкарта",
+                        "maskedNumber": "•• 9791",
+                        "currency": "RUB",
+                        "balance": "-22.00",
+                        "state": "warning4",
+                        "additionalInfo": "Привязана к счету ••9928",
+                        "unavailable": "false",
+                        "style": "mc_36_default"
+                      }
+                    },
+                    {
+                      "title": "test6",
+                      "value": "1000000000046141",
+                      "properties": {
+                        "title": "MasterCard Сберкарта",
+                        "type": "card",
+                        "isCredit": "false",
+                        "paymentSystem": "visa",
+                        "name": "MasterCard Сберкарта",
+                        "maskedNumber": "•• 6812",
+                        "currency": "RUB",
+                        "balance": "-22.00",
+                        "state": "warning4",
+                        "additionalInfo": "Привязана к счету ••3351",
+                        "unavailable": "false",
+                        "style": "mc_36_default"
+                      }
+                    },
+                    {
+                      "title": "test6",
+                      "value": "1000000000069208",
+                      "properties": {
+                        "title": "MasterCard Сберкарта",
+                        "type": "card",
+                        "isCredit": "false",
+                        "paymentSystem": "visa",
+                        "name": "MasterCard Сберкарта",
+                        "maskedNumber": "•• 0299",
+                        "currency": "RUB",
+                        "balance": "-22.00",
+                        "state": "warning4",
+                        "additionalInfo": "Привязана к счету ••9329",
+                        "unavailable": "false",
+                        "style": "mc_36_default"
+                      }
+                    },
+                    {
+                      "title": "test6",
+                      "value": "1000000000046143",
+                      "properties": {
+                        "title": "MasterCard Сберкарта",
+                        "type": "card",
+                        "isCredit": "false",
+                        "paymentSystem": "visa",
+                        "name": "MasterCard Сберкарта",
+                        "maskedNumber": "•• 5067",
+                        "currency": "RUB",
+                        "balance": "4531860.18",
+                        "state": "warning4",
+                        "additionalInfo": "Привязана к счету ••3357",
+                        "unavailable": "false",
+                        "style": "mc_36_default"
+                      }
+                    },
+                    {
+                      "title": "test6",
+                      "value": "1000000000046144",
+                      "properties": {
+                        "title": "MasterCard Сберкарта",
+                        "type": "card",
+                        "isCredit": "false",
+                        "paymentSystem": "visa",
+                        "name": "MasterCard Сберкарта",
+                        "maskedNumber": "•• 7914",
+                        "currency": "RUB",
+                        "balance": "4531860.18",
+                        "state": "warning4",
+                        "additionalInfo": "Привязана к счету ••3357",
+                        "unavailable": "false",
+                        "style": "mc_36_default"
+                      }
+                    },
+                    {
+                      "title": "test6",
+                      "value": "1000000000041396",
+                      "properties": {
+                        "title": "MasterCard Сберкарта",
+                        "type": "card",
+                        "isCredit": "false",
+                        "paymentSystem": "visa",
+                        "name": "Oleg",
+                        "maskedNumber": "•• 1137",
+                        "currency": "RUB",
+                        "balance": "4531860.18",
+                        "state": "warning4",
+                        "additionalInfo": "Привязана к счету ••3357",
+                        "unavailable": "false",
+                        "style": "mc_36_default"
+                      }
+                    },
+                    {
+                      "title": "test6",
+                      "value": "1000000000071877",
+                      "properties": {
+                        "title": "Visa Сберкарта",
+                        "type": "card",
+                        "isCredit": "false",
+                        "paymentSystem": "visa",
+                        "name": "Visa Сберкарта",
+                        "maskedNumber": "•• 9103",
+                        "currency": "RUB",
+                        "balance": "4531860.18",
+                        "state": "warning4",
+                        "additionalInfo": "Привязана к счету ••3357",
+                        "unavailable": "false",
+                        "style": "mc_36_default"
+                      }
+                    },
+                    {
+                      "title": "test6",
+                      "value": "1000000000046142",
+                      "properties": {
+                        "title": "MasterCard Сберкарта",
+                        "type": "card",
+                        "isCredit": "false",
+                        "paymentSystem": "visa",
+                        "name": "MasterCard Сберкарта",
+                        "maskedNumber": "•• 0899",
+                        "currency": "RUB",
+                        "balance": "4531860.18",
+                        "state": "warning4",
+                        "additionalInfo": "Привязана к счету ••3357",
+                        "unavailable": "false",
+                        "style": "mc_36_default"
+                      }
+                    },
+                    {
+                      "title": "test6",
+                      "value": "1100000000020084",
+                      "properties": {
+                        "title": "MasterCard Сберкарта",
+                        "type": "card",
+                        "isCredit": "false",
+                        "paymentSystem": "visa",
+                        "name": "MasterCard Сберкарта",
+                        "maskedNumber": "•• 2157",
+                        "currency": "RUB",
+                        "balance": "-22.00",
+                        "state": "warning4",
+                        "additionalInfo": "Привязана к счету ••1170",
+                        "unavailable": "false",
+                        "style": "mc_36_default"
+                      }
+                    },
+                    {
+                      "title": "test6",
+                      "value": "1000000000045420",
+                      "properties": {
+                        "title": "MasterCard Сберкарта Travel",
+                        "type": "card",
+                        "isCredit": "false",
+                        "paymentSystem": "visa",
+                        "name": "MasterCard Сберкарта Travel",
+                        "maskedNumber": "•• 5183",
+                        "currency": "RUB",
+                        "balance": "0.00",
+                        "state": "warning4",
+                        "additionalInfo": "",
+                        "unavailable": "false",
+                        "style": "mc_36_default"
+                      }
+                    },
+                    {
+                      "title": "test6",
+                      "value": "1000000000019825",
+                      "properties": {
+                        "title": "MasterCard World Black Edition",
+                        "type": "card",
+                        "isCredit": "true",
+                        "paymentSystem": "visa",
+                        "name": "MasterCard World Black Edition",
+                        "maskedNumber": "•• 9735",
+                        "currency": "RUB",
+                        "balance": "227000.00",
+                        "state": "warning4",
+                        "additionalInfo": "",
+                        "unavailable": "false",
+                        "style": "mc_36_default"
+                      }
+                    },
+                    {
+                      "title": "test6",
+                      "value": "1000000000045178",
+                      "properties": {
+                        "title": "MasterCard Сберкарта Travel",
+                        "type": "card",
+                        "isCredit": "false",
+                        "paymentSystem": "visa",
+                        "name": "MasterCard Сберкарта Travel",
+                        "maskedNumber": "•• 5175",
+                        "currency": "RUB",
+                        "balance": "1000.00",
+                        "state": "warning4",
+                        "additionalInfo": "",
+                        "unavailable": "false",
+                        "style": "mc_36_default"
+                      }
+                    },
+                    {
+                      "title": "test6",
+                      "value": "1000000000045147",
+                      "properties": {
+                        "title": "MasterCard Сберкарта Travel",
+                        "type": "card",
+                        "isCredit": "false",
+                        "paymentSystem": "visa",
+                        "name": "MasterCard Сберкарта Travel",
+                        "maskedNumber": "•• 5159",
+                        "currency": "RUB",
+                        "balance": "150.00",
+                        "state": "warning4",
+                        "additionalInfo": "",
+                        "unavailable": "false",
+                        "style": "mc_36_default"
+                      }
+                    },
+                    {
+                      "title": "test6",
+                      "value": "1000000000040480",
+                      "properties": {
+                        "title": "MasterCard Сберкарта Travel",
+                        "type": "card",
+                        "isCredit": "false",
+                        "paymentSystem": "visa",
+                        "name": "MasterCard Сберкарта Travel",
+                        "maskedNumber": "•• 4608",
+                        "currency": "RUB",
+                        "balance": "0.00",
+                        "state": "warning4",
+                        "additionalInfo": "",
+                        "unavailable": "false",
+                        "style": "mc_36_default"
+                      }
+                    },
+                    {
+                      "title": "test6",
+                      "value": "1100000000020079",
+                      "properties": {
+                        "title": "Visa Digital",
+                        "type": "card",
+                        "isCredit": "false",
+                        "paymentSystem": "visa",
+                        "name": "Visa Digital",
+                        "maskedNumber": "•• 7787",
+                        "currency": "RUB",
+                        "balance": "0.00",
+                        "state": "warning4",
+                        "additionalInfo": "",
+                        "unavailable": "false",
+                        "style": "mc_36_default"
+                      }
+                    },
+                    {
+                      "title": "test6",
+                      "value": "1100000000020078",
+                      "properties": {
+                        "title": "Visa Digital",
+                        "type": "card",
+                        "isCredit": "false",
+                        "paymentSystem": "visa",
+                        "name": "Visa Digital",
+                        "maskedNumber": "•• 9226",
+                        "currency": "RUB",
+                        "balance": "0.00",
+                        "state": "warning4",
+                        "additionalInfo": "",
+                        "unavailable": "false",
+                        "style": "mc_36_default"
+                      }
+                    },
+                    {
+                      "title": "test6",
+                      "value": "1000000000068916",
+                      "properties": {
+                        "title": "Visa Digital",
+                        "type": "card",
+                        "isCredit": "false",
+                        "paymentSystem": "visa",
+                        "name": "Visa Digital",
+                        "maskedNumber": "•• 0299",
+                        "currency": "RUB",
+                        "balance": "0.00",
+                        "state": "warning4",
+                        "additionalInfo": "",
+                        "unavailable": "false",
+                        "style": "mc_36_default"
+                      }
+                    },
+                    {
+                      "title": "test6",
+                      "value": "1000000000019824",
+                      "properties": {
+                        "title": "Visa Classic",
+                        "type": "card",
+                        "isCredit": "false",
+                        "paymentSystem": "visa",
+                        "name": "Visa Classic",
+                        "maskedNumber": "•• 0792",
+                        "currency": "RUB",
+                        "balance": "99758.00",
+                        "state": "warning4",
+                        "additionalInfo": "",
+                        "unavailable": "false",
+                        "style": "mc_36_default"
+                      }
+                    },
+                    {
+                      "title": "test6",
+                      "value": "1000000000045348",
+                      "properties": {
+                        "title": "Visa Digital",
+                        "type": "card",
+                        "isCredit": "false",
+                        "paymentSystem": "visa",
+                        "name": "Visa Digital",
+                        "maskedNumber": "•• 8698",
+                        "currency": "RUB",
+                        "balance": "0.00",
+                        "state": "warning4",
+                        "additionalInfo": "",
+                        "unavailable": "false",
+                        "style": "mc_36_default"
+                      }
+                    },
+                    {
+                      "title": "test6",
+                      "value": "1100000000020076",
+                      "properties": {
+                        "title": "Visa Digital",
+                        "type": "card",
+                        "isCredit": "false",
+                        "paymentSystem": "visa",
+                        "name": "Visa Digital",
+                        "maskedNumber": "•• 0636",
+                        "currency": "RUB",
+                        "balance": "0.00",
+                        "state": "warning4",
+                        "additionalInfo": "",
+                        "unavailable": "false",
+                        "style": "mc_36_default"
+                      }
+                    },
+                    {
+                      "title": "test6",
+                      "value": "1100000000020077",
+                      "properties": {
+                        "title": "Visa Digital",
+                        "type": "card",
+                        "isCredit": "false",
+                        "paymentSystem": "visa",
+                        "name": "Visa Digital",
+                        "maskedNumber": "•• 6905",
+                        "currency": "RUB",
+                        "balance": "0.00",
+                        "state": "warning4",
+                        "additionalInfo": "",
+                        "unavailable": "false",
+                        "style": "mc_36_default"
+                      }
+                    }
+                  ]
+                }
+              }
             }
           }
         },
