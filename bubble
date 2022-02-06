@@ -1,5 +1,12 @@
 {
+  "type": "sdk_answer",
   "items": [
+    {
+      "bubble": {
+        "text": "Нашёл несколько ваших карт. Какую заблокировать?",
+        "markdown": true
+      }
+    },
     {
       "card": {
         "type": "workflow",
@@ -32,6 +39,33 @@
                   ],
                   "widgets": [
                     {
+                      "type": "CoreHintBanner",
+                      "properties": {
+                        "style": "basic",
+                        "close": "hidden",
+                        "button": "visible",
+                        "shape": "rounded"
+                      },
+                      "fields": [
+                        {
+                          "id": "foo:id:1",
+                          "type": "text",
+                          "value": "У вас имеются обязательные платежи",
+                          "readonly": true,
+                          "style": "info",
+                          "title": "Настройте порядок списания"
+                        }
+                      ],
+                      "events": [
+                        {
+                          "name": "button",
+                          "cmd": "EXIT",
+                          "title": "Выйти",
+                          "uri": "app:mainScreen"
+                        }
+                      ]
+                    },
+                    {
                       "type": "CoreResource",
                       "description": "Описание виджета",
                       "readonly": false,
@@ -53,9 +87,10 @@
                       "type": "CoreButtons",
                       "events": [
                         {
-                          "uri": "nav:next",
-                          "title": "Продолжить",
-                          "description": "Переход на следующий экран"
+                          "cmd": "EVENT",
+                          "name": "next",
+                          "type": "next",
+                          "title": "Продолжить"
                         }
                       ]
                     }
