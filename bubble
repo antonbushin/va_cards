@@ -39,110 +39,57 @@
                   ],
                   "widgets": [
                     {
-                      "type": "CoreFieldSet",
-                      "properties": {},
+                      "type": "CoreFieldset",
                       "fields": [
                         {
-                          "id": "f203",
-                          "type": "checkbox",
-                          "format": "switch",
-                          "title": "Показать SnackBar",
-                          "description": "Тип снекбара textImageButton с текстом и кнопкой-иконкой справа ic_24_cross",
-                          "value": "false",
-                          "readonly": false
-                        }
-                      ]
-                    },
-                    {
-                      "type": "MobileSnackBar",
-                      "title": "",
-                      "properties": {
-                        "buttonIcon": "ic_24_cross"
-                      },
-                      "strategies": [
-                        {
-                          "fieldLookupId": "f203",
-                          "type": "mobilesnackbartests"
-                        }
-                      ],
-                      "fields": [
-                        {
-                          "id": "default:1",
-                          "type": "text",
-                          "format": "text",
-                          "value": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum",
-                          "title": "",
-                          "style": "textImageButton"
-                        }
-                      ],
-                      "events": [
-                        {
-                          "name": "button",
-                          "cmd": "EXIT",
-                          "uri": "app:mainScreen",
-                          "title": "Выйти"
-                        }
-                      ]
-                    },
-                    {
-                      "type": "CoreIllustration",
-                      "fields": [
-                        {
-                          "id": "id:CoreIllustration",
-                          "type": "text",
-                          "style": "ill_256_bird_spasibo",
-                          "title": "CoreIllustration",
-                          "description": "Виджет с иллюстрацией из ДизайнСистемы"
-                        }
-                      ],
-                      "events": [
-                        {
-                          "name": "tapOnBird",
-                          "title": "Клик по птице"
-                        }
-                      ]
-                    },
-                    {
-                      "type": "CoreFieldSet",
-                      "fields": [
-                        {
-                          "id": "suggestText:1",
-                          "title": "Выгодоприобретатель",
-                          "type": "text",
+                          "id": "delivery:method",
+                          "type": "select",
+                          "title": "Как вам удобнее забрать карту?",
                           "value": "",
-                          "readonly": false,
-                          "description": "фывфывфыв",
-                          "style": "moneyPocket"
+                          "referenceId": "deliveryMethods"
                         }
                       ]
                     },
                     {
-                      "type": "CoreSuggest",
-                      "strategies": [
-                        {
-                          "fieldLookupId": "suggestText:1",
-                          "type": "baseSuggest"
-                        }
-                      ],
+                      "type": "CWChooseBranch",
+                      "visible": {
+                        "id": "delivery:method",
+                        "regexp": "vsp"
+                      },
+                      "properties": {
+                        "hasDivider": true,
+                        "hint": "На карте показаны офисы, в которых можно получить дебетовую карту",
+                        "servicePath": "/branch-delivery-services/v1/branch/search?uuid=14c84829212b4d9583d9fa43e57257f2&operation=physicalCardOrder&products=CARD&ids=649231",
+                        "branchId": "3890380880",
+                        "latitude": 55.87643543,
+                        "longitude": 37.52435586,
+                        "subjectName": "Москва"
+                      },
                       "fields": [
                         {
-                          "id": "suggestHolder:1",
+                          "id": "delivery:office:id",
                           "type": "text",
-                          "referenceId": "suggestList"
+                          "title": "Офис, где получу карту",
+                          "value": "шоссе Коровинское, 21"
                         }
                       ]
                     },
                     {
                       "type": "CoreResource",
-                      "description": "Описание виджета",
+                      "description": "Выбор карты",
                       "readonly": false,
                       "fields": [
                         {
-                          "id": "CoreResource:resourceSelect:source:1",
-                          "title": "Выбор карты для блокировки",
+                          "id": "CoreResource:selectedCard",
+                          "title": "Заголовок поля",
+                          "description": "Описание поля",
+                          "properties": {
+                            "title": "Заголовок свойств",
+                            "description": "Описание свойств"
+                          },
                           "type": "select",
-                          "referenceId": "resourceList",
-                          "value": "id-card-1",
+                          "referenceId": "listOfCards",
+                          "value": "",
                           "readonly": false,
                           "validators": []
                         }
@@ -164,22 +111,39 @@
                 }
               ],
               "references": {
-                "resourceList": {
+                "deliveryMethods": {
+                  "items": [
+                    {
+                      "title": "В отделении Сбербанка",
+                      "value": "vsp"
+                    },
+                    {
+                      "title": "Курьерской доставкой",
+                      "value": "express"
+                    }
+                  ]
+                },
+                "listOfCards": {
                   "items": [
                     {
                       "title": "test6",
                       "value": "681216",
                       "properties": {
+                        "paymentSystem": "mastercard",
+                        "asideTitle": "=",
+                        "asideAmount": "2454,57",
+                        "typeSpec": "доп.",
+                        "asideMeasureUnit": "USD",
                         "title": "MasterCard Сберкарта",
                         "type": "card",
                         "isCredit": "false",
-                        "paymentSystem": "visa",
                         "name": "MasterCard Сберкарта",
                         "maskedNumber": "•• 6299",
                         "currency": "RUB",
                         "balance": "19978.00",
-                        "state": "warning4",
-                        "additionalInfo": "Привязана к счету ••0293",
+                        "state": "default1",
+                        "number": "•• 0293",
+                        "additionalInfo": "Привязана к счету •• 0293",
                         "unavailable": "false",
                         "style": "mc_36_mastercard_sbercard_level_1"
                       }
@@ -188,6 +152,8 @@
                       "title": "test6",
                       "value": "681209",
                       "properties": {
+                        "asideTitle": "Комиссия",
+                        "asideAmount": "20",
                         "title": "MasterCard Сберкарта",
                         "type": "card",
                         "isCredit": "false",
@@ -196,8 +162,9 @@
                         "maskedNumber": "•• 4735",
                         "currency": "RUB",
                         "balance": "19978.00",
-                        "state": "warning4",
-                        "additionalInfo": "Привязана к счету ••0293",
+                        "state": "default1",
+                        "number": "•• 0293",
+                        "additionalInfo": "Привязана к счету •• 0293",
                         "unavailable": "false",
                         "style": "mc_36_mastercard_sbercard_level_1"
                       }
@@ -214,8 +181,9 @@
                         "maskedNumber": "•• 9251",
                         "currency": "RUB",
                         "balance": "0.00",
-                        "state": "warning4",
-                        "additionalInfo": "Привязана к счету ••0464",
+                        "state": "default1",
+                        "number": "•• 0464",
+                        "additionalInfo": "Привязана к счету •• 0464",
                         "unavailable": "false",
                         "style": "mc_36_visa_infinite_pb"
                       }
@@ -232,8 +200,9 @@
                         "maskedNumber": "•• 6250",
                         "currency": "RUB",
                         "balance": "-22.00",
-                        "state": "warning4",
-                        "additionalInfo": "Привязана к счету ••8553",
+                        "state": "default1",
+                        "number": "•• 8553",
+                        "additionalInfo": "Привязана к счету •• 8553",
                         "unavailable": "false",
                         "style": "mc_36_mastercard_sbercard_level_1"
                       }
@@ -250,8 +219,9 @@
                         "maskedNumber": "•• 3549",
                         "currency": "RUB",
                         "balance": "-22.00",
-                        "state": "warning4",
-                        "additionalInfo": "Привязана к счету ••1796",
+                        "state": "default1",
+                        "number": "•• 1796",
+                        "additionalInfo": "Привязана к счету •• 1796",
                         "unavailable": "false",
                         "style": "mc_36_mastercard_sbercard_level_1"
                       }
@@ -268,8 +238,9 @@
                         "maskedNumber": "•• 7289",
                         "currency": "RUB",
                         "balance": "-22.00",
-                        "state": "warning4",
-                        "additionalInfo": "Привязана к счету ••0182",
+                        "state": "default1",
+                        "number": "•• 0182",
+                        "additionalInfo": "Привязана к счету •• 0182",
                         "unavailable": "false",
                         "style": "mc_36_mastercard_sbercard_level_1"
                       }
@@ -286,8 +257,9 @@
                         "maskedNumber": "•• 1905",
                         "currency": "RUB",
                         "balance": "-22.00",
-                        "state": "warning4",
-                        "additionalInfo": "Привязана к счету ••8048",
+                        "state": "default1",
+                        "number": "•• 8048",
+                        "additionalInfo": "Привязана к счету •• 8048",
                         "unavailable": "false",
                         "style": "mc_36_mastercard_sbercard_level_1"
                       }
@@ -304,8 +276,9 @@
                         "maskedNumber": "•• 9236",
                         "currency": "RUB",
                         "balance": "0.00",
-                        "state": "warning4",
-                        "additionalInfo": "Привязана к счету ••0460",
+                        "state": "default1",
+                        "number": "•• 0460",
+                        "additionalInfo": "Привязана к счету •• 0460",
                         "unavailable": "false",
                         "style": "mc_36_visa_infinite_pb"
                       }
@@ -322,8 +295,9 @@
                         "maskedNumber": "•• 9202",
                         "currency": "RUB",
                         "balance": "-22.00",
-                        "state": "warning4",
-                        "additionalInfo": "Привязана к счету ••0457",
+                        "state": "default1",
+                        "number": "•• 0457",
+                        "additionalInfo": "Привязана к счету •• 0457",
                         "unavailable": "false",
                         "style": "mc_36_visa_infinite_pb"
                       }
@@ -340,8 +314,9 @@
                         "maskedNumber": "•• 4131",
                         "currency": "RUB",
                         "balance": "-22.00",
-                        "state": "warning4",
-                        "additionalInfo": "Привязана к счету ••0457",
+                        "state": "default1",
+                        "number": "•• 0457",
+                        "additionalInfo": "Привязана к счету •• 0457",
                         "unavailable": "false",
                         "style": "mc_36_mastercard_sbercard_level_1"
                       }
@@ -358,8 +333,9 @@
                         "maskedNumber": "•• 7551",
                         "currency": "RUB",
                         "balance": "-44.00",
-                        "state": "warning4",
-                        "additionalInfo": "Привязана к счету ••6221",
+                        "state": "default1",
+                        "number": "•• 6221",
+                        "additionalInfo": "Привязана к счету •• 6221",
                         "unavailable": "false",
                         "style": "mc_36_mir"
                       }
@@ -376,8 +352,9 @@
                         "maskedNumber": "•• 1397",
                         "currency": "RUB",
                         "balance": "-44.00",
-                        "state": "warning4",
-                        "additionalInfo": "Привязана к счету ••6221",
+                        "state": "default1",
+                        "number": "•• 6221",
+                        "additionalInfo": "Привязана к счету •• 6221",
                         "unavailable": "false",
                         "style": "mc_36_mir"
                       }
@@ -394,8 +371,9 @@
                         "maskedNumber": "•• 1389",
                         "currency": "RUB",
                         "balance": "-44.00",
-                        "state": "warning4",
-                        "additionalInfo": "Привязана к счету ••6221",
+                        "state": "default1",
+                        "number": "•• 6221",
+                        "additionalInfo": "Привязана к счету •• 6221",
                         "unavailable": "false",
                         "style": "mc_36_mir"
                       }
@@ -412,8 +390,9 @@
                         "maskedNumber": "•• 3378",
                         "currency": "RUB",
                         "balance": "-44.00",
-                        "state": "warning4",
-                        "additionalInfo": "Привязана к счету ••3871",
+                        "state": "default1",
+                        "number": "•• 3871",
+                        "additionalInfo": "Привязана к счету •• 3871",
                         "unavailable": "false",
                         "style": "mc_36_visa_infinite_pb"
                       }
@@ -430,8 +409,9 @@
                         "maskedNumber": "•• 5007",
                         "currency": "RUB",
                         "balance": "-44.00",
-                        "state": "warning4",
-                        "additionalInfo": "Привязана к счету ••3871",
+                        "state": "default1",
+                        "number": "•• 3871",
+                        "additionalInfo": "Привязана к счету •• 3871",
                         "unavailable": "false",
                         "style": "mc_36_mastercard_sbercard_level_1"
                       }
@@ -448,8 +428,9 @@
                         "maskedNumber": "•• 1992",
                         "currency": "RUB",
                         "balance": "-22.00",
-                        "state": "warning4",
-                        "additionalInfo": "Привязана к счету ••1721",
+                        "state": "default1",
+                        "number": "•• 1721",
+                        "additionalInfo": "Привязана к счету •• 1721",
                         "unavailable": "false",
                         "style": "mc_36_visa_infinite_pb"
                       }
@@ -466,8 +447,9 @@
                         "maskedNumber": "•• 3609",
                         "currency": "RUB",
                         "balance": "-22.00",
-                        "state": "warning4",
-                        "additionalInfo": "Привязана к счету ••6745",
+                        "state": "default1",
+                        "number": "•• 6745",
+                        "additionalInfo": "Привязана к счету •• 6745",
                         "unavailable": "false",
                         "style": "mc_36_mastercard_sbercard_level_1"
                       }
@@ -484,8 +466,9 @@
                         "maskedNumber": "•• 0459",
                         "currency": "RUB",
                         "balance": "-44.00",
-                        "state": "warning4",
-                        "additionalInfo": "Привязана к счету ••0385",
+                        "state": "default1",
+                        "number": "•• 0385",
+                        "additionalInfo": "Привязана к счету •• 0385",
                         "unavailable": "false",
                         "style": "mc_36_mastercard_sbercard_level_1"
                       }
@@ -502,8 +485,9 @@
                         "maskedNumber": "•• 5633",
                         "currency": "RUB",
                         "balance": "-44.00",
-                        "state": "warning4",
-                        "additionalInfo": "Привязана к счету ••0385",
+                        "state": "default1",
+                        "number": "•• 0385",
+                        "additionalInfo": "Привязана к счету •• 0385",
                         "unavailable": "false",
                         "style": "mc_36_mastercard_sbercard_level_1"
                       }
@@ -520,8 +504,9 @@
                         "maskedNumber": "•• 3420",
                         "currency": "RUB",
                         "balance": "-22.00",
-                        "state": "warning4",
-                        "additionalInfo": "Привязана к счету ••7051",
+                        "state": "default1",
+                        "number": "•• 7051",
+                        "additionalInfo": "Привязана к счету •• 7051",
                         "unavailable": "false",
                         "style": "mc_36_mastercard_sbercard_level_1"
                       }
@@ -538,8 +523,9 @@
                         "maskedNumber": "•• 0416",
                         "currency": "RUB",
                         "balance": "-44.00",
-                        "state": "warning4",
-                        "additionalInfo": "Привязана к счету ••1031",
+                        "state": "default1",
+                        "number": "•• 1031",
+                        "additionalInfo": "Привязана к счету •• 1031",
                         "unavailable": "false",
                         "style": "mc_36_visa_infinite_pb"
                       }
@@ -556,8 +542,9 @@
                         "maskedNumber": "•• 7479",
                         "currency": "RUB",
                         "balance": "-44.00",
-                        "state": "warning4",
-                        "additionalInfo": "Привязана к счету ••1031",
+                        "state": "default1",
+                        "number": "•• 1031",
+                        "additionalInfo": "Привязана к счету •• 1031",
                         "unavailable": "false",
                         "style": "mc_36_mastercard_sbercard_level_1"
                       }
@@ -574,8 +561,9 @@
                         "maskedNumber": "•• 3424",
                         "currency": "RUB",
                         "balance": "-22.00",
-                        "state": "warning4",
-                        "additionalInfo": "Привязана к счету ••0511",
+                        "state": "default1",
+                        "number": "•• 0511",
+                        "additionalInfo": "Привязана к счету •• 0511",
                         "unavailable": "false",
                         "style": "mc_36_mastercard_sbercard_level_1"
                       }
@@ -592,8 +580,9 @@
                         "maskedNumber": "•• 4987",
                         "currency": "RUB",
                         "balance": "-44.00",
-                        "state": "warning4",
-                        "additionalInfo": "Привязана к счету ••9085",
+                        "state": "default1",
+                        "number": "•• 9085",
+                        "additionalInfo": "Привязана к счету •• 9085",
                         "unavailable": "false",
                         "style": "mc_36_mastercard_sbercard_level_1"
                       }
@@ -610,7 +599,7 @@
                         "maskedNumber": "•• 2903",
                         "currency": "RUB",
                         "balance": "29880.00",
-                        "state": "warning4",
+                        "state": "default1",
                         "additionalInfo": "",
                         "unavailable": "false",
                         "style": "mc_36_visa"
@@ -628,7 +617,7 @@
                         "maskedNumber": "•• 6607",
                         "currency": "RUB",
                         "balance": "100000.00",
-                        "state": "warning4",
+                        "state": "default1",
                         "additionalInfo": "",
                         "unavailable": "false",
                         "style": "mc_36_default"
@@ -646,7 +635,7 @@
                         "maskedNumber": "•• 1573",
                         "currency": "RUB",
                         "balance": "100000.00",
-                        "state": "warning4",
+                        "state": "default1",
                         "additionalInfo": "",
                         "unavailable": "false",
                         "style": "mc_36_default"
@@ -664,7 +653,7 @@
                         "maskedNumber": "•• 8807",
                         "currency": "RUB",
                         "balance": "100000.00",
-                        "state": "warning4",
+                        "state": "default1",
                         "additionalInfo": "",
                         "unavailable": "false",
                         "style": "mc_36_default"
@@ -682,7 +671,7 @@
                         "maskedNumber": "•• 7846",
                         "currency": "RUB",
                         "balance": "99550.00",
-                        "state": "warning4",
+                        "state": "default1",
                         "additionalInfo": "",
                         "unavailable": "false",
                         "style": "mc_36_default"
@@ -700,7 +689,7 @@
                         "maskedNumber": "•• 8459",
                         "currency": "RUB",
                         "balance": "48803.00",
-                        "state": "warning4",
+                        "state": "default1",
                         "additionalInfo": "",
                         "unavailable": "false",
                         "style": "mc_36_visa_infinite_pb"
@@ -718,7 +707,7 @@
                         "maskedNumber": "•• 5603",
                         "currency": "RUB",
                         "balance": "0.00",
-                        "state": "warning4",
+                        "state": "default1",
                         "additionalInfo": "",
                         "unavailable": "false",
                         "style": "mc_36_visa_infinite_pb"
@@ -736,7 +725,7 @@
                         "maskedNumber": "•• 0542",
                         "currency": "RUB",
                         "balance": "0.00",
-                        "state": "warning4",
+                        "state": "default1",
                         "additionalInfo": "",
                         "unavailable": "false",
                         "style": "mc_36_visa_infinite_pb"
@@ -754,7 +743,7 @@
                         "maskedNumber": "•• 3459",
                         "currency": "RUB",
                         "balance": "-22.00",
-                        "state": "warning4",
+                        "state": "default1",
                         "additionalInfo": "",
                         "unavailable": "false",
                         "style": "mc_36_mastercard_sbercard_level_1"
