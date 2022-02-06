@@ -39,6 +39,12 @@
                   ],
                   "widgets": [
                     {
+                      "type": "StatusHeaderIcon",
+                      "properties": {
+                        "status": "failure"
+                      }
+                    },
+                    {
                       "type": "CoreResource",
                       "description": "Выбор карты",
                       "readonly": false,
@@ -47,6 +53,7 @@
                           "id": "CoreResource:selectedCard",
                           "title": "Выберите карту для блокировки",
                           "type": "select",
+                          "format": "radio",
                           "referenceId": "listOfCards",
                           "value": "",
                           "readonly": false,
