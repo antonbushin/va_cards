@@ -44,6 +44,8 @@
                         {
                           "id": "delivery:method",
                           "type": "select",
+                          "format":"resource",
+                          "readonly":false,
                           "title": "Как вам удобнее забрать карту?",
                           "value": "",
                           "referenceId": "deliveryMethods"
@@ -78,15 +80,19 @@
                       "type": "CoreResource",
                       "description": "Выбор карты",
                       "readonly": false,
+                      "strategies": [
+                        {
+                          "fieldLookupId": "CoreResource:selectedCard",
+                          "type": "ResourceDividerStrategy",
+                          "properties": {
+                            "divider": "line"
+                          }
+                        }
+                      ],
                       "fields": [
                         {
                           "id": "CoreResource:selectedCard",
-                          "title": "Заголовок поля",
-                          "description": "Описание поля",
-                          "properties": {
-                            "title": "Заголовок свойств",
-                            "description": "Описание свойств"
-                          },
+                          "title": "Выберите карту для блокировки",
                           "type": "select",
                           "referenceId": "listOfCards",
                           "value": "",
@@ -130,8 +136,6 @@
                       "value": "681216",
                       "properties": {
                         "paymentSystem": "mastercard",
-                        "asideTitle": "=",
-                        "asideAmount": "2454,57",
                         "typeSpec": "доп.",
                         "asideMeasureUnit": "USD",
                         "title": "MasterCard Сберкарта",
@@ -142,7 +146,6 @@
                         "currency": "RUB",
                         "balance": "19978.00",
                         "state": "default1",
-                        "number": "•• 0293",
                         "additionalInfo": "Привязана к счету •• 0293",
                         "unavailable": "false",
                         "style": "mc_36_mastercard_sbercard_level_1"
