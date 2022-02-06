@@ -39,6 +39,54 @@
                   ],
                   "widgets": [
                     {
+                      "type": "CoreIllustration",
+                      "fields": [
+                        {
+                          "id": "id:CoreIllustration",
+                          "type": "text",
+                          "style": "ill_256_bird_spasibo",
+                          "title": "CoreIllustration",
+                          "description": "Виджет с иллюстрацией из ДизайнСистемы"
+                        }
+                      ],
+                      "events": [
+                        {
+                          "name": "tapOnBird",
+                          "title": "Клик по птице"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "CoreFieldSet",
+                      "fields": [
+                        {
+                          "id": "suggestText:1",
+                          "title": "Выгодоприобретатель",
+                          "type": "text",
+                          "value": "",
+                          "readonly": false,
+                          "description": "фывфывфыв",
+                          "style": "moneyPocket"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "CoreSuggest",
+                      "strategies": [
+                        {
+                          "fieldLookupId": "suggestText:1",
+                          "type": "baseSuggest"
+                        }
+                      ],
+                      "fields": [
+                        {
+                          "id": "suggestHolder:1",
+                          "type": "text",
+                          "referenceId": "suggestList"
+                        }
+                      ]
+                    },
+                    {
                       "type": "CoreResource",
                       "description": "Описание виджета",
                       "readonly": false,
@@ -673,6 +721,15 @@
           }
         },
         "event_to_actions": {
+          "tapOnBird": {
+            "actions": [
+              {
+                "type": "text",
+                "text": "Клик по птице",
+                "should_send_to_backend": false
+              }
+            ]
+          },
           "next": {
             "actions": [
               {
